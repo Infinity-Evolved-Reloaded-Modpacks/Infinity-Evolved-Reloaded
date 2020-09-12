@@ -152,4 +152,8 @@ mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loo
 # -Mana Fluxfield
 recipes.remove(<botania:rfgenerator>);
 
+#Gaia Mana Spreader
+recipes.remove(<botania:spreader:3>);
+recipes.addShaped(<botania:spreader:3>, [[null, null, null], [<botania:manaresource:5>, <botania:spreader:2>, <botania:manaresource:9>], [null, null, null]]);
+
 print("Initialized 'botania.zs'");
