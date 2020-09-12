@@ -11,7 +11,6 @@ mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 850);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:17>, <ore:nuggetSteel>, 82);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 6750);
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:4>, <botania:manaresource:7>, 8000);
 
 #General
 # -Lexica botania
