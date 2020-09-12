@@ -1,0 +1,29 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_2",
+					"properties": {
+						"blocks": "ruby_ore"
+					}
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

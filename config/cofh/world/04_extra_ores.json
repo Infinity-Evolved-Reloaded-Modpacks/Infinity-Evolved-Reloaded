@@ -1,0 +1,51 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"thermalfoundation:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},		
+		"mana": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name":"thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
