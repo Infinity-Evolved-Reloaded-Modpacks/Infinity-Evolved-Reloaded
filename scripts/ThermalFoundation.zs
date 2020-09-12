@@ -1,4 +1,4 @@
-#Name: Gears.zs
+#Name: ThermalFoundation.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
