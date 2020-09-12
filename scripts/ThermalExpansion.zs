@@ -89,4 +89,8 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:50>, <tc
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:50>, <tconstruct:edible:3>, <railcraft:dust:5> * 6, 2000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:50>, <tconstruct:edible:3>, <enderio:item_material:23> * 6, 2000);
 
+#IC2 Hammer Plate Recipes
+#Bronze Plate
+recipes.addShapeless(<thermalfoundation:material:355>, [<ic2:forge_hammer>.anyDamage(), <thermalfoundation:material:163>, <thermalfoundation:material:163>]);
+
 print("Initialized 'ThermalExpansion.zs'");
