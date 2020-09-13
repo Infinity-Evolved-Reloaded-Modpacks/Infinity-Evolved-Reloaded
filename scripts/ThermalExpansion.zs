@@ -71,16 +71,6 @@ recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgra
 recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>]);
 recipes.removeShapeless(<botanicadds:mana_tesseract>, [<botanicadds:mana_tesseract>, <thermalfoundation:upgrade:*>]);
 
-/*
-#Hide Upgrade and Conversion Kits from JEI
-mods.jei.JEI.hide(<thermalfoundation:upgrade>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:1>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:2>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:3>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:33>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:34>);
-mods.jei.JEI.hide(<thermalfoundation:upgrade:35>);
-*/
 #Add Organic Green Dye to Induction Smelter
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:48>, <tconstruct:edible:3>, <enderio:item_material:46> * 6, 2000);
 
