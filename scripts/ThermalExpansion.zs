@@ -2,7 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
-
+import mods.buildcraft.AssemblyTable;
 print("Initializing 'ThermalExpansion.zs'...");
 
 #Machine Frame
@@ -71,6 +71,7 @@ recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgra
 recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>]);
 recipes.removeShapeless(<botanicadds:mana_tesseract>, [<botanicadds:mana_tesseract>, <thermalfoundation:upgrade:*>]);
 
+/*
 #Hide Upgrade and Conversion Kits from JEI
 mods.jei.JEI.hide(<thermalfoundation:upgrade>);
 mods.jei.JEI.hide(<thermalfoundation:upgrade:1>);
@@ -79,7 +80,7 @@ mods.jei.JEI.hide(<thermalfoundation:upgrade:3>);
 mods.jei.JEI.hide(<thermalfoundation:upgrade:33>);
 mods.jei.JEI.hide(<thermalfoundation:upgrade:34>);
 mods.jei.JEI.hide(<thermalfoundation:upgrade:35>);
-
+*/
 #Add Organic Green Dye to Induction Smelter
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:48>, <tconstruct:edible:3>, <enderio:item_material:46> * 6, 2000);
 
@@ -92,5 +93,25 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:50>, <tc
 #IC2 Hammer Plate Recipes
 #Bronze Plate
 recipes.addShapeless(<thermalfoundation:material:355>, [<ic2:forge_hammer>.anyDamage(), <thermalfoundation:material:163>, <thermalfoundation:material:163>]);
+
+#Upgrade Kits
+#recipes.remove();
+#AssemblyTable.addRecipe("String", output, energy, [<thermalexpansion:frame>, null]);
+
+# --Hardened
+recipes.remove(<thermalfoundation:upgrade>);
+AssemblyTable.addRecipe("HardenedUpgradeKit", <thermalfoundation:upgrade>, 25000, [<thermalfoundation:material:289>, <thermalfoundation:material:162> * 4, <thermalexpansion:frame>]);
+
+# --Reinforced
+recipes.remove(<thermalfoundation:upgrade:1>);
+AssemblyTable.addRecipe("ReinforcedUpgradeKit", <thermalfoundation:upgrade:1>, 45000, [<thermalfoundation:material:288>, <thermalfoundation:material:161> * 4, <thermalexpansion:frame>]);
+
+# --Signalum
+recipes.remove(<thermalfoundation:upgrade:2>);
+AssemblyTable.addRecipe("SignalumUpgradeKit", <thermalfoundation:upgrade:2>, 65000, [<ore:blockGlassHardened> * 4, <thermalfoundation:material:293>, <thermalexpansion:frame>]);
+
+# --Resonant
+recipes.remove(<thermalfoundation:upgrade:3>);
+AssemblyTable.addRecipe("ResonantUpgradeKit", <thermalfoundation:upgrade:3>, 85000, [<thermalfoundation:material:130> * 4, <thermalfoundation:material:295>, <thermalexpansion:frame>]);
 
 print("Initialized 'ThermalExpansion.zs'");
