@@ -33,4 +33,8 @@ recipes.remove(<teslacorelib:speed_tier2>);
 recipes.remove(<immersiveengineering:tool>);
 recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:ingotIron>, <minecraft:string>], [null, <ore:stickWood>, <ore:ingotIron>], [<ore:stickWood>, null, null]]);
 
+#Block Breaker
+recipes.remove(<industrialforegoing:block_destroyer>);
+recipes.addShaped(<industrialforegoing:block_destroyer>, [[<industrialforegoing:plastic>, <enderio:item_alloy_ingot>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_pickaxe>, <enderio:item_material:1>, <minecraft:iron_shovel>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
+
 print("Initialized 'IndustrialForegoing.zs'");
