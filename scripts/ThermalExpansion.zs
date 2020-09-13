@@ -94,10 +94,6 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:50>, <tc
 #Bronze Plate
 recipes.addShapeless(<thermalfoundation:material:355>, [<ic2:forge_hammer>.anyDamage(), <thermalfoundation:material:163>, <thermalfoundation:material:163>]);
 
-#Upgrade Kits
-#recipes.remove();
-#AssemblyTable.addRecipe("String", output, energy, [<thermalexpansion:frame>, null]);
-
 # --Hardened
 recipes.remove(<thermalfoundation:upgrade>);
 AssemblyTable.addRecipe("HardenedUpgradeKit", <thermalfoundation:upgrade>, 25000, [<thermalfoundation:material:289>, <thermalfoundation:material:162> * 4, <thermalexpansion:frame>]);
@@ -125,4 +121,7 @@ AssemblyTable.addRecipe("SignalumConversionKit", <thermalfoundation:upgrade:34>,
 # ---Resonant
 AssemblyTable.addRecipe("ResonantConversionKit", <thermalfoundation:upgrade:35>, 220000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:3>]);
 
+#Induction Smelter
+recipes.remove(<thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
+recipes.addShaped(<thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [[null, <minecraft:bucket>, null], [<thermalfoundation:material:162>, <thermalexpansion:frame>, <thermalfoundation:material:162>], [<thermalfoundation:material:290>, <thermalfoundation:material:513> ,<thermalfoundation:material:290>]]);
 print("Initialized 'ThermalExpansion.zs'");
