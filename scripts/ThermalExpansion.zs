@@ -114,4 +114,15 @@ AssemblyTable.addRecipe("SignalumUpgradeKit", <thermalfoundation:upgrade:2>, 650
 recipes.remove(<thermalfoundation:upgrade:3>);
 AssemblyTable.addRecipe("ResonantUpgradeKit", <thermalfoundation:upgrade:3>, 85000, [<thermalfoundation:material:130> * 4, <thermalfoundation:material:295>, <thermalexpansion:frame>]);
 
+#Conversion Kits
+
+# ---Reinforced
+AssemblyTable.addRecipe("ReinforcedConversionKit", <thermalfoundation:upgrade:33>, 65000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>]);
+
+# ---Signalum
+AssemblyTable.addRecipe("SignalumConversionKit", <thermalfoundation:upgrade:34>, 135000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>]);
+
+# ---Resonant
+AssemblyTable.addRecipe("ResonantConversionKit", <thermalfoundation:upgrade:35>, 220000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:3>]);
+
 print("Initialized 'ThermalExpansion.zs'");
