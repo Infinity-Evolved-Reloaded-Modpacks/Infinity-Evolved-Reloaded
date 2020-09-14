@@ -11,7 +11,6 @@ mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 850);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:17>, <ore:nuggetSteel>, 82);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 6750);
-mods.botania.ManaInfusion.addInfusion(<botania:manaresource:4>, <botania:manaresource:7>, 8000);
 
 #General
 # -Lexica botania
@@ -151,5 +150,9 @@ mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "loo
 
 # -Mana Fluxfield
 recipes.remove(<botania:rfgenerator>);
+
+#Gaia Mana Spreader
+recipes.remove(<botania:spreader:3>);
+recipes.addShaped(<botania:spreader:3>, [[null, null, null], [<botania:manaresource:5>, <botania:spreader:2>, <botania:manaresource:9>], [null, null, null]]);
 
 print("Initialized 'botania.zs'");

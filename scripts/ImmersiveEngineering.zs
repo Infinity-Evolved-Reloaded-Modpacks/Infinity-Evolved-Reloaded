@@ -35,5 +35,10 @@ recipes.remove(<ic2:forge_hammer>);
 recipes.addShaped(<ic2:forge_hammer>, [[<ore:ingotIron>, <minecraft:iron_ingot>, null], [<ore:ingotIron>, <immersiveengineering:material>, <immersiveengineering:material>], [<minecraft:iron_ingot>, <ore:ingotIron>, null]]);
 #recipes.addShaped(<immersiveengineering:tool>, [[null, <minecraft:iron_ingot>, <ore:string>], [null, <ore:stickTreatedWood>, <ore:ingotIron>], [<ore:stickTreatedWood>, null, null]]);
 
-
+#Steel Ingot
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <railcraft:tool_axe_steel>, 1600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <railcraft:tool_hoe_steel>, 1600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <railcraft:tool_pickaxe_steel>, 1600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <railcraft:tool_sword_steel>, 1600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <railcraft:tool_shovel_steel>, 1600);
 print("Initialized 'ImmersiveEngineering.zs'");

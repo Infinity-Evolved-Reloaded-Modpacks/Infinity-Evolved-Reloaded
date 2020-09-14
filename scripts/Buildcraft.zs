@@ -2,7 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
-
+import mods.buildcraft.AssemblyTable;
 print("Initializing 'Buildcraft.zs'...");
 
 #Engines
@@ -32,5 +32,16 @@ recipes.addShaped(<buildcraftfactory:pump>, [[<buildcraftfactory:tank>, <buildcr
 #Quarry
 recipes.remove(<buildcraftbuilders:quarry>);
 recipes.addShaped(<buildcraftbuilders:quarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser>, <forestry:thermionic_tubes:9>], [<tesseract:tesseract>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
+
+#IronChest Upgrades
+AssemblyTable.addRecipe("IronToGoldChestUpgrade", <ironchest:iron_gold_chest_upgrade>, 40000, [<thermalfoundation:material:33> * 8, <thermalfoundation:material:32>]);
+AssemblyTable.addRecipe("GoldToDiamondChestUpgrade", <ironchest:gold_diamond_chest_upgrade>, 80000, [<thermalfoundation:material:33>, <minecraft:diamond> * 2, <minecraft:glass> * 6]);
+AssemblyTable.addRecipe("CopperToSilverChestUpgrade", <ironchest:copper_silver_chest_upgrade>, 20000, [<thermalfoundation:material:320>, <ore:ingotSilver> *8]);
+AssemblyTable.addRecipe("SilverToGoldChestUpgrade", <ironchest:silver_gold_chest_upgrade>, 40000, [<thermalfoundation:material:33> * 8, <ore:ingotSilver>]);
+AssemblyTable.addRecipe("CopperToIronChestUpgrade", <ironchest:copper_iron_chest_upgrade>, 10000, [<thermalfoundation:material:320>, <thermalfoundation:material:32> * 8]);
+AssemblyTable.addRecipe("DiamondToCrystalChestUpgrade", <ironchest:diamond_crystal_chest_upgrade>, 80000, [<minecraft:diamond>, <minecraft:glass> * 8]);
+AssemblyTable.addRecipe("WoodToIronChestUpgrade", <ironchest:wood_iron_chest_upgrade>, 10000, [<thermalfoundation:material:32> * 8, <ore:plankWood>]);
+AssemblyTable.addRecipe("WoodToCopperChestUpgrade", <ironchest:wood_copper_chest_upgrade>, 5000, [<thermalfoundation:material:320> * 8, <ore:plankWood>]);
+AssemblyTable.addRecipe("DiamondToObsidianChestUpgrade", <ironchest:diamond_obsidian_chest_upgrade>, 80000, [<minecraft:diamond>, <minecraft:obsidian> * 8]);
 
 print("Initialized 'Buildcraft.zs'");

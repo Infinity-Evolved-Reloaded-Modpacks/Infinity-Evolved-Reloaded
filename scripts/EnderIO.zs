@@ -84,4 +84,16 @@ mods.jei.JEI.hide(<enderio:block_simple_stirling_generator>);
 mods.jei.JEI.hide(<enderio:block_simple_sag_mill>);
 mods.jei.JEI.hide(<enderio:block_simple_wired_charger>);
 
+#Farming Station
+recipes.remove(<enderio:block_farm_station>);
+recipes.addShaped(<enderio:block_farm_station>, [[<enderio:item_alloy_ingot>, <minecraft:diamond_hoe>, <enderio:item_alloy_ingot>], [<enderio:item_alloy_ingot>, <enderio:item_material:1>, <enderio:item_alloy_ingot>], [<enderio:item_material:14>, <enderio:item_material:41>, <enderio:item_material:14>]]);
+
+#Conduit Probe
+recipes.remove(<enderio:item_conduit_probe>);
+recipes.addShaped(<enderio:item_conduit_probe>, [[<enderio:item_alloy_ingot>, <enderio:item_power_conduit>, <enderio:item_alloy_ingot>],[<ore:paneGlass>, <minecraft:comparator>, <ore:paneGlass>],[<ore:itemSilicon>, <enderio:item_redstone_conduit>, <ore:itemSilicon>]]);
+
+#SliceNSpice
+recipes.remove(<enderio:block_slice_and_splice>);
+recipes.addShaped(<enderio:block_slice_and_splice>, [[<enderio:item_alloy_ingot:7>, <ore:itemSkull>, <enderio:item_alloy_ingot:7>], [<minecraft:iron_axe>, <enderio:item_material:1>, <minecraft:shears>], [<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>]]);
+
 print("Initialized 'EnderIO.zs'");

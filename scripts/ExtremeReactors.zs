@@ -8,7 +8,6 @@ print("Initializing 'ExtremeReactors.zs'...");
 #Fuel Nerfs
 recipes.remove(<bigreactors:ingotyellorium>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <bigreactors:oreyellorite>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:1024>, <bigreactors:oreyellorite>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <bigreactors:oreyellorite>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <bigreactors:oreyellorite>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <bigreactors:dustyellorium>);
