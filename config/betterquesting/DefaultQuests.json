@@ -2493,7 +2493,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Screw Hammers, Seriously",
-          "desc:8": "§lHow many Forge Hammers have you made so far? Check your Statistics! $20 on it being more than 5. The Metal Former uses EU to turn Ingots into Plates, Cables, and many other things that usually would take and break a Forge Hammer and a Cutter.\n\n§r§rThe Metal Former uses EU, not RF, so you can\u0027t just connect this to your Fluxducts or Energy Conduits or however you\u0027ve decided to move RF around. You need to use Cables, preferably Insulated ones. You can convert RF into EU and back using Immersive Engineering Connectors and Wires.\n"
+          "desc:8": "§lHow many Forge Hammers have you made so far? Check your Statistics! $20 on it being more than 5. The Metal Former uses EU to turn Ingots into Plates, Cables, and many other things that usually would take and break a Forge Hammer and a Cutter.\n\n§r§rThe Metal Former uses EU, not RF, so you can\u0027t just connect this to your Fluxducts or Energy Conduits or however you\u0027ve decided to move RF around. You need to use Cables, preferably insulated. You can convert RF into EU and back using Energy Converters.\n"
         }
       },
       "tasks:9": {
@@ -2837,7 +2837,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Microwaves and Macrowaves",
-          "desc:8": "§lThe Electric Furnace uses EU to smelt items, similar to the Furnace. It\u0027s probably the first energy-powered furnace that will be available to you.\n\n§rThe Induction Furnace is an upgraded version of the Electric Furnace. It has an interesting mechanic where the longer it\u0027s running, the faster it smelts. At max speed, it\u0027s much faster than the Electric Furnace. To keep it running, and therefor hot, while no items are inside of it, you can give it a redstone signal. However, it uses EU so long as it runs, even if empty. If you want to keep it running without having a lever on it, you can put a Redstone Signal Inverter Upgrade in it, which will make it think it has a signal when it doesnt, and vice-versa.\n\n"
+          "desc:8": "§lThe Electric Furnace uses EU to smelt items, similar to the Furnace. It\u0027s probably the first energy-powered furnace that will be available to you.\n\n§rThe Induction Furnace is an upgraded version of the Electric Furnace. It has an interesting mechanic where the longer it\u0027s running, the faster it smelts. At max speed, it\u0027s much faster than the Electric Furnace. To keep it running, and therefore hot, while no items are inside of it, you can give it a redstone signal. However, it uses EU so long as it runs, even if empty. If you want to keep it running without having a lever on it, you can put a Redstone Signal Inverter Upgrade in it, which will make it think it has a signal when it doesnt, and vice-versa.\n\n"
         }
       },
       "tasks:9": {
@@ -4019,7 +4019,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Who Took My Mountain?",
-          "desc:8": "§lThe BC Quarry uses RF to mine an area down to Bedrock. By default, it has an area of 9x9x4, which can be changed using Land Marks. Once it has RF, it starts to clear the area required and build the frame. Once that happens, it starts mining and putting the blocks into the inventory or pipe above it. If none is available, it is spit out at extreme velocity and gets all over the floor, and generally takes a while to mop up.\n\n§rThe Quarry is not upgradable. A Redstone signal will turn it off. The more RF you give it, the faster it goes. The Quarry gets a bit confused with Lava, so try to Pump that out sharpish.\n"
+          "desc:8": "§lThe BC Quarry uses MJ to mine an area down to Bedrock. By default, it has an area of 9x9x4, which can be changed using Land Marks. Once it has RF, it starts to clear the area required and build the frame. Once that happens, it starts mining and putting the blocks into the inventory or pipe above it. If none is available, it is spit out at extreme velocity and gets all over the floor, and generally takes a while to mop up.\n\n§rThe Quarry is not upgradable. A Redstone signal will turn it off. The more MJ you give it, the faster it goes. The Quarry gets a bit confused with Lava, so try to Pump that out sharpish.\n\n§n§nTo convert RF/EU to MJ use Energy Converters!"
         }
       },
       "tasks:9": {
@@ -4898,7 +4898,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Automated Automation",
-          "desc:8": "§lSteve\u0027s Factory Manager allows for extremely precise and complex automation that pipes can\u0027t do. You can pull and push from specific slots of an inventory, interact with Redstone, change Signs, break and place blocks, and so much more with SFM.\n\n§rThe Machine Inventory Manager is the key to SFM. The Machine Inventory Manager alone can only interact with inventories it is directly touching, but with Inventory Cables you can extend it\u0027s reach. To explain how it works, let\u0027s automate Inscribers with it. Place the Inscriber and an inventory, like a chest, containing the parts required to make the circuits either touching the Machine Inventory Manager or an Inventory Cable leading to it, and then open the Machine Inventory Manager. All commands start with a Trigger, so make one and place it in the work area. Make an input command and attatch it to the Trigger. Set the inventory to the chest and set a whitelist for, for example, gold ingots. Make an output, connect it to the input, set it to the Inscriber, and set it to target the North, South, East, or West sides. Any of these, assuming that the Inscriber hasn\u0027t been rotated to be on it\u0027s side, will work to push items into or pull items out of the Inscriber. Create another input hooked to the last output and set it to target the N/S/E/W side of the Inscriber and whitelist Printed Logic Circuits, then connect another output on the chest, or barrels or wherever you want to output it. Using SFM, you can fully automate all the circuits by having one Inscriber per printed circuit type and another final one that combines them. For reference, the top side of the Inscriber puts items into the top slot, the bottom into the bottom slot, and the sides interact with the middle and output slots.\n"
+          "desc:8": "§lSuper Factory Manager is a 1.12 Port of Steve\u0027s Factory Manager. SFM allows for extremely precise and complex automation that pipes can\u0027t do. You can pull and push from specific slots of an inventory, interact with Redstone, change Signs, break and place blocks, and so much more with SFM.\n\n§rThe Machine Inventory Manager is the key to SFM. The Machine Inventory Manager alone can only interact with inventories it is directly touching, but with Inventory Cables you can extend it\u0027s reach. To explain how it works, let\u0027s automate Inscribers with it. Place the Inscriber and an inventory, like a chest, containing the parts required to make the circuits either touching the Machine Inventory Manager or an Inventory Cable leading to it, and then open the Machine Inventory Manager. All commands start with a Trigger, so make one and place it in the work area. Make an input command and attatch it to the Trigger. Set the inventory to the chest and set a whitelist for, for example, gold ingots. Make an output, connect it to the input, set it to the Inscriber, and set it to target the North, South, East, or West sides. Any of these, assuming that the Inscriber hasn\u0027t been rotated to be on it\u0027s side, will work to push items into or pull items out of the Inscriber. Create another input hooked to the last output and set it to target the N/S/E/W side of the Inscriber and whitelist Printed Logic Circuits, then connect another output on the chest, or barrels or wherever you want to output it. Using SFM, you can fully automate all the circuits by having one Inscriber per printed circuit type and another final one that combines them. For reference, the top side of the Inscriber puts items into the top slot, the bottom into the bottom slot, and the sides interact with the middle and output slots.\n"
         }
       },
       "tasks:9": {
@@ -4963,7 +4963,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "immersiveengineering:metal_decoration1",
-              "Count:3": 3,
+              "Count:3": 2,
               "Damage:2": 1,
               "OreDict:8": ""
             },
@@ -4986,6 +4986,12 @@
                 "conveyorType:8": "immersiveengineering:conveyor"
               },
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           },
@@ -5283,7 +5289,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Immersive Energy Storage",
-          "desc:8": "§lStoring energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.\n\n§rImmersive Engineering cables convert RF to EU, so this works as storage for both!"
+          "desc:8": "§lStoring energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.\n\n§rYou can easily convert RF to EU using Energy Converters. So you can use it for both!"
         }
       },
       "tasks:9": {
@@ -5373,7 +5379,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersiveengineering:wirecoil",
+            "id:8": "energyconverters:energy_bridge",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5384,8 +5390,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "For the Birds",
-          "desc:8": "§lImmersive Engineering\u0027s Wire Coils, while being excellently stylish, also serve to transfer RF and EU. It will also convert them! 1 EU is equal to 4 RF.\n\n§rPlace the Wire Connectors on the blocks you wish to transfer between, then click both with the Wire Coil to connect them."
+          "name:8": "Convert them ALL",
+          "desc:8": "§lIn 1.7.10 you could convert RF to EU per Immersive Engineering Wires, in newer Minecraft versions IE dropped this support. Thats why we added the Mod Energy Converters.\n\n§l§e§fLike in 1.7.10. 1 EU is 4 RF. On a side note, you can also convert to MJ (Buildcraft)!"
         }
       },
       "tasks:9": {
@@ -5398,13 +5404,19 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "immersiveengineering:connector",
-              "Count:3": 2,
+              "id:8": "energyconverters:energy_consumer_fe",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "immersiveengineering:wirecoil",
+              "id:8": "energyconverters:energy_bridge",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "energyconverters:energy_producer_eu",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -5472,7 +5484,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Who Needs Reactors?",
-          "desc:8": "§lThe Creative Energy Cell produces infinite RF at 100 000 RF/t per side.\n\n§l§rNeeds to be crafted in the Dire Crafting Table."
+          "desc:8": "§lThe Creative Energy Cell produces infinite RF up to 25 000 RF/t per side.\n\n§l§rNeeds to be crafted in the Dire Crafting Table."
         }
       },
       "tasks:9": {
@@ -7312,6 +7324,58 @@
       }
     },
     "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        150,
+        157
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:gingeritem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ginger",
+          "desc:8": "Gingers are a crossbreed between Mustard Seeds and Peanuts"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:gingerseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "112:10": {
       "questID:3": 112,
       "preRequisites:11": [
         78
@@ -7374,7 +7438,7 @@
       },
       "rewards:9": {}
     },
-    "112:10": {
+    "113:10": {
       "questID:3": 113,
       "preRequisites:11": [
         112
@@ -7431,7 +7495,59 @@
       },
       "rewards:9": {}
     },
-    "113:10": {
+    "114:10": {
+      "questID:3": 114,
+      "preRequisites:11": [
+        222,
+        226
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:cranberryitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Cranberries",
+          "desc:8": "Cranberries are a crossbreed between Blueberries and Grapes."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:cranberryseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "115:10": {
       "questID:3": 115,
       "preRequisites:11": [
         112
@@ -7482,7 +7598,59 @@
       },
       "rewards:9": {}
     },
-    "114:10": {
+    "116:10": {
+      "questID:3": 116,
+      "preRequisites:11": [
+        130,
+        111
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:garlicitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Garlic",
+          "desc:8": "§lCactus Fruit are a crossbreed between Onion and Ginger."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:garlicseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "117:10": {
       "questID:3": 117,
       "preRequisites:11": [
         112
@@ -7533,7 +7701,7 @@
       },
       "rewards:9": {}
     },
-    "115:10": {
+    "118:10": {
       "questID:3": 118,
       "preRequisites:11": [
         112
@@ -7596,7 +7764,7 @@
       },
       "rewards:9": {}
     },
-    "116:10": {
+    "119:10": {
       "questID:3": 119,
       "preRequisites:11": [
         112
@@ -7671,7 +7839,7 @@
       },
       "rewards:9": {}
     },
-    "117:10": {
+    "120:10": {
       "questID:3": 120,
       "preRequisites:11": [
         112
@@ -7739,7 +7907,7 @@
       },
       "rewards:9": {}
     },
-    "118:10": {
+    "121:10": {
       "questID:3": 121,
       "preRequisites:11": [
         117,
@@ -7791,7 +7959,7 @@
       },
       "rewards:9": {}
     },
-    "119:10": {
+    "122:10": {
       "questID:3": 122,
       "preRequisites:11": [
         117
@@ -7842,7 +8010,7 @@
       },
       "rewards:9": {}
     },
-    "120:10": {
+    "123:10": {
       "questID:3": 123,
       "preRequisites:11": [
         124,
@@ -7912,7 +8080,7 @@
       },
       "rewards:9": {}
     },
-    "121:10": {
+    "124:10": {
       "questID:3": 124,
       "preRequisites:11": [
         117,
@@ -7964,7 +8132,7 @@
       },
       "rewards:9": {}
     },
-    "122:10": {
+    "125:10": {
       "questID:3": 125,
       "preRequisites:11": [
         118
@@ -8027,7 +8195,7 @@
       },
       "rewards:9": {}
     },
-    "123:10": {
+    "126:10": {
       "questID:3": 126,
       "preRequisites:11": [
         118,
@@ -8091,7 +8259,111 @@
       },
       "rewards:9": {}
     },
-    "124:10": {
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [
+        223,
+        219
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:pineappleitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Pineapple",
+          "desc:8": "§lPrineapples are a crossbreed between Canteloupe and Bamboo Shoots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:pineappleseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        204,
+        208
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:cottonitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Cotton",
+          "desc:8": "§lBarley are a crossbreed between Barley and Soybean."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:cottonseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "129:10": {
       "questID:3": 129,
       "preRequisites:11": [
         54,
@@ -8143,7 +8415,59 @@
       },
       "rewards:9": {}
     },
-    "125:10": {
+    "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        209,
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:onionitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Onion",
+          "desc:8": "Onions are a crossbreed between Brussel Sprout and Celery."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:onionseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
       "questID:3": 131,
       "preRequisites:11": [
         68
@@ -8200,7 +8524,66 @@
       },
       "rewards:9": {}
     },
-    "126:10": {
+    "132:10": {
+      "questID:3": 132,
+      "preRequisites:11": [
+        166,
+        165
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:brown_mushroom",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Brown Mushroom",
+          "desc:8": "§lBrown Mushrooms are a crossbreed between Portatoes and Carrots.\n\n§fFYI you will have to use Mycelium as the soil!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "agricraft:agri_seed",
+              "Count:3": 1,
+              "tag:10": {
+                "agri_analyzed:1": 0,
+                "agri_strength:1": 1,
+                "agri_gain:1": 1,
+                "agri_seed:8": "vanilla:brown_mushroom_plant",
+                "agri_growth:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "133:10": {
       "questID:3": 133,
       "preRequisites:11": [
         149
@@ -8251,7 +8634,59 @@
       },
       "rewards:9": {}
     },
-    "127:10": {
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        130,
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:chilipepperitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Chili Pepper",
+          "desc:8": "Chili Pepper are a crossbreed between Onion and Tomato."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:chilipepperseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "135:10": {
       "questID:3": 135,
       "preRequisites:11": [
         20,
@@ -8309,7 +8744,66 @@
       },
       "rewards:9": {}
     },
-    "128:10": {
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        166,
+        165
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:red_mushroom",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Red Mushroom",
+          "desc:8": "§lRed Mushrooms are a crossbreed between Potatoes and Carrots.\n\n§fFYI you will have to use Mycelium as the soil!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "agricraft:agri_seed",
+              "Count:3": 1,
+              "tag:10": {
+                "agri_analyzed:1": 0,
+                "agri_strength:1": 1,
+                "agri_gain:1": 1,
+                "agri_seed:8": "vanilla:red_mushroom_plant",
+                "agri_growth:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "137:10": {
       "questID:3": 137,
       "preRequisites:11": [
         135
@@ -8360,7 +8854,7 @@
       },
       "rewards:9": {}
     },
-    "129:10": {
+    "138:10": {
       "questID:3": 138,
       "preRequisites:11": [
         137
@@ -8426,7 +8920,7 @@
       },
       "rewards:9": {}
     },
-    "130:10": {
+    "139:10": {
       "questID:3": 139,
       "preRequisites:11": [
         137
@@ -8480,7 +8974,7 @@
       },
       "rewards:9": {}
     },
-    "131:10": {
+    "140:10": {
       "questID:3": 140,
       "preRequisites:11": [
         137
@@ -8546,7 +9040,7 @@
       },
       "rewards:9": {}
     },
-    "132:10": {
+    "141:10": {
       "questID:3": 141,
       "preRequisites:11": [
         137
@@ -8600,7 +9094,7 @@
       },
       "rewards:9": {}
     },
-    "133:10": {
+    "142:10": {
       "questID:3": 142,
       "preRequisites:11": [
         135
@@ -8651,7 +9145,7 @@
       },
       "rewards:9": {}
     },
-    "134:10": {
+    "143:10": {
       "questID:3": 143,
       "preRequisites:11": [
         137
@@ -8723,7 +9217,7 @@
       },
       "rewards:9": {}
     },
-    "135:10": {
+    "144:10": {
       "questID:3": 144,
       "preRequisites:11": [
         143,
@@ -8799,7 +9293,7 @@
       },
       "rewards:9": {}
     },
-    "136:10": {
+    "145:10": {
       "questID:3": 145,
       "preRequisites:11": [
         131
@@ -8850,7 +9344,7 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
+    "146:10": {
       "questID:3": 146,
       "preRequisites:11": [
         137
@@ -8901,7 +9395,7 @@
       },
       "rewards:9": {}
     },
-    "138:10": {
+    "147:10": {
       "questID:3": 147,
       "preRequisites:11": [
         135
@@ -8952,7 +9446,7 @@
       },
       "rewards:9": {}
     },
-    "139:10": {
+    "148:10": {
       "questID:3": 148,
       "preRequisites:11": [
         135
@@ -9003,7 +9497,7 @@
       },
       "rewards:9": {}
     },
-    "140:10": {
+    "149:10": {
       "questID:3": 149,
       "preRequisites:11": [
         135
@@ -9030,7 +9524,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Wakey Wakey",
-          "desc:8": "§lAwakened Draconium is the next and final tier of crafting §lmaterials.\n§r\nSee your Information Tablet for information on how to get Awakened Draconium.\n"
+          "desc:8": "§lAwakened Draconium is the next and final tier of crafting §lmaterials.\n§r\nLook into JEI, for the recipe\n"
         }
       },
       "tasks:9": {
@@ -9054,7 +9548,59 @@
       },
       "rewards:9": {}
     },
-    "141:10": {
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        134,
+        200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:mustardseedsitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mustard Seed",
+          "desc:8": "Mustard Seeds are a crossbreed between Chili Peppers and Beans."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:mustardseedsitem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "151:10": {
       "questID:3": 151,
       "preRequisites:11": [
         133,
@@ -9109,7 +9655,7 @@
       },
       "rewards:9": {}
     },
-    "142:10": {
+    "152:10": {
       "questID:3": 152,
       "preRequisites:11": [
         133,
@@ -9179,7 +9725,7 @@
       },
       "rewards:9": {}
     },
-    "143:10": {
+    "153:10": {
       "questID:3": 153,
       "preRequisites:11": [
         133,
@@ -9249,7 +9795,7 @@
       },
       "rewards:9": {}
     },
-    "144:10": {
+    "154:10": {
       "questID:3": 154,
       "preRequisites:11": [
         133,
@@ -9304,7 +9850,7 @@
       },
       "rewards:9": {}
     },
-    "145:10": {
+    "155:10": {
       "questID:3": 155,
       "preRequisites:11": [
         133,
@@ -9373,7 +9919,111 @@
       },
       "rewards:9": {}
     },
-    "146:10": {
+    "156:10": {
+      "questID:3": 156,
+      "preRequisites:11": [
+        132,
+        136
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:whitemushroomitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "White Mushroom",
+          "desc:8": "§lWhite Mushroom are a crossbreed between Red Mushrooms and Brown Mushrooms.\n\n§fFYI you will have to use Mycelium as the soil!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:whitemushroomseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "157:10": {
+      "questID:3": 157,
+      "preRequisites:11": [
+        200,
+        223
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "harvestcraft:peanutitem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Peanut",
+          "desc:8": "Peanuts are a crossbreed between Beans and Bamboo Shoots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "harvestcraft:peanutseeditem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "158:10": {
       "questID:3": 158,
       "preRequisites:11": [
         135
@@ -9430,7 +10080,162 @@
       },
       "rewards:9": {}
     },
-    "147:10": {
+    "159:10": {
+      "questID:3": 159,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "160:10": {
+      "questID:3": 160,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "161:10": {
+      "questID:3": 161,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "162:10": {
+      "questID:3": 162,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "163:10": {
+      "questID:3": 163,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "164:10": {
       "questID:3": 164,
       "preRequisites:11": [],
       "properties:10": {
@@ -9479,7 +10284,7 @@
       },
       "rewards:9": {}
     },
-    "148:10": {
+    "165:10": {
       "questID:3": 165,
       "preRequisites:11": [],
       "properties:10": {
@@ -9535,7 +10340,7 @@
       },
       "rewards:9": {}
     },
-    "149:10": {
+    "166:10": {
       "questID:3": 166,
       "preRequisites:11": [],
       "properties:10": {
@@ -9591,7 +10396,7 @@
       },
       "rewards:9": {}
     },
-    "150:10": {
+    "167:10": {
       "questID:3": 167,
       "preRequisites:11": [
         166,
@@ -9650,7 +10455,7 @@
       },
       "rewards:9": {}
     },
-    "151:10": {
+    "168:10": {
       "questID:3": 168,
       "preRequisites:11": [
         166,
@@ -9702,7 +10507,7 @@
       },
       "rewards:9": {}
     },
-    "152:10": {
+    "169:10": {
       "questID:3": 169,
       "preRequisites:11": [
         168
@@ -9753,7 +10558,7 @@
       },
       "rewards:9": {}
     },
-    "153:10": {
+    "170:10": {
       "questID:3": 170,
       "preRequisites:11": [
         167,
@@ -9812,7 +10617,7 @@
       },
       "rewards:9": {}
     },
-    "154:10": {
+    "171:10": {
       "questID:3": 171,
       "preRequisites:11": [
         167,
@@ -9871,7 +10676,7 @@
       },
       "rewards:9": {}
     },
-    "155:10": {
+    "172:10": {
       "questID:3": 172,
       "preRequisites:11": [
         171,
@@ -9930,7 +10735,7 @@
       },
       "rewards:9": {}
     },
-    "156:10": {
+    "173:10": {
       "questID:3": 173,
       "preRequisites:11": [
         172
@@ -9988,7 +10793,7 @@
       },
       "rewards:9": {}
     },
-    "157:10": {
+    "174:10": {
       "questID:3": 174,
       "preRequisites:11": [
         172
@@ -10046,7 +10851,7 @@
       },
       "rewards:9": {}
     },
-    "158:10": {
+    "175:10": {
       "questID:3": 175,
       "preRequisites:11": [
         174
@@ -10104,7 +10909,7 @@
       },
       "rewards:9": {}
     },
-    "159:10": {
+    "176:10": {
       "questID:3": 176,
       "preRequisites:11": [
         175
@@ -10162,7 +10967,7 @@
       },
       "rewards:9": {}
     },
-    "160:10": {
+    "177:10": {
       "questID:3": 177,
       "preRequisites:11": [
         174
@@ -10220,7 +11025,7 @@
       },
       "rewards:9": {}
     },
-    "161:10": {
+    "178:10": {
       "questID:3": 178,
       "preRequisites:11": [
         177
@@ -10278,7 +11083,7 @@
       },
       "rewards:9": {}
     },
-    "162:10": {
+    "179:10": {
       "questID:3": 179,
       "preRequisites:11": [
         173
@@ -10336,7 +11141,7 @@
       },
       "rewards:9": {}
     },
-    "163:10": {
+    "180:10": {
       "questID:3": 180,
       "preRequisites:11": [
         173
@@ -10394,7 +11199,7 @@
       },
       "rewards:9": {}
     },
-    "164:10": {
+    "181:10": {
       "questID:3": 181,
       "preRequisites:11": [
         180
@@ -10452,7 +11257,7 @@
       },
       "rewards:9": {}
     },
-    "165:10": {
+    "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
         171
@@ -10510,7 +11315,7 @@
       },
       "rewards:9": {}
     },
-    "166:10": {
+    "183:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182,
@@ -10569,7 +11374,7 @@
       },
       "rewards:9": {}
     },
-    "167:10": {
+    "184:10": {
       "questID:3": 184,
       "preRequisites:11": [
         181,
@@ -10628,7 +11433,7 @@
       },
       "rewards:9": {}
     },
-    "168:10": {
+    "185:10": {
       "questID:3": 185,
       "preRequisites:11": [
         179,
@@ -10687,7 +11492,7 @@
       },
       "rewards:9": {}
     },
-    "169:10": {
+    "186:10": {
       "questID:3": 186,
       "preRequisites:11": [
         179,
@@ -10746,7 +11551,7 @@
       },
       "rewards:9": {}
     },
-    "170:10": {
+    "187:10": {
       "questID:3": 187,
       "preRequisites:11": [
         176,
@@ -10805,7 +11610,7 @@
       },
       "rewards:9": {}
     },
-    "171:10": {
+    "188:10": {
       "questID:3": 188,
       "preRequisites:11": [
         179,
@@ -10864,7 +11669,7 @@
       },
       "rewards:9": {}
     },
-    "172:10": {
+    "189:10": {
       "questID:3": 189,
       "preRequisites:11": [
         183,
@@ -10923,7 +11728,7 @@
       },
       "rewards:9": {}
     },
-    "173:10": {
+    "190:10": {
       "questID:3": 190,
       "preRequisites:11": [
         186
@@ -10981,7 +11786,7 @@
       },
       "rewards:9": {}
     },
-    "174:10": {
+    "191:10": {
       "questID:3": 191,
       "preRequisites:11": [
         188
@@ -11039,7 +11844,7 @@
       },
       "rewards:9": {}
     },
-    "175:10": {
+    "192:10": {
       "questID:3": 192,
       "preRequisites:11": [
         191,
@@ -11098,7 +11903,7 @@
       },
       "rewards:9": {}
     },
-    "176:10": {
+    "193:10": {
       "questID:3": 193,
       "preRequisites:11": [
         189
@@ -11156,7 +11961,7 @@
       },
       "rewards:9": {}
     },
-    "177:10": {
+    "194:10": {
       "questID:3": 194,
       "preRequisites:11": [
         191,
@@ -11215,7 +12020,7 @@
       },
       "rewards:9": {}
     },
-    "178:10": {
+    "195:10": {
       "questID:3": 195,
       "preRequisites:11": [],
       "properties:10": {
@@ -11289,7 +12094,7 @@
         }
       }
     },
-    "179:10": {
+    "196:10": {
       "questID:3": 196,
       "preRequisites:11": [
         197
@@ -11340,7 +12145,7 @@
       },
       "rewards:9": {}
     },
-    "180:10": {
+    "197:10": {
       "questID:3": 197,
       "preRequisites:11": [
         198
@@ -11391,7 +12196,7 @@
       },
       "rewards:9": {}
     },
-    "181:10": {
+    "198:10": {
       "questID:3": 198,
       "preRequisites:11": [
         173
@@ -11442,7 +12247,7 @@
       },
       "rewards:9": {}
     },
-    "182:10": {
+    "199:10": {
       "questID:3": 199,
       "preRequisites:11": [
         196
@@ -11493,7 +12298,7 @@
       },
       "rewards:9": {}
     },
-    "183:10": {
+    "200:10": {
       "questID:3": 200,
       "preRequisites:11": [
         168
@@ -11544,7 +12349,7 @@
       },
       "rewards:9": {}
     },
-    "184:10": {
+    "201:10": {
       "questID:3": 201,
       "preRequisites:11": [
         167
@@ -11595,7 +12400,7 @@
       },
       "rewards:9": {}
     },
-    "185:10": {
+    "202:10": {
       "questID:3": 202,
       "preRequisites:11": [
         201,
@@ -11647,7 +12452,7 @@
       },
       "rewards:9": {}
     },
-    "186:10": {
+    "203:10": {
       "questID:3": 203,
       "preRequisites:11": [
         202,
@@ -11699,7 +12504,7 @@
       },
       "rewards:9": {}
     },
-    "187:10": {
+    "204:10": {
       "questID:3": 204,
       "preRequisites:11": [
         167
@@ -11750,7 +12555,7 @@
       },
       "rewards:9": {}
     },
-    "188:10": {
+    "205:10": {
       "questID:3": 205,
       "preRequisites:11": [
         204
@@ -11801,7 +12606,7 @@
       },
       "rewards:9": {}
     },
-    "189:10": {
+    "206:10": {
       "questID:3": 206,
       "preRequisites:11": [
         205
@@ -11852,7 +12657,7 @@
       },
       "rewards:9": {}
     },
-    "190:10": {
+    "207:10": {
       "questID:3": 207,
       "preRequisites:11": [
         205
@@ -11903,7 +12708,7 @@
       },
       "rewards:9": {}
     },
-    "191:10": {
+    "208:10": {
       "questID:3": 208,
       "preRequisites:11": [
         207,
@@ -11955,7 +12760,7 @@
       },
       "rewards:9": {}
     },
-    "192:10": {
+    "209:10": {
       "questID:3": 209,
       "preRequisites:11": [
         210,
@@ -12007,7 +12812,7 @@
       },
       "rewards:9": {}
     },
-    "193:10": {
+    "210:10": {
       "questID:3": 210,
       "preRequisites:11": [
         208
@@ -12058,7 +12863,7 @@
       },
       "rewards:9": {}
     },
-    "194:10": {
+    "211:10": {
       "questID:3": 211,
       "preRequisites:11": [
         167,
@@ -12110,7 +12915,7 @@
       },
       "rewards:9": {}
     },
-    "195:10": {
+    "212:10": {
       "questID:3": 212,
       "preRequisites:11": [
         211
@@ -12161,7 +12966,7 @@
       },
       "rewards:9": {}
     },
-    "196:10": {
+    "213:10": {
       "questID:3": 213,
       "preRequisites:11": [
         214
@@ -12212,7 +13017,7 @@
       },
       "rewards:9": {}
     },
-    "197:10": {
+    "214:10": {
       "questID:3": 214,
       "preRequisites:11": [
         212,
@@ -12264,7 +13069,7 @@
       },
       "rewards:9": {}
     },
-    "198:10": {
+    "215:10": {
       "questID:3": 215,
       "preRequisites:11": [
         206,
@@ -12317,7 +13122,7 @@
       },
       "rewards:9": {}
     },
-    "199:10": {
+    "216:10": {
       "questID:3": 216,
       "preRequisites:11": [
         219
@@ -12368,7 +13173,38 @@
       },
       "rewards:9": {}
     },
-    "200:10": {
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "218:10": {
       "questID:3": 218,
       "preRequisites:11": [
         214
@@ -12419,7 +13255,7 @@
       },
       "rewards:9": {}
     },
-    "201:10": {
+    "219:10": {
       "questID:3": 219,
       "preRequisites:11": [
         218
@@ -12470,7 +13306,7 @@
       },
       "rewards:9": {}
     },
-    "202:10": {
+    "220:10": {
       "questID:3": 220,
       "preRequisites:11": [
         218,
@@ -12522,7 +13358,7 @@
       },
       "rewards:9": {}
     },
-    "203:10": {
+    "221:10": {
       "questID:3": 221,
       "preRequisites:11": [
         222
@@ -12573,7 +13409,7 @@
       },
       "rewards:9": {}
     },
-    "204:10": {
+    "222:10": {
       "questID:3": 222,
       "preRequisites:11": [
         218
@@ -12624,7 +13460,7 @@
       },
       "rewards:9": {}
     },
-    "205:10": {
+    "223:10": {
       "questID:3": 223,
       "preRequisites:11": [
         206,
@@ -12676,7 +13512,7 @@
       },
       "rewards:9": {}
     },
-    "206:10": {
+    "224:10": {
       "questID:3": 224,
       "preRequisites:11": [
         223,
@@ -12728,7 +13564,7 @@
       },
       "rewards:9": {}
     },
-    "207:10": {
+    "225:10": {
       "questID:3": 225,
       "preRequisites:11": [
         226,
@@ -12780,7 +13616,7 @@
       },
       "rewards:9": {}
     },
-    "208:10": {
+    "226:10": {
       "questID:3": 226,
       "preRequisites:11": [
         222,
@@ -12832,7 +13668,7 @@
       },
       "rewards:9": {}
     },
-    "209:10": {
+    "227:10": {
       "questID:3": 227,
       "preRequisites:11": [
         222,
@@ -12885,6 +13721,440 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
+      "rewards:9": {}
+    },
+    "228:10": {
+      "questID:3": 228,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "229:10": {
+      "questID:3": 229,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "230:10": {
+      "questID:3": 230,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "231:10": {
+      "questID:3": 231,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "235:10": {
+      "questID:3": 235,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "236:10": {
+      "questID:3": 236,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "237:10": {
+      "questID:3": 237,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "238:10": {
+      "questID:3": 238,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "239:10": {
+      "questID:3": 239,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "240:10": {
+      "questID:3": 240,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "241:10": {
+      "questID:3": 241,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
       "rewards:9": {}
     }
   },
@@ -14083,443 +15353,667 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 137,
-          "y:3": 13,
-          "id:3": 164,
+          "x:3": 120,
+          "y:3": 168,
+          "id:3": 111,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 179,
-          "y:3": 13,
-          "id:3": 165,
+          "x:3": 144,
+          "y:3": 120,
+          "id:3": 114,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 158,
-          "y:3": 14,
-          "id:3": 166,
+          "x:3": 120,
+          "y:3": 144,
+          "id:3": 116,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 126,
-          "y:3": 33,
-          "id:3": 167,
+          "x:3": 168,
+          "y:3": 120,
+          "id:3": 127,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 169,
-          "y:3": 32,
-          "id:3": 168,
+          "x:3": 144,
+          "y:3": 144,
+          "id:3": 128,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 188,
-          "y:3": 32,
-          "id:3": 169,
+          "x:3": 192,
+          "y:3": 120,
+          "id:3": 130,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 64,
-          "y:3": 32,
-          "id:3": 170,
+          "x:3": 288,
+          "y:3": 0,
+          "id:3": 132,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 44,
-          "y:3": 32,
-          "id:3": 171,
+          "x:3": 168,
+          "y:3": 144,
+          "id:3": 134,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 55,
-          "y:3": 51,
-          "id:3": 172,
+          "x:3": 312,
+          "y:3": 0,
+          "id:3": 136,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 74,
-          "y:3": 50,
-          "id:3": 173,
+          "x:3": 192,
+          "y:3": 144,
+          "id:3": 150,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 34,
-          "y:3": 50,
-          "id:3": 174,
+          "x:3": 168,
+          "y:3": 168,
+          "id:3": 156,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 44,
-          "y:3": 69,
-          "id:3": 175,
+          "x:3": 144,
+          "y:3": 168,
+          "id:3": 157,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 68,
-          "id:3": 176,
+          "x:3": 240,
+          "y:3": 168,
+          "id:3": 159,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 66,
-          "y:3": 69,
-          "id:3": 177,
+          "x:3": 120,
+          "y:3": 192,
+          "id:3": 160,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 77,
-          "y:3": 87,
-          "id:3": 178,
+          "x:3": 192,
+          "y:3": 216,
+          "id:3": 161,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 86,
-          "y:3": 67,
-          "id:3": 179,
+          "x:3": 216,
+          "y:3": 216,
+          "id:3": 162,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 56,
-          "y:3": 87,
-          "id:3": 180,
+          "x:3": 192,
+          "y:3": 168,
+          "id:3": 163,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 35,
-          "y:3": 86,
-          "id:3": 181,
+          "x:3": 120,
+          "y:3": 0,
+          "id:3": 164,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 147,
-          "y:3": 32,
-          "id:3": 182,
+          "x:3": 168,
+          "y:3": 0,
+          "id:3": 165,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 65,
-          "y:3": 106,
-          "id:3": 183,
+          "x:3": 144,
+          "y:3": 0,
+          "id:3": 166,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 105,
-          "id:3": 184,
+          "x:3": 216,
+          "y:3": 0,
+          "id:3": 167,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 106,
-          "id:3": 185,
+          "x:3": 264,
+          "y:3": 0,
+          "id:3": 168,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 54,
-          "y:3": 125,
-          "id:3": 186,
+          "x:3": 192,
+          "y:3": 0,
+          "id:3": 169,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 46,
-          "y:3": 143,
-          "id:3": 187,
+          "x:3": 72,
+          "y:3": 0,
+          "id:3": 170,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 45,
-          "y:3": 105,
-          "id:3": 188,
+          "x:3": 24,
+          "y:3": 0,
+          "id:3": 171,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 75,
-          "y:3": 124,
-          "id:3": 189,
+          "x:3": 24,
+          "y:3": 24,
+          "id:3": 172,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 27,
-          "y:3": 141,
-          "id:3": 190,
+          "x:3": 48,
+          "y:3": 24,
+          "id:3": 173,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 37,
-          "y:3": 123,
-          "id:3": 191,
+          "x:3": 48,
+          "y:3": 0,
+          "id:3": 174,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 55,
-          "y:3": 161,
-          "id:3": 192,
+          "x:3": 24,
+          "y:3": 48,
+          "id:3": 175,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 88,
-          "y:3": 142,
-          "id:3": 193,
+          "x:3": 72,
+          "y:3": 24,
+          "id:3": 176,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 66,
-          "y:3": 142,
-          "id:3": 194,
+          "x:3": 48,
+          "y:3": 48,
+          "id:3": 177,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": 15,
-          "id:3": 195,
+          "x:3": 72,
+          "y:3": 120,
+          "id:3": 178,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 148,
-          "y:3": 69,
-          "id:3": 196,
+          "x:3": 48,
+          "y:3": 120,
+          "id:3": 179,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 128,
-          "y:3": 70,
-          "id:3": 197,
+          "x:3": 72,
+          "y:3": 48,
+          "id:3": 180,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 158,
-          "y:3": 50,
-          "id:3": 198,
+          "x:3": 24,
+          "y:3": 120,
+          "id:3": 181,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 169,
-          "y:3": 69,
-          "id:3": 199,
+          "x:3": 240,
+          "y:3": 0,
+          "id:3": 182,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 86,
-          "id:3": 200,
+          "x:3": 72,
+          "y:3": 144,
+          "id:3": 183,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 136,
-          "y:3": 51,
-          "id:3": 201,
+          "x:3": 24,
+          "y:3": 144,
+          "id:3": 184,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 189,
-          "y:3": 67,
-          "id:3": 202,
+          "x:3": 72,
+          "y:3": 168,
+          "id:3": 185,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 170,
-          "y:3": 105,
-          "id:3": 203,
+          "x:3": 24,
+          "y:3": 168,
+          "id:3": 186,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 137,
-          "y:3": 87,
-          "id:3": 204,
+          "x:3": 24,
+          "y:3": 192,
+          "id:3": 187,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 127,
-          "y:3": 104,
-          "id:3": 205,
+          "x:3": 48,
+          "y:3": 144,
+          "id:3": 188,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 104,
-          "id:3": 206,
+          "x:3": 48,
+          "y:3": 168,
+          "id:3": 189,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 147,
-          "y:3": 106,
-          "id:3": 207,
+          "x:3": 24,
+          "y:3": 216,
+          "id:3": 190,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 137,
-          "y:3": 123,
-          "id:3": 208,
+          "x:3": 48,
+          "y:3": 192,
+          "id:3": 191,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 159,
-          "y:3": 124,
-          "id:3": 209,
+          "x:3": 48,
+          "y:3": 216,
+          "id:3": 192,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 128,
-          "y:3": 143,
-          "id:3": 210,
+          "x:3": 72,
+          "y:3": 192,
+          "id:3": 193,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 179,
-          "y:3": 49,
-          "id:3": 211,
+          "x:3": 72,
+          "y:3": 216,
+          "id:3": 194,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 158,
-          "y:3": 87,
-          "id:3": 212,
+          "x:3": 312,
+          "y:3": 48,
+          "id:3": 195,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 143,
-          "id:3": 213,
+          "x:3": 264,
+          "y:3": 72,
+          "id:3": 196,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": 182,
-          "y:3": 124,
-          "id:3": 214,
+          "x:3": 240,
+          "y:3": 48,
+          "id:3": 197,
           "sizeY:3": 24
         },
         "51:10": {
           "sizeX:3": 24,
-          "x:3": 227,
-          "y:3": 126,
-          "id:3": 215,
+          "x:3": 240,
+          "y:3": 96,
+          "id:3": 198,
           "sizeY:3": 24
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": 183,
-          "y:3": 161,
-          "id:3": 216,
+          "x:3": 240,
+          "y:3": 72,
+          "id:3": 199,
           "sizeY:3": 24
         },
         "53:10": {
           "sizeX:3": 24,
-          "x:3": 140,
-          "y:3": 160,
-          "id:3": 218,
+          "x:3": 120,
+          "y:3": 48,
+          "id:3": 200,
           "sizeY:3": 24
         },
         "54:10": {
           "sizeX:3": 24,
-          "x:3": 171,
-          "y:3": 142,
-          "id:3": 219,
+          "x:3": 216,
+          "y:3": 72,
+          "id:3": 201,
           "sizeY:3": 24
         },
         "55:10": {
           "sizeX:3": 24,
-          "x:3": 148,
-          "y:3": 142,
-          "id:3": 220,
+          "x:3": 264,
+          "y:3": 48,
+          "id:3": 202,
           "sizeY:3": 24
         },
         "56:10": {
           "sizeX:3": 24,
-          "x:3": 160,
-          "y:3": 161,
-          "id:3": 221,
+          "x:3": 216,
+          "y:3": 48,
+          "id:3": 203,
           "sizeY:3": 24
         },
         "57:10": {
           "sizeX:3": 24,
-          "x:3": 128,
-          "y:3": 178,
-          "id:3": 222,
+          "x:3": 168,
+          "y:3": 48,
+          "id:3": 204,
           "sizeY:3": 24
         },
         "58:10": {
           "sizeX:3": 24,
-          "x:3": 148,
-          "y:3": 180,
-          "id:3": 223,
+          "x:3": 264,
+          "y:3": 96,
+          "id:3": 205,
           "sizeY:3": 24
         },
         "59:10": {
           "sizeX:3": 24,
-          "x:3": 160,
-          "y:3": 198,
-          "id:3": 224,
+          "x:3": 144,
+          "y:3": 48,
+          "id:3": 206,
           "sizeY:3": 24
         },
         "60:10": {
           "sizeX:3": 24,
           "x:3": 192,
-          "y:3": 179,
-          "id:3": 225,
+          "y:3": 48,
+          "id:3": 207,
           "sizeY:3": 24
         },
         "61:10": {
           "sizeX:3": 24,
-          "x:3": 171,
-          "y:3": 180,
-          "id:3": 226,
+          "x:3": 120,
+          "y:3": 72,
+          "id:3": 208,
           "sizeY:3": 24
         },
         "62:10": {
           "sizeX:3": 24,
-          "x:3": 256,
-          "y:3": 164,
+          "x:3": 240,
+          "y:3": 144,
+          "id:3": 209,
+          "sizeY:3": 24
+        },
+        "63:10": {
+          "sizeX:3": 24,
+          "x:3": 264,
+          "y:3": 144,
+          "id:3": 210,
+          "sizeY:3": 24
+        },
+        "64:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 72,
+          "id:3": 211,
+          "sizeY:3": 24
+        },
+        "65:10": {
+          "sizeX:3": 24,
+          "x:3": 264,
+          "y:3": 120,
+          "id:3": 212,
+          "sizeY:3": 24
+        },
+        "66:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 72,
+          "id:3": 213,
+          "sizeY:3": 24
+        },
+        "67:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 72,
+          "id:3": 214,
+          "sizeY:3": 24
+        },
+        "68:10": {
+          "sizeX:3": 24,
+          "x:3": 312,
+          "y:3": 96,
+          "id:3": 215,
+          "sizeY:3": 24
+        },
+        "69:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 120,
+          "id:3": 216,
+          "sizeY:3": 24
+        },
+        "70:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 168,
+          "id:3": 217,
+          "sizeY:3": 24
+        },
+        "71:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 96,
+          "id:3": 218,
+          "sizeY:3": 24
+        },
+        "72:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 144,
+          "id:3": 219,
+          "sizeY:3": 24
+        },
+        "73:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 120,
+          "id:3": 220,
+          "sizeY:3": 24
+        },
+        "74:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 96,
+          "id:3": 221,
+          "sizeY:3": 24
+        },
+        "75:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 96,
+          "id:3": 222,
+          "sizeY:3": 24
+        },
+        "76:10": {
+          "sizeX:3": 24,
+          "x:3": 264,
+          "y:3": 168,
+          "id:3": 223,
+          "sizeY:3": 24
+        },
+        "77:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 120,
+          "id:3": 224,
+          "sizeY:3": 24
+        },
+        "78:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 96,
+          "id:3": 225,
+          "sizeY:3": 24
+        },
+        "79:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 96,
+          "id:3": 226,
+          "sizeY:3": 24
+        },
+        "80:10": {
+          "sizeX:3": 24,
+          "x:3": 312,
+          "y:3": 168,
           "id:3": 227,
+          "sizeY:3": 24
+        },
+        "81:10": {
+          "sizeX:3": 24,
+          "x:3": 264,
+          "y:3": 192,
+          "id:3": 228,
+          "sizeY:3": 24
+        },
+        "82:10": {
+          "sizeX:3": 24,
+          "x:3": 264,
+          "y:3": 216,
+          "id:3": 229,
+          "sizeY:3": 24
+        },
+        "83:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 216,
+          "id:3": 230,
+          "sizeY:3": 24
+        },
+        "84:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 192,
+          "id:3": 231,
+          "sizeY:3": 24
+        },
+        "85:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 192,
+          "id:3": 232,
+          "sizeY:3": 24
+        },
+        "86:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 192,
+          "id:3": 233,
+          "sizeY:3": 24
+        },
+        "87:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 192,
+          "id:3": 234,
+          "sizeY:3": 24
+        },
+        "88:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 192,
+          "id:3": 235,
+          "sizeY:3": 24
+        },
+        "89:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 240,
+          "id:3": 236,
+          "sizeY:3": 24
+        },
+        "90:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 216,
+          "id:3": 237,
+          "sizeY:3": 24
+        },
+        "91:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 240,
+          "id:3": 238,
+          "sizeY:3": 24
+        },
+        "92:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 216,
+          "id:3": 239,
+          "sizeY:3": 24
+        },
+        "93:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 240,
+          "id:3": 240,
+          "sizeY:3": 24
+        },
+        "94:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 216,
+          "id:3": 241,
           "sizeY:3": 24
         }
       },
