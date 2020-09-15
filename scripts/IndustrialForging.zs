@@ -45,4 +45,8 @@ recipes.addShaped(<industrialforegoing:mob_slaughter_factory>, [[<industrialfore
 recipes.remove(<industrialforegoing:crop_recolector>);
 recipes.addShaped(<industrialforegoing:crop_recolector>, [[<ore:itemRubber>, <minecraft:flower_pot>, <ore:itemRubber>], [<minecraft:piston>, <thermalexpansion:frame>, <minecraft:piston>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
 
+#Mob Crusher
+recipes.remove(<industrialforegoing:mob_relocator>);
+recipes.addShaped(<industrialforegoing:mob_relocator>, [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>], [<thermalfoundation:meter>, <thermalexpansion:frame>, <thermalfoundation:meter>]]);
+
 print("Initialized 'IndustrialForegoing.zs'");
