@@ -41,5 +41,8 @@ recipes.addShaped(<industrialforegoing:block_destroyer>, [[<industrialforegoing:
 recipes.remove(<industrialforegoing:mob_slaughter_factory>);
 recipes.addShaped(<industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <thermalfoundation:material:290>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_sword>, <thermalexpansion:frame>, <enderio:item_dark_steel_sword>], [<enderio:item_dark_steel_axe>, <thermalfoundation:material:513>, <enderio:item_dark_steel_axe>]]);
 
+#Plant Gatherer
+recipes.remove(<industrialforegoing:crop_recolector>);
+recipes.addShaped(<industrialforegoing:crop_recolector>, [[<ore:itemRubber>, <minecraft:flower_pot>, <ore:itemRubber>], [<minecraft:piston>, <thermalexpansion:frame>, <minecraft:piston>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
 
 print("Initialized 'IndustrialForegoing.zs'");
