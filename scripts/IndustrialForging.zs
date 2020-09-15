@@ -37,4 +37,19 @@ recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:ingotIron>, <minecra
 recipes.remove(<industrialforegoing:block_destroyer>);
 recipes.addShaped(<industrialforegoing:block_destroyer>, [[<industrialforegoing:plastic>, <enderio:item_alloy_ingot>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_pickaxe>, <enderio:item_material:1>, <minecraft:iron_shovel>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 
+#Mob Slaughter Factory
+recipes.remove(<industrialforegoing:mob_slaughter_factory>);
+recipes.addShaped(<industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <thermalfoundation:material:290>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_sword>, <thermalexpansion:frame>, <enderio:item_dark_steel_sword>], [<enderio:item_dark_steel_axe>, <thermalfoundation:material:513>, <enderio:item_dark_steel_axe>]]);
+
+#Plant Gatherer
+recipes.remove(<industrialforegoing:crop_recolector>);
+recipes.addShaped(<industrialforegoing:crop_recolector>, [[<industrialforegoing:plastic>, <minecraft:flower_pot>, <industrialforegoing:plastic>], [<minecraft:piston>, <thermalexpansion:frame>, <minecraft:piston>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
+
+#Mob Crusher
+recipes.remove(<industrialforegoing:mob_relocator>);
+recipes.addShaped(<industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <railcraft:tool_sword_steel>, <industrialforegoing:plastic>], [<minecraft:book>, <thermalexpansion:frame>, <minecraft:book>], [<thermalfoundation:material:257>, <thermalfoundation:material:513>, <thermalfoundation:material:257>]]);
+
+#Black Hole Unit
+recipes.remove(<industrialforegoing:black_hole_unit>);
+recipes.addShaped(<industrialforegoing:black_hole_unit>, [[<industrialforegoing:plastic>, <ironchest:iron_chest:5>, <industrialforegoing:plastic>], [<ironchest:iron_chest:5>, <thermalexpansion:frame:132>, <ironchest:iron_chest:5>], [<industrialforegoing:plastic>, <ironchest:iron_chest:5>, <industrialforegoing:plastic>]]);
 print("Initialized 'IndustrialForegoing.zs'");

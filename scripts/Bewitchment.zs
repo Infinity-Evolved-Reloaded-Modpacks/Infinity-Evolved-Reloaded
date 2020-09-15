@@ -35,4 +35,8 @@ recipes.addShaped(<bewitchment:taglock>, [[<botania:vial:1>, <bewitchment:bone_n
 recipes.remove(<bewitchment:witches_oven>);
 recipes.addShaped(<bewitchment:witches_oven>, [[null, <ore:barsIron>], [<ore:ingotManasteel>, <thaumcraft:metal_alchemical>, <ore:ingotManasteel>], [<thaumcraft:stone_arcane>, <thaumcraft:crystal_ignis>, <thaumcraft:stone_arcane>]]);
 
+#Silver Sword
+recipes.remove(<bewitchment:silver_sword>);
+recipes.addShaped(<bewitchment:silver_sword>, [[null, <thermalfoundation:material:130>, null], [null, <thermalfoundation:material:130>, null], [null, <minecraft:golden_sword>, null]]);
+
 print("Initialized 'Bewitchment.zs'");

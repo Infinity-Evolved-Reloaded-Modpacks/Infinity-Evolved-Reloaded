@@ -119,4 +119,7 @@ recipes.addShaped(<thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Fa
 recipes.remove(<thermalexpansion:machine:2>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
 recipes.addShaped(<thermalexpansion:machine:2>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [[null, <minecraft:iron_axe>, null], [<minecraft:planks>, <thermalexpansion:frame>, <minecraft:planks>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
 
+#Resonant Cell Frame (Empty)
+recipes.addShaped(<thermalexpansion:frame:132>, [[<thermalfoundation:material:167>, <ore:blockGlassHardened>, <thermalfoundation:material:167>], [<ore:blockGlassHardened>, <minecraft:emerald>, <ore:blockGlassHardened>], [<thermalfoundation:material:167>, <ore:blockGlassHardened>, <thermalfoundation:material:167>]]);
+
 print("Initialized 'ThermalExpansion.zs'");
