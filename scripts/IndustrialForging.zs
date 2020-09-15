@@ -37,4 +37,9 @@ recipes.addShaped(<immersiveengineering:tool>, [[null, <ore:ingotIron>, <minecra
 recipes.remove(<industrialforegoing:block_destroyer>);
 recipes.addShaped(<industrialforegoing:block_destroyer>, [[<industrialforegoing:plastic>, <enderio:item_alloy_ingot>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_pickaxe>, <enderio:item_material:1>, <minecraft:iron_shovel>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 
+#Mob Slaughter Factory
+recipes.remove(<industrialforegoing:mob_slaughter_factory>);
+recipes.addShaped(<industrialforegoing:mob_slaughter_factory>, [[<industrialforegoing:plastic>, <thermalfoundation:material:290>, <industrialforegoing:plastic>], [<enderio:item_dark_steel_sword>, <thermalexpansion:frame>, <enderio:item_dark_steel_sword>], [<enderio:item_dark_steel_axe>, <thermalfoundation:material:513>, <enderio:item_dark_steel_axe>]]);
+
+
 print("Initialized 'IndustrialForegoing.zs'");
