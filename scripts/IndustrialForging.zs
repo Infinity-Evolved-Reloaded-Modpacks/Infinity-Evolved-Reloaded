@@ -49,4 +49,7 @@ recipes.addShaped(<industrialforegoing:crop_recolector>, [[<industrialforegoing:
 recipes.remove(<industrialforegoing:mob_relocator>);
 recipes.addShaped(<industrialforegoing:mob_relocator>, [[<industrialforegoing:plastic>, <railcraft:tool_sword_steel>, <industrialforegoing:plastic>], [<minecraft:book>, <thermalexpansion:frame>, <minecraft:book>], [<thermalfoundation:material:257>, <thermalfoundation:material:513>, <thermalfoundation:material:257>]]);
 
+#Black Hole Unit
+recipes.remove(<industrialforegoing:black_hole_unit>);
+recipes.addShaped(<industrialforegoing:black_hole_unit>, [[<industrialforegoing:plastic>, <ironchest:iron_chest:5>, <industrialforegoing:plastic>], [<ironchest:iron_chest:5>, <thermalexpansion:frame:132>, <ironchest:iron_chest:5>], [<industrialforegoing:plastic>, <ironchest:iron_chest:5>, <industrialforegoing:plastic>]]);
 print("Initialized 'IndustrialForegoing.zs'");
