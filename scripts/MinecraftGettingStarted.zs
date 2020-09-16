@@ -313,6 +313,18 @@ recipes.addShaped(<minecraft:iron_helmet>, [[<ore:ingotIron>, <ore:ingotIron>, <
 <projectred-exploration:peridot_chestplate>.maxDamage = 16;
 <projectred-exploration:peridot_leggings>.maxDamage = 16;
 <projectred-exploration:peridot_boots>.maxDamage = 16;
+<embers:sword_copper>.maxDamage = 16;
+<embers:pickaxe_copper>.maxDamage = 16;
+<embers:axe_copper>.maxDamage = 16;
+<embers:shovel_copper>.maxDamage = 16;
+<embers:pickaxe_lead>.maxDamage = 16;
+<embers:sword_lead>.maxDamage = 16;
+<embers:shovel_lead>.maxDamage = 16;
+<embers:axe_lead>.maxDamage = 16;
+<embers:pickaxe_nickel>.maxDamage = 16;
+<embers:axe_nickel>.maxDamage = 16;
+<embers:shovel_nickel>.maxDamage = 16;
+<embers:sword_nickel>.maxDamage = 16;
 
 #tooltips
 <minecraft:golden_axe>.addTooltip(format.red("Used For Crafting Only!"));
