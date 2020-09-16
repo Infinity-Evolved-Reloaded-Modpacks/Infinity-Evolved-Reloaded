@@ -10,4 +10,3 @@ recipes.removeShaped(<ore:ingotBronze>, [[<ore:ingotTin>, <ore:ingotCopper>, <or
 recipes.removeShapeless(<ore:ingotBrass>, [<ore:ingotZinc>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
 
 print("initalized 'Alloys.zs'");
-
