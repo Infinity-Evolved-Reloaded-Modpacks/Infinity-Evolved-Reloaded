@@ -31,7 +31,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("BASICARTIFACE", "r", 1,
 # -Scribing Tools
 recipes.remove(<thaumcraft:scribing_tools>);
 recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:feather>, <ore:dyeBlack>]);
-recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools>, <ore:dyeBlack>]);
+recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools>.anyDamage(), <ore:dyeBlack>]);
 
 # -Arcane Bellows
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:bellows>);
