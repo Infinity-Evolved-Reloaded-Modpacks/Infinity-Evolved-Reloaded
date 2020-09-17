@@ -246,11 +246,23 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "thaumcraft:salis_mundus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:bookshelf",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
               "id:8": "thaumcraft:thaumonomicon",
               "Count:3": 1,
               "Damage:2": 0,
@@ -385,7 +397,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "enderio:block_simple_alloy_smelter",
+              "id:8": "enderio:block_alloy_smelter",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -2683,8 +2695,8 @@
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "thaumcraft:research_table",
-              "Count:3": 2,
+              "id:8": "thaumcraft:table_wood",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -3989,7 +4001,18 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "say @s obtained the Creative Portable Tank. Unlimited Liquid Possibilities!"
+        }
+      }
     },
     "60:10": {
       "questID:3": 60,
@@ -5523,7 +5546,18 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "say @s obtained the Creative Power Cell. His Power Level is OVER 9000"
+        }
+      }
     },
     "81:10": {
       "questID:3": 81,
@@ -10078,7 +10112,18 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "say @s obtained the Creative Flux Capacitor. Doc Brown would be proud!"
+        }
+      }
     },
     "159:10": {
       "questID:3": 159,
@@ -15477,11 +15522,11 @@
           "sizeY:3": 24
         },
         "3:10": {
-          "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 108,
+          "sizeX:3": 30,
+          "x:3": 159,
+          "y:3": 88,
           "id:3": 112,
-          "sizeY:3": 24
+          "sizeY:3": 26
         },
         "4:10": {
           "sizeX:3": 24,
@@ -15499,15 +15544,15 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 72,
+          "x:3": 212,
+          "y:3": 69,
           "id:3": 117,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 144,
+          "x:3": 217,
+          "y:3": 141,
           "id:3": 118,
           "sizeY:3": 24
         },
@@ -15520,57 +15565,57 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 96,
+          "x:3": 257,
+          "y:3": 102,
           "id:3": 120,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 96,
+          "x:3": 226,
+          "y:3": 101,
           "id:3": 121,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 48,
+          "x:3": 257,
+          "y:3": 72,
           "id:3": 122,
           "sizeY:3": 24
         },
         "12:10": {
-          "sizeX:3": 24,
-          "x:3": 264,
-          "y:3": 72,
+          "sizeX:3": 38,
+          "x:3": 299,
+          "y:3": 64,
           "id:3": 123,
-          "sizeY:3": 24
+          "sizeY:3": 39
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 48,
+          "x:3": 257,
+          "y:3": 45,
           "id:3": 124,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 144,
+          "x:3": 251,
+          "y:3": 150,
           "id:3": 125,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 228,
-          "y:3": 168,
+          "x:3": 225,
+          "y:3": 175,
           "id:3": 126,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 48,
+          "x:3": 102,
+          "y:3": 41,
           "id:3": 129,
           "sizeY:3": 24
         }
@@ -15596,11 +15641,11 @@
     "6:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 204,
+          "sizeX:3": 48,
+          "x:3": 144,
+          "y:3": 214,
           "id:3": 59,
-          "sizeY:3": 24
+          "sizeY:3": 47
         },
         "1:10": {
           "sizeX:3": 24,
@@ -15610,11 +15655,11 @@
           "sizeY:3": 24
         },
         "2:10": {
-          "sizeX:3": 24,
-          "x:3": 156,
-          "y:3": 168,
+          "sizeX:3": 36,
+          "x:3": 150,
+          "y:3": 171,
           "id:3": 80,
-          "sizeY:3": 24
+          "sizeY:3": 34
         },
         "3:10": {
           "sizeX:3": 24,
@@ -15626,7 +15671,7 @@
         "4:10": {
           "sizeX:3": 24,
           "x:3": 156,
-          "y:3": 132,
+          "y:3": 124,
           "id:3": 133,
           "sizeY:3": 24
         },
@@ -15709,7 +15754,7 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 97,
           "y:3": 12,
           "id:3": 147,
           "sizeY:3": 24
@@ -15764,11 +15809,11 @@
           "sizeY:3": 24
         },
         "24:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 60,
+          "sizeX:3": 38,
+          "x:3": 94,
+          "y:3": 69,
           "id:3": 158,
-          "sizeY:3": 24
+          "sizeY:3": 37
         }
       },
       "lineID:3": 6,
