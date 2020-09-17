@@ -14,7 +14,7 @@ recipes.remove(<draconicevolution:energy_crystal>);
 recipes.remove(<draconicevolution:grinder>);
 recipes.remove(<draconicevolution:energy_infuser>);
 recipes.remove(<draconicevolution:draconium_chest>);
-recipes.remove(<draconicevolution:dislocator_advanced>;
+recipes.remove(<draconicevolution:dislocator_advanced>);
 recipes.remove(<draconicevolution:dislocator>);
 recipes.remove(<draconicevolution:draconic_energy_core>);
 recipes.remove(<draconicevolution:wyvern_energy_core>);
