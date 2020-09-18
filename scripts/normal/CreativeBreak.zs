@@ -1,7 +1,7 @@
 #Name: DraconicEvolution.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
-#packmode expert
+#packmode normal
 
 import crafttweaker.block.IBlock;
 import crafttweaker.player.IPlayer;

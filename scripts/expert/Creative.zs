@@ -3,11 +3,7 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
 
-print("Initializing 'PackWideChanges.zs'...");
-
-
-
-
+print("Initializing 'Creative.zs'...");
 
 #Add Creative Items
 # -Creative Energy Cell
@@ -21,3 +17,5 @@ mods.avaritia.ExtremeCrafting.addShaped("Creative Portable Tank", <thermalexpans
 
 #Creative Mana Pool
 mods.thaumcraft.Infusion.registerRecipe("EverlastingGuiltyPoolCreative", "", <botania:pool:1>, 10, [<aspect:aer> * 512, <aspect:ignis> * 512, <aspect:terra> * 512, <aspect:aqua> * 512, <aspect:ordo> * 512, <aspect:perditio> * 512], <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}), [<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <bloodmagic:slate>, <bloodmagic:slate:1>, <bloodmagic:slate:2>, <bloodmagic:slate:3>, <bloodmagic:slate:4>, <botania:rune>, <botania:rune:1>, <botania:rune:2>, <botania:rune:3>, <botania:rune:4>, <botania:rune:5>, <botania:rune:6>, <botania:rune:7>, <botania:rune:8>, <botania:rune:9>, <botania:rune:10>, <botania:rune:11>, <botania:rune:12>, <botania:rune:13>, <botania:rune:14>, <botania:rune:15>, ]);
+
+print("Initialized 'Creative.zs'");
