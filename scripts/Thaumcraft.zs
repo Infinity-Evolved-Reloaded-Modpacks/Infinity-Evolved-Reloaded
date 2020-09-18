@@ -12,6 +12,7 @@ entry.remove(<thaumcraft:log_silverwood>);
 entry.remove(<thaumcraft:log_greatwood>);
 
 # -Arcane Stone
+recipes.remove(<thaumcraft:stone_arcane>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:stone_arcane>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("ARCANESTONE", "Arcanestone", 5, [<aspect:ignis>*2, <aspect:terra>*2,], <thaumcraft:stone_arcane>*8, [[<ore:stone>, <botania:livingrock>, <ore:stone>], [<botania:livingrock>, <thaumcraft:crystal_essence>, <botania:livingrock>], [<ore:stone>, <botania:livingrock>, <ore:stone>]]);
 mods.botania.ManaInfusion.addConjuration(<thaumcraft:stone_arcane>*2, <thaumcraft:stone_arcane>, 1000);
@@ -31,7 +32,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("BASICARTIFACE", "r", 1,
 # -Scribing Tools
 recipes.remove(<thaumcraft:scribing_tools>);
 recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:phial>, <minecraft:feather>, <ore:dyeBlack>]);
-recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools>, <ore:dyeBlack>]);
+recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools>.anyDamage(), <ore:dyeBlack>]);
 
 # -Arcane Bellows
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:bellows>);
