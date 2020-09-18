@@ -46,7 +46,6 @@ recipes.removeShaped(<minecraft:minecart> * 2, [[null, null, null],[<thermalfoun
 #Iron Door - Steel Ingot Dupe Fix
 BlastFurnace.remove(<railcraft:ingot>* 5);
 BlastFurnace.add(<railcraft:ingot>, <minecraft:iron_ingot>, 2560, 1);
-BlastFurnace.add(<railcraft:metal:3>, <minecraft:iron_block>, 23040, 9);
 
 #Railcraft Blast Furnace Iron Armor to Steel Ingot
 BlastFurnace.add(<railcraft:ingot> * 5, <minecraft:iron_helmet>, 12800, 5);
