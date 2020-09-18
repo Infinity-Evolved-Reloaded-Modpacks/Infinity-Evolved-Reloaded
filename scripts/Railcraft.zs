@@ -2,7 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
-
+import moretweaker.railcraft.BlastFurnace;
 print("Initializing 'Railcraft.zs'...");
 
 #Anchors or WorldSpikes
@@ -40,4 +40,23 @@ recipes.addShaped(<railcraft:armor_leggings_steel>, [[<ore:plateSteel>, <ore:pla
 recipes.remove(<railcraft:armor_boots_steel>);
 recipes.addShaped(<railcraft:armor_boots_steel>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_boots>, <ore:plateSteel>], [null, null, null]]);
 
+#Minecart Steel recipe remove
+recipes.removeShaped(<minecraft:minecart> * 2, [[null, null, null],[<thermalfoundation:material:160>, null, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]]);
+
+#Iron Door - Steel Ingot Dupe Fix
+BlastFurnace.remove(<railcraft:ingot>* 5);
+BlastFurnace.add(<railcraft:ingot>, <minecraft:iron_ingot>, 2560, 1);
+BlastFurnace.add(<railcraft:metal:3>, <minecraft:iron_block>, 23040, 9);
+
+#Railcraft Blast Furnace Iron Armor to Steel Ingot
+BlastFurnace.add(<railcraft:ingot> * 5, <minecraft:iron_helmet>, 12800, 5);
+BlastFurnace.add(<railcraft:ingot> * 8, <minecraft:iron_chestplate>, 20480, 8);
+BlastFurnace.add(<railcraft:ingot> * 7, <minecraft:iron_leggings>, 17920, 7);
+BlastFurnace.add(<railcraft:ingot> * 4, <minecraft:iron_boots>, 10240, 4);
+
+#Railcraft Blast Furnace Steel Armor in Steel Ingot
+BlastFurnace.add(<railcraft:ingot> * 5, <railcraft:armor_helmet_steel>, 12800, 5);
+BlastFurnace.add(<railcraft:ingot> * 8, <railcraft:armor_chestplate_steel>, 20480, 8);
+BlastFurnace.add(<railcraft:ingot> * 7, <railcraft:armor_leggings_steel>, 17920, 7);
+BlastFurnace.add(<railcraft:ingot> * 4, <railcraft:armor_boots_steel>, 10240, 4);
 print("Initialized 'Railcraft.zs'");
