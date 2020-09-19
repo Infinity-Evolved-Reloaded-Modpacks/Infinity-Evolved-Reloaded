@@ -44,4 +44,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:metal:8> 
 
 #Coal Coke Block Convert
 recipes.addShapeless(<immersiveengineering:material:6> * 9, [<ore:blockFuelCoke>]);
+
+#Creosote Plank recipe fix
+recipes.addShaped(<immersiveengineering:treated_wood> * 8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}), <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 print("Initialized 'ImmersiveEngineering.zs'");

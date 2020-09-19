@@ -1,4 +1,4 @@
-#Name: PackWideChanges.zs
+#Name: Creative.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
