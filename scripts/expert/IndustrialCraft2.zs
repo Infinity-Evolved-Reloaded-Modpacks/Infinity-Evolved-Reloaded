@@ -2,7 +2,6 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
-
 print("Initializing 'IndustrialCraft2.zs'...");
 
 #Basic Machine Frame
