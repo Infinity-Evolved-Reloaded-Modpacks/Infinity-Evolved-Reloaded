@@ -7,7 +7,7 @@ print("Initializing 'ThermalExpansion.zs'...");
 
 #Machine Frame
 recipes.remove(<thermalexpansion:frame>);
-mods.buildcraft.AssemblyTable.addRecipe(<thermalexpansion:frame>, 2000000, [<ic2:plate:16>, <railcraft:generic:7> * 2, <thermalfoundation:material:289>, <buildcraftsilicon:redstone_chipset:2>, <forestry:chipsets:2>]);
+mods.buildcraft.AssemblyTable.addRecipe(<thermalexpansion:frame>, 500000, [<ic2:plate:16>, <railcraft:generic:7> * 2, <thermalfoundation:material:289>, <buildcraftsilicon:redstone_chipset:2>, <forestry:chipsets:2>]);
 
 #Dynamos
 recipes.remove(<thermalexpansion:dynamo:5>);
