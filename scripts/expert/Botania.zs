@@ -33,7 +33,7 @@ recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <thaumcraft:c
 recipes.remove(<botania:lens>);
 recipes.addShaped(<botania:lens>, [[<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>], [<ore:ingotManasteel>, <industrialforegoing:laser_lens:8>, <ore:ingotManasteel>], [<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>]]);
 recipes.remove(<botania:lens:10>);
-recipes.addShaped(<botania:lens:10>, [[<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>], [<ore:ingotGold>, <botania:lens>, <ore:ingotGold>], [<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>]]);
+recipes.addShaped(<botania:lens:10>, [[<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>], [<ore:ingotGold>, <botania:lens>.withTag({}), <ore:ingotGold>], [<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>]]);
 
 # -Redstring
 recipes.remove(<botania:manaresource:12>);
