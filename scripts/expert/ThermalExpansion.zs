@@ -107,4 +107,7 @@ recipes.addShaped(<thermalexpansion:machine:2>.withTag({RSControl: 0 as byte, Fa
 #Resonant Cell Frame (Empty)
 recipes.addShaped(<thermalexpansion:frame:132>, [[<thermalfoundation:material:167>, <ore:blockGlassHardened>, <thermalfoundation:material:167>], [<ore:blockGlassHardened>, <minecraft:emerald>, <ore:blockGlassHardened>], [<thermalfoundation:material:167>, <ore:blockGlassHardened>, <thermalfoundation:material:167>]]);
 
+#Resonant Cell Frame (Full)
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <thermalexpansion:frame:132>, <liquid:redstone> * 2000, 25000);
+
 print("Initialized 'ThermalExpansion.zs'");
