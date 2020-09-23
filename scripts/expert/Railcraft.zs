@@ -58,4 +58,15 @@ BlastFurnace.add(<railcraft:ingot> * 5, <railcraft:armor_helmet_steel>, 12800, 5
 BlastFurnace.add(<railcraft:ingot> * 8, <railcraft:armor_chestplate_steel>, 20480, 8);
 BlastFurnace.add(<railcraft:ingot> * 7, <railcraft:armor_leggings_steel>, 17920, 7);
 BlastFurnace.add(<railcraft:ingot> * 4, <railcraft:armor_boots_steel>, 10240, 4);
+
+#Blast Brick
+recipes.remove(<railcraft:blast_furnace>);
+
+# -ender_pearl
+recipes.addShaped(<railcraft:blast_furnace> *4, [[<minecraft:brick_block>, <minecraft:sand>, <minecraft:brick_block>], [<minecraft:sandstone>, <minecraft:ender_pearl>, <minecraft:sandstone>], [<minecraft:brick_block>, <minecraft:sand>, <minecraft:brick_block>]]);
+
+# -slimeball
+recipes.addShaped(<railcraft:blast_furnace> *4, [[<minecraft:brick_block>, <minecraft:sand>, <minecraft:brick_block>], [<minecraft:sandstone>, <ore:slimeball>, <minecraft:sandstone>], [<minecraft:brick_block>, <minecraft:sand>, <minecraft:brick_block>]]);
+
+
 print("Initialized 'Railcraft.zs'");
