@@ -1,0 +1,30 @@
+{
+	title: "Diggy Diggy Hole",
+	icon: {
+		id: "ic2:drill",
+		tag: {
+			charge: 30000.0d
+		}
+	},
+	x: 1.5d,
+	y: 10.0d,
+	text: [
+		"§lThe Mining Drill is a relatively early-game, well, mining drill. You mine with it. The Mining Drill does not use durability, it uses EU. Charge it in a BatBox or something else that charges.",
+		"",
+		"§rThe Mining Drill can only mine whatever an Iron Pickaxe would be able to. You can right-click to place a torch if there is one anywhere in your inventory."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "f4d2fd00",
+		type: "item",
+		items: [{
+			id: "ic2:drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

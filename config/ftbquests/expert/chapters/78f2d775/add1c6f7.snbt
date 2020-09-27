@@ -1,0 +1,21 @@
+{
+	title: "Tea",
+	icon: "harvestcraft:tealeafitem",
+	x: 7.5d,
+	y: 6.5d,
+	text: [
+		"§lTea is a crossbreed between Seaweed and Soybean."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ac636c3b",
+		"66c9a7e3"
+	],
+	tasks: [{
+		uid: "a604f736",
+		type: "item",
+		items: [{
+			item: "harvestcraft:teaseeditem"
+		}]
+	}]
+}

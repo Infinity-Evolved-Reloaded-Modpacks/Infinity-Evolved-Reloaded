@@ -1,0 +1,21 @@
+{
+	title: "Cucumber",
+	icon: "harvestcraft:cucumberitem",
+	x: 9.5d,
+	y: 4.5d,
+	text: [
+		"§lCucumbers are a crossbreed between Okra and Peas"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8fc901d4",
+		"c2caf7e5"
+	],
+	tasks: [{
+		uid: "17c26190",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cucumberseeditem"
+		}]
+	}]
+}

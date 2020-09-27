@@ -1,0 +1,21 @@
+{
+	title: "Spice Leaf",
+	icon: "harvestcraft:spiceleafitem",
+	x: 9.5d,
+	y: 7.5d,
+	text: [
+		"Spice Leafs are a crossbreed between Tea and Chili Pepper"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"add1c6f7",
+		"540bdbe8"
+	],
+	tasks: [{
+		uid: "e884780f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Who Took My Mountain?",
+	icon: "buildcraftbuilders:quarry",
+	x: 4.5d,
+	y: 7.0d,
+	text: [
+		"§lThe BC Quarry uses MJ to mine an area down to Bedrock. By default, it has an area of 9x9x4, which can be changed using Land Marks. Once it has RF, it starts to clear the area required and build the frame. Once that happens, it starts mining and putting the blocks into the inventory or pipe above it. If none is available, it is spit out at extreme velocity and gets all over the floor, and generally takes a while to mop up.",
+		"",
+		"§rThe Quarry is not upgradable. A Redstone signal will turn it off. The more MJ you give it, the faster it goes. The Quarry gets a bit confused with Lava, so try to Pump that out sharpish.",
+		"",
+		"§n§nTo convert RF/EU to MJ use Energy Converters!"
+	],
+	dependencies: [
+		"c45075d9",
+		"f6da8419"
+	],
+	tasks: [{
+		uid: "afc384a6",
+		type: "item",
+		items: [{
+			item: "buildcraftbuilders:quarry"
+		}]
+	}]
+}

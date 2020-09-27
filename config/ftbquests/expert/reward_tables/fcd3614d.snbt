@@ -1,0 +1,28 @@
+{
+	title: "Stabbing the Earth",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "strength"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "regen"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:brewvial",
+			tag: {
+				brewKey: "resistance"
+			}
+		}
+	}]
+}

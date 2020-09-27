@@ -1,0 +1,21 @@
+{
+	title: "Okra",
+	icon: "harvestcraft:okraitem",
+	x: 8.5d,
+	y: 4.5d,
+	text: [
+		"§lOkra is a crossbreed between Leeks and Beans."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8fc901d4",
+		"c2caf7e5"
+	],
+	tasks: [{
+		uid: "b53e3350",
+		type: "item",
+		items: [{
+			item: "harvestcraft:okraseeditem"
+		}]
+	}]
+}

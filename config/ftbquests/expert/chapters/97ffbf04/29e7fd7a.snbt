@@ -1,0 +1,36 @@
+{
+	title: "The Brotherhood of Steel",
+	icon: "immersiveengineering:metal 1 8",
+	x: 7.125d,
+	y: 2.625d,
+	text: [
+		"So, now that we have Steel, we can finally progress into the Steel Age."
+	],
+	dependencies: [
+		"4dce88d3"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "d239fc58",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1e0f2647",
+		type: "item",
+		item: "railcraft:ingot"
+	}]
+}

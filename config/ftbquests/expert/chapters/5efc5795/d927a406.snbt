@@ -1,0 +1,19 @@
+{
+	title: "Bigger on the Inside",
+	icon: "ironchest:iron_chest",
+	x: 1.5d,
+	y: 5.5d,
+	text: [
+		"§lThe Iron Chests mod adds new chests made of different metals with more inventory space."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "062a3492",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}]
+}

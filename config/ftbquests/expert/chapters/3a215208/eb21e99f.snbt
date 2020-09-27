@@ -1,0 +1,36 @@
+{
+	title: "Magic School Bus",
+	icon: "thaumicenergistics:essentia_storage",
+	x: 9.875d,
+	y: 7.791666666666667d,
+	text: [
+		"§lThese Busses work exactly the same as the regular ones, but with Essentia.",
+		"",
+		"§o§r§r"
+	],
+	dependencies: [
+		"f3171946",
+		"f2ad8e0e"
+	],
+	tasks: [{
+		uid: "a91333fa",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_import"
+		}]
+	},
+	{
+		uid: "82742aa7",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_export"
+		}]
+	},
+	{
+		uid: "59fc622b",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_storage"
+		}]
+	}]
+}

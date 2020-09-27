@@ -1,0 +1,23 @@
+{
+	title: "Here to There",
+	icon: "draconicevolution:dislocator",
+	x: 5.0d,
+	y: 2.0d,
+	text: [
+		"§lThe Dislocator allows you to teleport from anywhere in any dimension to a specific location for absolutely no cost. However, it can only have one location, and cannot be rebound. Shift right click to save the coords, dimension, and direction you are looking. Right click anywhere else to teleport there.",
+		"",
+		"§rYou don't have to look at a block while binding it, otherwise you would be looking straight down when you teleport there. Just look straight ahead, or the direction you want to be looking when you teleport there."
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	tasks: [{
+		uid: "93322f98",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dislocator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

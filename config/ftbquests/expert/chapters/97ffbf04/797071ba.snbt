@@ -1,0 +1,61 @@
+{
+	title: "Meteor Hunter",
+	icon: "appliedenergistics2:inscriber",
+	x: 8.208333333333332d,
+	y: 5.458333333333333d,
+	text: [
+		"§lThe Inscriber is used to make AE2 Processors, which are used in recipes. It requires RF to run.",
+		"",
+		"§rThe Meteorite Compass points in the direction of the nearest AE2 meteorite. In the center of AE2 meteorites is a Sky Stone Chest that can have one of the Inscriber Presses.",
+		"",
+		"In order to automate the Inscribers without having to move around the Presses, you need 5 Inscribers: 4 for the Inscriber Presses and 1 for making them into Processors. A good method of automating Inscribers is using Steve's Factory Manager.",
+		"",
+		"You can make extra Presses of ones you have by putting it and an Iron Block in the Inscriber."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "08e0e764",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	},
+	{
+		uid: "ba85de63",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "9b7b0d81",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	},
+	{
+		uid: "5ab4d840",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "017859e8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "d7ba49bd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	}]
+}

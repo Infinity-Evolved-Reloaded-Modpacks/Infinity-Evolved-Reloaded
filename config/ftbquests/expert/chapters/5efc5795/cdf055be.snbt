@@ -1,0 +1,30 @@
+{
+	title: "Capacitative Spawning",
+	icon: "enderio:block_powered_spawner",
+	x: 11.5d,
+	y: 10.0d,
+	text: [
+		"§lThe Powered Spawner is, well, an RF-powered spawner. To set the mob, you have to combine it with a Broken Spawner (which is gotten by mining a Spawner) in an Anvil, which takes about 30 levels.",
+		"",
+		"§rYou can mine a vanilla Spawner to get a Broken Spawner. If you want to get a different mob's Spawner, you can combine it with a filled Soul Vial in an Anvil to set the Broken Spawner to the mob inside of the Vial.",
+		"",
+		"Combine the Broken Spawner and Powered Spawner in the Anvil to set the Powered Spawner to that mob. It runs on RF only, and can be upgraded with Double-Layer or Octadic Capacitors, which makes it faster and has more RF capacity."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "7e2a2c3d",
+		type: "item",
+		items: [{
+			item: "enderio:item_broken_spawner"
+		}]
+	},
+	{
+		uid: "e14a001c",
+		type: "item",
+		items: [{
+			item: "enderio:block_powered_spawner"
+		}]
+	}]
+}

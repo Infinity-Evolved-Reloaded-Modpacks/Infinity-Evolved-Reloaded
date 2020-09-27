@@ -1,0 +1,32 @@
+{
+	title: "Portable Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 6s
+	},
+	x: 9.5d,
+	y: 8.5d,
+	text: [
+		"§lFlux Packs are worn as chestplates and will charge all your armor and held items (that CAN be charged) with RF. There are several tiers, but this is the first.",
+		"",
+		"§rThe Leadstone Flux Pack holds 1 500 000 RF, and can send/receive 800 RF/t."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "8982027d",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

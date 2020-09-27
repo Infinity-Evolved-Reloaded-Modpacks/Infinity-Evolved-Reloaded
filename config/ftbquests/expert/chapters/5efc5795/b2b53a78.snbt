@@ -1,0 +1,21 @@
+{
+	title: "Screw Hammers, Seriously",
+	icon: "ic2:te 1 55",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"§lHow many Forge Hammers have you made so far? Check your Statistics! $20 on it being more than 5. The Metal Former uses EU to turn Ingots into Plates, Cables, and many other things that usually would take and break a Forge Hammer and a Cutter.",
+		"",
+		"§r§rThe Metal Former uses EU, not RF, so you can't just connect this to your Fluxducts or Energy Conduits or however you've decided to move RF around. You need to use Cables, preferably insulated. You can convert RF into EU and back using Energy Converters."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "6d726417",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}]
+}

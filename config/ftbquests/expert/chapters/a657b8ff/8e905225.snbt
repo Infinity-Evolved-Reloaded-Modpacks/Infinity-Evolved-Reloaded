@@ -1,0 +1,60 @@
+{
+	title: "Putting the \"God\" in \"Gaudy\"",
+	icon: {
+		id: "draconicevolution:draconic_chest",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 10.666666666666666d,
+	y: 7.166666666666667d,
+	text: [
+		"§lDraconic armor is the most powerful armor in the modpack. It allows you to fly, see in the dark, see Nodes, jump high, run fast, and step up single blocks. Wearing charged Draconic armor, you are nearly invincible; you can even survive an IC2 Nuke point-blank.",
+		"",
+		"§rPretty much the only thing that  has the ability to damage you at this stage is the Chaos Guardian. That, or someone messing with Bewitchment."
+	],
+	dependencies: [
+		"b90619c7",
+		"788c47e7"
+	],
+	tasks: [{
+		uid: "e7a482d8",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_helm",
+			tag: {
+				Energy: 16000000
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "605c72ab",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "06ba65b6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9ba9abfb",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
