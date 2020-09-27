@@ -17,10 +17,13 @@
 				item: {
 					item: {
 						item: {
-							id: "witchery:distilleryidle",
-							Count: 1,
-							tag: 0,
-							Damage: 0
+							item: {
+								id: "witchery:distilleryidle",
+								Count: 1,
+								tag: 0,
+								Damage: 0
+							},
+							Count: 1b
 						},
 						Count: 1b
 					},
