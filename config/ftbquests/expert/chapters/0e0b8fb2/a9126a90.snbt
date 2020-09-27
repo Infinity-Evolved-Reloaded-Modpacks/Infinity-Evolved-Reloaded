@@ -1,5 +1,6 @@
 {
 	title: "The Twilight Zone",
+	icon: "twilightforest:miniature_structure",
 	x: 7.0d,
 	y: 1.0d,
 	text: [
