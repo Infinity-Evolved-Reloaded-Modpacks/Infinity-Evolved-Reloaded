@@ -1,0 +1,21 @@
+{
+	title: "Curry Leaf",
+	icon: "harvestcraft:curryleafitem",
+	x: 7.5d,
+	y: 9.5d,
+	text: [
+		"Curry Leafs are a crossbreed between Mustard Seed and Spice Leaf"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"58b37776",
+		"58aa3337"
+	],
+	tasks: [{
+		uid: "7ea389e3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:curryleafseeditem"
+		}]
+	}]
+}

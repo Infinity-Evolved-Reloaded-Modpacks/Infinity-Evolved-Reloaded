@@ -1,0 +1,21 @@
+{
+	title: "Sesame Seed",
+	icon: "harvestcraft:sesameseedsitem",
+	x: 11.5d,
+	y: 4.5d,
+	text: [
+		"§lSesame Seeds are a crossbreed between Coffee and Rice"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e328039d",
+		"fb4dd753"
+	],
+	tasks: [{
+		uid: "0bc506c5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sesameseedsseeditem"
+		}]
+	}]
+}

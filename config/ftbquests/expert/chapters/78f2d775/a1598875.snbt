@@ -1,0 +1,30 @@
+{
+	title: "Mystical Orange Flower",
+	icon: "botania:flower 1 1",
+	x: 2.5d,
+	y: 8.5d,
+	text: [
+		"§lMystical Orange Flowers are a crossbreed between Mystical Red Flowers and Mystical Yellow Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9cd6a91f",
+		"4859967a"
+	],
+	tasks: [{
+		uid: "af5a5af0",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:orange_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

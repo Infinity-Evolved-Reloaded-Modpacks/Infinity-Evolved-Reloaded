@@ -1,0 +1,61 @@
+{
+	title: "The World of Elves",
+	icon: "botania:alfheimportal",
+	x: 6.0d,
+	y: 7.0d,
+	text: [
+		"§r§lThe Portal to Alfheim is a multiblock. It requires a pretty steady stream of Mana. The crafting recipe requires a tier 4 Blood Altar minimum.",
+		"",
+		"§rRight click on the Elven Gateway Core to activate the Portal. Throw in certain items in to get other certain items out. See JEI or the Lexica Botania for details."
+	],
+	dependencies: [
+		"c5f198d8",
+		"697cde9b",
+		"6736fea1"
+	],
+	tasks: [{
+		uid: "63d7a312",
+		type: "item",
+		items: [{
+			item: "botania:pool 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "88751204",
+		type: "item",
+		items: [{
+			item: "botania:pylon 2 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d45d9ebe",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e7f9591f",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 3 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "573329ac",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}],
+	rewards: [{
+		uid: "9ab4ac3c",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 4
+	}]
+}

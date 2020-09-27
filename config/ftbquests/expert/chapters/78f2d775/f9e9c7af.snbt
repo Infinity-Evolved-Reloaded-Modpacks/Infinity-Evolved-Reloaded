@@ -1,0 +1,21 @@
+{
+	title: "Strawberry",
+	icon: "harvestcraft:strawberryitem",
+	x: 10.5d,
+	y: 7.5d,
+	text: [
+		"§lStrawberries are a crossbreed between Radishes and Poppies."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"85bcdf64",
+		"17f8b6a0"
+	],
+	tasks: [{
+		uid: "f48e4541",
+		type: "item",
+		items: [{
+			item: "harvestcraft:strawberryseeditem"
+		}]
+	}]
+}

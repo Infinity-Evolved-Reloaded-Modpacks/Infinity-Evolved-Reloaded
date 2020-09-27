@@ -1,0 +1,16 @@
+{
+	title: "Blow It Up!",
+	icon: "ic2:te 1 2",
+	x: 10.166666666666666d,
+	y: 5.833333333333333d,
+	text: [
+		"Kaboom"
+	],
+	tasks: [{
+		uid: "b14f434a",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 2"
+		}]
+	}]
+}

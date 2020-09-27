@@ -1,0 +1,21 @@
+{
+	title: "Kiwi",
+	icon: "harvestcraft:kiwiitem",
+	x: 8.5d,
+	y: 9.5d,
+	text: [
+		"§lKiwis are a crossbreed between Strawberries and Cantaloupe."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"29bee704",
+		"f9e9c7af"
+	],
+	tasks: [{
+		uid: "318c0e4b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kiwiseeditem"
+		}]
+	}]
+}

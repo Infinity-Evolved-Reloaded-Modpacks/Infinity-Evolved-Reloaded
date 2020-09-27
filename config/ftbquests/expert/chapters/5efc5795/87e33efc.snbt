@@ -1,0 +1,34 @@
+{
+	title: "More Better Flying",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 12s
+	},
+	x: 9.5d,
+	y: 6.5d,
+	text: [
+		"§lThe next highest tier for TE jetpacks is the Vibrant Jetpack. It is very fast, stores 6 000 000 RF, and uses 200 RF/t while in use.",
+		"",
+		"§r"
+	],
+	dependencies: [
+		"c31e2340"
+	],
+	tasks: [{
+		uid: "4f53b735",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}]
+}

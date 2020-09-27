@@ -1,0 +1,30 @@
+{
+	title: "Mystical Lime Flower",
+	icon: "botania:flower 1 5",
+	x: 3.5d,
+	y: 7.5d,
+	text: [
+		"§lMystical Lime Flowers are a crossbreed between Mystical Green Flowers and Mystical White Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"37741ef5",
+		"ad8b91b9"
+	],
+	tasks: [{
+		uid: "36f13be6",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:lime_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Eggplant",
+	icon: "harvestcraft:eggplantitem",
+	x: 10.5d,
+	y: 6.5d,
+	text: [
+		"Eggplants are a crossbreed between Red Mushrooms and Brown Mushrooms"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"233bc8aa",
+		"6192738c"
+	],
+	tasks: [{
+		uid: "de3f278e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:eggplantseeditem"
+		}]
+	}]
+}

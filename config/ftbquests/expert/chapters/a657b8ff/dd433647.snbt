@@ -1,0 +1,21 @@
+{
+	title: "The Guide to Infinite Fortune",
+	icon: "rftoolsdim:rftoolsdim_manual",
+	x: 4.5d,
+	y: 6.0d,
+	text: [
+		"§lWith the RFTools Dimension Manual you can accomplish anything! It houses all information known to man about creating your own custom dimensions."
+	],
+	dependencies: [
+		"b90619c7"
+	],
+	tasks: [{
+		uid: "bb348b3b",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:rftoolsdim_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

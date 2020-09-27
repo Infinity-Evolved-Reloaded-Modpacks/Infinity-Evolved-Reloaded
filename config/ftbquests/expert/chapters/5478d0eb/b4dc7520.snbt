@@ -1,0 +1,40 @@
+{
+	title: "Tools of the Trade",
+	icon: "ic2:forge_hammer",
+	x: 13.375d,
+	y: -0.08333333333333337d,
+	text: [
+		"§lThese tools are rather inneficient but early-game methods of getting parts for machinery.",
+		"",
+		"§rThe Forge Hammer turns Ingots into Plates of the same kind. Used by crafting with Ingots, it loses durability rather fast. You're going to make a couple I'm sure.",
+		"",
+		"The Cutter turns Plates into Cable of the same kind. Like the Forge Hammer, it also loses durability on use."
+	],
+	dependencies: [
+		"a5332dd3",
+		"c5f5f0a7"
+	],
+	tasks: [{
+		uid: "b8ccf2b6",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b7e8608",
+		type: "item",
+		items: [{
+			item: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19b6b36e",
+		type: "item",
+		item: "ic2:resource 1 12"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "White Tulip",
+	icon: "minecraft:red_flower 1 6",
+	x: 1.5d,
+	y: 3.5d,
+	text: [
+		"§lWhite Tulips are a crossbreed between Daisies and Dandelions."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e48f0a64"
+	],
+	tasks: [{
+		uid: "db723f64",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "vanilla:white_tulip_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

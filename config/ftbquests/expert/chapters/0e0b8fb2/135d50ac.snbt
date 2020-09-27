@@ -1,0 +1,27 @@
+{
+	title: "Petals and Water",
+	icon: "botania:altar",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"§lThe Petal Apothecary is how most Botanical flowers are created.",
+		"",
+		"§rThe Petal Apothecary works same as allways, give it water and put the correct ingredients in, and then throw in Seeds. Interesting thing that many don't know, you can shift right click it with an empty hand while it's filled with water and you automatically put in the ingredients from the last thing you made."
+	],
+	dependencies: [
+		"600ba797"
+	],
+	tasks: [{
+		uid: "2757952a",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "72ad85f1",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 8
+	}]
+}

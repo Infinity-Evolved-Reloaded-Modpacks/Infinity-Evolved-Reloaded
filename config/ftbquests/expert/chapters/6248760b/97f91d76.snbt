@@ -1,0 +1,37 @@
+{
+	title: "Aresium",
+	icon: "ic2:nuclear 1 3",
+	x: 7.083333333333333d,
+	y: 4.916666666666667d,
+	text: [
+		"§lFuel Rods (Uranium Depleted) are the product of entirely using a Fuel Rod (Uranium). If you put it into a Thermal Centrifuge, you get a Tiny Pile of Plutonium, 4 Uranium 238, and Iron Dust. The Plutonium is what you want, it is very useful.",
+		"",
+		"§r§rOnce a Nuclear Reactor has been running for long enough, the Fuel Rods will become Depleted. Depleted Fuel Rods do not generate EU in the Reactor, and only serve to be put back into the Thermal Centrifuge.",
+		"",
+		"I personally recommend using the Replicator to get 9 Tiny Piles of Plutonium for now. Much quicker than waiting for 9 Fuel Rods (Uranium) to deplete. You get 1 Tiny Pile per Fuel Rod (Uranium Depleted), which takes 2.75 real life hours."
+	],
+	dependencies: [
+		"a239703e"
+	],
+	tasks: [{
+		uid: "ecce0ba5",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 11"
+		}]
+	},
+	{
+		uid: "d04b655f",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 7"
+		}]
+	},
+	{
+		uid: "a601a4f6",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 3"
+		}]
+	}]
+}

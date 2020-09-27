@@ -1,0 +1,30 @@
+{
+	title: "Mystical Purple Flower",
+	icon: "botania:flower 1 10",
+	x: 2.5d,
+	y: 9.5d,
+	text: [
+		"§lMystical Purple Flowers are a crossbreed between Mystical Magenta Flowers and Mystical Blue Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"543a1bf6",
+		"74eff66d"
+	],
+	tasks: [{
+		uid: "e39da92f",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:purple_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

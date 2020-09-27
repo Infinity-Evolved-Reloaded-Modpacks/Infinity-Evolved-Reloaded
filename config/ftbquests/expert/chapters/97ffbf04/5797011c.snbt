@@ -1,0 +1,21 @@
+{
+	title: "Alloys",
+	icon: "enderio:block_alloy_smelter",
+	x: 7.083333333333333d,
+	y: 6.333333333333333d,
+	text: [
+		"§lThe Alloy Smelter is one of the easiest ways to make alloys, like Signalum. These alloys are required for some of the more advanced machines. You can put a Double-Layer or Octadic Capacitor in it to make it faster and hold more RF.",
+		"",
+		"§rAn Alloy Smelter has 3 modes: Alloys only, Furnace only, and All Smelting."
+	],
+	dependencies: [
+		"5e4000c6"
+	],
+	tasks: [{
+		uid: "8046e991",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Baphomet",
+	icon: "bewitchment:caduceus",
+	x: 9.0d,
+	y: 1.1666666666666665d,
+	text: [
+		"The Doom Slayer would be pleased."
+	],
+	tasks: [{
+		uid: "48b0a780",
+		type: "kill",
+		entity: "bewitchment:baphomet",
+		value: 1L
+	}]
+}

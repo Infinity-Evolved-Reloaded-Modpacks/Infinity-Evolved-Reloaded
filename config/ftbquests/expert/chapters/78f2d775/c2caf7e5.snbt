@@ -1,0 +1,21 @@
+{
+	title: "Beans",
+	icon: "harvestcraft:beanitem",
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		"§lBeans are a crossbreed between Potatoes and Pumpkin."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a6e982",
+		"0ac38499"
+	],
+	tasks: [{
+		uid: "47031873",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanseeditem"
+		}]
+	}]
+}

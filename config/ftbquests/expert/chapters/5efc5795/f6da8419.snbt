@@ -1,0 +1,31 @@
+{
+	title: "Wazer Wifle",
+	icon: {
+		id: "ic2:mining_laser",
+		tag: {
+			charge: 300000.0d
+		}
+	},
+	x: 3.0d,
+	y: 7.0d,
+	text: [
+		"§lThe Mining Laser is a mining tool, that shoots lasers. Pretty straight forward. The Mining Laser has many modes: Mining, with normal beam and average power usage; Low-focus, with a very short beam range and low energy usage; Long-range, with a stronger beam that can penetrate more blocks and a higher energy usage; Scatter, shoots 25 beams in front of you, shotgun style, with an average power usage multiplied per beam; Explosive, beam explodes upon hitting a block, higher power usage; Horizontal, same as mining mode except the beam can only move horizontally; and Super-heat, where blocks drop what they regularly smelt into if possible (ie, if you shoot Iron Ore, it will drop an Iron Ingot). To change the mode, go into your conrols and find IC2 Mode Switch Key, and hold that and right click with the Mining Laser in your hand.",
+		"",
+		"§r"
+	],
+	dependencies: [
+		"74bd84ca"
+	],
+	tasks: [{
+		uid: "22e28898",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {
+				charge: 300000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
