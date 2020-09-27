@@ -110,4 +110,7 @@ recipes.addShaped(<thermalexpansion:frame:132>, [[<thermalfoundation:material:16
 #Resonant Cell Frame (Full)
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <thermalexpansion:frame:132>, <liquid:redstone> * 2000, 25000);
 
+#Draconic Block
+mods.thermalexpansion.Factorizer.removeRecipeCombine(<draconicevolution:draconium_ingot> * 9);
+
 print("Initialized 'ThermalExpansion.zs'");
