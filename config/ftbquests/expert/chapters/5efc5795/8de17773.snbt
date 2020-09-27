@@ -1,0 +1,20 @@
+{
+	title: "Railcraft Energy System",
+	x: 7.5d,
+	y: 10.0d,
+	text: [
+		"Railcraft adds its own Energy System in 1.12",
+		"You need to make a Transformer to convert FE/RF to Railcraft Power"
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "6a24f49c",
+		type: "item",
+		items: [{
+			item: "railcraft:flux_transformer"
+		}],
+		count: 8L
+	}]
+}
