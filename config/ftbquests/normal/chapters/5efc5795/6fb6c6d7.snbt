@@ -1,0 +1,31 @@
+{
+	title: "Drill From the Heavens",
+	icon: "industrialforegoing:laser_base",
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		"§lThe Laser Drill doesn't actually mine, per se. Instead, it essentially turns RF into ores. There are some slots that you can put colored Laser Focii to increase the chance of getting certain ores. Hit U on the Focii to see which ores they increase the chance of getting.",
+		"",
+		"§rThe RF does not go directly into the Laser Base. Instead it goes into the Laser Drill, which shoot into the Laser Base. Place up to 4 around the Laser Base with 1 empty block between so that the side with the hole is facing the Laser Base. Don't get into the beam, it stings!",
+		"",
+		"Place the Laser Base 1 block below the build limit, so you can place a chest on it to collect the materials. The higher you place it, the less RF it requires. The Laser Base must have either Void or Bedrock underneath it, nothing else. That means you must dig directly below it until it hits Bedrock, or place it somewhere that has access to the Void."
+	],
+	dependencies: [
+		"01c6f616",
+		"c45075d9"
+	],
+	tasks: [{
+		uid: "ce711f4c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	},
+	{
+		uid: "76dae61a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}]
+}

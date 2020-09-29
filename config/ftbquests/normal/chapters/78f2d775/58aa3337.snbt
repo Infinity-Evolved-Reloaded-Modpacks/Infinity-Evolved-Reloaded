@@ -1,0 +1,21 @@
+{
+	title: "Mustard Seed",
+	icon: "harvestcraft:mustardseedsitem",
+	x: 5.5d,
+	y: 8.5d,
+	text: [
+		"Mustard Seeds are a crossbreed between Chili Peppers and Beans."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"540bdbe8",
+		"c2caf7e5"
+	],
+	tasks: [{
+		uid: "8a549f7f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mustardseeditem"
+		}]
+	}]
+}

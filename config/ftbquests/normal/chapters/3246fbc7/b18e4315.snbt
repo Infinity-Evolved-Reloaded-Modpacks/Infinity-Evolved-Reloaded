@@ -1,0 +1,15 @@
+{
+	title: "Jump Around!",
+	icon: "minecraft:golden_boots",
+	x: 9.0d,
+	y: 5.833333333333333d,
+	text: [
+		"Jump up, jump up and get down!"
+	],
+	tasks: [{
+		uid: "10867b4c",
+		type: "stat",
+		stat: "stat.jump",
+		value: 1000000
+	}]
+}

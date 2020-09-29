@@ -1,0 +1,20 @@
+{
+	title: "Lettuce",
+	icon: "harvestcraft:lettuceitem",
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"§lLettuce is a crossbreed between Celery and Daisies."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e9d0a793"
+	],
+	tasks: [{
+		uid: "f5b03f5b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lettuceseeditem"
+		}]
+	}]
+}

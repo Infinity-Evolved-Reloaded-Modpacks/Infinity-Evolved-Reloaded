@@ -1,0 +1,30 @@
+{
+	title: "Mystical Green Flower",
+	icon: "botania:flower 1 13",
+	x: 1.5d,
+	y: 8.5d,
+	text: [
+		"§lMystical Green Flowers are a crossbreed between Mystical Blue Flowers and Mystical Yellow Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"74eff66d",
+		"4859967a"
+	],
+	tasks: [{
+		uid: "fb52f388",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:green_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "Who Needs Reactors?",
+	icon: {
+		id: "thermalexpansion:cell",
+		tag: {
+			Recv: 25000,
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 50000000,
+			Creative: 1b,
+			SideCache: [B;
+				2b,
+				2b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 4b,
+			Send: 25000
+		}
+	},
+	x: 7.0d,
+	y: 7.833333333333333d,
+	text: [
+		"§lThe Creative Energy Cell produces infinite RF up to 25 000 RF/t per side.",
+		"",
+		"§l§rNeeds to be crafted in the Dire Crafting Table."
+	],
+	dependencies: [
+		"b90619c7"
+	],
+	size: 1.4166666666666667d,
+	tasks: [{
+		uid: "c922e97d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 25000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 50000000,
+				Creative: 1b,
+				SideCache: [B;
+					2b,
+					2b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 4b,
+				Send: 25000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d493320",
+		type: "command",
+		command: "say @s obtained the Creative Power Cell. His Power Level is OVER 9000"
+	}]
+}

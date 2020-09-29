@@ -1,0 +1,48 @@
+{
+	title: "I'm Different!",
+	icon: {
+		id: "portalgun:item_portalgun",
+		tag: {
+			lastFired: 1b,
+			width: 1,
+			channelName: "Chell",
+			grabStrength: 4,
+			uuid: "Global",
+			username: "Global",
+			height: 2
+		}
+	},
+	x: 8.458333333333332d,
+	y: 6.958333333333333d,
+	text: [
+		"§lThe Portal Gun allows you to use your two mouse buttons to shoot two linked portals. Enter one, exit the other. ",
+		"§r",
+		"The regular Portal Gun is not specific to the player. If two people use the default Portal Gun, they would overwrite eachother's portals."
+	],
+	dependencies: [
+		"93c409bb"
+	],
+	tasks: [{
+		uid: "854e9ff7",
+		type: "item",
+		items: [{
+			id: "portalgun:item_portalgun",
+			tag: {
+				lastFired: 1b,
+				width: 1,
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				username: "Global",
+				height: 2
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3bf53a1",
+		type: "item",
+		item: "thaumcraft:turret",
+		count: 4
+	}]
+}

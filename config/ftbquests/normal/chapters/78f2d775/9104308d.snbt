@@ -1,0 +1,21 @@
+{
+	title: "Cabbage",
+	icon: "harvestcraft:cabbageitem",
+	x: 7.5d,
+	y: 5.5d,
+	text: [
+		"§lCabbage is a crossbreed between Broccoli and Lettuce."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d",
+		"8d6b2654"
+	],
+	tasks: [{
+		uid: "82156b76",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cabbageseeditem"
+		}]
+	}]
+}

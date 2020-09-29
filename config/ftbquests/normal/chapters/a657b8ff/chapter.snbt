@@ -1,0 +1,10 @@
+{
+	title: "Shashaying with Wyverns",
+	icon: "draconicevolution:wyvern_core",
+	description: [
+		"The end-all be-all of Expert Mode. This set is all about Draconic Evolution, and the things it unlocks."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

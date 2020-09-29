@@ -1,0 +1,18 @@
+{
+	title: "Chaos Guardian",
+	icon: "draconicevolution:chaos_shard",
+	x: 6.666666666666667d,
+	y: 2.5d,
+	text: [
+		"Ender Dragon++"
+	],
+	dependencies: [
+		"8d06270c"
+	],
+	tasks: [{
+		uid: "f3682531",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Radish",
+	icon: "harvestcraft:radishitem",
+	x: 5.5d,
+	y: 7.5d,
+	text: [
+		"§lRadishes are a crossbreed between Tomatoes and Brussel Sprouts."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"233bc8aa",
+		"610ac844"
+	],
+	tasks: [{
+		uid: "de7eea27",
+		type: "item",
+		items: [{
+			item: "harvestcraft:radishseeditem"
+		}]
+	}]
+}

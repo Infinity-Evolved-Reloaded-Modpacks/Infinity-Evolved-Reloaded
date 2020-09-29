@@ -17,37 +17,65 @@
 		"073d1f52"
 	],
 	tasks: [{
+<<<<<<< HEAD
+		uid: "e4d54381",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+=======
 		uid: "4a80d3e1",
 		type: "item",
 		items: [{
 			item: "draconicevolution:wyvern_helm 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "918d4a38",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+=======
 		uid: "9408bd2c",
 		type: "item",
 		items: [{
 			item: "draconicevolution:wyvern_chest 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "f01428dc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+=======
 		uid: "80906166",
 		type: "item",
 		items: [{
 			item: "draconicevolution:wyvern_legs 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "09a5ce70",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+=======
 		uid: "90ff8ac6",
 		type: "item",
 		items: [{
 			item: "draconicevolution:wyvern_boots 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

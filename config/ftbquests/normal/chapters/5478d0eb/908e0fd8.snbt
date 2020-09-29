@@ -1,0 +1,20 @@
+{
+	title: "Slower but Steadier",
+	icon: "railcraft:blast_furnace",
+	x: 14.916666666666666d,
+	y: 1.25d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"a5332dd3"
+	],
+	tasks: [{
+		uid: "c8f05d27",
+		type: "item",
+		items: [{
+			item: "railcraft:blast_furnace"
+		}],
+		count: 34L
+	}]
+}

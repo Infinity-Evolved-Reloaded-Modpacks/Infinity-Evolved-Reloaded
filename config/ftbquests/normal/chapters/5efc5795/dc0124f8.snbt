@@ -1,0 +1,77 @@
+{
+	title: "Solid to Fluid to Solid",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 8s
+	},
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"§lThe Magma Crucible and Fluid Transposer work together to make new materials. The Magma Crucible melts items into fluids and then the Magma Crucible applies those fluids to other items.",
+		"",
+		"§rPlace the item you wish to melt into the Magma Crucible and feed it RF to melt it. Any tier of Magma Crucible will work with the quest.",
+		"",
+		"The Fluid Transposer takes mixes fluids and items to make new things. Fluids can be pipes in through the blue side of the machine, so you can put it next to the Magma Crucible and set it up that way. Items go into the blue sides as well, and then it uses RF to combine them."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "f362a1d5",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "a61c8861",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	}]
+}

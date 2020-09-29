@@ -1,0 +1,39 @@
+{
+	title: "Fast and Steady",
+	icon: "immersiveengineering:stone_decoration 1 2",
+	x: 5.833333333333333d,
+	y: 3.4583333333333335d,
+	text: [
+		"§lThe Improved Blast Furnace is basically the same as the regular Blast Furnace, except you can automate it and speed it up.",
+		"",
+		"§rThe Improved Blast Furnace is a 3x3x3 of Reinforced Blast Bricks with a Hopper on top. Right-click the center side block with an Engineer's Hammer to form the multiblock. Input from the top, Steel is pulled from the front, and Slag is pulled from the back.",
+		"",
+		"You can also attatch 2 Blast Furnace Preheaters to use RF to speed up the process of making Steel. RF is pushed in from the top, and the Blast Furnace Preheaters are attatched at the sides of the Improved Blast Furnace."
+	],
+	dependencies: [
+		"29e7fd7a"
+	],
+	tasks: [{
+		uid: "180ee29e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 27 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "ea19513a",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	},
+	{
+		uid: "393958b5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 2"
+		}],
+		count: 2L
+	}]
+}

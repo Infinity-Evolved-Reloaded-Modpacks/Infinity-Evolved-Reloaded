@@ -1,0 +1,32 @@
+{
+	title: "Safari Zone",
+	icon: "industrialforegoing:mob_duplicator",
+	x: 12.5d,
+	y: 10.0d,
+	text: [
+		"§lThe Mob Duplicator uses RF and Mob Essence to spawn the mob inside of the Mob Imprisonment Tool.",
+		"",
+		"§rRight-click a mob with the Mob Imprisonment Tool to capture the mob and put it in the tool.",
+		"",
+		"The Exact Copy mode uses more RF and Mob Essence, but spawns an exact copy of the mob you caught. This means if you caught something with low health, the mobs spawned will have low health. If you caught a Wither Skeleton, Wither Skeletons will be spawned in the Overworld."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "8dd77cd6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fab88028",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}]
+}

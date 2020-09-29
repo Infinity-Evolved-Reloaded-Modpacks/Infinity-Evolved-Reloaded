@@ -1,0 +1,21 @@
+{
+	title: "Celery",
+	icon: "harvestcraft:celeryitem",
+	x: 9.5d,
+	y: 2.5d,
+	text: [
+		"§lCelery is a crossbreed between Wheat and Allium."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"703f1749",
+		"443d919a"
+	],
+	tasks: [{
+		uid: "a7f2f061",
+		type: "item",
+		items: [{
+			item: "harvestcraft:celeryseeditem"
+		}]
+	}]
+}

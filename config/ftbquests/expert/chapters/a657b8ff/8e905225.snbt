@@ -18,6 +18,12 @@
 		"788c47e7"
 	],
 	tasks: [{
+<<<<<<< HEAD
+		uid: "5fbba69e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+=======
 		uid: "e7a482d8",
 		type: "item",
 		items: [{
@@ -26,33 +32,55 @@
 				Energy: 16000000
 			},
 			Damage: 32767s
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "adf82212",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+=======
 		uid: "605c72ab",
 		type: "item",
 		items: [{
 			item: "draconicevolution:draconic_chest 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "5c4943be",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+=======
 		uid: "06ba65b6",
 		type: "item",
 		items: [{
 			item: "draconicevolution:draconic_legs 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
 	{
+<<<<<<< HEAD
+		uid: "15cd8b55",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+=======
 		uid: "9ba9abfb",
 		type: "item",
 		items: [{
 			item: "draconicevolution:draconic_boots 1 32767"
+>>>>>>> master
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

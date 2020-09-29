@@ -1,0 +1,21 @@
+{
+	title: "Seaweed",
+	icon: "harvestcraft:seaweeditem",
+	x: 11.5d,
+	y: 3.5d,
+	text: [
+		"§lSea Weeds are a crossbreed between Celery and Lettuce."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d",
+		"e9d0a793"
+	],
+	tasks: [{
+		uid: "657d3c1b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:seaweedseeditem"
+		}]
+	}]
+}

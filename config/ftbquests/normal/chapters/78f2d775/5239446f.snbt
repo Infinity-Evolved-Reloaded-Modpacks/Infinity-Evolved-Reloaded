@@ -1,0 +1,21 @@
+{
+	title: "Artichoke",
+	icon: "harvestcraft:artichokeitem",
+	x: 9.5d,
+	y: 5.5d,
+	text: [
+		"Artichokes are a crossbreed between Lettuce and Asparagus"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d",
+		"d3dba580"
+	],
+	tasks: [{
+		uid: "3ac7a544",
+		type: "item",
+		items: [{
+			item: "harvestcraft:artichokeseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Diggier Diggier Hole",
+	icon: {
+		id: "ic2:diamond_drill",
+		tag: {
+			charge: 30000.0d
+		}
+	},
+	x: 1.5d,
+	y: 8.5d,
+	text: [
+		"§lThe Diamond Drill works almost identically to the regular Mining Drill, except is faster and can mine Obsidian-level blocks.",
+		"",
+		"§rAgain, the Diamond Drill must be charged to use. The Diamond Drill uses more EU per block than the Mining Drill does."
+	],
+	dependencies: [
+		"c45075d9",
+		"74bd84ca"
+	],
+	tasks: [{
+		uid: "7186b7c1",
+		type: "item",
+		items: [{
+			id: "ic2:diamond_drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
