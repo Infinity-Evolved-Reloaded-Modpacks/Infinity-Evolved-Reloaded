@@ -1,0 +1,21 @@
+{
+	title: "Mass Storage",
+	icon: "storagedrawers:controller",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"§lThe Drawer Controller allows you to access every single connected Storage Drawer from sources like the Inventory Panel, ME Storage Bus, or just right clicking the controller with a hand to fill connected drawers.",
+		"",
+		"§rThe Drawer Controller doesn't have to be directly touching every Drawer, it just has to be touching one that is touching another that is touching another etc. So if you have a wall of Drawers, so long as the Controller is touching one of them, you can access them all from it."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "aa34c1f8",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}]
+}

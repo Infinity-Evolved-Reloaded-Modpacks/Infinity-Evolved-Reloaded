@@ -1,0 +1,19 @@
+{
+	title: "Wheat",
+	icon: "minecraft:wheat",
+	x: 5.5d,
+	y: 1.5d,
+	text: [
+		"§lWheat is not a byproduct of breeding.",
+		"",
+		"§rWheat grows on farmland."
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "0122c305",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

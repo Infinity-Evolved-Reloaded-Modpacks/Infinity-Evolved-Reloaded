@@ -1,0 +1,34 @@
+{
+	title: "Better Flying",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 11s
+	},
+	x: 10.0d,
+	y: 7.5d,
+	text: [
+		"§lThe next tier of TE jetpacks is the Hardened Jetpack. It's faster, and stores 3 000 000 RF, and uses 50 RF/t when flying.",
+		"",
+		"§rYou can craft armor plating to put on jetpacks! And you can remove it just as easy!"
+	],
+	dependencies: [
+		"9a373387"
+	],
+	tasks: [{
+		uid: "52061f57",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

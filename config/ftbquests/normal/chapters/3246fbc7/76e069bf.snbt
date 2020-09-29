@@ -1,0 +1,17 @@
+{
+	title: "Questing Ram",
+	icon: "twilightforest:trophy 1 8",
+	x: 1.0d,
+	y: 7.0d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "9bc37893",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

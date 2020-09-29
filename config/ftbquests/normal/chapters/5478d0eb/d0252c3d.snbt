@@ -1,0 +1,36 @@
+{
+	title: "Who Made Buckets So Hard?",
+	icon: "forestry:can",
+	x: 5.0d,
+	y: 6.0d,
+	text: [
+		"§lAs you may or may not have noticed, the recipe for Buckets has drastically changed. In the meanwhile, Lava can be moved to a Smeltery via the Can from Forestry! You can use it for other stuff too, I guess. They cannot place fluids in the world, however.",
+		"",
+		"§rCans can hold 1000mB. In layman's terms, that's one bucket."
+	],
+	dependencies: [
+		"138129ee"
+	],
+	tasks: [{
+		uid: "b39991c8",
+		type: "item",
+		items: [{
+			item: "forestry:can"
+		}]
+	}],
+	rewards: [{
+		uid: "850d1bb8",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

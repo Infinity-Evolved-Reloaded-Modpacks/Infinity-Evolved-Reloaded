@@ -1,0 +1,32 @@
+{
+	title: "Blood for the Blood God",
+	icon: "bloodmagic:altar",
+	x: 3.0d,
+	y: 7.0d,
+	text: [
+		"§lThe Blood Altar is probably the most important part of Blood Magic. This will eventually be a giant multiblock. At the largest tier, tier 6, it takes up a 23x23x9 space.",
+		"",
+		"§rI recommend checking the wiki and building the altar out of cobblestone, replacing it with what it actually needs as you get the blocks."
+	],
+	dependencies: [
+		"80276a06"
+	],
+	tasks: [{
+		uid: "eaa34a03",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "12f16adb",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		},
+		count: 3
+	}]
+}

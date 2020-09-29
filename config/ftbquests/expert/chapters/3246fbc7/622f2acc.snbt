@@ -1,0 +1,15 @@
+{
+	title: "Demolish the Hoard",
+	icon: "minecraft:skull 1 2",
+	x: 0.9166666666666667d,
+	y: 1.2083333333333335d,
+	text: [
+		"Kill ALL the Zombies"
+	],
+	tasks: [{
+		uid: "b027b559",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 100L
+	}]
+}

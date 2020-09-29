@@ -1,0 +1,21 @@
+{
+	title: "Chili Pepper",
+	icon: "harvestcraft:chilipepperitem",
+	x: 8.5d,
+	y: 7.5d,
+	text: [
+		"Chili Pepper are a crossbreed between Onion and Tomato."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5f023b07",
+		"233bc8aa"
+	],
+	tasks: [{
+		uid: "8084645c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:chilipepperseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Mystical Light Gray Flower",
+	icon: "botania:flower 1 8",
+	x: 3.5d,
+	y: 10.5d,
+	text: [
+		"§lMystical Light Gray Flowers are a crossbreed between Mystical Gray Flowers and Mystical White Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d4723874",
+		"ad8b91b9"
+	],
+	tasks: [{
+		uid: "d730e1ee",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:light_gray_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

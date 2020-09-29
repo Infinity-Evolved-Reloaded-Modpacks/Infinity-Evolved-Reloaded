@@ -1,0 +1,10 @@
+{
+	title: "Cut'N'Chop",
+	loot_size: 1,
+	rewards: [{
+		item: "enderio:item_dark_steel_shears"
+	},
+	{
+		item: "enderio:item_dark_steel_axe"
+	}]
+}

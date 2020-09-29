@@ -1,0 +1,32 @@
+{
+	title: "You're Gonna Get Splinters",
+	icon: "minecraft:log",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"Punching trees! Getting wood! Excitement!"
+	],
+	tasks: [{
+		uid: "7046c5d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "227aa31a",
+		type: "item",
+		item: "minecraft:stone_axe"
+	}]
+}

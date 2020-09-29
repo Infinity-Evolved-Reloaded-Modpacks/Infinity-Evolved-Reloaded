@@ -1,0 +1,32 @@
+{
+	title: "2^0 Portable Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 1s
+	},
+	x: 10.5d,
+	y: 0.5d,
+	text: [
+		"§r§lSimply Jetpacks also adds Capacitor Packs, which are worn as chestplates and charge your held items and armor.",
+		"",
+		"§rThe Basic Capacitor Pack hold 800 000 RF and can I/O at 800 RF/t."
+	],
+	dependencies: [
+		"b1f33e68"
+	],
+	tasks: [{
+		uid: "fe3ce3b0",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

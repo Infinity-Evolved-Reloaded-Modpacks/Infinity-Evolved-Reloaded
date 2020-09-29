@@ -1,0 +1,21 @@
+{
+	title: "Peas",
+	icon: "harvestcraft:peasitem",
+	x: 5.5d,
+	y: 6.5d,
+	text: [
+		"§lPeas are a crossbreed between Soybeans and Okra."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ac636c3b",
+		"2837171a"
+	],
+	tasks: [{
+		uid: "f6a4bfa2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:peasseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Cotton",
+	icon: "harvestcraft:cottonitem",
+	x: 6.5d,
+	y: 6.5d,
+	text: [
+		"§lBarley are a crossbreed between Barley and Soybean."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"221db939",
+		"ac636c3b"
+	],
+	tasks: [{
+		uid: "20667d71",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		}]
+	}]
+}

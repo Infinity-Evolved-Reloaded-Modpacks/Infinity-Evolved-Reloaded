@@ -1,0 +1,21 @@
+{
+	title: "Leek",
+	icon: "harvestcraft:leekitem",
+	x: 8.5d,
+	y: 3.5d,
+	text: [
+		"§lLeeks are a crossbreed between Scallions and Celery."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"638a4ee3",
+		"e9d0a793"
+	],
+	tasks: [{
+		uid: "864f39a6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:leekseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Portation",
+	icon: "rftools:matter_transmitter",
+	x: 8.25d,
+	y: 7.458333333333333d,
+	text: [
+		"§lThe RFTools Matter Transmitter and Matter Receiver are one of the easiest ways to go about teleporting.",
+		"",
+		"§r§rThese both require RF to run, and don't passively use any. You should definitely name these, and set them to private if you don't want people to be able to teleport into your base.",
+		"",
+		"The Dialing Device needs RF and needs to be nearby to a Matter Transmitter. The Dialing Device allows you to decide which Transmitter to send from, and which Reciever to send to. Basically, set where you are and where you want to go. This is why it's best to name the Matter Transmitter and Matter Receiver."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "419909d3",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}]
+	},
+	{
+		uid: "c6861062",
+		type: "item",
+		items: [{
+			item: "rftools:matter_receiver"
+		}]
+	},
+	{
+		uid: "3afa830e",
+		type: "item",
+		items: [{
+			item: "rftools:dialing_device"
+		}]
+	}]
+}

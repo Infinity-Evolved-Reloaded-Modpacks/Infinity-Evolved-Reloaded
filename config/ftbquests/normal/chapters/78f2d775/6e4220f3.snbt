@@ -1,0 +1,30 @@
+{
+	title: "Mystical Light Blue Flower",
+	icon: "botania:flower 1 3",
+	x: 1.5d,
+	y: 7.5d,
+	text: [
+		"§lMystical Light Blue Flowers are a crossbreed between Mystical White Flowers and Mystical Blue Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"74eff66d",
+		"ad8b91b9"
+	],
+	tasks: [{
+		uid: "549c3be8",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:light_blue_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

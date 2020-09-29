@@ -1,0 +1,21 @@
+{
+	title: "Cantaloupe",
+	icon: "harvestcraft:cantaloupeitem",
+	x: 8.5d,
+	y: 8.5d,
+	text: [
+		"§lCantaloupe is a crossbreed between Strawberries and Melon."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f3618c10",
+		"f9e9c7af"
+	],
+	tasks: [{
+		uid: "65edf236",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cantaloupeseeditem"
+		}]
+	}]
+}

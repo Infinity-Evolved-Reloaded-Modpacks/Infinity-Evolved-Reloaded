@@ -1,0 +1,21 @@
+{
+	title: "Winter Squash",
+	icon: "harvestcraft:wintersquashitem",
+	x: 9.5d,
+	y: 6.5d,
+	text: [
+		"§lWinter Squashes are a crossbreed between Pumpkin and Zucchini"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0ac38499",
+		"6192738c"
+	],
+	tasks: [{
+		uid: "2d414901",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wintersquashseeditem"
+		}]
+	}]
+}

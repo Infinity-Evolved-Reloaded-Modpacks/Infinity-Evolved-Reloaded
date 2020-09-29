@@ -1,0 +1,21 @@
+{
+	title: "Pineapple",
+	icon: "harvestcraft:pineappleitem",
+	x: 9.5d,
+	y: 9.5d,
+	text: [
+		"§lPrineapples are a crossbreed between Canteloupe and Bamboo Shoots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3b32437b",
+		"29bee704"
+	],
+	tasks: [{
+		uid: "8e94051b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pineappleseeditem"
+		}]
+	}]
+}

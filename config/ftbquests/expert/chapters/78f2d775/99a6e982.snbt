@@ -1,0 +1,26 @@
+{
+	title: "Potato",
+	icon: "minecraft:potato",
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"§lPotatoes have to be in seed form to plant on Crop Sticks.",
+		"",
+		"§rPotatoes grow on farmland."
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "9420f1fc",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "vanilla:potato_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

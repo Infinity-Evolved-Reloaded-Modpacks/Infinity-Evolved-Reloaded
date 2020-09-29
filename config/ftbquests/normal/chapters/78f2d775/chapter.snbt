@@ -1,0 +1,10 @@
+{
+	title: "Whole Foods",
+	icon: "minecraft:apple",
+	description: [
+		"These quests will walk you through the Agricraft seed breeding."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

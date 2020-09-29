@@ -1,0 +1,21 @@
+{
+	title: "Automated Automation",
+	icon: "superfactorymanager:manager",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"§lSuper Factory Manager is a 1.12 Port of Steve's Factory Manager. SFM allows for extremely precise and complex automation that pipes can't do. You can pull and push from specific slots of an inventory, interact with Redstone, change Signs, break and place blocks, and so much more with SFM.",
+		"",
+		"§rThe Machine Inventory Manager is the key to SFM. The Machine Inventory Manager alone can only interact with inventories it is directly touching, but with Inventory Cables you can extend it's reach. To explain how it works, let's automate Inscribers with it. Place the Inscriber and an inventory, like a chest, containing the parts required to make the circuits either touching the Machine Inventory Manager or an Inventory Cable leading to it, and then open the Machine Inventory Manager. All commands start with a Trigger, so make one and place it in the work area. Make an input command and attatch it to the Trigger. Set the inventory to the chest and set a whitelist for, for example, gold ingots. Make an output, connect it to the input, set it to the Inscriber, and set it to target the North, South, East, or West sides. Any of these, assuming that the Inscriber hasn't been rotated to be on it's side, will work to push items into or pull items out of the Inscriber. Create another input hooked to the last output and set it to target the N/S/E/W side of the Inscriber and whitelist Printed Logic Circuits, then connect another output on the chest, or barrels or wherever you want to output it. Using SFM, you can fully automate all the circuits by having one Inscriber per printed circuit type and another final one that combines them. For reference, the top side of the Inscriber puts items into the top slot, the bottom into the bottom slot, and the sides interact with the middle and output slots."
+	],
+	dependencies: [
+		"dc0124f8"
+	],
+	tasks: [{
+		uid: "2c28dfad",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}]
+	}]
+}

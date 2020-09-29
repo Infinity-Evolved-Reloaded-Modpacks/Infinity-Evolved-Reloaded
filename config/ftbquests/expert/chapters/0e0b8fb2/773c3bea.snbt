@@ -1,0 +1,56 @@
+{
+	title: "Life Through Flowers",
+	icon: "botania:pool",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"§lSome more of the mechanics added by Botania, mainly storing, moving, and using Mana.",
+		"",
+		"§rThe Pure Daisy turns Stone into Livingrock and logs into Livingwood. These are very useful for crafting, and look quite nice for building. You can automate it using SFM's Block Gates or AE2's Formation and Annihilation Planes, among other things.",
+		"",
+		"Mana Spreaders are how you move Mana. Put it down, shift right click a Wand of the Forest in Bind Mode first on the Mana Spreader and then on the Mana Pool. Mana generating flowers bound to the Mana Spreader put the Mana in there, and then the Mana Spreader puts it into the Mana Pool, or whatever else it's pointed at.",
+		"",
+		"The Mana Pool is arguably the most important thing made by Livingrock. It is used to store Mana, which many things from Botania use as energy. You can craft things with it by throwing the ingredient in.",
+		"",
+		"The Runic Altar is another of the crafting mechanics Botania offers. It requires you point a Mana Spreader at it, and then you throw all the ingredients onto it. Once it's done filling up with Mana, throw a Livingrock on it and right click it with a Wand of the Forest."
+	],
+	dependencies: [
+		"135d50ac"
+	],
+	tasks: [{
+		uid: "72bdcc0c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	},
+	{
+		uid: "e9dde519",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "1c3d7dc3",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "da5202d5",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "39d859f6",
+		type: "choice",
+		table: 3
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "New Quest",
+	icon: "twilightforest:trophy 1 4",
+	x: 5.0d,
+	y: 7.0d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"0deb5b2b"
+	],
+	tasks: [{
+		uid: "882ae0b1",
+		type: "kill",
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}]
+}

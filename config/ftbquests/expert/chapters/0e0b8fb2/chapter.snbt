@@ -1,0 +1,10 @@
+{
+	title: "Sufficiently Advanced Tech",
+	icon: "thaumcraft:arcane_workbench",
+	description: [
+		"...is indistinguishable from magic, or as the saying goes. This chapter will walk you through the progression the magic mods share."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

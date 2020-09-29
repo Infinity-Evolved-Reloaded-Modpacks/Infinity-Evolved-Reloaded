@@ -1,0 +1,72 @@
+{
+	title: "What's Up, Hotstuff?",
+	icon: "tconstruct:smeltery_controller",
+	x: 6.0d,
+	y: 4.166666666666666d,
+	text: [
+		"§lA Smeltery is an essential tool for the young Tinkerer. If you don't want to crawl along the bottom of rivers and swamps for clay and sand, you can often find smeltery parts in Villages. The Smeltery is fueled by Lava in the Seared Tank, and also doubles ore output. A good tool to make Pickaxe Heads out of is Bronze, an alloy of Copper and Tin at a 3:1 ratio.",
+		"",
+		"§rFor the average 3x3x1 interior Smeltery, you need a total of 104 Seared Bricks (the item). That amounts to 104 (64+40) Sand, Gravel, and Clay."
+	],
+	dependencies: [
+		"317d15c2"
+	],
+	tasks: [{
+		uid: "2f3991cc",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "635a61b8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "e9f1dbef",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "f9c5bb45",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "8c2c0ab6",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "b67c15f4",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 18 3"
+		}],
+		count: 18L
+	}],
+	rewards: [{
+		uid: "630d7f6a",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

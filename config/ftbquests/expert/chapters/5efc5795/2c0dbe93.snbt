@@ -1,0 +1,31 @@
+{
+	title: "That New Mine Smell",
+	icon: "aroma1997sdimension:miningmultitool",
+	x: 4.5d,
+	y: 8.5d,
+	text: [
+		"§lThe Mining Dimension is supposed to preserve the Overworld by providing a new dimension to put your quarries in. ",
+		"",
+		"§rThe Mining MultiTool acts as both a crafting component for the portal and the activator. Craft 6 Portal Frame blocks (that's the absolute minimum, 4 for the sides and 2 for the top and bottom. They can be any size, but this is the least you can do it with) and then build it in the world like you would a Nether Portal. Then, use the Mining MultiTool as you would use a Flint and Steel with the Nether Portal to activate it. To go through the portal, you have to sneak through it."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "c88a936e",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:miningmultitool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36a50b08",
+		type: "item",
+		items: [{
+			item: "aroma1997sdimension:portalframe 6"
+		}],
+		count: 6L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Ender Dragon",
+	icon: "minecraft:skull 1 5",
+	x: 6.666666666666667d,
+	y: 1.1666666666666665d,
+	text: [
+		"Already seen in Vanilla, now in HD."
+	],
+	tasks: [{
+		uid: "823b61cf",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}]
+}

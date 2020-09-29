@@ -152,7 +152,7 @@
 			}
 		},
 		"platinum": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -188,7 +188,7 @@
 			}
 		},
 		"aluminum": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {

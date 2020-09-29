@@ -1,0 +1,39 @@
+{
+	title: "The Wheels on the Bus",
+	icon: "appliedenergistics2:part 1 220",
+	x: 9.541666666666666d,
+	y: 6.375d,
+	text: [
+		"§lNo, not that kind of bus. These Busses are essentially ways to interact with things outside of the ME System. These all take a channel each.",
+		"",
+		"§rThe Import Bus pulls items from an inventory in front of it into the ME System it is connected to. For example, if you want to move all your items out of chests into your ME System, you would use a Dolly to move all your chests so that they're connected to an Import Bus, which will suck out all the items and put them into the System. You can set a whitelist on what to import by opening it and putting items into it. By default, the whitelist can only have 1. With 2 Capacity Cards, it can have 9.",
+		"",
+		"The Export Bus pushes items out of the ME System into the inventory it is facing. You have to open the Bus and put the items you want to push out into it. Without Capacity Cards, you only can export 1 item. With 2 Capacity Cards, you can export 9.",
+		"",
+		"The Storage Bus allows you to access inventories that are not a part of the ME system. If you place it facing, for instance, a Drawer Controller, you won't have to get rid of your entire wall of Drawers; instead, you'll be able to access them all from ME Terminals. This way, you won't waste precious Storage Cell space."
+	],
+	dependencies: [
+		"6fa311a6"
+	],
+	tasks: [{
+		uid: "ce36a826",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	},
+	{
+		uid: "d5db1e48",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	},
+	{
+		uid: "ee91f7f8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}]
+}

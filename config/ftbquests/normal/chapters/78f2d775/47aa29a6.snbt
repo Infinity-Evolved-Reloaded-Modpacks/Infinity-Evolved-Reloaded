@@ -1,0 +1,21 @@
+{
+	title: "Sweet Potato",
+	icon: "harvestcraft:sweetpotatoitem",
+	x: 6.5d,
+	y: 2.5d,
+	text: [
+		"§lSweet Potatoes are a crossbreed between Potatoes and Sugar Cane."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a6e982",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "df2132d9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sweetpotatoseeditem"
+		}]
+	}]
+}

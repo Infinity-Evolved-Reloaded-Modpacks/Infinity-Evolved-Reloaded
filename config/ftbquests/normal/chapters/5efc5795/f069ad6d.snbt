@@ -1,0 +1,36 @@
+{
+	title: "Iron Man",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 18s
+	},
+	x: 7.5d,
+	y: 4.5d,
+	text: [
+		"§lThe Flux-Infused JetPlate is the final tier of the Thermal Expansion path with Simply Jetpacks. It has the same armor rating as the regular Flux-Infused Chestplate, and works as a very fast jetpack.",
+		"",
+		"§rThe Flux-Infused JetPlace can store 50M RF."
+	],
+	dependencies: [
+		"b92f9451",
+		"68d2c4b8",
+		"ae8c330b"
+	],
+	tasks: [{
+		uid: "26888f21",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}]
+}

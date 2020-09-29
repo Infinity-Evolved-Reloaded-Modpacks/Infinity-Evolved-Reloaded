@@ -1,0 +1,15 @@
+{
+	title: "Wither",
+	icon: "minecraft:nether_star",
+	x: 7.833333333333333d,
+	y: 1.1666666666666665d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "aa564233",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	}]
+}
