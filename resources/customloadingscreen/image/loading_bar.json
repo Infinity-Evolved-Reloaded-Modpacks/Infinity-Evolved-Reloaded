@@ -1,0 +1,10 @@
+{
+    "parent": "sample/loading_bar_standard",
+    "texture": {
+      "y": "10 / 256.0"
+    },
+    "position": {
+        "x" : "-10",
+        "y": "85"
+    }
+  }

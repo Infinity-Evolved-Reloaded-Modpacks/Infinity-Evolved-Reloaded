@@ -1,0 +1,10 @@
+{
+    "parent":"sample/loading_bar_standard_percentage",
+    "texture": {
+      "y": "15 / 256.0"
+    },
+    "position": {
+        "x" : "(percentage * 91) - 101",
+        "y": "85"
+    }
+  }
