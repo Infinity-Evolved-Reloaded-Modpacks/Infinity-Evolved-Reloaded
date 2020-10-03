@@ -44,4 +44,7 @@ AssemblyTable.addRecipe("WoodToIronChestUpgrade", <ironchest:wood_iron_chest_upg
 AssemblyTable.addRecipe("WoodToCopperChestUpgrade", <ironchest:wood_copper_chest_upgrade>, 5000, [<thermalfoundation:material:320> * 8, <ore:plankWood>]);
 AssemblyTable.addRecipe("DiamondToObsidianChestUpgrade", <ironchest:diamond_obsidian_chest_upgrade>, 80000, [<minecraft:diamond>, <minecraft:obsidian> * 8]);
 
+#IridiumOre
+AssemblyTable.addRecipe("IridiumOre", <ic2:misc_resource:1>, 80000000, [<ic2:nuclear:4>, <ic2:nuclear:10>]);
+
 print("Initialized 'Buildcraft.zs'");
