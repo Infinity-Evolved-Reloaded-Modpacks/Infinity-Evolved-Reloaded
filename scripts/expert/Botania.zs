@@ -92,7 +92,7 @@ mods.botania.RuneAltar.addRecipe(<botania:rune:9>*2, [<ore:runeAirB>, <ore:runeS
 mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
 mods.botania.RuneAltar.addRecipe(<botania:rune:10>*2, [<ore:runeFireB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:11>*2, [<ore:runeWaterB>, <ore:runeSpringb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>*2, [<ore:runeWaterB>, <ore:runeSpringB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
 mods.botania.RuneAltar.addRecipe(<botania:rune:12>*2, [<ore:runeAirB>, <ore:runeAutumnB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
