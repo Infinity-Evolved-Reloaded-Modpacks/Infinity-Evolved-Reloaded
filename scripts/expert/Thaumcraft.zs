@@ -75,6 +75,10 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("JARLABEL", "WARDEDJARS", 1
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:jar_void>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("JARVOID", "WARDEDJARS@1", 1, [<aspect:perditio>*5, <aspect:aqua>*5], <thaumcraft:jar_void>, [[<ore:obsidian>], [<thaumcraft:jar_normal>], [<ore:bEnderAirBottle>]]);
 
+#Blank Label
+recipes.remove(<thaumcraft:label>);
+recipes.addShaped(<thaumcraft:label>, [[<ore:dyeBlack>, <ore:slimeball>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]]);
+
 # -Greatwood & Silverwood
 mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH", "",  1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_greatwood>*2, [<thaumcraft:log_greatwood>]);
 mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH",  "", 1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_silverwood>*2, [<thaumcraft:log_silverwood>]);
