@@ -2,6 +2,7 @@
 	"renders":[
 	"background",
 	"logo",
+	"loading_percentage_text",
 	"loading_bar",
 	"loading_bar_percentage",
 	"text_status_white"
