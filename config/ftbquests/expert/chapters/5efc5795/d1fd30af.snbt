@@ -1,0 +1,34 @@
+{
+	title: "Electrical Steel Jetpack",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 2s
+	},
+	x: 9.0d,
+	y: 1.5d,
+	text: [
+		"§lThe next tier of Ender IO jetpacks is the Electrical Steel Jetpack. It can store 400 000 RF and uses 50 RF/t to fly.",
+		"",
+		"§rEach tier of jetpack is faster than the last."
+	],
+	dependencies: [
+		"ccafe052"
+	],
+	tasks: [{
+		uid: "68027812",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

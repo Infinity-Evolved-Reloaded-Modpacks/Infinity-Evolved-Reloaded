@@ -1,0 +1,20 @@
+{
+	title: "Broccoli",
+	icon: "harvestcraft:broccoliitem",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		"§lBroccoli is a crossbreed between Daisies and Lettuce."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d"
+	],
+	tasks: [{
+		uid: "5bc78d2c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:broccoliseeditem"
+		}]
+	}]
+}

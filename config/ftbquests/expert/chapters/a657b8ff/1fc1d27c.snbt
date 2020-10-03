@@ -1,0 +1,43 @@
+{
+	title: "By Our Powers Combined!",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 27,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_staff_of_power",
+		tag: {
+			Energy: 48000000
+		}
+	},
+	x: 12.5d,
+	y: 5.166666666666667d,
+	text: [
+		"§lThe Draconic Staff of Power is the ultimate. It is a mixture of all of the other Draconic tools. It does the most damage, a whopping 60 damage (30 hearts), plus an additional 30% of the mob's health. It can be configured like the other tools.",
+		"",
+		"§r"
+	],
+	dependencies: [
+		"2254ec9d",
+		"f4c75432",
+		"1b09bb3b"
+	],
+	tasks: [{
+		uid: "807fb3c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power",
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

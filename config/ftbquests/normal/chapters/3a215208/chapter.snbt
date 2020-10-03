@@ -1,0 +1,10 @@
+{
+	title: "Matter to Energy",
+	icon: "chisel:futura 1 2",
+	description: [
+		"AE2, everyone's favorite inventory manager!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,32 @@
+{
+	title: "Barley",
+	icon: "natura:materials",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"§lBarley is a crossbreed between Wheat and Sugar Cane."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"703f1749",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "a1c0190b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "seedBarley",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any seedBarley"
+				}
+			}
+		}]
+	}]
+}

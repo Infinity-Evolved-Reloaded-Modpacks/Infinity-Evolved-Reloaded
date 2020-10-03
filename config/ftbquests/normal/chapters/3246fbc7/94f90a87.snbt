@@ -1,0 +1,15 @@
+{
+	title: "Shulker",
+	icon: "minecraft:shulker_shell",
+	x: 3.1666666666666665d,
+	y: 3.8333333333333335d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "fef3965e",
+		type: "kill",
+		entity: "minecraft:shulker",
+		value: 50L
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "New Quest",
+	icon: "twilightforest:meef_stroganoff",
+	x: 3.6666666666666665d,
+	y: 5.666666666666667d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"8c4649f3"
+	],
+	tasks: [{
+		uid: "f016da47",
+		type: "kill",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}]
+}

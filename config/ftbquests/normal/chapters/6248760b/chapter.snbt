@@ -1,0 +1,10 @@
+{
+	title: "Nucular Energy",
+	icon: "ic2:te 1 6",
+	description: [
+		"This set is focused on setting up an IC2 Nuclear Reactor"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

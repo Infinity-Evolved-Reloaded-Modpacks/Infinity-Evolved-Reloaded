@@ -1,0 +1,18 @@
+{
+	title: "Hydra",
+	icon: "twilightforest:trophy 1 2",
+	x: 5.0d,
+	y: 5.666666666666667d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"ff63b659"
+	],
+	tasks: [{
+		uid: "85a2f542",
+		type: "kill",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}]
+}

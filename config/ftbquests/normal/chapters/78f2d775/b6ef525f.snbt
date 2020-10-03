@@ -1,0 +1,21 @@
+{
+	title: "Parsnips",
+	icon: "harvestcraft:parsnipitem",
+	x: 11.5d,
+	y: 7.5d,
+	text: [
+		"§lParnsips are a crossbreed between Carrot and Beet"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6172939b",
+		"e1018af7"
+	],
+	tasks: [{
+		uid: "5a1c67fa",
+		type: "item",
+		items: [{
+			item: "harvestcraft:parsnipseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Moonshine and Sunshine",
+	icon: "bewitchment:distillery",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"The Distillery is yet another crafting mechanic from Witchery. It uses Altar Power to function, so it must be placed near an Altar with sufficient Altar Power."
+	],
+	dependencies: [
+		"80276a06"
+	],
+	tasks: [{
+		uid: "c819971a",
+		type: "item",
+		items: [{
+			item: {
+				item: {
+					item: {
+						item: {
+<<<<<<< HEAD
+							id: "witchery:distilleryidle",
+							Count: 1,
+							tag: 0,
+							Damage: 0
+=======
+							item: {
+								id: "witchery:distilleryidle",
+								Count: 1,
+								tag: 0,
+								Damage: 0
+							},
+							Count: 1b
+>>>>>>> master
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+<<<<<<< HEAD
+			},
+			Count: 1b
+=======
+			}
+>>>>>>> master
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

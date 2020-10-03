@@ -1,0 +1,58 @@
+{
+	title: "The Skyforge",
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				id: "minecraft:iron_block",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: 5.375d,
+	y: 1.375d,
+	text: [
+		"§lThe Tool Forge is required to make higher tier tools like the Hammer.",
+		"",
+		"§rMake a cast by pouring 2 ingots of either Gold or Alluminum Brass on a disposable Stone part of the Cast you want to make. To pour the material on a part, right click the part on the Casting Table and then activate the Faucet.",
+		"",
+		"The Tool Forge can replace your Tool Station. It allows you to make additional, cooler tools like the Hammer or the Scythe. Some of the new tools require metal parts."
+	],
+	dependencies: [
+		"29e7fd7a"
+	],
+	tasks: [{
+		uid: "a8acda89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "cast",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cast"
+				}
+			}
+		}]
+	},
+	{
+		uid: "2ad31b49",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 32767s
+		}]
+	}]
+}

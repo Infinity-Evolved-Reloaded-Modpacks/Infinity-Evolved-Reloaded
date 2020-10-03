@@ -1,0 +1,21 @@
+{
+	title: "Asparagus",
+	icon: "harvestcraft:asparagusitem",
+	x: 10.5d,
+	y: 4.5d,
+	text: [
+		"§lAsparaguses are a crossbreed between Scallion and Corn"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"638a4ee3",
+		"de1e535b"
+	],
+	tasks: [{
+		uid: "eabb6d8d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:asparagusseeditem"
+		}]
+	}]
+}

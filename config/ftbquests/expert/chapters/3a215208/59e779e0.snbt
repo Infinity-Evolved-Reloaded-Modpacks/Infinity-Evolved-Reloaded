@@ -1,0 +1,22 @@
+{
+	title: "So Many Channels, Nothing On",
+	icon: "chisel:futura 1 2",
+	x: 6.0d,
+	y: 1.5d,
+	text: [
+		"§lThe ME Controller gives you more channels to work with. Each side adds 8 or 32 channels. It can also accept energy and convert it to AE. It is a multiblock, and you can only have one per ME System. ",
+		"",
+		"§r§rThe ME Controller also accepts RF and EU to power the ME system, but that is one less side you can use channels with."
+	],
+	dependencies: [
+		"2dbd7881",
+		"1ad71c95"
+	],
+	tasks: [{
+		uid: "6d89ba57",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

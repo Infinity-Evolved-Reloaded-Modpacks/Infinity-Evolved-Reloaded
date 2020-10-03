@@ -1,0 +1,30 @@
+{
+	title: "Diggiest Diggiest Hole",
+	icon: {
+		id: "ic2:iridium_drill",
+		tag: {
+			charge: 300000.0d
+		}
+	},
+	x: 7.083333333333333d,
+	y: 7.833333333333333d,
+	text: [
+		"§lThe Iridium Drill is the highest-tier drill in IC2. It is faster than the Diamond Drill, but uses more EU.",
+		"",
+		"§rWhile holding the Mode Switch Key (see the controls options), you can right click with the Iridium Drill to toggle between Silk Touch and Fortune III on the drill."
+	],
+	dependencies: [
+		"4700f369"
+	],
+	tasks: [{
+		uid: "f72970e1",
+		type: "item",
+		items: [{
+			id: "ic2:iridium_drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

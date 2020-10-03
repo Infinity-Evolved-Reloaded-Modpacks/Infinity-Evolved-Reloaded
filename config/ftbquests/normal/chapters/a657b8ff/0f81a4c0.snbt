@@ -1,0 +1,31 @@
+{
+	title: "This Is Going To Be Easy!",
+	icon: "draconicevolution:draconic_core",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"§lThese Cores are the base ingredients for most recipes.",
+		"",
+		"§rThe Draconic Core is probably the easiest thing you will ever craft in Draconic Evolution.",
+		"",
+		"The Wyvern Core is 4 times the probable easiest thing you will make in Draconic Evolution, plus some other stuff."
+	],
+	dependencies: [
+		"d71fd1db",
+		"773c3bea"
+	],
+	tasks: [{
+		uid: "eecdb4bb",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	},
+	{
+		uid: "f899c39d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}]
+}

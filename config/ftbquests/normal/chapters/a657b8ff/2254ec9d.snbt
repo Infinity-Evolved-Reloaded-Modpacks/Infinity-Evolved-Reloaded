@@ -1,0 +1,27 @@
+{
+	title: "? Excalibur!?",
+	icon: {
+		id: "draconicevolution:draconic_sword",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 10.666666666666666d,
+	y: 6.166666666666667d,
+	text: [
+		"§lThe Draconic Sword is the second best pickaxe in the modpack. It works similar to the Sowrd of the Wyvern, but has extra modifiers and has larger maximums."
+	],
+	dependencies: [
+		"b90619c7",
+		"e7444433"
+	],
+	tasks: [{
+		uid: "296c3698",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_sword 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

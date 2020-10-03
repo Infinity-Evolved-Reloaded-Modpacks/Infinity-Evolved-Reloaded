@@ -1,0 +1,21 @@
+{
+	title: "Grape",
+	icon: "harvestcraft:grapeitem",
+	x: 5.5d,
+	y: 9.5d,
+	text: [
+		"§lGrape is a crossbreed between Blueberries and Cantaloupes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4bf8efcd",
+		"29bee704"
+	],
+	tasks: [{
+		uid: "d4bfcafe",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grapeseeditem"
+		}]
+	}]
+}

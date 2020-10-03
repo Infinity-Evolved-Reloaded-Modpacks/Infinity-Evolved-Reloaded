@@ -1,0 +1,13 @@
+{
+	title: "Suggestions",
+	x: 9.0d,
+	y: 7.0d,
+	text: [
+		"If you have any suggestions, regarding Challenges.",
+		"Then you can post it on our Discord Server!"
+	],
+	tasks: [{
+		uid: "1c275f36",
+		type: "checkmark"
+	}]
+}

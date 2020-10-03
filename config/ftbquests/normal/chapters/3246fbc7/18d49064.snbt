@@ -1,0 +1,15 @@
+{
+	title: "They're coming for his Head",
+	icon: "minecraft:skull 1 1",
+	x: 1.4166666666666665d,
+	y: 2.5416666666666665d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "46df03d5",
+		type: "kill",
+		entity: "minecraft:wither_skeleton",
+		value: 50L
+	}]
+}

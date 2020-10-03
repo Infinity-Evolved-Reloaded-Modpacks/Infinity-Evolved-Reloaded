@@ -1,0 +1,21 @@
+{
+	title: "Ginger",
+	icon: "harvestcraft:gingeritem",
+	x: 10.5d,
+	y: 8.5d,
+	text: [
+		"Gingers are a crossbreed between Mustard Seeds and Peanuts"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"58aa3337",
+		"941cca2f"
+	],
+	tasks: [{
+		uid: "739deb48",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gingerseeditem"
+		}]
+	}]
+}

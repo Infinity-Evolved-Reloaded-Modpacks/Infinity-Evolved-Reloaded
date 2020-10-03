@@ -1,0 +1,13 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	text: [
+		"Welcome to Infinity Evolved Reloaded! This questbook is designed to be used in the Expert Mode. If you want switch the packmode to expert, use the /packmode expert command."
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "39850a65",
+		type: "checkmark",
+		title: "Introduction"
+	}]
+}

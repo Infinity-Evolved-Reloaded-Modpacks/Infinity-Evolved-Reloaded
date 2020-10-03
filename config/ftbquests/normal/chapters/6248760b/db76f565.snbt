@@ -1,0 +1,27 @@
+{
+	title: "Lemme At 'Em!",
+	icon: "ic2:crafting 1 23",
+	x: 4.0d,
+	y: 2.6666666666666665d,
+	text: [
+		"§r§lScrap significantly speeds up the Mass Fabricator. Scrap Boxes do even more.",
+		"",
+		"§rPut anything into the Recycler, give it EU, and it has a 1 in 8 (12.5%) chance of turning into Scrap."
+	],
+	dependencies: [
+		"2b3514cb"
+	],
+	tasks: [{
+		uid: "26aa5f76",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 48"
+		}]
+	}],
+	rewards: [{
+		uid: "bbe1816a",
+		type: "item",
+		item: "ic2:crafting 1 24",
+		count: 16
+	}]
+}

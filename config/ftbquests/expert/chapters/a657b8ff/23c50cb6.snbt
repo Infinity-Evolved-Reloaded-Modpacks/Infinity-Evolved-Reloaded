@@ -1,0 +1,21 @@
+{
+	title: "Upgrading Your Machines",
+	icon: "rftools:machine_infuser",
+	x: 3.5d,
+	y: 5.333333333333333d,
+	text: [
+		"§lDimensional Shards only spawn in RFTools Dimensions. These Shards allow you to upgrade your machines. Hold Shift on a machine to see what Infusing the Shards into them will do.",
+		"",
+		"§rPut the Shards in the slot to the left and the machine into the slot to the right. It may take more than a stack to fully infuse a machine."
+	],
+	dependencies: [
+		"062d6004"
+	],
+	tasks: [{
+		uid: "ca63a159",
+		type: "item",
+		items: [{
+			item: "rftools:machine_infuser"
+		}]
+	}]
+}

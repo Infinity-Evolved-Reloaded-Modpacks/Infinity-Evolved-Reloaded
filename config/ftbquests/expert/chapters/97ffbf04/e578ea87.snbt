@@ -1,0 +1,21 @@
+{
+	title: "The \"The Vat\"",
+	icon: "enderio:block_vat",
+	x: 5.208333333333333d,
+	y: 6.333333333333333d,
+	text: [
+		"§lThe Vat is where you make certain fluids, like Nutrient Distillation or Rocket Fuel. Pipe the input fluid into it, give it the correct ingredients, and then pipe out the resultant fluid.",
+		"",
+		"§rRecipes can use several different ingredients in place of eachother, but they give different amounts of fluid."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "2b5e00d1",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Baking Bad",
+	icon: "immersiveengineering:stone_decoration",
+	x: 11.541666666666666d,
+	y: 1.0416666666666665d,
+	text: [
+		"§k§l§r§lThe Coke Oven is an important part of the modpack. The Coal Coke doesn't hurt either. It might be good to automate this fairly quickly, which can be done with just a hopper going in and one coming out, with some Cans or something similar to collect the Creosote.",
+		"",
+		"§rThe Immersive Engineering Coke Oven is a multiblock. It is a 3x3x3 cube of Coke Bricks. Right click on any of the center blocks with an Engineer's Hammer to form the multiblock."
+	],
+	tasks: [{
+		uid: "12046a2b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 27"
+		}],
+		count: 27L
+	},
+	{
+		uid: "dcb3e276",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6bc0a3e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "fuelCoke",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any fuelCoke"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d15fa361",
+		type: "choice",
+		table: 0
+	}]
+}

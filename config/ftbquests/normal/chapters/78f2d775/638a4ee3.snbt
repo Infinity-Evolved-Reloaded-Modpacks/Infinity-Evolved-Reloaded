@@ -1,0 +1,21 @@
+{
+	title: "Scallion",
+	icon: "harvestcraft:scallionitem",
+	x: 7.5d,
+	y: 2.5d,
+	text: [
+		"§lScallions are a crossbreed between Carrots and Sugarcane."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e1018af7",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "d6c486a0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:scallionseeditem"
+		}]
+	}]
+}

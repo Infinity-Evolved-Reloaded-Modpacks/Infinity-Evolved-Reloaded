@@ -1,0 +1,46 @@
+{
+	title: "Protecting Your Base",
+	icon: "ic2:resource 1 11",
+	x: 5.583333333333333d,
+	y: 1.25d,
+	text: [
+		"§lThe Nuclear Reactor is very... explodey. One of the best blocks to protect your base from meeting it's untimely demise is Reinforced Stone. A double layer of Reinforced Stone is best for completely neutralizing a Nuclear Reactor's explosion.",
+		"",
+		"§rCF Powder plus a bucket of water in a Fluid Canning Machine in Fluid Enriching mode makes a bucket of Construction Foam. A single CF Powder is good for 10 blocks of Reinforced Stone.",
+		"",
+		"To fill the CF Sprayer, place it into the top left slot of the Canning Machine while Construction Foam is in it.",
+		"",
+		"Place down the Iron Scaffolds in the configuration you want your Reinforced Stone to be in. Right click the blocks with the CF Sprayer, and wait for it to dry. You can also right click it with sand to instantly harden it."
+	],
+	dependencies: [
+		"86a85f09"
+	],
+	tasks: [{
+		uid: "fa968433",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 25"
+		}]
+	},
+	{
+		uid: "1b5cd0f2",
+		type: "item",
+		items: [{
+			item: "ic2:foam_sprayer"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ce145684",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "c8900956",
+		type: "item",
+		item: "ic2:resource 1 11",
+		count: 8
+	}]
+}

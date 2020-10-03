@@ -1,0 +1,30 @@
+{
+	title: "Miner's Friend",
+	icon: "enderstorage:ender_storage",
+	x: 4.625d,
+	y: 4.208333333333334d,
+	text: [
+		"§lAn Ender Chest / Ender Pouch combo is great for moving items from your inventory back to your base. For instance, while Mining, you can put Ores into the Pouch, and then have the Ores sucked out of the Ender Chest into your storage or processing.",
+		"",
+		"§rYou can right-click a diamond onto the chest jewel thing that pops out of the front to set it to your player. That way, a diamond white-white-white is different than the regular white-white-white. Shift-right-click the Ender Chest with the Ender Pouch to link to two."
+	],
+	dependencies: [
+		"5e4000c6"
+	],
+	tasks: [{
+		uid: "d12b8196",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	},
+	{
+		uid: "e768175b",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

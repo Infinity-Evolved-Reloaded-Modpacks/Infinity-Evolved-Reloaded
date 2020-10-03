@@ -1,0 +1,12 @@
+{
+	title: "Tools of the Trade",
+	loot_size: 1,
+	rewards: [{
+		item: "forestry:fertilizer_compound",
+		count: 127
+	},
+	{
+		item: "agricraft:crop_sticks",
+		count: 96
+	}]
+}

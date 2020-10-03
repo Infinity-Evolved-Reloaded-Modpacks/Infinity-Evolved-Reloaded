@@ -1,0 +1,27 @@
+{
+	title: "My Little Friend",
+	icon: {
+		id: "draconicevolution:draconic_bow",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 10.666666666666666d,
+	y: 3.1666666666666665d,
+	text: [
+		"§lThe Draconic Bow is the most powerful bow in the modpack. With this bow, you can machinegun fire arrows. You can configure how powerful the bow is in the GUI."
+	],
+	dependencies: [
+		"b90619c7",
+		"54c24e4f"
+	],
+	tasks: [{
+		uid: "4a9edb08",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

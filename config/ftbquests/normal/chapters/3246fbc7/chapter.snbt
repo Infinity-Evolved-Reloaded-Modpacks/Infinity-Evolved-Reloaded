@@ -1,0 +1,18 @@
+{
+	title: "Challenges",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 0s
+			}]
+		}
+	},
+	description: [
+		"Something to work for"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

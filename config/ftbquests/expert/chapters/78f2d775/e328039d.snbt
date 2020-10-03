@@ -1,0 +1,21 @@
+{
+	title: "Rice",
+	icon: "harvestcraft:riceitem",
+	x: 10.5d,
+	y: 3.5d,
+	text: [
+		"§lRice is a crossbreed between Rye and Sugar Cane."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b16a4a4",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "ce6e989e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:riceseeditem"
+		}]
+	}]
+}

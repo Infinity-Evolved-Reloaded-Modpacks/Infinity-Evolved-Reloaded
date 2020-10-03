@@ -1,0 +1,10 @@
+{
+	title: "It's Like a Whole New Game",
+	icon: "tconstruct:smeltery_controller",
+	description: [
+		"You gotta start somewhere! This set will teach you the ins and outs of the early game."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

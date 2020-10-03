@@ -1,0 +1,48 @@
+{
+	title: "Dimensional Box",
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {
+			internalMaxPower: 1600000.0d,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	x: 12.5d,
+	y: 5.5d,
+	text: [
+		"§lThe ME Wireless Access Point and Wireless Terminal allow you to wirelessly access your ME System's items.",
+		"",
+		"§rThe ME Wireless Access Point is the central location that you have to be nearby to in order to use the Wireless Terminal. You can extend the range with Wireless Boosters at the cost of more AE/t usage.",
+		"",
+		"The ME Security Terminal is how you bind your Wireless Terminal to the ME System. Place the Wireless Terminal in the top right and it will bind to that system.",
+		"",
+		"The Wireless Terminal is essentially an ME Access Terminal that you can hold."
+	],
+	dependencies: [
+		"6fa311a6"
+	],
+	tasks: [{
+		uid: "eb313d57",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "ce457f37",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	},
+	{
+		uid: "08fd0a6d",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

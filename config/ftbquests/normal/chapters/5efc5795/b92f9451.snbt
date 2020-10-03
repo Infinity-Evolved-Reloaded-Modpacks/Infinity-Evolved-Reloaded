@@ -1,0 +1,32 @@
+{
+	title: "Almost Best Flying",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 13s
+	},
+	x: 9.0d,
+	y: 5.5d,
+	text: [
+		"§lThe second-to-last tier of TE jetpack is the Resonant Jetpack. It's even faster, stores 25 000 000 RF, and uses 450 RF/t while flying."
+	],
+	dependencies: [
+		"87e33efc"
+	],
+	tasks: [{
+		uid: "57d31ca5",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}]
+}

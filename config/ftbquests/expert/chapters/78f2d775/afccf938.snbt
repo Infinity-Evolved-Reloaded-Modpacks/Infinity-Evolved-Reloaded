@@ -1,0 +1,21 @@
+{
+	title: "Turnip",
+	icon: "harvestcraft:turnipitem",
+	x: 9.5d,
+	y: 8.5d,
+	text: [
+		"Turnips are a crossbreed between Parsnip and Radish"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6ef525f",
+		"85bcdf64"
+	],
+	tasks: [{
+		uid: "1a547c9a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turnipseeditem"
+		}]
+	}]
+}

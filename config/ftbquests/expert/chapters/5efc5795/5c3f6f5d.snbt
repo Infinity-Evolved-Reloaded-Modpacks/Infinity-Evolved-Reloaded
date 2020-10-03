@@ -1,0 +1,65 @@
+{
+	title: "Excavatorium",
+	icon: "immersiveengineering:metal_device1 1 7",
+	x: 3.0d,
+	y: 10.0d,
+	text: [
+		"§lThe Excavator \"mines\" ores that are in Mineral Deposits. Mineral Deposits cannot be found in any way except for using a Core Sample Drill. Place the Core Sample Drill anywhere in the world, and power it. Mineral Deposits are per chunk, and as such you might have to explore quite a bit before you find a chunk with a Mineral Deposit.",
+		"",
+		"§rHit F3+G to see chunk borders. If the chunk you are in doesn't have an Ore Deposit, go one chunk over and repeat. An entire Ore Deposit has roughly a Diamond Chest or more's worth of ores.",
+		"",
+		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multblock."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "bf736df7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	},
+	{
+		uid: "dc36c504",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockSteel"
+				}
+			}
+		}]
+	},
+	{
+		uid: "dd600bdc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 9 4"
+		}],
+		count: 9L
+	},
+	{
+		uid: "8f21d629",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 13 5"
+		}],
+		count: 13L
+	},
+	{
+		uid: "cdb400f0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 23 1"
+		}],
+		count: 23L
+	}]
+}

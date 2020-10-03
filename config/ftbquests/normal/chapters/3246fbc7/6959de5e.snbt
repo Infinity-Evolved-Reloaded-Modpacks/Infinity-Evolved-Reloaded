@@ -1,0 +1,20 @@
+{
+	title: "He just looks just like you!",
+	icon: {
+		id: "botania:dice",
+		tag: {
+			soulbindUUID: "7227f6cb-bfe1-4c84-87a0-829fb17a9be9"
+		}
+	},
+	x: 10.166666666666666d,
+	y: 1.1666666666666665d,
+	text: [
+		"But he has the better Theme Song!"
+	],
+	tasks: [{
+		uid: "21f6a0cb",
+		type: "kill",
+		entity: "botania:doppleganger",
+		value: 1L
+	}]
+}

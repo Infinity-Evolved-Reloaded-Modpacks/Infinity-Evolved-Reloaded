@@ -1,0 +1,21 @@
+{
+	title: "Rye",
+	icon: "harvestcraft:ryeitem",
+	x: 11.5d,
+	y: 2.5d,
+	text: [
+		"§lRye is a crossbreed between Wheat and Barley."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"221db939",
+		"703f1749"
+	],
+	tasks: [{
+		uid: "51f77242",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ryeseeditem"
+		}]
+	}]
+}

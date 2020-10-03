@@ -1,0 +1,20 @@
+{
+	title: "Pretty Ghastly",
+	icon: {
+		id: "headcrumbs:skull",
+		tag: {
+			SkullModel: "ghast"
+		}
+	},
+	x: 3.75d,
+	y: 2.5416666666666665d,
+	text: [
+		"Big white flying squids, that shoot burning baseballs. Yeah..."
+	],
+	tasks: [{
+		uid: "1944e9e5",
+		type: "kill",
+		entity: "minecraft:ghast",
+		value: 20L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Pumpkin",
+	icon: "minecraft:pumpkin",
+	x: 11.5d,
+	y: 1.5d,
+	text: [
+		"§lPumpkin is a crossbreed between Potatoes and Carrots"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a6e982",
+		"e1018af7"
+	],
+	tasks: [{
+		uid: "e6a434f7",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	}]
+}

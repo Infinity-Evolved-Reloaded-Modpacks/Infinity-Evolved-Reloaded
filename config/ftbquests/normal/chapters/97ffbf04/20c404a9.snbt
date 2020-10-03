@@ -1,0 +1,27 @@
+{
+	title: "Squeeze!",
+	icon: "storagedrawers:compdrawers",
+	x: 9.541666666666666d,
+	y: 2.5833333333333335d,
+	text: [
+		"§lThe Compacting Drawer stores a block in 3 forms. For instance, if you put a Gold Ingot in it, you can pull out ingots, nuggets, or blocks, depending on how much you have. You can also use it to store Cobblestone, and it keeps it as regular Cobblestone, Compressed Cobblestone, and Double Compressed Cobblestone.",
+		"",
+		"§rThe Compacting Drawer's maximum storage is based on the highest denomination. That is, it can hold 16 stacks of Iron Blocks, for instance."
+	],
+	dependencies: [
+		"29e7fd7a"
+	],
+	tasks: [{
+		uid: "357cb2f9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "f1218b37",
+		type: "item",
+		item: "extrautils2:compressedcobblestone",
+		count: 32
+	}]
+}

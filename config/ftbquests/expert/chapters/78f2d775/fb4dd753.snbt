@@ -1,0 +1,21 @@
+{
+	title: "Coffee",
+	icon: "harvestcraft:coffeebeanitem",
+	x: 6.5d,
+	y: 3.5d,
+	text: [
+		"§lCoffee are a crossbreed between Beans and Sugarcanes"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c2caf7e5",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "c022a17b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:coffeeseeditem"
+		}]
+	}]
+}

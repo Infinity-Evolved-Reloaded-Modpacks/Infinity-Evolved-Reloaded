@@ -1,0 +1,32 @@
+{
+	title: "Stabbing the Earth",
+	icon: "botania:pylon 1 2",
+	x: 6.0d,
+	y: 8.5d,
+	text: [
+		"The Guardian of Gaia fight gives pretty good drops, which are used in certain crafting recipes. To make the Gaia Pylons, you need at least a Tier 5 Blood Altar."
+	],
+	dependencies: [
+		"b36038cf"
+	],
+	tasks: [{
+		uid: "355f2b3b",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "8acbc2db",
+		type: "item",
+		items: [{
+			item: "botania:pylon 4 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0e050510",
+		type: "choice",
+		table: 4
+	}]
+}

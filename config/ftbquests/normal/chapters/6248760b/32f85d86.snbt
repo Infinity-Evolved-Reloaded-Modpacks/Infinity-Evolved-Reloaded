@@ -1,0 +1,21 @@
+{
+	title: "Infinitely Slow Power",
+	icon: "ic2:te 1 6",
+	x: 8.416666666666668d,
+	y: 5.666666666666667d,
+	text: [
+		"§lThe Radioisotope Thermoelectric Generator is fueled by Pellets of RTG Fuel and makes EU. Pellets of RTG Fuel are fairly expensive to make, but they are not depleted or used up while making EU in this. However, at max speed with 6 Pellets of RTG Fuel inside of it, it generates only 32EU/t.",
+		"",
+		"§rWhat a mouthful."
+	],
+	dependencies: [
+		"93c409bb"
+	],
+	tasks: [{
+		uid: "79378835",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 6"
+		}]
+	}]
+}

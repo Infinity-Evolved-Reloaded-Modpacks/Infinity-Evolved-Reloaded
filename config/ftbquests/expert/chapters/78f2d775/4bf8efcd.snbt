@@ -1,0 +1,21 @@
+{
+	title: "Blueberry",
+	icon: "harvestcraft:blueberryitem",
+	x: 7.5d,
+	y: 8.5d,
+	text: [
+		"§lBlueberries are a crossbreed between Strawberries and Blue Orchids."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f9e9c7af",
+		"3d22cd69"
+	],
+	tasks: [{
+		uid: "6bbfee22",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blueberryseeditem"
+		}]
+	}]
+}

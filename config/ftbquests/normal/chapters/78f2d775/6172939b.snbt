@@ -1,0 +1,20 @@
+{
+	title: "Beet",
+	icon: "harvestcraft:beetitem",
+	x: 7.5d,
+	y: 7.5d,
+	text: [
+		"§lBeets are a crossbreed between Radishes and Carrots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"85bcdf64"
+	],
+	tasks: [{
+		uid: "285b1ddf",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beetseeditem"
+		}]
+	}]
+}

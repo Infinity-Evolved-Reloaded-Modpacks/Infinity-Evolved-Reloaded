@@ -1,0 +1,21 @@
+{
+	title: "Raspberry",
+	icon: "harvestcraft:raspberryitem",
+	x: 6.5d,
+	y: 8.5d,
+	text: [
+		"§lRaspberries are a crossbreed between Strawberries and Red Tulips."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f9e9c7af",
+		"906ac490"
+	],
+	tasks: [{
+		uid: "2fda2a0d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:raspberryseeditem"
+		}]
+	}]
+}

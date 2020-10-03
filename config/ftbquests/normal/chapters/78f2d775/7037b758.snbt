@@ -1,0 +1,21 @@
+{
+	title: "Rhubarb",
+	icon: "harvestcraft:rhubarbitem",
+	x: 7.5d,
+	y: 4.5d,
+	text: [
+		"§lRhubarbs are a crossbreed between Sugarcane and Lettuce"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d",
+		"2ed5ecb6"
+	],
+	tasks: [{
+		uid: "62dca196",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rhubarbseeditem"
+		}]
+	}]
+}

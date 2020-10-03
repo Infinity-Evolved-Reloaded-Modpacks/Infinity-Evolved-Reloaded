@@ -1,0 +1,32 @@
+{
+	title: "2^2 Portable Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 3s
+	},
+	x: 9.5d,
+	y: 2.5d,
+	text: [
+		"§lThe final tier of Capacitor Pack is the Quadruple-Layer Capacitor Pack. It stores 20 000 000 RF and can I/O at 20 000 RF/t.",
+		"",
+		"§rNaturally, higher tiers can have better armor attached."
+	],
+	dependencies: [
+		"16834e71"
+	],
+	tasks: [{
+		uid: "bfa429ad",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

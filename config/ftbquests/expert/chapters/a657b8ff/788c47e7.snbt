@@ -1,0 +1,83 @@
+{
+	title: "Wyverns Don't Have Arms",
+	icon: {
+		id: "draconicevolution:wyvern_chest",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	x: 8.833333333333334d,
+	y: 7.166666666666667d,
+	text: [
+		"§lWyvern armor some of the most powerful armor in Expert Mode. The Leggings and Boots of the Wyvern can be configured to let you run and jump faster and higher, and you can set it to only do so while sprinting.",
+		"",
+		"§rWhile the Wyvern armor has RF, it produces shield. This shield works as essentially extra health, a buffer before your actual health is damaged."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+<<<<<<< HEAD
+		uid: "e4d54381",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+=======
+		uid: "4a80d3e1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_helm 1 32767"
+>>>>>>> master
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+<<<<<<< HEAD
+		uid: "918d4a38",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+=======
+		uid: "9408bd2c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest 1 32767"
+>>>>>>> master
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+<<<<<<< HEAD
+		uid: "f01428dc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+=======
+		uid: "80906166",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs 1 32767"
+>>>>>>> master
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+<<<<<<< HEAD
+		uid: "09a5ce70",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+=======
+		uid: "90ff8ac6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots 1 32767"
+>>>>>>> master
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

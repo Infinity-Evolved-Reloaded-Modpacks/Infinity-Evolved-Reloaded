@@ -1,0 +1,18 @@
+{
+	title: "Snow Queen",
+	icon: "twilightforest:trophy 1 5",
+	x: 2.333333333333333d,
+	y: 7.0d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"62ecc31f"
+	],
+	tasks: [{
+		uid: "8c70f8b7",
+		type: "kill",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}]
+}

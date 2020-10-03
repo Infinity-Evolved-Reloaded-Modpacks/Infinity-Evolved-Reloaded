@@ -1,0 +1,21 @@
+{
+	title: "Zucchini",
+	icon: "harvestcraft:zucchiniitem",
+	x: 8.5d,
+	y: 5.5d,
+	text: [
+		"§lZucchinis are a crossbreed between Cucumber and Pumpkin"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0ac38499",
+		"dda51e5f"
+	],
+	tasks: [{
+		uid: "0c2e892d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:zucchiniseeditem"
+		}]
+	}]
+}

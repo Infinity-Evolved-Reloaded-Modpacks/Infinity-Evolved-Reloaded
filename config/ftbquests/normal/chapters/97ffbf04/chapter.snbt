@@ -1,0 +1,10 @@
+{
+	title: "Actually Better Than Iron",
+	icon: "immersiveengineering:metal 1 8",
+	description: [
+		"Now that we have a good source of steel, we can start to make the more complex machines!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

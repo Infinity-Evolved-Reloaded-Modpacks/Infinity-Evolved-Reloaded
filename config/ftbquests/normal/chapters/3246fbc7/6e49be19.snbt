@@ -1,0 +1,15 @@
+{
+	title: "Level up!",
+	icon: "minecraft:experience_bottle",
+	x: 9.0d,
+	y: 4.666666666666667d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "e13041a8",
+		type: "xp",
+		value: 1000L,
+		points: false
+	}]
+}

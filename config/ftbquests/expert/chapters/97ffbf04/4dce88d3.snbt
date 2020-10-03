@@ -1,0 +1,52 @@
+{
+	title: "Better-Than-Iron Man",
+	icon: "ic2:te 1 50",
+	x: 8.916666666666666d,
+	y: 1.3333333333333335d,
+	text: [
+		"§lThe IC2 path of getting Refined Iron, which also works as Steel, is a bit more involved. You need a ton of machines and infrastructure set up, but is faster once it's ready.",
+		"",
+		"§rFirst, you need the Compressor. Put Empty Cells into it to make Compressed Air Cells.",
+		"",
+		"The Blast Furnace does not use EU /or/ RF. It uses heat, which we will get using the Electric Heat Generator. EU comes into the Heat Generator from any side, except for the orange one, which is where heat comes out of. You need to have Coils in the Heat Generator as well. 2EU = 1hU. You cannot power the Electric Heat Generator directly through IE Wire Coils, you have to go through a BatBox (or any other IC2 storage) first.",
+		"",
+		"The orange side of the Blast Furnace accepts heat, so you should put it up against the Heat Generator. Place the Compressed Air into the bottom left slot, and put Iron ingots into the slot above it. It will start to heat up, and once heat is at 100%, then it will start converting the Iron and Compressed Air into Refined Iron and Slag."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "b8ffd495",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	},
+	{
+		uid: "f2fa4734",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2air",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "72aef7bf",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 12"
+		}]
+	},
+	{
+		uid: "6aad847d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	}]
+}

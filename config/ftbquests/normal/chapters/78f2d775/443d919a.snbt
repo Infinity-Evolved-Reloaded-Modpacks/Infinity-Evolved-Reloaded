@@ -1,0 +1,27 @@
+{
+	title: "Allium",
+	icon: "minecraft:red_flower 1 2",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"§lAllium is a crossbreed between Poppies and Blue Orchids."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3d22cd69"
+	],
+	tasks: [{
+		uid: "988874b0",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "vanilla:allium_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}
