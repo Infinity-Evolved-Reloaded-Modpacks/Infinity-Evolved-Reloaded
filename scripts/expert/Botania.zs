@@ -44,9 +44,9 @@ recipes.remove(<botania:sparkupgrade>);
 recipes.remove(<botania:sparkupgrade:1>);
 recipes.remove(<botania:sparkupgrade:2>);
 recipes.remove(<botania:sparkupgrade:3>);
-recipes.addShaped(<botania:sparkupgrade>, [[null, <ore:elvenPixieDust>, null ], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeWaterb>, null]]);
-recipes.addShaped(<botania:sparkupgrade:1>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeFireb>, null]]);
-recipes.addShaped(<botania:sparkupgrade:2>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeEarthb>, null]]);
+recipes.addShaped(<botania:sparkupgrade>, [[null, <ore:elvenPixieDust>, null ], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeWaterB>, null]]);
+recipes.addShaped(<botania:sparkupgrade:1>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeFireB>, null]]);
+recipes.addShaped(<botania:sparkupgrade:2>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeEarthB>, null]]);
 recipes.addShaped(<botania:sparkupgrade:3>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeAirb>, null]]);
 
 # -Pylons
@@ -66,41 +66,41 @@ recipes.addShaped(<botania:conjurationcatalyst>, [[<ore:livingrock>, <bewitchmen
 #runes
 # -Tier 1
 mods.botania.RuneAltar.removeRecipe(<botania:rune>);
-mods.botania.RuneAltar.addRecipe(<botania:rune>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:cropSugarcane>, <minecraft:fishing_rod>, <ore:shardWater>], 8500);
+mods.botania.RuneAltar.addRecipe(<botania:rune>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:sugarcane>, <minecraft:fishing_rod>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:nether_brick>, <ore:blockblaze>, <minecraft:nether_wart>, <ore:shardFire>], 8500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:nether_brick>, <ore:blockBlaze>, <minecraft:nether_wart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:2>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <ore:listAllmushroom>, <ore:shardEarth>], 8500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:2>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <ore:listAllmushroom>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:3>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:carpet>, <minecraft:feather>, <minecraft:string>, <ore:shardAir>], 8500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:3>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:carpet>, <minecraft:feather>, <minecraft:string>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:8>);
 mods.botania.RuneAltar.addRecipe(<botania:rune:8>, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:manaDiamond>, <ore:manaPearl>, <botania:quartz:1>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]})], 8500);
 
 # -Tier 2
 mods.botania.RuneAltar.removeRecipe(<botania:rune:4>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [<ore:runeWaterb>, <ore:runeFireb>, <bewitchment:juniper_sapling>, <bewitchment:elder_sapling>, <bewitchment:cypress_sapling>, <minecraft:wheat>, <bloodmagic:slate:2>], 4000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:4>, [<ore:runeWaterB>, <ore:runeFireB>, <bewitchment:juniper_sapling>, <bewitchment:elder_sapling>, <bewitchment:cypress_sapling>, <minecraft:wheat>, <bloodmagic:slate:2>], 4000);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:5>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:5>, [<ore:runeEarthb>, <ore:runeAirb>, <ore:sand>, <ore:sand>, <ore:slimeball>, <ore:cropMelon>, <bloodmagic:slate:2>], 4000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <ore:sand>, <ore:sand>, <ore:slimeball>, <ore:cropMelon>, <bloodmagic:slate:2>], 4000);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:6>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:6>, [<ore:runeFireb>, <ore:runeAirb>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>, <bloodmagic:slate:2>], 4000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>, <bloodmagic:slate:2>], 4000);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:7>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterb>, <ore:runeEarthb>, <ore:blockSnow>, <ore:blockSnow>, <ore:blockWool>, <minecraft:cake>, <bloodmagic:slate:2>], 4000);
+mods.botania.RuneAltar.addRecipe(<botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <ore:blockSnow>, <ore:blockSnow>, <ore:blockWool>, <minecraft:cake>, <bloodmagic:slate:2>], 4000);
 
 # -Tier 3
 mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:9>*2, [<ore:runeAirb>, <ore:runeSummerb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:9>*2, [<ore:runeAirB>, <ore:runeSummerB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:10>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:10>*2, [<ore:runeFireb>, <ore:runeWinterb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:10>*2, [<ore:runeFireB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:11>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:11>*2, [<ore:runeWaterb>, <ore:runeSpringb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:11>*2, [<ore:runeWaterB>, <ore:runeSpringb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:12>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:12>*2, [<ore:runeAirb>, <ore:runeAutumnb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:12>*2, [<ore:runeAirB>, <ore:runeAutumnB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:13>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:13>*2, [<ore:runeEarthb>, <ore:runeWinterb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:13>*2, [<ore:runeEarthB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:14>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:14>*2, [<ore:runeWaterb>, <ore:runeWinterb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:14>*2, [<ore:runeWaterB>, <ore:runeWinterB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:15>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:15>*2, [<ore:runeFireb>, <ore:runeSummerb>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:15>*2, [<ore:runeFireB>, <ore:runeSummerB>, <ore:manaDiamond>, <ore:manaDiamond>, <bloodmagic:slate:3>], 6500);
 
 #Equiptment
 # -Manaweave Armor
@@ -125,17 +125,17 @@ recipes.addShaped(<botania:manasteelboots>, [[<ore:ingotManasteel>, null, <ore:i
 
 # -Mana Tablet
 recipes.remove(<botania:manatablet:1000>);
-mods.botania.RuneAltar.addRecipe(<botania:manatablet>.withTag({mana: 500000}), [<thaumcraft:jar_normal>, <bloodmagic:slate:1>, <ore:runeAirb>, <ore:runeEarthb>, <ore:runeManab>, <ore:runeFireb>, <ore:runeWaterb>, <bloodmagic:slate:1>], 500000);
+mods.botania.RuneAltar.addRecipe(<botania:manatablet>.withTag({mana: 500000}), [<thaumcraft:jar_normal>, <bloodmagic:slate:1>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManab>, <ore:runeFireB>, <ore:runeWaterB>, <bloodmagic:slate:1>], 500000);
 
 # -Baubles
 recipes.remove(<botania:travelbelt>);
-recipes.addShaped(<botania:travelbelt>, [[<ore:runeEarthb>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, <thaumcraft:traveller_boots>, <harvestcraft:hardenedleatheritem>], [<ore:ingotManasteel>, <harvestcraft:hardenedleatheritem>, <ore:runeAirb>]]);
+recipes.addShaped(<botania:travelbelt>, [[<ore:runeEarthB>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, <thaumcraft:traveller_boots>, <harvestcraft:hardenedleatheritem>], [<ore:ingotManasteel>, <harvestcraft:hardenedleatheritem>, <ore:runeAirB>]]);
 recipes.remove(<botania:tinyplanet>);
 recipes.addShaped(<botania:tinyplanet>, [[<ore:livingrock>, <thaumcraft:stone_arcane>, <ore:livingrock>], [<thaumcraft:stone_arcane>, <ore:manaPearl>, <thaumcraft:stone_arcane>], [<ore:livingrock>, <thaumcraft:stone_arcane>, <ore:livingrock>]]);
 recipes.remove(<botania:icependant>);
-recipes.addShaped(<botania:icependant>, [[<ore:runeWinterb>, <ore:manaString>, null], [<ore:manaString>, null, <ore:manaString>], [<ore:ingotManasteel>, <ore:manaString>, <ore:runeWaterb>]]);
+recipes.addShaped(<botania:icependant>, [[<ore:runeWinterB>, <ore:manaString>, null], [<ore:manaString>, null, <ore:manaString>], [<ore:ingotManasteel>, <ore:manaString>, <ore:runeWaterB>]]);
 recipes.remove(<botania:knockbackbelt>);
-recipes.addShaped(<botania:knockbackbelt>, [[<ore:runeFireb>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>], [<ore:ingotManasteel>, <harvestcraft:hardenedleatheritem>, <ore:runeEarthb>]]);
+recipes.addShaped(<botania:knockbackbelt>, [[<ore:runeFireB>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>], [<ore:ingotManasteel>, <harvestcraft:hardenedleatheritem>, <ore:runeEarthB>]]);
 
 #Miscellaneous
 # -Great-/Silverwood Planks

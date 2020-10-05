@@ -41,18 +41,18 @@
 		}]
 	},
 	{
-		uid: "2ad31b49",
+		uid: "b2eb6473",
 		type: "item",
 		items: [{
 			id: "tconstruct:toolforge",
 			tag: {
 				textureBlock: {
-					id: "minecraft:iron_block",
+					id: "enderio:block_alloy",
 					Count: 1b,
 					Damage: 0s
 				}
-			},
-			Damage: 32767s
-		}]
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

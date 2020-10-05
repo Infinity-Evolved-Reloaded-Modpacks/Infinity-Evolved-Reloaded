@@ -12,9 +12,10 @@ recipes.addShaped(<bloodmagic:altar>, [[<bewitchment:stone_witches_altar>, <bota
 
 # -Blank Slate
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:stone>);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>, <thaumcraft:stone_arcane>, 1, 1000, 5, 5);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate>, <thaumcraft:stone_arcane>, 0, 1000, 5, 5);
 
 # -Reinforced Slate
+mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:slate>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:slate:1>, <bloodmagic:slate>, 1, 2500, 5, 5);
 
 # -Blood Stone Blocks
@@ -35,15 +36,15 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus:1>, <minecra
 
 # -Runes
 recipes.remove(<bloodmagic:blood_rune>);
-recipes.addShaped(<bloodmagic:blood_rune>, [[<minecraft:stone>, <bewitchment:waystone>, <minecraft:stone>], [<bloodmagic:slate>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"})), <bloodmagic:slate>], [<minecraft:stone>, <thaumcraft:crystal_essence>, <minecraft:stone>]]);
+recipes.addShaped(<bloodmagic:blood_rune>, [[<minecraft:stone>, <bewitchment:waystone>, <minecraft:stone>], [<bloodmagic:slate>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse(), <bloodmagic:slate>], [<minecraft:stone>, <thaumcraft:crystal_essence>, <minecraft:stone>]]);
 recipes.remove(<bloodmagic:blood_rune:6>);
-recipes.addShaped(<bloodmagic:blood_rune:6>, [[null, <bloodmagic:slate:1>], [<minecraft:bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <minecraft:bucket>], [<bloodmagic:blood_rune>, <minecraft:bucket>, <bloodmagic:blood_rune>]]);
+recipes.addShaped(<bloodmagic:blood_rune:6>, [[null, <bloodmagic:slate:1>], [<minecraft:bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <minecraft:bucket>], [<bloodmagic:blood_rune>, <minecraft:bucket>, <bloodmagic:blood_rune>]]);
 recipes.remove(<bloodmagic:blood_rune:1>);
-recipes.addShaped(<bloodmagic:blood_rune:1>, [[null, <bloodmagic:slate:1>], [<minecraft:sugar>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <minecraft:sugar>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
+recipes.addShaped(<bloodmagic:blood_rune:1>, [[null, <bloodmagic:slate:1>], [<minecraft:sugar>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <minecraft:sugar>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
 recipes.remove(<bloodmagic:blood_rune:4>);
-recipes.addShaped(<bloodmagic:blood_rune:4>, [[null, <bloodmagic:slate:1>], [<bloodmagic:dagger_of_sacrifice>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"})), <bloodmagic:dagger_of_sacrifice>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
+recipes.addShaped(<bloodmagic:blood_rune:4>, [[null, <bloodmagic:slate:1>], [<bloodmagic:dagger_of_sacrifice>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}).reuse(), <bloodmagic:dagger_of_sacrifice>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
 recipes.remove(<bloodmagic:blood_rune:3>);
-recipes.addShaped(<bloodmagic:blood_rune:3>, [[null, <bloodmagic:slate:2>], [<bloodmagic:dagger_of_sacrifice>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"})), <bloodmagic:dagger_of_sacrifice>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
+recipes.addShaped(<bloodmagic:blood_rune:3>, [[null, <bloodmagic:slate:2>], [<bloodmagic:dagger_of_sacrifice>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}).reuse(), <bloodmagic:dagger_of_sacrifice>], [<bloodmagic:blood_rune>, <thaumcraft:ingot>, <bloodmagic:blood_rune>]]);
 
 #Equiptment
 # -Dagger of Sacrifice
@@ -75,21 +76,21 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>, <botania:r
 
 # -Sigils
 recipes.remove(<bloodmagic:sigil_divination>);
-recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"})), <botania:managlass>]]);
+recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse()]]);
 recipes.remove(<bloodmagic:sigil_water>);
-recipes.addShaped(<bloodmagic:sigil_water>, [[<bloodmagic:component>, <bloodmagic:ritual_diviner:1>, <bloodmagic:component>], [<minecraft:water_bucket>, <bloodmagic:slate:2>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <bloodmagic:blood_orb>, <minecraft:water_bucket>]]);
+recipes.addShaped(<bloodmagic:sigil_water>, [[<bloodmagic:component>, <bloodmagic:ritual_diviner:1>, <bloodmagic:component>], [<minecraft:water_bucket>, <bloodmagic:slate:2>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <minecraft:water_bucket>]]);
 recipes.remove(<bloodmagic:sigil_lava>);
-recipes.addShaped(<bloodmagic:sigil_lava>, [[<bloodmagic:component:1>, <bloodmagic:lava_crystal>, <bloodmagic:component:1>], [<minecraft:lava_bucket>, <bloodmagic:slate:3>, <minecraft:lava_bucket>], [<minecraft:lava_bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"})), <minecraft:lava_bucket>]]);
+recipes.addShaped(<bloodmagic:sigil_lava>, [[<bloodmagic:component:1>, <bloodmagic:lava_crystal>, <bloodmagic:component:1>], [<minecraft:lava_bucket>, <bloodmagic:slate:3>, <minecraft:lava_bucket>], [<minecraft:lava_bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}).reuse()]]);
 recipes.remove(<bloodmagic:sigil_air>);
-recipes.addShaped(<bloodmagic:sigil_air>, [[<bloodmagic:component:2>, <botania:manaresource:15>, <bloodmagic:component:2>], [<bloodmagic:component:2>, <bloodmagic:slate:3>, <bloodmagic:component:2>], [<bloodmagic:component:2>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"})), <bloodmagic:component:2>]]);
+recipes.addShaped(<bloodmagic:sigil_air>, [[<bloodmagic:component:2>, <botania:manaresource:15>, <bloodmagic:component:2>], [<bloodmagic:component:2>, <bloodmagic:slate:3>, <bloodmagic:component:2>], [<bloodmagic:component:2>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}).reuse(), <bloodmagic:component:2>]]);
 recipes.remove(<bloodmagic:sigil_fast_miner>);
-recipes.addShaped(<bloodmagic:sigil_fast_miner>, [[<thaumcraft:stone_arcane>, <botania:manasteelpick>, <thaumcraft:stone_arcane>], [<botania:manasteelshovel>, <bloodmagic:slate:1>, <botania:manasteelaxe>], [<thaumcraft:stone_arcane>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <thaumcraft:stone_arcane>]]);
+recipes.addShaped(<bloodmagic:sigil_fast_miner>, [[<thaumcraft:stone_arcane>, <botania:manasteelpick>, <thaumcraft:stone_arcane>], [<botania:manasteelshovel>, <bloodmagic:slate:1>, <botania:manasteelaxe>], [<thaumcraft:stone_arcane>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <thaumcraft:stone_arcane>]]);
 recipes.remove(<bloodmagic:sigil_green_grove>);
-recipes.addShaped(<bloodmagic:sigil_green_grove>, [[<thaumcraft:sapling_greatwood>, <botania:grassseeds:8>, <bewitchment:dragons_blood_sapling>], [<botania:grassseeds:1>, <bloodmagic:slate:1>, <botania:grassseeds:8>], [<bewitchment:elder_sapling>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <thaumcraft:sapling_silverwood>]]);
+recipes.addShaped(<bloodmagic:sigil_green_grove>, [[<thaumcraft:sapling_greatwood>, <botania:grassseeds:8>, <bewitchment:dragons_blood_sapling>], [<botania:grassseeds:1>, <bloodmagic:slate:1>, <botania:grassseeds:8>], [<bewitchment:elder_sapling>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <thaumcraft:sapling_silverwood>]]);
 recipes.remove(<bloodmagic:sigil_void>);
-recipes.addShaped(<bloodmagic:sigil_void>, [[<ore:ingotVoid>, <ore:manaString>, <ore:ingotVoid>], [<minecraft:bucket>, <bloodmagic:slate:1>, <minecraft:bucket>], [<minecraft:bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <minecraft:bucket>]]);
+recipes.addShaped(<bloodmagic:sigil_void>, [[<ore:ingotVoid>, <ore:manaString>, <ore:ingotVoid>], [<minecraft:bucket>, <bloodmagic:slate:1>, <minecraft:bucket>], [<minecraft:bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <minecraft:bucket>]]);
 recipes.remove(<bloodmagic:sigil_seer>);
-recipes.addShaped(<bloodmagic:sigil_seer>, [[<botania:managlass>, <bewitchment:bottle_of_vampire_blood>, <botania:managlass>], [<botania:managlass>, <bloodmagic:sigil_divination>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).giveBack(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})), <botania:managlass>]]);
+recipes.addShaped(<bloodmagic:sigil_seer>, [[<botania:managlass>, <bewitchment:bottle_of_vampire_blood>, <botania:managlass>], [<botania:managlass>, <bloodmagic:sigil_divination>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}).reuse(), <botania:managlass>]]);
 
 # -Bound Tools
 mods.bloodmagic.AlchemyArray.removeRecipe(<bloodmagic:bound_sword>, <bloodmagic:component:8>);
