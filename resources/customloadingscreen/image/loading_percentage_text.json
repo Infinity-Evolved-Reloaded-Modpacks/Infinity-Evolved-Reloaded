@@ -1,7 +1,7 @@
 {
     "parent": "sample/text_percentage",
     "position": {
-      "x" : "100",
+      "x" : "95",
       "y": "85"
     },
     "colour": "0xFFFFFFFF"
