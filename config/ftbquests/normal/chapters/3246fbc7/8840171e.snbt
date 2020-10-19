@@ -4,7 +4,7 @@
 	x: 7.833333333333333d,
 	y: 4.666666666666667d,
 	text: [
-		"No Description"
+		"Make sure to use enough butter or it will be a bit dry."
 	],
 	dependencies: [
 		"cf0c2b28"

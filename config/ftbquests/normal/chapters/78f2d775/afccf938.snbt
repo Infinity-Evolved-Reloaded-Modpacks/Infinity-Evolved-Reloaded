@@ -4,7 +4,7 @@
 	x: 9.5d,
 	y: 8.5d,
 	text: [
-		"Turnips are a crossbreed between Parsnip and Radish"
+		"§lTurnips are a crossbreed between Parsnip and Radish"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

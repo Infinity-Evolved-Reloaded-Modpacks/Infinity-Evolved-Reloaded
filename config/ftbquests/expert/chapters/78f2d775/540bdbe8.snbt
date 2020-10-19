@@ -4,7 +4,7 @@
 	x: 8.5d,
 	y: 7.5d,
 	text: [
-		"Chili Pepper are a crossbreed between Onion and Tomato."
+		"§lChili Pepper are a crossbreed between Onion and Tomato."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

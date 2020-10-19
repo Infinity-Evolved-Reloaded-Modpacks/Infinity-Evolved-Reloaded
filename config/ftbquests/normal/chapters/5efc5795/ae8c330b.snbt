@@ -23,12 +23,12 @@
 		items: [{
 			id: "redstonearsenal:armor.helmet_flux",
 			tag: {
-				Energy: 800000
-			},
-			Damage: 32767s
+				Energy: 0
+			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: false
 	},
 	{
 		uid: "54f679dd",
@@ -36,9 +36,8 @@
 		items: [{
 			id: "redstonearsenal:armor.plate_flux",
 			tag: {
-				Energy: 800000
-			},
-			Damage: 32767s
+				Energy: 0
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -49,9 +48,8 @@
 		items: [{
 			id: "redstonearsenal:armor.legs_flux",
 			tag: {
-				Energy: 800000
-			},
-			Damage: 32767s
+				Energy: 0
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -62,9 +60,10 @@
 		items: [{
 			id: "redstonearsenal:armor.boots_flux",
 			tag: {
-				Energy: 800000
+				Energy: 0
 			}
 		}],
+		consume_items: false,
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}]

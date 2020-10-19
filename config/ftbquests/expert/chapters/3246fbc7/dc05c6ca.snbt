@@ -1,11 +1,8 @@
 {
-	title: "New Quest",
+	title: "Knight Phantom",
 	icon: "twilightforest:trophy 1 4",
 	x: 5.0d,
 	y: 7.0d,
-	text: [
-		"No Description"
-	],
 	dependencies: [
 		"0deb5b2b"
 	],

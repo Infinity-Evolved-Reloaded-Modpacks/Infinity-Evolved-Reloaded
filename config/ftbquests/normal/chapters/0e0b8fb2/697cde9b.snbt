@@ -10,27 +10,10 @@
 		"80276a06"
 	],
 	tasks: [{
-		uid: "c819971a",
+		uid: "69611169",
 		type: "item",
 		items: [{
-			item: {
-				item: {
-					item: {
-						item: {
-							id: "witchery:distilleryidle",
-							Count: 1,
-							tag: 0,
-							Damage: 0
-						},
-						Count: 1b
-					},
-					Count: 1b
-				},
-				Count: 1b
-			},
-			Count: 1b
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+			item: "bewitchment:distillery"
+		}]
 	}]
 }

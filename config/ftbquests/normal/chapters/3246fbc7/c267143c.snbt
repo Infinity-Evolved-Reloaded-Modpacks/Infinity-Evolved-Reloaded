@@ -4,7 +4,7 @@
 	x: 1.0d,
 	y: 5.666666666666667d,
 	text: [
-		"No Description"
+		""
 	],
 	tasks: [{
 		uid: "49736644",

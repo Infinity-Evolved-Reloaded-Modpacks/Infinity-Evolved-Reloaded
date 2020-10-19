@@ -3,9 +3,6 @@
 	icon: "twilightforest:trophy 1 8",
 	x: 1.0d,
 	y: 7.0d,
-	text: [
-		"No Description"
-	],
 	tasks: [{
 		uid: "9bc37893",
 		type: "item",

@@ -4,8 +4,8 @@
 	x: 1.4166666666666665d,
 	y: 0.9583333333333333d,
 	text: [
-		"§f§3§8§l§l§f§l§l§m§o§r§m§k§r§d§0§1§7§c§l§7§l§8§l§f§f§lRubber, made from a sticky goo. Obtained kinda like Maple Syrup.",
-		"§",
+		"",
+		"§lRubber, made from a sticky goo. Obtained kinda like Maple Syrup.",
 		"",
 		"§fRubber tree resin drops, when clicked with a Tree Tap drops Sticky Resin, which is smelted into Rubber"
 	],
