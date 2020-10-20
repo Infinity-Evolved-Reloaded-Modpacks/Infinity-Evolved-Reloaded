@@ -3,6 +3,7 @@
 	icon: "thermalfoundation:material 1 24",
 	x: 8.041666666666668d,
 	y: 4.166666666666666d,
+	shape: "square",
 	text: [
 		"§lGears can currently only be created using the Gear Cast and the metal the Gear is made of.",
 		"",

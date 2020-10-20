@@ -3,6 +3,7 @@
 	icon: "twilightforest:trophy 1 5",
 	x: 2.333333333333333d,
 	y: 7.0d,
+	shape: "rsquare",
 	dependencies: [
 		"62ecc31f"
 	],

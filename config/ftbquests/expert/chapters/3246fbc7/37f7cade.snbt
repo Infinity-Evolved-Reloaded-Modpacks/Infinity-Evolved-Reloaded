@@ -3,6 +3,7 @@
 	icon: "enderio:block_enderman_skull",
 	x: 2.041666666666667d,
 	y: 3.8333333333333335d,
+	shape: "square",
 	text: [
 		"Get those long boys"
 	],

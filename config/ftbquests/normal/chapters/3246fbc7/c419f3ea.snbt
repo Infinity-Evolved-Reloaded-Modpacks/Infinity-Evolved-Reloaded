@@ -3,6 +3,7 @@
 	icon: "minecraft:skull",
 	x: 2.083333333333333d,
 	y: 1.2083333333333335d,
+	shape: "square",
 	text: [
 		"Spooky Scary Skeletons"
 	],

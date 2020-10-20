@@ -3,6 +3,7 @@
 	icon: "immersiveengineering:stone_decoration",
 	x: 11.541666666666666d,
 	y: 1.0416666666666665d,
+	shape: "square",
 	text: [
 		"§k§l§r§lThe Coke Oven is an important part of the modpack. The Coal Coke doesn't hurt either. It might be good to automate this fairly quickly, which can be done with just a hopper going in and one coming out, with some Cans or something similar to collect the Creosote.",
 		"",

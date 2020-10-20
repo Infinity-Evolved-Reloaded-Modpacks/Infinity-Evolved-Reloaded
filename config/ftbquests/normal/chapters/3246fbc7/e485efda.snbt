@@ -3,6 +3,7 @@
 	icon: "minecraft:skull 1 4",
 	x: 3.25d,
 	y: 1.2083333333333335d,
+	shape: "square",
 	text: [
 		"BOOM BOOM BOOM I can't stop sing in this bloody TUNE TUNE TUNE"
 	],

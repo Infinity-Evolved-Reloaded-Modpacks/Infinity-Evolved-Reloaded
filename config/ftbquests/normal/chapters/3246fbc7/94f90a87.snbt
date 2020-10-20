@@ -3,6 +3,7 @@
 	icon: "minecraft:shulker_shell",
 	x: 3.1666666666666665d,
 	y: 3.8333333333333335d,
+	shape: "square",
 	text: [
 		""
 	],

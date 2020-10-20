@@ -3,6 +3,7 @@
 	icon: "minecraft:log",
 	x: 3.0d,
 	y: 1.0d,
+	shape: "square",
 	text: [
 		"Punching trees! Getting wood! Excitement!"
 	],

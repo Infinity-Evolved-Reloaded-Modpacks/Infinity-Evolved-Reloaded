@@ -9,6 +9,7 @@
 	},
 	x: 4.708333333333333d,
 	y: 3.6458333333333335d,
+	shape: "diamond",
 	text: [
 		"§lThe Creative Flux Capacitor gives infinite RF. You deserve it, man.",
 		"",

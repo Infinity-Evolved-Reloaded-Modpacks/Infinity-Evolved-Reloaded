@@ -1,8 +1,9 @@
 {
 	title: "Tools of the Trade",
 	icon: "agricraft:seed_analyzer",
-	x: 15.5d,
-	y: 1.5d,
+	x: 13.5d,
+	y: 4.0d,
+	shape: "square",
 	text: [
 		"§0§r§lAgricraft allows you to breed crops to make them better, or even create new crops!",
 		"",

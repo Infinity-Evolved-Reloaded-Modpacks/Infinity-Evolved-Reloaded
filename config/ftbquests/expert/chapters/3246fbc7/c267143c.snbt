@@ -3,6 +3,7 @@
 	icon: "twilightforest:miniature_structure 1 5",
 	x: 1.0d,
 	y: 5.666666666666667d,
+	shape: "rsquare",
 	text: [
 		""
 	],

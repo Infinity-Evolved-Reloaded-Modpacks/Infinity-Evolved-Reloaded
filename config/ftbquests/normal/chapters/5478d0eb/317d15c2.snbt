@@ -3,6 +3,7 @@
 	icon: "tconstruct:tooltables",
 	x: 4.083333333333334d,
 	y: 3.0833333333333335d,
+	shape: "square",
 	text: [
 		"§lVanilla tools above stone (aside from hoes) are useless except for crafting recipes. You want to use Tinkers' Construct mostly. However, without a Smeltery, you can only use flint or other non-metallic tools. These are the blocks required to make Tinkers' tools. Don't spend too much making these, as they will be made obsolete by metal tools once those are made available. These quests REQUIRE the oak planks variant to be completed.",
 		"",

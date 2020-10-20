@@ -10,6 +10,7 @@
 	},
 	x: 7.0d,
 	y: 9.895833333333332d,
+	shape: "diamond",
 	text: [
 		"§lThe Creative Portable Tank allows you to have an infinite amount of any single fluid. One of the three craftable creative items in this modpack.",
 		"",

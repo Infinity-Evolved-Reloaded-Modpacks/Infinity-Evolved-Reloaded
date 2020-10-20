@@ -3,6 +3,7 @@
 	icon: "harvestcraft:netherstartoastitem",
 	x: 7.833333333333333d,
 	y: 4.666666666666667d,
+	shape: "circle",
 	text: [
 		"Make sure to use enough butter or it will be a bit dry."
 	],
