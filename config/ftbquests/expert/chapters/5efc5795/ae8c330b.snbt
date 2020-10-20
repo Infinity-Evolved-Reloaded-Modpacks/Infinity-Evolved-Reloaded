@@ -27,7 +27,8 @@
 			}
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: false
 	},
 	{
 		uid: "54f679dd",
