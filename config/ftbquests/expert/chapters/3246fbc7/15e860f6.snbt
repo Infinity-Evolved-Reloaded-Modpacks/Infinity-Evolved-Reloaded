@@ -8,6 +8,7 @@
 	},
 	x: 3.75d,
 	y: 2.5416666666666665d,
+	shape: "square",
 	text: [
 		"Big white flying squids, that shoot burning baseballs. Yeah..."
 	],

@@ -3,6 +3,7 @@
 	icon: "minecraft:skull 1 1",
 	x: 1.4166666666666665d,
 	y: 2.5416666666666665d,
+	shape: "square",
 	text: [
 		""
 	],

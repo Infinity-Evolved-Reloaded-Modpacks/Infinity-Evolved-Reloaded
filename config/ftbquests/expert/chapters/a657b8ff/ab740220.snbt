@@ -1,8 +1,8 @@
 {
 	title: "Here to There",
 	icon: "draconicevolution:dislocator",
-	x: 5.0d,
-	y: 2.0d,
+	x: 5.321428571428584d,
+	y: 1.6636904761904745d,
 	text: [
 		"§lThe Dislocator allows you to teleport from anywhere in any dimension to a specific location for absolutely no cost. However, it can only have one location, and cannot be rebound. Shift right click to save the coords, dimension, and direction you are looking. Right click anywhere else to teleport there.",
 		"",

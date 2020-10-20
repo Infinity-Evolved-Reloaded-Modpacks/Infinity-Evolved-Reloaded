@@ -4,7 +4,7 @@
 	x: 10.5d,
 	y: 5.5d,
 	text: [
-		"Water Chestnuts are a crossbreed between Sesame and Seaweed"
+		"§lWater Chestnuts are a crossbreed between Sesame and Seaweed"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

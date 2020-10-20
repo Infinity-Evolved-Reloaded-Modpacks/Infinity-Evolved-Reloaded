@@ -1,11 +1,9 @@
 {
-	title: "New Quest",
+	title: "Minoshroom",
 	icon: "twilightforest:meef_stroganoff",
 	x: 3.6666666666666665d,
 	y: 5.666666666666667d,
-	text: [
-		"No Description"
-	],
+	shape: "rsquare",
 	dependencies: [
 		"8c4649f3"
 	],

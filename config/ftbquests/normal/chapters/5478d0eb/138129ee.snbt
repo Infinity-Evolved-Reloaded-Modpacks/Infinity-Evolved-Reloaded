@@ -3,6 +3,7 @@
 	icon: "tconstruct:smeltery_controller",
 	x: 6.0d,
 	y: 4.166666666666666d,
+	shape: "square",
 	text: [
 		"§lA Smeltery is an essential tool for the young Tinkerer. If you don't want to crawl along the bottom of rivers and swamps for clay and sand, you can often find smeltery parts in Villages. The Smeltery is fueled by Lava in the Seared Tank, and also doubles ore output. A good tool to make Pickaxe Heads out of is Bronze, an alloy of Copper and Tin at a 3:1 ratio.",
 		"",

@@ -3,6 +3,7 @@
 	icon: "headcrumbs:skull",
 	x: 2.5833333333333335d,
 	y: 2.5416666666666665d,
+	shape: "square",
 	text: [
 		"You know we had to bring this joke."
 	],

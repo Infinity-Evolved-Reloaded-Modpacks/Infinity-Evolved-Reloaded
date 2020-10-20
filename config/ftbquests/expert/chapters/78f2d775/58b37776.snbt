@@ -4,7 +4,7 @@
 	x: 9.5d,
 	y: 7.5d,
 	text: [
-		"Spice Leafs are a crossbreed between Tea and Chili Pepper"
+		"§lSpice Leafs are a crossbreed between Tea and Chili Pepper"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

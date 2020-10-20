@@ -4,7 +4,7 @@
 	x: 9.5d,
 	y: 10.5d,
 	text: [
-		"Cranberries are a crossbreed between Blueberries and Grapes."
+		"§lCranberries are a crossbreed between Blueberries and Grapes."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

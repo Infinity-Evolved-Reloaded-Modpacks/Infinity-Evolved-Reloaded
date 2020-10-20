@@ -22,6 +22,7 @@
 	},
 	x: 7.0d,
 	y: 7.833333333333333d,
+	shape: "diamond",
 	text: [
 		"§lThe Creative Energy Cell produces infinite RF up to 25 000 RF/t per side.",
 		"",

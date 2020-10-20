@@ -14,7 +14,7 @@
 	text: [
 		"§lUU-Matter is very useful. It allows you to turn EU into almost any item.",
 		"",
-		"§rThe Mass Fabricator uses 1 000 000 EU to make 1mB of UUM. When supplied with Scrap from a Recycler, it is much faster and efficient, needing only 166 666 EU and 34 Scrap per mB of UUM.",
+		"§rThe Matter Fabricator uses 1 000 000 EU to make 1mB of UUM. When supplied with Scrap from a Recycler, it is much faster and efficient, needing only 166 666 EU and 34 Scrap per mB of UUM.",
 		"",
 		"The Scanner breaks down an item or block and puts it's pattern into a Pattern Storage block touching it.",
 		"",
@@ -27,7 +27,7 @@
 		uid: "a10dcfd7",
 		type: "item",
 		items: [{
-			item: "ic2:te 1 92"
+			item: "ic2:te 1 61"
 		}]
 	},
 	{
@@ -50,5 +50,15 @@
 		items: [{
 			item: "ic2:te 1 63"
 		}]
+	},
+	{
+		uid: "cf1de418",
+		type: "item",
+		items: [{
+			id: "ic2:crystal_memory",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

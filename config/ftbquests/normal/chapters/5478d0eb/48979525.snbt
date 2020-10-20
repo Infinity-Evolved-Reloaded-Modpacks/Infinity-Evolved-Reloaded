@@ -3,6 +3,7 @@
 	icon: "appliedenergistics2:grindstone",
 	x: 10.5d,
 	y: 3.3333333333333335d,
+	shape: "square",
 	text: [
 		"§lThere are some recipes that reqire metal dusts instead of ingots. These dusts can be created using the Quartz Grindstone. Place the Grindstone, place the Crank on it, and hold right click on the Crank to, well, crank it. You can put metals or ores in the top left, and the dusts are put into the bottom right slots. A single ore turns into 2 dusts, which are smelted into an ingot each, so this can be used for early-game ore doubling.",
 		"",
