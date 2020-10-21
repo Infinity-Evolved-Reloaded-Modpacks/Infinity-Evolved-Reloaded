@@ -14686,39 +14686,6 @@
       "rewards:9": {}
     },
     "243:10": {
-      "questID:3": 243,
-      "preRequisites:11": [
-        242
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "244:10": {
       "questID:3": 244,
       "preRequisites:11": [],
       "properties:10": {
@@ -14880,160 +14847,7 @@
       },
       "rewards:9": {}
     },
-    "245:10": {
-      "questID:3": 245,
-      "preRequisites:11": [
-        262
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "twilightforest:trophy",
-            "Count:3": 1,
-            "Damage:2": 4,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "targetNBT:10": {
-            "HurtByTimestamp:3": 0,
-            "ForgeData:10": {},
-            "RelativeAABB:9": {
-              "0:6": -0.30000001192092896,
-              "1:6": 0.0,
-              "2:6": -0.30000001192092896,
-              "3:6": 1.199999988079071,
-              "4:6": 3.0,
-              "5:6": 1.199999988079071
-            },
-            "Attributes:9": {
-              "0:10": {
-                "Base:6": 35.0,
-                "Name:8": "generic.maxHealth"
-              },
-              "1:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.knockbackResistance"
-              },
-              "2:10": {
-                "Base:6": 0.699999988079071,
-                "Name:8": "generic.movementSpeed"
-              },
-              "3:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.armor"
-              },
-              "4:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.armorToughness"
-              },
-              "5:10": {
-                "Base:6": 1.0,
-                "Name:8": "forge.swimSpeed"
-              },
-              "6:10": {
-                "Base:6": 16.0,
-                "Name:8": "generic.followRange"
-              },
-              "7:10": {
-                "Base:6": 1.0,
-                "Name:8": "generic.attackDamage"
-              }
-            },
-            "TicksProgress:3": 0,
-            "Invulnerable:1": 0,
-            "FallFlying:1": 0,
-            "PortalCooldown:3": 0,
-            "AbsorptionAmount:5": 0.0,
-            "FallDistance:5": 0.0,
-            "DeathTime:2": 0,
-            "ForgeCaps:10": {
-              "tinkertoolleveling:entityxp:9": {},
-              "twilightforest:cap_shield:10": {
-                "permshields:3": 0,
-                "tempshields:3": 0
-              }
-            },
-            "HandDropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085
-            },
-            "PersistenceRequired:1": 0,
-            "id:8": "twilightforest:knight_phantom",
-            "Motion:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Leashed:1": 0,
-            "UUIDLeast:4": -8880239968025039246,
-            "Health:5": 35.0,
-            "LeftHanded:1": 0,
-            "Air:2": 300,
-            "OnGround:1": 0,
-            "Dimension:3": 7,
-            "Rotation:9": {
-              "0:5": 4.2090945,
-              "1:5": 0.0
-            },
-            "UpdateBlocked:1": 0,
-            "HandItems:9": {
-              "0:10": {},
-              "1:10": {}
-            },
-            "ArmorDropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085,
-              "2:5": 0.085,
-              "3:5": 0.085
-            },
-            "UUIDMost:4": 7262668046058471634,
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Fire:2": -1,
-            "ArmorItems:9": {
-              "0:10": {},
-              "1:10": {},
-              "2:10": {},
-              "3:10": {}
-            },
-            "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0,
-            "Formation:3": 0,
-            "MyNumber:3": 0
-          },
-          "damageType:8": "",
-          "required:3": 1,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "twilightforest:knight_phantom",
-          "subtypes:1": 1
-        }
-      },
-      "rewards:9": {}
-    },
-    "246:10": {
+    "244:10": {
       "questID:3": 246,
       "preRequisites:11": [
         70
@@ -15191,7 +15005,7 @@
       },
       "rewards:9": {}
     },
-    "247:10": {
+    "245:10": {
       "questID:3": 247,
       "preRequisites:11": [
         246
@@ -15352,7 +15166,7 @@
       },
       "rewards:9": {}
     },
-    "248:10": {
+    "246:10": {
       "questID:3": 248,
       "preRequisites:11": [],
       "properties:10": {
@@ -15507,7 +15321,7 @@
       },
       "rewards:9": {}
     },
-    "249:10": {
+    "247:10": {
       "questID:3": 249,
       "preRequisites:11": [],
       "properties:10": {
@@ -15652,7 +15466,7 @@
       },
       "rewards:9": {}
     },
-    "250:10": {
+    "248:10": {
       "questID:3": 250,
       "preRequisites:11": [
         249
@@ -15685,7 +15499,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "251:10": {
+    "249:10": {
       "questID:3": 251,
       "preRequisites:11": [],
       "properties:10": {
@@ -15841,7 +15655,7 @@
       },
       "rewards:9": {}
     },
-    "252:10": {
+    "250:10": {
       "questID:3": 252,
       "preRequisites:11": [],
       "properties:10": {
@@ -16002,7 +15816,7 @@
       },
       "rewards:9": {}
     },
-    "253:10": {
+    "251:10": {
       "questID:3": 253,
       "preRequisites:11": [],
       "properties:10": {
@@ -16161,7 +15975,7 @@
       },
       "rewards:9": {}
     },
-    "254:10": {
+    "252:10": {
       "questID:3": 254,
       "preRequisites:11": [],
       "properties:10": {
@@ -16317,7 +16131,7 @@
       },
       "rewards:9": {}
     },
-    "255:10": {
+    "253:10": {
       "questID:3": 255,
       "preRequisites:11": [],
       "properties:10": {
@@ -16473,7 +16287,7 @@
       },
       "rewards:9": {}
     },
-    "256:10": {
+    "254:10": {
       "questID:3": 256,
       "preRequisites:11": [],
       "properties:10": {
@@ -16630,7 +16444,7 @@
       },
       "rewards:9": {}
     },
-    "257:10": {
+    "255:10": {
       "questID:3": 257,
       "preRequisites:11": [],
       "properties:10": {
@@ -16778,7 +16592,7 @@
       },
       "rewards:9": {}
     },
-    "258:10": {
+    "256:10": {
       "questID:3": 258,
       "preRequisites:11": [],
       "properties:10": {
@@ -16937,91 +16751,7 @@
       },
       "rewards:9": {}
     },
-    "259:10": {
-      "questID:3": 259,
-      "preRequisites:11": [
-        144
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "draconicadditions:chaotic_chest",
-            "Count:3": 1,
-            "tag:10": {
-              "Energy:3": 16000000
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "draconicadditions:chaotic_helm",
-              "Count:3": 1,
-              "tag:10": {
-                "Energy:3": 16000000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "draconicadditions:chaotic_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "Energy:3": 16000000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "draconicadditions:chaotic_legs",
-              "Count:3": 1,
-              "tag:10": {
-                "Energy:3": 16000000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "draconicadditions:chaotic_boots",
-              "Count:3": 1,
-              "tag:10": {
-                "Energy:3": 16000000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "260:10": {
+    "257:10": {
       "questID:3": 260,
       "preRequisites:11": [
         155
@@ -17090,169 +16820,9 @@
       },
       "rewards:9": {}
     },
-    "261:10": {
-      "questID:3": 261,
-      "preRequisites:11": [
-        247
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "twilightforest:meef_stroganoff",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "targetNBT:10": {
-            "HurtByTimestamp:3": 0,
-            "ForgeData:10": {},
-            "RelativeAABB:9": {
-              "0:6": -0.30000001192092896,
-              "1:6": 0.0,
-              "2:6": -0.30000001192092896,
-              "3:6": 1.1899999976158142,
-              "4:6": 2.9000000953674316,
-              "5:6": 1.1899999976158142
-            },
-            "Attributes:9": {
-              "0:10": {
-                "Base:6": -2.0,
-                "Name:8": "tc.mobmod"
-              },
-              "1:10": {
-                "Base:6": 0.0,
-                "Name:8": "tc.mobmodtaint"
-              },
-              "2:10": {
-                "Base:6": 120.0,
-                "Name:8": "generic.maxHealth"
-              },
-              "3:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.knockbackResistance"
-              },
-              "4:10": {
-                "Base:6": 0.25,
-                "Name:8": "generic.movementSpeed"
-              },
-              "5:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.armor"
-              },
-              "6:10": {
-                "Base:6": 0.0,
-                "Name:8": "generic.armorToughness"
-              },
-              "7:10": {
-                "Base:6": 1.0,
-                "Name:8": "forge.swimSpeed"
-              },
-              "8:10": {
-                "Base:6": 16.0,
-                "Name:8": "generic.followRange"
-              },
-              "9:10": {
-                "Base:6": 2.0,
-                "Name:8": "generic.attackDamage"
-              }
-            },
-            "Invulnerable:1": 0,
-            "FallFlying:1": 0,
-            "PortalCooldown:3": 0,
-            "AbsorptionAmount:5": 0.0,
-            "FallDistance:5": 0.0,
-            "DeathTime:2": 0,
-            "ForgeCaps:10": {
-              "tinkertoolleveling:entityxp:9": {},
-              "twilightforest:cap_shield:10": {
-                "permshields:3": 0,
-                "tempshields:3": 0
-              }
-            },
-            "HandDropChances:9": {
-              "0:5": 1.1,
-              "1:5": 0.085
-            },
-            "PersistenceRequired:1": 0,
-            "id:8": "twilightforest:minoshroom",
-            "Motion:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Leashed:1": 0,
-            "UUIDLeast:4": -8069555036989038176,
-            "Health:5": 120.0,
-            "LeftHanded:1": 0,
-            "Air:2": 300,
-            "OnGround:1": 0,
-            "Dimension:3": 7,
-            "Rotation:9": {
-              "0:5": 1.6757456,
-              "1:5": 0.0
-            },
-            "UpdateBlocked:1": 0,
-            "HandItems:9": {
-              "0:10": {},
-              "1:10": {}
-            },
-            "ArmorDropChances:9": {
-              "0:5": 0.085,
-              "1:5": 0.085,
-              "2:5": 0.085,
-              "3:5": 0.085
-            },
-            "UUIDMost:4": 7728828817345498003,
-            "Pos:9": {
-              "0:6": 0.0,
-              "1:6": 0.0,
-              "2:6": 0.0
-            },
-            "Fire:2": -1,
-            "ArmorItems:9": {
-              "0:10": {},
-              "1:10": {},
-              "2:10": {},
-              "3:10": {}
-            },
-            "CanPickUpLoot:1": 0,
-            "HurtTime:2": 0
-          },
-          "damageType:8": "",
-          "required:3": 1,
-          "taskID:8": "bq_standard:hunt",
-          "target:8": "twilightforest:minoshroom",
-          "subtypes:1": 1
-        }
-      },
-      "rewards:9": {}
-    },
-    "262:10": {
+    "258:10": {
       "questID:3": 262,
-      "preRequisites:11": [
-        261
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -17396,11 +16966,9 @@
       },
       "rewards:9": {}
     },
-    "263:10": {
+    "259:10": {
       "questID:3": 263,
-      "preRequisites:11": [
-        245
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -17544,7 +17112,7 @@
       },
       "rewards:9": {}
     },
-    "264:10": {
+    "260:10": {
       "questID:3": 264,
       "preRequisites:11": [
         263
@@ -17702,7 +17270,7 @@
       },
       "rewards:9": {}
     },
-    "265:10": {
+    "261:10": {
       "questID:3": 265,
       "preRequisites:11": [
         70
@@ -17753,7 +17321,7 @@
       },
       "rewards:9": {}
     },
-    "266:10": {
+    "262:10": {
       "questID:3": 266,
       "preRequisites:11": [],
       "properties:10": {
@@ -17909,7 +17477,7 @@
       },
       "rewards:9": {}
     },
-    "267:10": {
+    "263:10": {
       "questID:3": 267,
       "preRequisites:11": [],
       "properties:10": {
@@ -18067,7 +17635,7 @@
       },
       "rewards:9": {}
     },
-    "268:10": {
+    "264:10": {
       "questID:3": 268,
       "preRequisites:11": [
         256
@@ -18118,7 +17686,7 @@
       },
       "rewards:9": {}
     },
-    "269:10": {
+    "265:10": {
       "questID:3": 269,
       "preRequisites:11": [],
       "properties:10": {
@@ -18157,7 +17725,7 @@
       },
       "rewards:9": {}
     },
-    "270:10": {
+    "266:10": {
       "questID:3": 270,
       "preRequisites:11": [],
       "properties:10": {
@@ -18182,192 +17750,6 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Don\u0027t Die",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "271:10": {
-      "questID:3": 271,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "272:10": {
-      "questID:3": 272,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "273:10": {
-      "questID:3": 273,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "274:10": {
-      "questID:3": 274,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "275:10": {
-      "questID:3": 275,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "276:10": {
-      "questID:3": 276,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 1,
-          "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
@@ -18642,13 +18024,6 @@
           "x:3": 300,
           "y:3": 38,
           "id:3": 242,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": 346,
-          "y:3": 18,
-          "id:3": 243,
           "sizeY:3": 24
         }
       },
@@ -19564,13 +18939,6 @@
         "25:10": {
           "sizeX:3": 24,
           "x:3": 332,
-          "y:3": 160,
-          "id:3": 259,
-          "sizeY:3": 24
-        },
-        "26:10": {
-          "sizeX:3": 24,
-          "x:3": 332,
           "y:3": 112,
           "id:3": 260,
           "sizeY:3": 24
@@ -20291,212 +19659,156 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 156,
-          "id:3": 245,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
           "x:3": 12,
           "y:3": 124,
           "id:3": 246,
           "sizeY:3": 24
         },
-        "3:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 44,
           "y:3": 124,
           "id:3": 247,
           "sizeY:3": 24
         },
-        "4:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 232,
           "y:3": 16,
           "id:3": 248,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 148,
           "y:3": 16,
           "id:3": 249,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 148,
           "y:3": 48,
           "id:3": 250,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 38,
           "y:3": 17,
           "id:3": 251,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 10,
           "y:3": 17,
           "id:3": 252,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 66,
           "y:3": 17,
           "id:3": 253,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 22,
           "y:3": 49,
           "id:3": 254,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 50,
           "y:3": 49,
           "id:3": 255,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 176,
           "y:3": 16,
           "id:3": 256,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 78,
           "y:3": 49,
           "id:3": 257,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 94,
           "y:3": 17,
           "id:3": 258,
           "sizeY:3": 24
         },
-        "15:10": {
-          "sizeX:3": 24,
-          "x:3": 76,
-          "y:3": 124,
-          "id:3": 261,
-          "sizeY:3": 24
-        },
-        "16:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 124,
           "id:3": 262,
           "sizeY:3": 24
         },
-        "17:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 76,
           "y:3": 156,
           "id:3": 263,
           "sizeY:3": 24
         },
-        "18:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 44,
           "y:3": 156,
           "id:3": 264,
           "sizeY:3": 24
         },
-        "19:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 156,
           "id:3": 265,
           "sizeY:3": 24
         },
-        "20:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 37,
           "y:3": 80,
           "id:3": 266,
           "sizeY:3": 24
         },
-        "21:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 64,
           "y:3": 80,
           "id:3": 267,
           "sizeY:3": 24
         },
-        "22:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 176,
           "y:3": 100,
           "id:3": 268,
           "sizeY:3": 24
         },
-        "23:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 100,
           "id:3": 269,
           "sizeY:3": 24
         },
-        "24:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 232,
           "y:3": 100,
           "id:3": 270,
-          "sizeY:3": 24
-        },
-        "25:10": {
-          "sizeX:3": 24,
-          "x:3": 176,
-          "y:3": 128,
-          "id:3": 271,
-          "sizeY:3": 24
-        },
-        "26:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 128,
-          "id:3": 272,
-          "sizeY:3": 24
-        },
-        "27:10": {
-          "sizeX:3": 24,
-          "x:3": 232,
-          "y:3": 128,
-          "id:3": 273,
-          "sizeY:3": 24
-        },
-        "28:10": {
-          "sizeX:3": 24,
-          "x:3": 176,
-          "y:3": 156,
-          "id:3": 274,
-          "sizeY:3": 24
-        },
-        "29:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 156,
-          "id:3": 275,
-          "sizeY:3": 24
-        },
-        "30:10": {
-          "sizeX:3": 24,
-          "x:3": 232,
-          "y:3": 156,
-          "id:3": 276,
           "sizeY:3": 24
         }
       },
@@ -20534,7 +19846,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "infinityevolvedreloaded:textures/gui/title_card.png",
       "party_enable:1": 1,
