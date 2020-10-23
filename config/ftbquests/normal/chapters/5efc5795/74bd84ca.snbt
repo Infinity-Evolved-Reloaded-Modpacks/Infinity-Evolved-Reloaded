@@ -4,7 +4,7 @@
 	x: 1.5d,
 	y: 7.0d,
 	text: [
-		"§lThe Compressor is a special machine that creates items needed in crafting recipes."
+		"The Compressor is a special machine that creates items needed in crafting recipes."
 	],
 	dependencies: [
 		"40f8677b"

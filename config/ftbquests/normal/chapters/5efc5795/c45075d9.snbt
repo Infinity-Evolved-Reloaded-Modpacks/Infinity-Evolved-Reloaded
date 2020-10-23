@@ -9,9 +9,9 @@
 	x: 1.5d,
 	y: 10.0d,
 	text: [
-		"§lThe Mining Drill is a relatively early-game, well, mining drill. You mine with it. The Mining Drill does not use durability, it uses EU. Charge it in a BatBox or something else that charges.",
+		"The Mining Drill is a relatively early-game, well, mining drill. You mine with it. The Mining Drill does not use durability, it uses EU. Charge it in a BatBox or something else that charges.",
 		"",
-		"§rThe Mining Drill can only mine whatever an Iron Pickaxe would be able to. You can right-click to place a torch if there is one anywhere in your inventory."
+		"The Mining Drill can only mine whatever an Iron Pickaxe would be able to. You can right-click to place a torch if there is one anywhere in your inventory."
 	],
 	dependencies: [
 		"40f8677b"

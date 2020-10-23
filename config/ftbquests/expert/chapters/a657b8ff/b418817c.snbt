@@ -4,8 +4,8 @@
 	x: 7.0d,
 	y: 3.5d,
 	text: [
-		"§lAwakened Draconium is the next and final tier of crafting §lmaterials.",
-		"§r",
+		"Awakened Draconium is the next and final tier of crafting §lmaterials.",
+		"",
 		"Look into JEI, for the recipe"
 	],
 	dependencies: [

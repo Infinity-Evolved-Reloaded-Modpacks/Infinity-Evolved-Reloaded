@@ -11,9 +11,9 @@
 	x: 9.5d,
 	y: 0.5d,
 	text: [
-		"§r§lThe Conductive Jetpack is the first tier of Ender IO jetpacks. It can store 80 000 RF and uses 32 RF/t to fly.",
+		"The Conductive Jetpack is the first tier of Ender IO jetpacks. It can store 80 000 RF and uses 32 RF/t to fly.",
 		"",
-		"§rYou can put armor on the jetpacks, to make them protect you as well as give utility."
+		"You can put armor on the jetpacks, to make them protect you as well as give utility."
 	],
 	dependencies: [
 		"b1f33e68"

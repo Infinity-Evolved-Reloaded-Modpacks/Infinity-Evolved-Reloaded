@@ -17,5 +17,11 @@
 		items: [{
 			item: "rftools:machine_infuser"
 		}]
+	}],
+	rewards: [{
+		uid: "b572b210",
+		type: "item",
+		item: "rftools:dimensional_shard",
+		count: 16
 	}]
 }

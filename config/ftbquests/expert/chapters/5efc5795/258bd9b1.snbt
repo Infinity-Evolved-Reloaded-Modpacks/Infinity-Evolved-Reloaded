@@ -11,9 +11,9 @@
 	x: 8.5d,
 	y: 4.5d,
 	text: [
-		"§lThe Dark Soularium JetPlate is the final tier of the Ender IO path of Simply Jetpacks. While it doesn't use one, it has the same armor rating as a Dark Plate, and works as a very fast jetpack.",
+		"The Dark Soularium JetPlate is the final tier of the Ender IO path of Simply Jetpacks. While it doesn't use one, it has the same armor rating as a Dark Plate, and works as a very fast jetpack.",
 		"",
-		"§rThe Dark Soularium JetPlate can store 60M RF."
+		"The Dark Soularium JetPlate can store 60M RF."
 	],
 	dependencies: [
 		"f7c7c653",

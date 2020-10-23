@@ -1,8 +1,8 @@
 {
 	title: "ME Conduits",
 	icon: "enderio:item_me_conduit",
-	x: 4.0d,
-	y: 6.5d,
+	x: 4.5d,
+	y: 6.0d,
 	text: [
 		"§lThese Conduits can fit in the same block as other Ender IO Conduits. They cannot connect to Busses or Panels.",
 		"",

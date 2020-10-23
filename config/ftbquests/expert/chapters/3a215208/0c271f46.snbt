@@ -1,8 +1,8 @@
 {
 	title: "Autocrafting",
 	icon: "appliedenergistics2:crafting_accelerator",
-	x: 4.0d,
-	y: 3.5d,
+	x: 4.5d,
+	y: 3.0d,
 	text: [
 		"§lAE2's probably best feature is Autocrafting. This allows you to automatically craft whatever you define, which saves a surprising amount of time.",
 		"",
@@ -48,5 +48,10 @@
 		items: [{
 			item: "appliedenergistics2:interface"
 		}]
+	}],
+	rewards: [{
+		uid: "1e9651ce",
+		type: "item",
+		item: "appliedenergistics2:molecular_assembler"
 	}]
 }

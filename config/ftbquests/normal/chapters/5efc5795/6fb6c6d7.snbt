@@ -27,5 +27,10 @@
 		items: [{
 			item: "industrialforegoing:laser_base"
 		}]
+	}],
+	rewards: [{
+		uid: "fb8b6522",
+		type: "item",
+		item: "industrialforegoing:laser_drill"
 	}]
 }

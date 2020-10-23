@@ -17,5 +17,10 @@
 		items: [{
 			item: "enderio:block_soul_binder"
 		}]
+	}],
+	rewards: [{
+		uid: "94403183",
+		type: "item",
+		item: "enderio:item_soul_vial"
 	}]
 }

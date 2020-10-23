@@ -4,9 +4,9 @@
 	x: 12.0d,
 	y: 9.0d,
 	text: [
-		"§lThe Mob Crusher instantly kills regular mobs like Creepers, Skeletons, Zombies, and Wither Skeletons. It uses RF to run, and each mob kill produces some Mob Essence.",
+		"The Mob Crusher instantly kills regular mobs like Creepers, Skeletons, Zombies, and Wither Skeletons. It uses RF to run, and each mob kill produces some Mob Essence.",
 		"",
-		"§rIf you put a pipe or inventory on the back of the Mob Crusher, then the items are put in there. The Mob Crusher has a range of 1x3x1, which can be expanded with Range Addons."
+		"If you put a pipe or inventory on the back of the Mob Crusher, then the items are put in there. The Mob Crusher has a range of 1x3x1, which can be expanded with Range Addons."
 	],
 	dependencies: [
 		"40f8677b"

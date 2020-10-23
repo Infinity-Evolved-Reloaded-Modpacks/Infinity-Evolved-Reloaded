@@ -10,9 +10,9 @@
 	x: 8.5d,
 	y: 6.5d,
 	text: [
-		"§lThe final tier of Flux Pack is the Resonant Flux Pack. It can store 40 000 000 RF, and can input/output at 20 000 RF/t.",
+		"The final tier of Flux Pack is the Resonant Flux Pack. It can store 40 000 000 RF, and can input/output at 20 000 RF/t.",
 		"",
-		"§rNaturally, the higher tiers can have better armor applied to them."
+		"Naturally, the higher tiers can have better armor applied to them."
 	],
 	dependencies: [
 		"8dfb2528"

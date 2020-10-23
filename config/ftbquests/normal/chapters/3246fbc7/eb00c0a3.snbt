@@ -9,5 +9,10 @@
 	tasks: [{
 		uid: "1c275f36",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b6e6454c",
+		type: "item",
+		item: "minecraft:cookie"
 	}]
 }

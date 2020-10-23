@@ -1,8 +1,8 @@
 {
 	title: "Made Out of Buttons and Wires",
 	icon: "appliedenergistics2:part 1 16",
-	x: 7.25d,
-	y: 4.208333333333333d,
+	x: 7.041666666666666d,
+	y: 4.333333333333333d,
 	text: [
 		"§lAE2 machines are hooked up and powered via Fluix conduits. Channels are a very special mechanic: most Busses or AE2 Machines take up a channel. Different cables have different amounts of channels available.",
 		"",
@@ -36,5 +36,11 @@
 		items: [{
 			item: "appliedenergistics2:part 1 76"
 		}]
+	}],
+	rewards: [{
+		uid: "b630d0a7",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 10
 	}]
 }

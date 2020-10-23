@@ -12,10 +12,14 @@
 	text: [
 		"Big white flying squids, that shoot burning baseballs. Yeah..."
 	],
+	dependencies: [
+		"87f2214a",
+		"e485efda"
+	],
 	tasks: [{
 		uid: "1944e9e5",
 		type: "kill",
 		entity: "minecraft:ghast",
-		value: 20L
+		value: 10L
 	}]
 }

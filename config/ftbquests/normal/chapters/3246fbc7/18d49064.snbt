@@ -5,12 +5,16 @@
 	y: 2.5416666666666665d,
 	shape: "square",
 	text: [
-		""
+		"Watch out! The legend goes that they dip their swords in poison before battle."
+	],
+	dependencies: [
+		"622f2acc",
+		"c419f3ea"
 	],
 	tasks: [{
 		uid: "46df03d5",
 		type: "kill",
 		entity: "minecraft:wither_skeleton",
-		value: 50L
+		value: 20L
 	}]
 }

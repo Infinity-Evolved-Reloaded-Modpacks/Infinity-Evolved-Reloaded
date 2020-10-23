@@ -4,9 +4,11 @@
 	x: 6.0d,
 	y: 7.0d,
 	text: [
-		"§lThe Killer Joe is a special machine that uses any sword that you place inside of it to kill mobs in a 5x5x4 area in front of it. While you can't put Tinkers' Construct weapons in it, most other swords work. Enchantments applied to the sword also take effect, but the sword takes durability damage as if it was used like normal. Mobs are not instantly killed, but have to be attacked the same amount of times as usual using the sword inside of it. Beware, mobs will attack the Killer Joe if they survive the first attack, which means that Creepers will explode and Blazes will light things on fire. Use with caution.",
+		"§lThe Killer Joe is a special machine that uses any sword that you place inside of it to kill mobs in a 5x5x4 area in front of it. ",
 		"",
-		"§rThe Killer Joe does not use RF or EU, but instead requires Nutrient Distillation be pumped into it. 1400mB is required to function, but it can store up to 2000mB. Experience gets sucked into it, which can be pumped out or put into your own XP, while items are left on the ground to be collected with a Vacuum Hopper or similar methods."
+		"§rWhile you can't put Tinkers' Construct weapons in it, most other swords work. Enchantments applied to the sword also take effect, but the sword takes durability damage as if it was used like normal. Mobs are not instantly killed, but have to be attacked the same amount of times as usual using the sword inside of it. Beware, mobs will attack the Killer Joe if they survive the first attack, which means that Creepers will explode and Blazes will light things on fire. Use with caution.",
+		"",
+		"The Killer Joe does not use RF or EU, but instead requires Nutrient Distillation be pumped into it. 1400mB is required to function, but it can store up to 2000mB. Experience gets sucked into it, which can be pumped out or put into your own XP, while items are left on the ground to be collected with a Vacuum Hopper or similar methods."
 	],
 	dependencies: [
 		"40f8677b"

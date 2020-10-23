@@ -4,12 +4,16 @@
 	x: 5.0d,
 	y: 7.0d,
 	shape: "rsquare",
+	text: [
+		"I'm still unsure if they are floating or just have invisible legs."
+	],
 	dependencies: [
 		"0deb5b2b"
 	],
 	tasks: [{
 		uid: "882ae0b1",
 		type: "kill",
+		icon: "twilightforest:trophy 1 4",
 		entity: "twilightforest:knight_phantom",
 		value: 1L
 	}]

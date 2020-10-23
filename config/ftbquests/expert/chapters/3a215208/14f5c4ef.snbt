@@ -1,10 +1,10 @@
 {
 	title: "Information MagiTechnology",
 	icon: "thaumicenergistics:essentia_terminal",
-	x: 11.0d,
-	y: 2.0d,
+	x: 10.0d,
+	y: 1.0d,
 	text: [
-		"§lThe Essentia Terminal allows you to access Essentia in your ME System. To store Essentia in your ME System, you need Essentia Storage Cells."
+		"The Essentia Terminal allows you to access Essentia in your ME System. To store Essentia in your ME System, you need Essentia Storage Cells."
 	],
 	dependencies: [
 		"ea725382",

@@ -4,9 +4,9 @@
 	x: 5.0d,
 	y: 6.0d,
 	text: [
-		"§lAs you may or may not have noticed, the recipe for Buckets has drastically changed. In the meanwhile, Lava can be moved to a Smeltery via the Can from Forestry! You can use it for other stuff too, I guess. They cannot place fluids in the world, however.",
+		"As you may or may not have noticed, the recipe for Buckets has drastically changed. In the meanwhile, Lava can be moved to a Smeltery via the Can from Forestry! You can use it for other stuff too, I guess. They cannot place fluids in the world, however.",
 		"",
-		"§rCans can hold 1000mB. In layman's terms, that's one bucket."
+		"Cans can hold 1000mB. In layman's terms, that's one bucket."
 	],
 	dependencies: [
 		"138129ee"

@@ -11,9 +11,7 @@
 	x: 9.5d,
 	y: 6.5d,
 	text: [
-		"§lThe next highest tier for TE jetpacks is the Vibrant Jetpack. It is very fast, stores 6 000 000 RF, and uses 200 RF/t while in use.",
-		"",
-		"§r"
+		"The next highest tier for TE jetpacks is the Vibrant Jetpack. It is very fast, stores 6 000 000 RF, and uses 200 RF/t while in use."
 	],
 	dependencies: [
 		"c31e2340"

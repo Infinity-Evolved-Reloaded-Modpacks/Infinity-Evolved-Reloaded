@@ -14,8 +14,14 @@
 		uid: "9e9cecbf",
 		type: "item",
 		items: [{
-			item: "harvestcraft:netherstartoastitem 100"
+			item: "harvestcraft:netherstartoastitem"
 		}],
-		count: 100L
+		count: 50L
+	}],
+	rewards: [{
+		uid: "51efbb33",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 60
 	}]
 }

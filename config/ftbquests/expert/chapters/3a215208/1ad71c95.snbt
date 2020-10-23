@@ -4,7 +4,7 @@
 	x: 7.0d,
 	y: 1.0d,
 	text: [
-		"§lThe Certus Quartz Wrench is a useful tool for Applied Energistics. When used in recipes, you get the Certus Quartz Wrench back, so don't be afraid to use it."
+		"The Certus Quartz Wrench is a useful tool for Applied Energistics. When used in recipes, you get the Certus Quartz Wrench back, so don't be afraid to use it."
 	],
 	dependencies: [
 		"2dbd7881"

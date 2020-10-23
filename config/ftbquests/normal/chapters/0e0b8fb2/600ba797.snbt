@@ -11,7 +11,7 @@
 	x: 1.5d,
 	y: 1.0d,
 	text: [
-		"§lThe Lexica Botania, while innacurate in recipes, explains how Botania's mechanics work."
+		"The Lexica Botania, while innacurate in recipes, explains how Botania's mechanics work."
 	],
 	dependencies: [
 		"40f8677b"

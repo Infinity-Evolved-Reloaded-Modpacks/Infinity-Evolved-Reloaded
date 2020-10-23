@@ -2,9 +2,9 @@
 	title: "The Endest of End Games",
 	icon: "draconicevolution:awakened_core",
 	x: 7.0d,
-	y: 5.166666666666667d,
+	y: 5.0d,
 	text: [
-		"§lYou deserve it. This is one of the most complicated recipes in the modpack. This isn't it, however."
+		"You deserve it. This is one of the most complicated recipes in the modpack. This isn't it, however."
 	],
 	dependencies: [
 		"b418817c"

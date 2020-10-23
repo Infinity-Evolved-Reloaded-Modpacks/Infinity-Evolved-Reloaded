@@ -26,5 +26,10 @@
 		items: [{
 			item: "rftoolsdim:dimension_builder"
 		}]
+	}],
+	rewards: [{
+		uid: "4e478ef7",
+		type: "item",
+		item: "rftoolsdim:empty_dimension_tab"
 	}]
 }

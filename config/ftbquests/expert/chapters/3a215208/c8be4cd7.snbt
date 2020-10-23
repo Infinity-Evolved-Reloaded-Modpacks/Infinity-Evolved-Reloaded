@@ -2,11 +2,13 @@
 	title: "Not Actually Floppy",
 	icon: "appliedenergistics2:drive",
 	x: 7.0d,
-	y: 8.0d,
+	y: 7.5d,
 	text: [
-		"§lStorage Cells are placed into the ME Drive. Every Storage Cell can only take 63 unique items, but the different tiers can hold certain amounts of bytes. 8 items take up 1 byte, no matter the size of a regular stack. Going straight for the max size Storage Cell isn't necessarily the best idea, because then you still only have 63 possible unique items, even if it's a lot more of those 63 items.§l",
+		"§lStorage Cells are placed into the ME Drive. ",
 		"",
-		"§rI won't ask you to make any specific Storage Cell, as depending on where you are you can afford larger ones."
+		"§rEvery Storage Cell can only take 63 unique items, but the different tiers can hold certain amounts of bytes. 8 items take up 1 byte, no matter the size of a regular stack. Going straight for the max size Storage Cell isn't necessarily the best idea, because then you still only have 63 possible unique items, even if it's a lot more of those 63 items.",
+		"",
+		"I won't ask you to make any specific Storage Cell, as depending on where you are you can afford larger ones."
 	],
 	dependencies: [
 		"6fa311a6"

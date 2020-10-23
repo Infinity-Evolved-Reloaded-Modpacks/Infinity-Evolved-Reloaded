@@ -23,11 +23,16 @@
 	x: 7.833333333333333d,
 	y: 5.833333333333333d,
 	text: [
-		"No Description"
+		"This drink is gonna give you the boost of the century for sure."
 	],
 	tasks: [{
 		uid: "873c9bb7",
 		type: "forge_energy",
 		value: 10000000000L
+	}],
+	rewards: [{
+		uid: "6bb6a7bd",
+		type: "item",
+		item: "harvestcraft:energydrinkitem"
 	}]
 }
