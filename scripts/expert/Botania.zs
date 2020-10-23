@@ -47,7 +47,7 @@ recipes.remove(<botania:sparkupgrade:3>);
 recipes.addShaped(<botania:sparkupgrade>, [[null, <ore:elvenPixieDust>, null ], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeWaterB>, null]]);
 recipes.addShaped(<botania:sparkupgrade:1>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeFireB>, null]]);
 recipes.addShaped(<botania:sparkupgrade:2>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeEarthB>, null]]);
-recipes.addShaped(<botania:sparkupgrade:3>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeAirb>, null]]);
+recipes.addShaped(<botania:sparkupgrade:3>, [[null, <ore:elvenPixieDust>, null], [<ore:ingotManasteel>, <bloodmagic:slate:2>, <ore:ingotManasteel>], [null, <ore:runeAirB>, null]]);
 
 # -Pylons
 recipes.remove(<botania:pylon>);
@@ -125,7 +125,7 @@ recipes.addShaped(<botania:manasteelboots>, [[<ore:ingotManasteel>, null, <ore:i
 
 # -Mana Tablet
 recipes.remove(<botania:manatablet:1000>);
-mods.botania.RuneAltar.addRecipe(<botania:manatablet>.withTag({mana: 500000}), [<thaumcraft:jar_normal>, <bloodmagic:slate:1>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManab>, <ore:runeFireB>, <ore:runeWaterB>, <bloodmagic:slate:1>], 500000);
+mods.botania.RuneAltar.addRecipe(<botania:manatablet>.withTag({mana: 500000}), [<thaumcraft:jar_normal>, <bloodmagic:slate:1>, <ore:runeAirB>, <ore:runeEarthB>, <ore:runeManaB>, <ore:runeFireB>, <ore:runeWaterB>, <bloodmagic:slate:1>], 500000);
 
 # -Baubles
 recipes.remove(<botania:travelbelt>);
