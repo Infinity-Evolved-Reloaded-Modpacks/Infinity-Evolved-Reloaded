@@ -5,7 +5,7 @@
 	y: 1.2083333333333335d,
 	shape: "square",
 	text: [
-		"Kill ALL the Zombies"
+		"Kill them all before they eat your brain!"
 	],
 	tasks: [{
 		uid: "b027b559",

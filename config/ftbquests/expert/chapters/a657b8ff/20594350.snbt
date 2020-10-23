@@ -6,10 +6,12 @@
 			Energy: 16000000
 		}
 	},
-	x: 10.666666666666666d,
-	y: 3.1666666666666665d,
+	x: 10.5d,
+	y: 3.0d,
 	text: [
-		"§lThe Draconic Bow is the most powerful bow in the modpack. With this bow, you can machinegun fire arrows. You can configure how powerful the bow is in the GUI."
+		"§lThe Draconic Bow is the most powerful bow in the modpack. ",
+		"",
+		"§rWith this bow, you can machinegun fire arrows. You can configure how powerful the bow is in the GUI."
 	],
 	dependencies: [
 		"b90619c7",

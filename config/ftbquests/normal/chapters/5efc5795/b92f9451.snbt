@@ -11,7 +11,7 @@
 	x: 9.0d,
 	y: 5.5d,
 	text: [
-		"§lThe second-to-last tier of TE jetpack is the Resonant Jetpack. It's even faster, stores 25 000 000 RF, and uses 450 RF/t while flying."
+		"The second-to-last tier of TE jetpack is the Resonant Jetpack. It's even faster, stores 25 000 000 RF, and uses 450 RF/t while flying."
 	],
 	dependencies: [
 		"87e33efc"

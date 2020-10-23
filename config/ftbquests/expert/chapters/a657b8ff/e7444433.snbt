@@ -6,15 +6,14 @@
 			Energy: 4000000
 		}
 	},
-	x: 8.833333333333334d,
-	y: 6.166666666666667d,
+	x: 9.0d,
+	y: 6.0d,
 	text: [
-		"§lThe Sword of the Wyvern is one of the most powerful ranged weapons in the game. Check you Controls for \"Tool and Armour Config GUI\", and press that. Click the Sword of the Wyvern, and you can change the AoE, similar to the Tinker's Construct's Scythe.",
+		"§lThe Sword of the Wyvern is one of the most powerful ranged weapons in the game. ",
 		"",
-		"§rIn addition to the 20 attack damage (10 hearts), an additional 10% of the mob's health is removed. This means most mobs can be defeated in 10 hits or less, except for certain bosses that cap out damage like the Guardian of Gaia.",
+		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Sword of the Wyvern, and you can change the AoE, similar to the Tinker's Construct's Scythe.",
 		"",
-		"",
-		"§r"
+		"In addition to the 20 attack damage (10 hearts), an additional 10% of the mob's health is removed. This means most mobs can be defeated in 10 hits or less, except for certain bosses that cap out damage like the Guardian of Gaia."
 	],
 	dependencies: [
 		"073d1f52"

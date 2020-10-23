@@ -11,9 +11,9 @@
 	x: 7.5d,
 	y: 4.5d,
 	text: [
-		"§lThe Flux-Infused JetPlate is the final tier of the Thermal Expansion path with Simply Jetpacks. It has the same armor rating as the regular Flux-Infused Chestplate, and works as a very fast jetpack.",
+		"The Flux-Infused JetPlate is the final tier of the Thermal Expansion path with Simply Jetpacks. It has the same armor rating as the regular Flux-Infused Chestplate, and works as a very fast jetpack.",
 		"",
-		"§rThe Flux-Infused JetPlace can store 50M RF."
+		"The Flux-Infused JetPlace can store 50M RF."
 	],
 	dependencies: [
 		"b92f9451",

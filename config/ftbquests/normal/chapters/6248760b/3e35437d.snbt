@@ -9,9 +9,11 @@
 	x: 5.625d,
 	y: 4.208333333333334d,
 	text: [
-		"§lMOX Nuclear Fuel is a hybrid of Plutonium and Uraniun 238. The Fuel Rod (MOX) only lasts half as long as the Fuel Rod (Uranium), but gives much more EU. MOX becomes more efficient as the heat rises.",
+		"§lMOX Nuclear Fuel is a hybrid of Plutonium and Uraniun 238. ",
 		"",
-		"§rDepleted MOX Fuel Rods give more Plutonium than Uranium Fuel Rods do."
+		"§rThe Fuel Rod (MOX) only lasts half as long as the Fuel Rod (Uranium), but gives much more EU. MOX becomes more efficient as the heat rises.",
+		"",
+		"Depleted MOX Fuel Rods give more Plutonium than Uranium Fuel Rods do."
 	],
 	dependencies: [
 		"97f91d76"

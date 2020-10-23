@@ -8,7 +8,9 @@
 		"",
 		"§rThe Draconic Core is probably the easiest thing you will ever craft in Draconic Evolution.",
 		"",
-		"The Wyvern Core is 4 times the probable easiest thing you will make in Draconic Evolution, plus some other stuff."
+		"The Wyvern Core is 4 times the probable easiest thing you will make in Draconic Evolution, plus some other stuff.",
+		"",
+		"As a reward, you will receive a Tablet which contains all the information about Draconic Evolution you will ever need."
 	],
 	dependencies: [
 		"d71fd1db",
@@ -27,5 +29,10 @@
 		items: [{
 			item: "draconicevolution:wyvern_core"
 		}]
+	}],
+	rewards: [{
+		uid: "05828fe5",
+		type: "item",
+		item: "draconicevolution:info_tablet"
 	}]
 }

@@ -5,12 +5,31 @@
 	y: 3.8333333333333335d,
 	shape: "square",
 	text: [
-		""
+		"Bloody useful mobs after harvesting but beware! The smoke they blow up your ass might just become fatal."
+	],
+	dependencies: [
+		"715c232a",
+		"15e860f6"
 	],
 	tasks: [{
 		uid: "fef3965e",
 		type: "kill",
 		entity: "minecraft:shulker",
-		value: 50L
+		value: 30L
+	}],
+	rewards: [{
+		uid: "0237556e",
+		type: "item",
+		item: "ironchest:vanilla_iron_shulker_upgrade"
+	},
+	{
+		uid: "8068cae7",
+		type: "item",
+		item: "ironchest:iron_gold_shulker_upgrade"
+	},
+	{
+		uid: "88471d3a",
+		type: "item",
+		item: "ironchest:gold_diamond_shulker_upgrade"
 	}]
 }

@@ -4,9 +4,11 @@
 	x: 3.0d,
 	y: 10.0d,
 	text: [
-		"§lThe Excavator \"mines\" ores that are in Mineral Deposits. Mineral Deposits cannot be found in any way except for using a Core Sample Drill. Place the Core Sample Drill anywhere in the world, and power it. Mineral Deposits are per chunk, and as such you might have to explore quite a bit before you find a chunk with a Mineral Deposit.",
+		"§lThe Excavator \"mines\" ores that are in Mineral Deposits. ",
 		"",
-		"§rHit F3+G to see chunk borders. If the chunk you are in doesn't have an Ore Deposit, go one chunk over and repeat. An entire Ore Deposit has roughly a Diamond Chest or more's worth of ores.",
+		"§rMineral Deposits cannot be found in any way except for using a Core Sample Drill. Place the Core Sample Drill anywhere in the world, and power it. Mineral Deposits are per chunk, and as such you might have to explore quite a bit before you find a chunk with a Mineral Deposit.",
+		"",
+		"Hit F3+G to see chunk borders. If the chunk you are in doesn't have an Ore Deposit, go one chunk over and repeat. An entire Ore Deposit has roughly a Diamond Chest or more's worth of ores.",
 		"",
 		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multblock."
 	],

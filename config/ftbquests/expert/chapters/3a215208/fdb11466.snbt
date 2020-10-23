@@ -4,7 +4,7 @@
 	x: 10.958333333333334d,
 	y: 6.75d,
 	text: [
-		"§lThese Busses work exactly the same as the regular ones, but with Fluids."
+		"These Busses work exactly the same as the regular ones, but with Fluids."
 	],
 	dependencies: [
 		"f3171946"

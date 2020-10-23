@@ -12,9 +12,9 @@
 	x: 10.625d,
 	y: 5.666666666666667d,
 	text: [
-		"§lThe Steam Dynamo is a great early-game way to generate RF. It uses furnace fuel, such as coal, to heat up water that can be piped in and turn it into Steam. The Steam is then converted into RF if it can leave the engine.",
+		"The Steam Dynamo is a great early-game way to generate RF. It uses furnace fuel, such as coal, to heat up water that can be piped in and turn it into Steam. The Steam is then converted into RF if it can leave the engine.",
 		"",
-		"§rThe Steam Dynamo will begin to create steam as soon as it is supplied with fuel and water."
+		"The Steam Dynamo will begin to create steam as soon as it is supplied with fuel and water."
 	],
 	dependencies: [
 		"550dee9d"

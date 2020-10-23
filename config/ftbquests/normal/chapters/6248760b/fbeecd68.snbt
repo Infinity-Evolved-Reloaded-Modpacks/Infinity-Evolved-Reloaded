@@ -53,5 +53,11 @@
 		items: [{
 			item: "bigreactors:reactorpowertaprf"
 		}]
+	}],
+	rewards: [{
+		uid: "510cd110",
+		type: "item",
+		item: "bigreactors:ingotyellorium",
+		count: 32
 	}]
 }

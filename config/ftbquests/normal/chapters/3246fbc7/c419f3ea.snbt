@@ -5,7 +5,7 @@
 	y: 1.2083333333333335d,
 	shape: "square",
 	text: [
-		"Spooky Scary Skeletons"
+		"Spooky Scary Skeletons."
 	],
 	tasks: [{
 		uid: "b4c1db31",

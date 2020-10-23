@@ -4,7 +4,7 @@
 	x: 1.75d,
 	y: 2.625d,
 	text: [
-		"§lThe first steps towards a civilized way of life."
+		"The first steps towards a civilized way of life."
 	],
 	dependencies: [
 		"e967ac45"

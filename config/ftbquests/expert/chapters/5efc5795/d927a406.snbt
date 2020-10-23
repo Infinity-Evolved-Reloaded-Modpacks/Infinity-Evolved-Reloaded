@@ -4,7 +4,9 @@
 	x: 1.5d,
 	y: 5.5d,
 	text: [
-		"§lThe Iron Chests mod adds new chests made of different metals with more inventory space."
+		"The Iron Chests mod adds new chests made of different metals with more inventory space.",
+		"",
+		"You can use Upgrade Kits to upgrade existing Chests!"
 	],
 	dependencies: [
 		"40f8677b"
@@ -15,5 +17,10 @@
 		items: [{
 			item: "ironchest:iron_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "62d3f533",
+		type: "item",
+		item: "ironchest:iron_gold_chest_upgrade"
 	}]
 }

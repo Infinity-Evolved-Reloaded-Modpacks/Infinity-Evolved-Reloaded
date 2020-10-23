@@ -4,9 +4,11 @@
 	x: 9.666666666666666d,
 	y: 4.208333333333334d,
 	text: [
-		"§lEnder Tanks work similar to Ender Chests, but for fluids. They are color coded by right-clicking the 3 wool bits at the top, and can be set to be specifically for your player by right-clicking the center bit with a diamond. Multiple tanks with the exact same color coordination and diamond share the same fluid inventory, so you can put one at, say, a lava pump in the Nether and put another next to your Smeltery to give your Smeltery essentially infinite lava.",
+		"§lEnder Tanks work similar to Ender Chests, but for fluids. ",
 		"",
-		"§rRight click on the center-front bit to change it from input to automatically output below it, or to switch back to input."
+		"§rThey are color coded by right-clicking the 3 wool bits at the top, and can be set to be specifically for your player by right-clicking the center bit with a diamond. Multiple tanks with the exact same color coordination and diamond share the same fluid inventory, so you can put one at, say, a lava pump in the Nether and put another next to your Smeltery to give your Smeltery essentially infinite lava.",
+		"",
+		"Right click on the center-front bit to change it from input to automatically output below it, or to switch back to input."
 	],
 	dependencies: [
 		"5e4000c6"

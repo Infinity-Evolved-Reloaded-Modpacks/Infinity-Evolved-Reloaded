@@ -10,9 +10,9 @@
 	x: 10.0d,
 	y: 1.5d,
 	text: [
-		"§lThe next tier of Capacitor Pack is the Double-Layer Capacitor Pack. It can hold 4 000 000 RF and can I/O at 4000 RF/t.",
+		"The next tier of Capacitor Pack is the Double-Layer Capacitor Pack. It can hold 4 000 000 RF and can I/O at 4000 RF/t.",
 		"",
-		"§rFrom this tier on, the Capacitor Packs can have armor applied to them."
+		"From this tier on, the Capacitor Packs can have armor applied to them."
 	],
 	dependencies: [
 		"aba6db58"

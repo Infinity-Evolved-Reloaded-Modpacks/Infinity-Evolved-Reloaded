@@ -4,9 +4,9 @@
 	x: 11.708333333333334d,
 	y: 4.291666666666666d,
 	text: [
-		"§lPure Certus Quartz is super important for stuff right? What do you mean isn't this a little early for getting Pure Certus Quartz? Didn'tcha know? Certus Quartz Seeds now take SIXTEEN FULL REAL LIFE HOURS TO GROW.",
+		"Pure Certus Quartz is super important for stuff right? What do you mean isn't this a little early for getting Pure Certus Quartz? Didn'tcha know? Certus Quartz Seeds now take SIXTEEN FULL REAL LIFE HOURS TO GROW.",
 		"",
-		"§rMake as many as you're comfortable with right now, because you'll need them later. Throw them in water and just wait."
+		"Make as many as you're comfortable with right now, because you'll need them later. Throw them in water and just wait."
 	],
 	dependencies: [
 		"48979525"

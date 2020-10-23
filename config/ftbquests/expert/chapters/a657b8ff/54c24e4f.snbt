@@ -6,10 +6,12 @@
 			Energy: 4000000
 		}
 	},
-	x: 8.833333333333334d,
-	y: 3.1666666666666665d,
+	x: 9.0d,
+	y: 3.0d,
 	text: [
-		"§lThe Bow of the Wyvern is one of the most powerful ranged weapons in the game. Check you Controls for \"Tool and Armour Config GUI\", and press that. Click the Bow of the Wyvern, and you can modify several values. The more powerful you make the bow, the more RF it takes per shot. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
+		"§lThe Bow of the Wyvern is one of the most powerful ranged weapons in the game. ",
+		"",
+		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Bow of the Wyvern, and you can modify several values. The more powerful you make the bow, the more RF it takes per shot. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
 	],
 	dependencies: [
 		"073d1f52"

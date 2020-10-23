@@ -4,9 +4,11 @@
 	x: 7.083333333333333d,
 	y: 3.0d,
 	text: [
-		"§lAn IC2 Nuclear Reactor is one of the best ways to get EU large-scale. This is a very complicated machine and very hard to explain through text, so visit the wiki page for this at tinyurl.com/IC2Reactor. You can look online for the best reactor designs. Beware: Nuclear Reactors can explode if they get too hot!",
+		"§lAn IC2 Nuclear Reactor is one of the best ways to get EU large-scale. ",
 		"",
-		"§r§rThe Nuclear Reactor will not run unless it has a redstone signal. You can place up to 6 Reactor Chamber blocks touching the sides of the Nuclear Reactor to maximize the size of the Nuclear Reactor."
+		"§rThis is a very complicated machine and very hard to explain through text, so visit the wiki page for this at tinyurl.com/IC2Reactor. You can look online for the best reactor designs. Beware: Nuclear Reactors can explode if they get too hot!",
+		"",
+		"The Nuclear Reactor will not run unless it has a redstone signal. You can place up to 6 Reactor Chamber blocks touching the sides of the Nuclear Reactor to maximize the size of the Nuclear Reactor."
 	],
 	dependencies: [
 		"86a85f09"

@@ -12,10 +12,12 @@
 			Energy: 4000000
 		}
 	},
-	x: 8.833333333333334d,
-	y: 4.166666666666666d,
+	x: 9.0d,
+	y: 4.0d,
 	text: [
-		"§lThe Pickaxe of the Wyvern is one of the best pickaxes in the game.  Check you Controls for \"Tool and Armour Config GUI\", and press that. Click the Pickaxe of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
+		"§lThe Pickaxe of the Wyvern is one of the best pickaxes in the game. ",
+		"",
+		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Pickaxe of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
 	],
 	dependencies: [
 		"073d1f52"

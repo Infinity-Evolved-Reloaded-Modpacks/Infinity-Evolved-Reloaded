@@ -7,10 +7,14 @@
 	text: [
 		"You know we had to bring this joke."
 	],
+	dependencies: [
+		"c419f3ea",
+		"e485efda"
+	],
 	tasks: [{
 		uid: "0efb9eb5",
 		type: "kill",
 		entity: "minecraft:blaze",
-		value: 50L
+		value: 40L
 	}]
 }

@@ -6,7 +6,9 @@
 	text: [
 		"§lThaumcraft: Where even the most logical man becomes a gibbering mess, and loves every second of it.",
 		"",
-		"§rAfter mining a Crystal and getting some rest, craft Salis Mundus and rightclick a bookshelf with it to get the Thaumonomicon, Thaumcraft's Guide Book."
+		"§rAfter mining a Crystal and getting some rest, craft Salis Mundus and rightclick a bookshelf with it to get the Thaumonomicon, Thaumcraft's Guide Book.",
+		"",
+		"As a reward, you are presented with a bright light to guide your way through this mod!"
 	],
 	dependencies: [
 		"40f8677b"

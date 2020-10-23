@@ -4,9 +4,11 @@
 	x: 10.666666666666666d,
 	y: 1.0d,
 	text: [
-		"§lThe Mob Grinder uses RF to kill mobs in front of it. It does not collect the items or XP, but it is capable of near instantly killing a Wither. It is also Wither-proof.",
+		"§lThe Mob Grinder uses RF to kill mobs in front of it. ",
 		"",
-		"§rYou can also put furnace fuel into it instead of RF."
+		"§rIt does not collect the items or XP, but it is capable of near instantly killing a Wither. It is also Wither-proof.",
+		"",
+		"You can also put furnace fuel into it instead of RF."
 	],
 	dependencies: [
 		"073d1f52"

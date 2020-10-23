@@ -2,7 +2,7 @@
 	title: "Electric Fluids",
 	icon: "extracells:part.base 1 3",
 	x: 11.5d,
-	y: 4.0d,
+	y: 3.5d,
 	text: [
 		"§lThe ME Fluid Terminal allows you to access fluids in your ME System. You need to have Fluid Storage in your ME System to store fluids in it.",
 		"",

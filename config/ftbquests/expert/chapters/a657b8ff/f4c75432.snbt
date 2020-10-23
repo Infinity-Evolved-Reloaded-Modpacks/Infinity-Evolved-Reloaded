@@ -12,10 +12,12 @@
 			Energy: 16000000
 		}
 	},
-	x: 10.666666666666666d,
-	y: 4.166666666666666d,
+	x: 10.5d,
+	y: 4.0d,
 	text: [
-		"§lThe Draconic Pickaxe is the best pickaxe in the modpack. It works similar to the Pickaxe of the Wyvern, but has extra modifiers and has larger maximums."
+		"§lThe Draconic Pickaxe is the best pickaxe in the modpack. ",
+		"",
+		"§rIt works similar to the Pickaxe of the Wyvern, but has extra modifiers and has larger maximums."
 	],
 	dependencies: [
 		"e65eab06",

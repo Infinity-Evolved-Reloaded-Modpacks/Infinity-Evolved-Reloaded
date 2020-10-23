@@ -4,9 +4,9 @@
 	x: 4.5d,
 	y: 1.0d,
 	text: [
-		"§lEnder IO's Dark Armor has many upgrades to make the armor better and more powerful. The upgrades are applied in an Anvil, by putting the armor piece together with certain items using XP. Hold shift while hovering over them in your inventory to see what upgrades you can apply, and what they do.",
+		"Ender IO's Dark Armor has many upgrades to make the armor better and more powerful. The upgrades are applied in an Anvil, by putting the armor piece together with certain items using XP. Hold shift while hovering over them in your inventory to see what upgrades you can apply, and what they do.",
 		"",
-		"§rWithout upgrades, Dark Armor takes full durability damage without any RF storage. The more Empowered upgrades applied, the more RF it stores and the less durability damage it takes. However, even when fully upgraded, it does take some durability damage, so you will have to eventually repair it with more Dark Steel."
+		"Without upgrades, Dark Armor takes full durability damage without any RF storage. The more Empowered upgrades applied, the more RF it stores and the less durability damage it takes. However, even when fully upgraded, it does take some durability damage, so you will have to eventually repair it with more Dark Steel."
 	],
 	dependencies: [
 		"b1f33e68"

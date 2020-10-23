@@ -44,5 +44,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8edc5029",
+		type: "item",
+		item: "appliedenergistics2:material 1 42",
+		count: 4
 	}]
 }

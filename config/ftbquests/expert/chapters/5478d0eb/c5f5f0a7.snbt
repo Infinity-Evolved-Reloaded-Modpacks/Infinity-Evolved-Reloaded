@@ -5,9 +5,9 @@
 	y: 1.0416666666666665d,
 	shape: "square",
 	text: [
-		"§k§l§r§lThe Coke Oven is an important part of the modpack. The Coal Coke doesn't hurt either. It might be good to automate this fairly quickly, which can be done with just a hopper going in and one coming out, with some Cans or something similar to collect the Creosote.",
+		"The Coke Oven is an important part of the modpack. The Coal Coke doesn't hurt either. It might be good to automate this fairly quickly, which can be done with just a hopper going in and one coming out, with some Cans or something similar to collect the Creosote.",
 		"",
-		"§rThe Immersive Engineering Coke Oven is a multiblock. It is a 3x3x3 cube of Coke Bricks. Right click on any of the center blocks with an Engineer's Hammer to form the multiblock."
+		"The Immersive Engineering Coke Oven is a multiblock. It is a 3x3x3 cube of Coke Bricks. Right click on any of the center blocks with an Engineer's Hammer to form the multiblock."
 	],
 	tasks: [{
 		uid: "12046a2b",
