@@ -31,7 +31,7 @@ recipes.addShaped(<buildcraftfactory:pump>, [[<buildcraftfactory:tank>, <buildcr
 
 #Quarry
 recipes.remove(<buildcraftbuilders:quarry>);
-recipes.addShaped(<buildcraftbuilders:quarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser>, <forestry:thermionic_tubes:9>], [<tesseract:tesseract>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
+recipes.addShaped(<buildcraftbuilders:quarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser:*>, <forestry:thermionic_tubes:9>], [<tesseract:tesseract>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
 
 #IronChest Upgrades
 AssemblyTable.addRecipe("IronToGoldChestUpgrade", <ironchest:iron_gold_chest_upgrade>, 40000, [<thermalfoundation:material:33> * 8, <thermalfoundation:material:32>]);
