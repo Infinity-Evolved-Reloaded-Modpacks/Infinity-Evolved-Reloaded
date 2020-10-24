@@ -19,7 +19,13 @@
 	tasks: [{
 		uid: "1944e9e5",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "ghast"
+			}
+		},
 		entity: "minecraft:ghast",
-		value: 10L
+		value: 20L
 	}]
 }

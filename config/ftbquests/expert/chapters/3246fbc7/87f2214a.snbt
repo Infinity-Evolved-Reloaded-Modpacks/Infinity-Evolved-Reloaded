@@ -15,6 +15,12 @@
 	tasks: [{
 		uid: "393e8e81",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "spider"
+			}
+		},
 		entity: "minecraft:spider",
 		value: 100L
 	}]

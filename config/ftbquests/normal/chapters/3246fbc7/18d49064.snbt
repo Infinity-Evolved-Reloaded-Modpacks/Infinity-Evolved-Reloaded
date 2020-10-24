@@ -14,7 +14,13 @@
 	tasks: [{
 		uid: "46df03d5",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "Wither_Skeleton"
+			}
+		},
 		entity: "minecraft:wither_skeleton",
-		value: 20L
+		value: 30L
 	}]
 }

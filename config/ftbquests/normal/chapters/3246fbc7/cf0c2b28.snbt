@@ -9,6 +9,12 @@
 	tasks: [{
 		uid: "aa564233",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "wither"
+			}
+		},
 		entity: "minecraft:wither",
 		value: 1L
 	}]
