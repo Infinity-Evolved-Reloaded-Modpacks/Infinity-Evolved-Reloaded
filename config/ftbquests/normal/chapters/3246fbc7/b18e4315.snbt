@@ -9,7 +9,7 @@
 	x: 9.0d,
 	y: 5.833333333333333d,
 	text: [
-		"Jump, jump, jump around like a little Rabbit."
+		"Jump up, jump up and get down!"
 	],
 	tasks: [{
 		uid: "10867b4c",
