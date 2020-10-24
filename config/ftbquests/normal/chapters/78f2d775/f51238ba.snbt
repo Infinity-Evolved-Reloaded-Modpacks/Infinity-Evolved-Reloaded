@@ -2,7 +2,8 @@
 	title: "Market",
 	icon: "harvestcraft:market",
 	x: 13.5d,
-	y: 7.0d,
+	y: 6.0d,
+	shape: "square",
 	text: [
 		"§lThe Market allows you to trade Emeralds for almost every seed and sapling, and farm animals.",
 		"",

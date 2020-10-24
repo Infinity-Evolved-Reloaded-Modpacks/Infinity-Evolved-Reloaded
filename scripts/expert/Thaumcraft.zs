@@ -75,6 +75,10 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("JARLABEL", "WARDEDJARS", 1
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:jar_void>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("JARVOID", "WARDEDJARS@1", 1, [<aspect:perditio>*5, <aspect:aqua>*5], <thaumcraft:jar_void>, [[<ore:obsidian>], [<thaumcraft:jar_normal>], [<ore:bEnderAirBottle>]]);
 
+#Blank Label
+recipes.remove(<thaumcraft:label>);
+recipes.addShaped(<thaumcraft:label>, [[<ore:dyeBlack>, <ore:slimeball>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]]);
+
 # -Greatwood & Silverwood
 mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH", "",  1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_greatwood>*2, [<thaumcraft:log_greatwood>]);
 mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH",  "", 1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_silverwood>*2, [<thaumcraft:log_silverwood>]);
@@ -107,5 +111,30 @@ mods.thaumcraft.Infusion.registerRecipe("RESEARCH", "", <thermalfoundation:mater
 
 # -Steel Blocks
 mods.thaumcraft.Infusion.registerRecipe("RESEARCH", "", <thermalfoundation:storage_alloy>, 2, [<aspect:ignis>*8, <aspect:permutatio>*16, <aspect:metallum>*2], <minecraft:coal:1>, [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:coal:1>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]);
+
+#Vis Crystal
+# --Aer Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_aer>);
+recipes.addShaped(<thaumcraft:crystal_aer>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})], [null, null, null]]);
+
+# -- Terra Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_terra>);
+recipes.addShaped(<thaumcraft:crystal_terra>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})], [null, null, null]]);
+
+# --Ignis Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_ignis>);
+recipes.addShaped(<thaumcraft:crystal_ignis>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], [null, null, null]]);
+
+# -- Aqua Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_aqua>);
+recipes.addShaped(<thaumcraft:crystal_aqua>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})], [null, null, null]]);
+
+# --Ordo Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_ordo>);
+recipes.addShaped(<thaumcraft:crystal_ordo>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})], [null, null, null]]);
+
+# --Perditio Crystal
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_perditio>);
+recipes.addShaped(<thaumcraft:crystal_perditio>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})], [null, null, null]]);
 
 print("Initialized 'Thaumcraft.zs'");

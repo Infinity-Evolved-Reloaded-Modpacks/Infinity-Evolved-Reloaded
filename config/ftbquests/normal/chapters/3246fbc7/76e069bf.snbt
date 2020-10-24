@@ -3,8 +3,12 @@
 	icon: "twilightforest:trophy 1 8",
 	x: 1.0d,
 	y: 7.0d,
+	shape: "rsquare",
 	text: [
-		"No Description"
+		"You will need to give this Sheep on steroids wool in all 16 available colors to complete it's quest. Only after that are you legally allowed to kill it."
+	],
+	dependencies: [
+		"a9126a90"
 	],
 	tasks: [{
 		uid: "9bc37893",

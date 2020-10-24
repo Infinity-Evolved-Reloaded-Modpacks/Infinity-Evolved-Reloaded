@@ -1,13 +1,18 @@
 {
 	title: "Suggestions",
+	icon: "botania:cosmetic 1 31",
 	x: 9.0d,
 	y: 7.0d,
 	text: [
-		"If you have any suggestions, regarding Challenges.",
-		"Then you can post it on our Discord Server!"
+		"If you have any suggestions, regarding Challenges, then you can post it on our Discord Server!"
 	],
 	tasks: [{
 		uid: "1c275f36",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b6e6454c",
+		type: "item",
+		item: "minecraft:cookie"
 	}]
 }

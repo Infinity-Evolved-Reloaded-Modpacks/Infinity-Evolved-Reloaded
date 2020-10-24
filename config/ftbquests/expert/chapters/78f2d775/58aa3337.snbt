@@ -4,7 +4,7 @@
 	x: 5.5d,
 	y: 8.5d,
 	text: [
-		"Mustard Seeds are a crossbreed between Chili Peppers and Beans."
+		"§lMustard Seeds are a crossbreed between Chili Peppers and Beans."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

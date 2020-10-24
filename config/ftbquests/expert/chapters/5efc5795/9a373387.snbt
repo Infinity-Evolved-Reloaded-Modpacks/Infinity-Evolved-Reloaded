@@ -11,9 +11,9 @@
 	x: 10.5d,
 	y: 8.5d,
 	text: [
-		"§lJetpacks are extremely useful in that you can use them to fly, which is much faster than climbing ladders, not to mention you can do it anywhere. This tier isn't very fast, and only stores 800 000 RF and uses 32 RF/t while flying, but it's better than nothing!",
+		"Jetpacks are extremely useful in that you can use them to fly, which is much faster than climbing ladders, not to mention you can do it anywhere. This tier isn't very fast, and only stores 800 000 RF and uses 32 RF/t while flying, but it's better than nothing!",
 		"",
-		"§rSimply Jetpacks has 2 paths you can use for jetpacks: Thermal Expansion and Ender IO. These quests are for Thermal Expansion."
+		"Simply Jetpacks has 2 paths you can use for jetpacks: Thermal Expansion and Ender IO. These quests are for Thermal Expansion."
 	],
 	dependencies: [
 		"40f8677b"

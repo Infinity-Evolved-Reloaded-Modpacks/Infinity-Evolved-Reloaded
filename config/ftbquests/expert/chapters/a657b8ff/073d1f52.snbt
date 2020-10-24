@@ -1,7 +1,7 @@
 {
 	title: "Need This and This and This...",
 	icon: "thermalfoundation:material 1 1028",
-	x: 8.833333333333334d,
+	x: 9.0d,
 	y: 1.0d,
 	text: [
 		"§lMana Dust is required to make certain things in Draconic Evolution. It's so confusing to make, I spelled it out for you here.",

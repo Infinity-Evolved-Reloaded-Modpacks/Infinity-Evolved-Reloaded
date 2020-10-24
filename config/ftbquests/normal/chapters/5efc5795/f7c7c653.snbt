@@ -10,7 +10,7 @@
 	x: 9.0d,
 	y: 3.5d,
 	text: [
-		"§lThis Armored Capacitor Pack not only gives you the ability to carry power but also protect you from losing it."
+		"This Armored Capacitor Pack not only gives you the ability to carry power but also protects you from losing it."
 	],
 	dependencies: [
 		"f65e5838"

@@ -4,9 +4,11 @@
 	x: 8.0d,
 	y: 1.5d,
 	text: [
-		"§lAn ME System does not use RF or EU, but AE. You can convert RF and EU into AE by connecting it into the Enegy Acceptor and piping it out with Fluix Cables. You can also supply power through the ME Controller, but then that is one less side you can pull channels from.",
+		"§lAn ME System does not use RF or EU, but AE.",
 		"",
-		"§r1 EU = 2 AE. 1 AE = 2 RF."
+		"§rYou can convert RF and EU into AE by connecting it into the Enegy Acceptor and piping it out with Fluix Cables. You can also supply power through the ME Controller, but then that is one less side you can pull channels from.",
+		"",
+		"1 EU = 2 AE. 1 AE = 2 RF."
 	],
 	dependencies: [
 		"1ad71c95"

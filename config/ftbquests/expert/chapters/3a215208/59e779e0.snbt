@@ -4,9 +4,11 @@
 	x: 6.0d,
 	y: 1.5d,
 	text: [
-		"§lThe ME Controller gives you more channels to work with. Each side adds 8 or 32 channels. It can also accept energy and convert it to AE. It is a multiblock, and you can only have one per ME System. ",
+		"§lThe ME Controller gives you more channels to work with. ",
 		"",
-		"§r§rThe ME Controller also accepts RF and EU to power the ME system, but that is one less side you can use channels with."
+		"§rEach side adds 8 or 32 channels. It can also accept energy and convert it to AE. It is a multiblock, and you can only have one per ME System. ",
+		"",
+		"The ME Controller also accepts RF and EU to power the ME system, but that is one less side you can use channels with."
 	],
 	dependencies: [
 		"2dbd7881",

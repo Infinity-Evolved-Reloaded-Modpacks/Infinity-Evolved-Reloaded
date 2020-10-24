@@ -11,9 +11,7 @@
 	x: 8.0d,
 	y: 3.5d,
 	text: [
-		"§lThe second highest tier of Ender IO jetpack is the Vibrant Jetpack. It can store 20 000 000 RF and uses 450 RF/t to fly.",
-		"",
-		"§r"
+		"The second highest tier of Ender IO jetpack is the Vibrant Jetpack. It can store 20 000 000 RF and uses 450 RF/t to fly."
 	],
 	dependencies: [
 		"fb970931"

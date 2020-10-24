@@ -9,9 +9,9 @@
 	x: 1.5d,
 	y: 8.5d,
 	text: [
-		"§lThe Diamond Drill works almost identically to the regular Mining Drill, except is faster and can mine Obsidian-level blocks.",
+		"The Diamond Drill works almost identically to the regular Mining Drill, except is faster and can mine Obsidian-level block.",
 		"",
-		"§rAgain, the Diamond Drill must be charged to use. The Diamond Drill uses more EU per block than the Mining Drill does."
+		"Again, the Diamond Drill must be charged to use. The Diamond Drill uses more EU per block than the Mining Drill does."
 	],
 	dependencies: [
 		"c45075d9",

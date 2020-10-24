@@ -3,12 +3,17 @@
 	icon: "twilightforest:miniature_structure 1 5",
 	x: 1.0d,
 	y: 5.666666666666667d,
+	shape: "rsquare",
 	text: [
-		"No Description"
+		"Not hard to find and probably the biggest snake you have ever seen. Fast aswell!"
+	],
+	dependencies: [
+		"a9126a90"
 	],
 	tasks: [{
-		uid: "49736644",
+		uid: "6d9e955d",
 		type: "kill",
+		icon: "twilightforest:trophy",
 		entity: "twilightforest:naga",
 		value: 1L
 	}]

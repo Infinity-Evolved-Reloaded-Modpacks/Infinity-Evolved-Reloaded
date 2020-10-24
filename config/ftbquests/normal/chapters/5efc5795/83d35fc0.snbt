@@ -4,9 +4,9 @@
 	x: 3.0d,
 	y: 1.0d,
 	text: [
-		"§lThe Metal Press is a multiblock that turns ingots plates, gears, or rods, depending on what mold it's using. Right click on the multiblock while holding the mold to insert it. Feed RF through the top.",
+		"The Metal Press is a multiblock that turns ingots plates, gears, or rods, depending on what mold it's using. Right click on the multiblock while holding the mold to insert it. Feed RF through the top.",
 		"",
-		"§rSee the Engineer's Manual to see a visual guide to how to build it."
+		"See the Engineer's Manual to see a visual guide to how to build it."
 	],
 	dependencies: [
 		"40f8677b"

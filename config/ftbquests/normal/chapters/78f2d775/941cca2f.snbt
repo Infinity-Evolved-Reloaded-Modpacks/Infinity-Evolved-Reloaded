@@ -4,7 +4,7 @@
 	x: 11.5d,
 	y: 5.5d,
 	text: [
-		"Peanuts are a crossbreed between Beans and Bamboo Shoots."
+		"§lPeanuts are a crossbreed between Beans and Bamboo Shoots."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

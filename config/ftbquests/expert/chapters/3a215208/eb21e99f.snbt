@@ -4,9 +4,7 @@
 	x: 9.875d,
 	y: 7.791666666666667d,
 	text: [
-		"§lThese Busses work exactly the same as the regular ones, but with Essentia.",
-		"",
-		"§o§r§r"
+		"These Busses work exactly the same as the regular ones, but with Essentia."
 	],
 	dependencies: [
 		"f3171946",

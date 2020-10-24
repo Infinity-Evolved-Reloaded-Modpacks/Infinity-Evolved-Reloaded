@@ -4,9 +4,9 @@
 	x: 6.0d,
 	y: 8.5d,
 	text: [
-		"§lThe Charged Porter allows you to teleport to the bound Matter Receiver using RF in the Charged Porter.",
+		"The Charged Porter allows you to teleport to the bound Matter Receiver using RF in the Charged Porter.",
 		"",
-		"§rShift right click a Matter Receiver to bind the Charged Porter to it. You can only set one teleport location using it. Right click to teleport to it if it has RF."
+		"Shift right click a Matter Receiver to bind the Charged Porter to it. You can only set one teleport location using it. Right click to teleport to it if it has RF."
 	],
 	dependencies: [
 		"40f8677b"

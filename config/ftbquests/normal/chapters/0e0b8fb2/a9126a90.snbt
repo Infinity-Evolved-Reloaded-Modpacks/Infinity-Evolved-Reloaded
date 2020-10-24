@@ -1,8 +1,8 @@
 {
 	title: "The Twilight Zone",
 	icon: "twilightforest:miniature_structure",
-	x: 7.0d,
-	y: 1.0d,
+	x: 4.511904761904766d,
+	y: 1.0357142857142847d,
 	text: [
 		"The Twilight Forest is a dimension filled with dungeons and magic. There is a strict progression you must go through if you want to explore everything this dimension has to offer. Beware, however. The Twilight Forest is fairly server intensive. If yo"
 	],

@@ -3,13 +3,24 @@
 	icon: "minecraft:skull 1 1",
 	x: 1.4166666666666665d,
 	y: 2.5416666666666665d,
+	shape: "square",
 	text: [
-		""
+		"Watch out! The legend goes that they dip their swords in poison before battle."
+	],
+	dependencies: [
+		"622f2acc",
+		"c419f3ea"
 	],
 	tasks: [{
 		uid: "46df03d5",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "Wither_Skeleton"
+			}
+		},
 		entity: "minecraft:wither_skeleton",
-		value: 50L
+		value: 30L
 	}]
 }

@@ -3,12 +3,23 @@
 	icon: "enderio:block_enderman_skull",
 	x: 2.041666666666667d,
 	y: 3.8333333333333335d,
+	shape: "square",
 	text: [
-		"Get those long boys"
+		"Get those long bastards! Just try not to offend them."
+	],
+	dependencies: [
+		"18d49064",
+		"715c232a"
 	],
 	tasks: [{
 		uid: "eb6bc85f",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "Enderman"
+			}
+		},
 		entity: "minecraft:enderman",
 		value: 100L
 	}]

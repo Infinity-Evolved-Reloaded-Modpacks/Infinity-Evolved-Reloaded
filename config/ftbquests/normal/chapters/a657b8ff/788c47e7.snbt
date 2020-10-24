@@ -6,12 +6,14 @@
 			Energy: 4000000
 		}
 	},
-	x: 8.833333333333334d,
-	y: 7.166666666666667d,
+	x: 9.0d,
+	y: 7.0d,
 	text: [
-		"§lWyvern armor some of the most powerful armor in Expert Mode. The Leggings and Boots of the Wyvern can be configured to let you run and jump faster and higher, and you can set it to only do so while sprinting.",
+		"§lWyvern armor some of the most powerful armor in the modpack. ",
 		"",
-		"§rWhile the Wyvern armor has RF, it produces shield. This shield works as essentially extra health, a buffer before your actual health is damaged."
+		"§rThe Leggings and Boots of the Wyvern can be configured to let you run and jump faster and higher, and you can set it to only do so while sprinting.",
+		"",
+		"While the Wyvern armor has RF, it produces shield. This shield works as essentially extra health, a buffer before your actual health is damaged."
 	],
 	dependencies: [
 		"073d1f52"

@@ -3,13 +3,24 @@
 	icon: "headcrumbs:skull",
 	x: 2.5833333333333335d,
 	y: 2.5416666666666665d,
+	shape: "square",
 	text: [
 		"You know we had to bring this joke."
+	],
+	dependencies: [
+		"c419f3ea",
+		"e485efda"
 	],
 	tasks: [{
 		uid: "0efb9eb5",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "blaze"
+			}
+		},
 		entity: "minecraft:blaze",
-		value: 50L
+		value: 40L
 	}]
 }

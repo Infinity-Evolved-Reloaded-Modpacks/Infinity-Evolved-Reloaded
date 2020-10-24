@@ -1,8 +1,15 @@
 {
+	icon: "botania:cosmetic 1 31",
 	x: 7.5d,
 	y: 1.0d,
+	shape: "gear",
 	text: [
-		"Welcome to Infinity Evolved Reloaded! This questbook is designed to be used in the Expert Mode. If you want switch the packmode to expert, use the /packmode expert command."
+		"§lWelcome to Infinity Evolved Reloaded! ",
+		"",
+		"§rFirst of all thank you for downloading our Pack and we hope you enjoy playing it.",
+		"",
+		"This questbook is designed to guide you through the Expert Mode. But can also be completed in Normal Mode.",
+		"If you want switch to Expert Mode, use the \"/packmode expert\" command and a client restart afterwards."
 	],
 	dependency_requirement: "all_started",
 	tasks: [{

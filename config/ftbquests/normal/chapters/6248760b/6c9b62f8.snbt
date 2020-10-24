@@ -16,8 +16,8 @@
 	y: 6.958333333333333d,
 	text: [
 		"§lThe Portal Gun allows you to use your two mouse buttons to shoot two linked portals. Enter one, exit the other. ",
-		"§r",
-		"The regular Portal Gun is not specific to the player. If two people use the default Portal Gun, they would overwrite eachother's portals."
+		"",
+		"§rThe regular Portal Gun is not specific to the player. If two people use the default Portal Gun, they would overwrite eachother's portals."
 	],
 	dependencies: [
 		"93c409bb"

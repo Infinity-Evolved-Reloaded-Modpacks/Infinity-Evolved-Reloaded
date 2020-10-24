@@ -1,17 +1,19 @@
 {
-	title: "New Quest",
-	icon: "twilightforest:meef_stroganoff",
+	title: "Minoshroom",
+	icon: "twilightforest:trophy 1 6",
 	x: 3.6666666666666665d,
 	y: 5.666666666666667d,
+	shape: "rsquare",
 	text: [
-		"No Description"
+		"A trans-human cow? Since when has that become a thing?"
 	],
 	dependencies: [
 		"8c4649f3"
 	],
 	tasks: [{
-		uid: "f016da47",
+		uid: "8f27b886",
 		type: "kill",
+		icon: "twilightforest:trophy 1 6",
 		entity: "twilightforest:minoshroom",
 		value: 1L
 	}]

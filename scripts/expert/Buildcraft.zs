@@ -31,7 +31,7 @@ recipes.addShaped(<buildcraftfactory:pump>, [[<buildcraftfactory:tank>, <buildcr
 
 #Quarry
 recipes.remove(<buildcraftbuilders:quarry>);
-recipes.addShaped(<buildcraftbuilders:quarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser>, <forestry:thermionic_tubes:9>], [<tesseract:tesseract>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
+recipes.addShaped(<buildcraftbuilders:quarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser:*>, <forestry:thermionic_tubes:9>], [<tesseract:tesseract>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
 
 #IronChest Upgrades
 AssemblyTable.addRecipe("IronToGoldChestUpgrade", <ironchest:iron_gold_chest_upgrade>, 40000, [<thermalfoundation:material:33> * 8, <thermalfoundation:material:32>]);
@@ -43,5 +43,8 @@ AssemblyTable.addRecipe("DiamondToCrystalChestUpgrade", <ironchest:diamond_cryst
 AssemblyTable.addRecipe("WoodToIronChestUpgrade", <ironchest:wood_iron_chest_upgrade>, 10000, [<thermalfoundation:material:32> * 8, <ore:plankWood>]);
 AssemblyTable.addRecipe("WoodToCopperChestUpgrade", <ironchest:wood_copper_chest_upgrade>, 5000, [<thermalfoundation:material:320> * 8, <ore:plankWood>]);
 AssemblyTable.addRecipe("DiamondToObsidianChestUpgrade", <ironchest:diamond_obsidian_chest_upgrade>, 80000, [<minecraft:diamond>, <minecraft:obsidian> * 8]);
+
+#IridiumOre
+AssemblyTable.addRecipe("IridiumOre", <ic2:misc_resource:1>, 80000000, [<ic2:nuclear:4>, <ic2:nuclear:10>]);
 
 print("Initialized 'Buildcraft.zs'");

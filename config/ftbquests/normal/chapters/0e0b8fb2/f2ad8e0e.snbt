@@ -40,5 +40,11 @@
 		items: [{
 			item: "thaumcraft:pedestal_arcane"
 		}]
+	}],
+	rewards: [{
+		uid: "fec5d851",
+		type: "item",
+		item: "thaumcraft:candle_gray",
+		count: 5
 	}]
 }

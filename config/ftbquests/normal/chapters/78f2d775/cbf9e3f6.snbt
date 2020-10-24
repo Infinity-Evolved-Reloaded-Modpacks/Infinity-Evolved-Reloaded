@@ -3,10 +3,11 @@
 	icon: "extrautils2:wateringcan",
 	x: 13.5d,
 	y: 5.0d,
+	shape: "square",
 	text: [
-		"§lThe Watering Can is an invaluable tool for farmers. To fill it with water, hold right-click on a water source block. Then, you can hold right-click on any blocks to give them an accelerated random tick chance. That is, you can speed up growth on crops, even crops that don't accept Bone Meal.",
+		"§lThe Watering Can is an invaluable tool for farmers. ",
 		"",
-		"§r"
+		"§rTo fill it with water, hold right-click on a water source block. Then, you can hold right-click on any blocks to give them an accelerated random tick chance. That is, you can speed up growth on crops, even crops that don't accept Bone Meal."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

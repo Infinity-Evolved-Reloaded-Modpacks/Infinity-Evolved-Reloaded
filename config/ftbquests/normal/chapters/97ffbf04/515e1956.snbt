@@ -33,5 +33,15 @@
 		items: [{
 			item: "rftools:dialing_device"
 		}]
+	}],
+	rewards: [{
+		uid: "b08c6e6b",
+		type: "item",
+		item: "rftools:matter_transmitter"
+	},
+	{
+		uid: "cb75f183",
+		type: "item",
+		item: "rftools:matter_receiver"
 	}]
 }

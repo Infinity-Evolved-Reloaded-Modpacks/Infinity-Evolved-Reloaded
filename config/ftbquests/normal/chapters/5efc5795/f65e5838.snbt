@@ -10,9 +10,9 @@
 	x: 9.5d,
 	y: 2.5d,
 	text: [
-		"§lThe final tier of Capacitor Pack is the Quadruple-Layer Capacitor Pack. It stores 20 000 000 RF and can I/O at 20 000 RF/t.",
+		"The final tier of Capacitor Pack is the Quadruple-Layer Capacitor Pack. It stores 20 000 000 RF and can I/O at 20 000 RF/t.",
 		"",
-		"§rNaturally, higher tiers can have better armor attached."
+		"Naturally, higher tiers can have better armor attached."
 	],
 	dependencies: [
 		"16834e71"

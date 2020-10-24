@@ -4,9 +4,11 @@
 	x: 3.875d,
 	y: 6.333333333333333d,
 	text: [
-		"§lThe Slaughterhouse uses RF to kill mobs in a 5x5x3 area in front of it. They do not drop anything, and instead, the Slaughterhouse gets some Meat, and rarely Pink Slime. The Precision Sledgehammer lets you see the area covered by MFR machines.",
+		"§lThe Slaughterhouse uses RF to kill mobs in a 5x5x3 area in front of it. ",
 		"",
-		"§rPink Slime is very useful for crafting, and makes for some pretty good Tinkers' tools. It would be best to automate the Mob Slaughter Factory with a mob farm or something similar."
+		"§rThey do not drop anything, and instead, the Slaughterhouse gets some Meat, and rarely Pink Slime. The Precision Sledgehammer lets you see the area covered by MFR machines.",
+		"",
+		"Pink Slime is very useful for crafting, and makes for some pretty good Tinkers' tools. It would be best to automate the Mob Slaughter Factory with a mob farm or something similar."
 	],
 	dependencies: [
 		"e578ea87"

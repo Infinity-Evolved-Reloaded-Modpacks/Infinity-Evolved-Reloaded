@@ -8,12 +8,19 @@
 	},
 	x: 4.416666666666666d,
 	y: 1.2083333333333335d,
+	shape: "square",
 	text: [
-		"spawned at the mobfarm. Down came the sword and made her drop some yarn."
+		"Spawned at the mobfarm. Down came the sword and made her drop some yarn."
 	],
 	tasks: [{
 		uid: "393e8e81",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "spider"
+			}
+		},
 		entity: "minecraft:spider",
 		value: 100L
 	}]

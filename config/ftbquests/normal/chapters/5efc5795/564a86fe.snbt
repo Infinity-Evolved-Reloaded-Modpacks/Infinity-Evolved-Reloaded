@@ -4,9 +4,9 @@
 	x: 4.5d,
 	y: 10.0d,
 	text: [
-		"§lStoring energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.",
+		"Storing energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.",
 		"",
-		"§rYou can easily convert RF to EU using Energy Converters. So you can use it for both!"
+		"You can easily convert RF to EU using Energy Converters. So you can use it for both!"
 	],
 	dependencies: [
 		"40f8677b"

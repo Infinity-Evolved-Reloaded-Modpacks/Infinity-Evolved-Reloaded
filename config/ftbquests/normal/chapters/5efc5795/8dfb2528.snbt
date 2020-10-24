@@ -10,9 +10,9 @@
 	x: 9.0d,
 	y: 7.5d,
 	text: [
-		"§lThe second tier of Flux Pack stores 12 000 000 RF, and can send/recieve 6000 RF/t.",
+		"The second tier of Flux Pack stores 12 000 000 RF, and can send/recieve 6000 RF/t.",
 		"",
-		"§rFrom this tier onwards, you can apply armor to your Flux Packs. You can also take them off just as easy, and you get to keep the armor plating!"
+		"From this tier onwards, you can apply armor to your Flux Packs. You can also take them off just as easy, and you get to keep the armor plating!"
 	],
 	dependencies: [
 		"51879ecd"

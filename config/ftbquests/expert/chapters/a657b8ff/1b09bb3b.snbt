@@ -12,10 +12,12 @@
 			Energy: 16000000
 		}
 	},
-	x: 10.666666666666666d,
-	y: 5.166666666666667d,
+	x: 10.5d,
+	y: 5.0d,
 	text: [
-		"§lThe Draconic Shovel is the best shovel in the modpack. It works similar to the Shovel of the Wyvern, but has extra modifiers and has larger maximums."
+		"§lThe Draconic Shovel is the best shovel in the modpack. ",
+		"",
+		"§rIt works similar to the Shovel of the Wyvern, but has extra modifiers and has larger maximums."
 	],
 	dependencies: [
 		"b90619c7",

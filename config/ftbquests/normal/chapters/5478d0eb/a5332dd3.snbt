@@ -3,6 +3,7 @@
 	icon: "railcraft:coke_oven",
 	x: 13.0d,
 	y: 2.083333333333333d,
+	shape: "square",
 	text: [
 		"Alternative to the Immersive Engineering Coke Oven"
 	],

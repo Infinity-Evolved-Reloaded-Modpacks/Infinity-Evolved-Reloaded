@@ -4,7 +4,7 @@
 	x: 10.5d,
 	y: 6.5d,
 	text: [
-		"Eggplants are a crossbreed between Red Mushrooms and Brown Mushrooms"
+		"§lEggplants are a crossbreed between Red Mushrooms and Brown Mushrooms"
 	],
 	hide_dependency_lines: true,
 	dependencies: [

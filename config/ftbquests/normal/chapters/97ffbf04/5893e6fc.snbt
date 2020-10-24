@@ -4,9 +4,10 @@
 	x: 4.916666666666667d,
 	y: 2.5833333333333335d,
 	text: [
-		"§lThe Tunnel Bore is a special machine. It acts like a Minecart, in that it needs to be on tracks. Put Gravel into the Ballast slots, and it will place the Gravel if it ever comes accross a hole that it would usually fall into. Put Tracks into the Track slots so that it can place them in front of it and keep going. The Bore Head tiers are Iron < Steel < Diamond. Diamond is the only one that can mine Obsidian, and will dig a 700 block long tunnel.",
+		"§lThe Tunnel Bore is a special machine. It acts like a Minecart, in that it needs to be on tracks. ",
 		"",
-		"§rAny fuel that would work in a furnace will work in the Fuel slots. Coal Coke is the best for this reason.",
+		"§rPut Gravel into the Ballast slots, and it will place the Gravel if it ever comes accross a hole that it would usually fall into. Put Tracks into the Track slots so that it can place them in front of it and keep going. The Bore Head tiers are Iron < Steel < Diamond. Diamond is the only one that can mine Obsidian, and will dig a 700 block long tunnel.",
+		"Any fuel that would work in a furnace will work in the Fuel slots. Coal Coke is the best for this reason.",
 		"",
 		"By default, the Tunnel Bore will just spit out the blocks mined into the world behind it. If you place a Chest Cart behind it and shift right click the Chest Cart and the Tunnel Bore with any Railcraft Crowbar, they will be linked. Once linked, items are pushed into that chest instead. You can do this with many chests to extend the inventory space."
 	],

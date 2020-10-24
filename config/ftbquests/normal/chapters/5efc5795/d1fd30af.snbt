@@ -11,9 +11,9 @@
 	x: 9.0d,
 	y: 1.5d,
 	text: [
-		"§lThe next tier of Ender IO jetpacks is the Electrical Steel Jetpack. It can store 400 000 RF and uses 50 RF/t to fly.",
+		"The next tier of Ender IO jetpacks is the Electrical Steel Jetpack. It can store 400 000 RF and uses 50 RF/t to fly.",
 		"",
-		"§rEach tier of jetpack is faster than the last."
+		"Each tier of jetpack is faster than the last."
 	],
 	dependencies: [
 		"ccafe052"

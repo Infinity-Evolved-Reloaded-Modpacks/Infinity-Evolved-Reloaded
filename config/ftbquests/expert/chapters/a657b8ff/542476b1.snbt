@@ -7,8 +7,9 @@
 		},
 		Damage: 32000s
 	},
-	x: 4.708333333333333d,
-	y: 3.6458333333333335d,
+	x: 4.625000000000001d,
+	y: 3.854166666666667d,
+	shape: "diamond",
 	text: [
 		"§lThe Creative Flux Capacitor gives infinite RF. You deserve it, man.",
 		"",
@@ -33,6 +34,7 @@
 	rewards: [{
 		uid: "1265965d",
 		type: "command",
-		command: "say @s obtained the Creative Flux Capacitor. Doc Brown would be proud!"
+		icon: "simplyjetpacks:metaitem 1 3",
+		command: "say @s obtained the Creative Flux Capacitor. Doc. Brown would be proud!"
 	}]
 }

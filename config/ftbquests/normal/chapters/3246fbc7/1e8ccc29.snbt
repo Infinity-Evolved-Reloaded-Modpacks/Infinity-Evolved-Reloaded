@@ -4,7 +4,7 @@
 	x: 6.666666666666667d,
 	y: 2.5d,
 	text: [
-		"Ender Dragon++"
+		"An Ender Dragon on steroids. You better come prepared!"
 	],
 	dependencies: [
 		"8d06270c"

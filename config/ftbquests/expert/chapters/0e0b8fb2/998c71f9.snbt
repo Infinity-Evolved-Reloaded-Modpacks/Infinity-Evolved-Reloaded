@@ -4,9 +4,9 @@
 	x: 3.0d,
 	y: 4.0d,
 	text: [
-		"§lThe Witches' Oven is how you get special Bewitchment Ingredients. Put Empty Jars in, some furnace fuel, and then saplings. Different saplings give different ingredients, as shown by JEI.",
+		"§lThe Witches' Oven is how you get special Bewitchment Ingredients. ",
 		"",
-		"§r"
+		"§rPut Empty Jars in, some furnace fuel, and then saplings. Different saplings give different ingredients, as shown by JEI."
 	],
 	dependencies: [
 		"d71fd1db",
