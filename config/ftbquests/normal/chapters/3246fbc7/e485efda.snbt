@@ -10,6 +10,12 @@
 	tasks: [{
 		uid: "052fb03e",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "creeper"
+			}
+		},
 		entity: "minecraft:creeper",
 		value: 100L
 	}]

@@ -9,6 +9,12 @@
 	tasks: [{
 		uid: "823b61cf",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "ender_dragon"
+			}
+		},
 		entity: "minecraft:ender_dragon",
 		value: 1L
 	}]

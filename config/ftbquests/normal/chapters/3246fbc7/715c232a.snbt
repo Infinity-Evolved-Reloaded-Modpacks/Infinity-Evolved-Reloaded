@@ -14,6 +14,12 @@
 	tasks: [{
 		uid: "0efb9eb5",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "blaze"
+			}
+		},
 		entity: "minecraft:blaze",
 		value: 40L
 	}]

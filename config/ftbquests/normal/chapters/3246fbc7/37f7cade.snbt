@@ -14,6 +14,12 @@
 	tasks: [{
 		uid: "eb6bc85f",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "Enderman"
+			}
+		},
 		entity: "minecraft:enderman",
 		value: 100L
 	}]

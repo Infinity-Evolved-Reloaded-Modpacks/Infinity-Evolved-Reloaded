@@ -14,6 +14,12 @@
 	tasks: [{
 		uid: "fef3965e",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "shulker"
+			}
+		},
 		entity: "minecraft:shulker",
 		value: 30L
 	}],

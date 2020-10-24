@@ -10,6 +10,12 @@
 	tasks: [{
 		uid: "b027b559",
 		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "Zombie"
+			}
+		},
 		entity: "minecraft:zombie",
 		value: 100L
 	}]
