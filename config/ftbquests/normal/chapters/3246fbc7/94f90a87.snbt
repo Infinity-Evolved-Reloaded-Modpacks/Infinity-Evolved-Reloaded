@@ -5,7 +5,7 @@
 	y: 3.8333333333333335d,
 	shape: "square",
 	text: [
-		"Bloody useful mobs after harvesting but beware! The smoke they blow up your ass might just become fatal."
+		"Bloody useful mobs after harvesting but beware! Their projectiles give you wings, but sadly not for long."
 	],
 	dependencies: [
 		"715c232a",
