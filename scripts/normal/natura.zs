@@ -5,9 +5,8 @@
 
 print("Initializing 'natura.zs'...");
 
-recipes.remove(<natura:sticks:9>);
-
 #Ghostwood Planks to Stick
+recipes.remove(<natura:sticks:9>);
 recipes.addShaped(<natura:sticks:9> * 4, [[<natura:nether_planks>, null, null], [null, <natura:nether_planks>, null], [null, null, null]]);
 
 print("Initialized 'natura.zs'");
