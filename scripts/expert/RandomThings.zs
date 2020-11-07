@@ -12,4 +12,8 @@ recipes.addShaped(<randomthings:timeinabottle>, [[<minecraft:gold_block>, <minec
 #Block Breaker
 recipes.remove(<randomthings:blockbreaker>);
 
+#Ender Bucket
+recipes.remove(<randomthings:enderbucket>);
+recipes.addShaped(<randomthings:enderbucket>, [[null, null, null], [<thermalfoundation:material:32>, null, <thermalfoundation:material:32>], [null, <minecraft:ender_pearl>, null]]);
+
 print("Initialized 'RandomThings.zs'");
