@@ -7,6 +7,8 @@ print("Initializing 'AppliedEnergistics.zs'...");
 
 #Wrench
 recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
+mods.jei.JEI.hide((<appliedenergistics2:nether_quartz_wrench>);
+
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [[<stevescarts:modulecomponents:49>, null, <stevescarts:modulecomponents:49>], [null, <advanced_solar_panels:crafting:5>, null], [null, <advanced_solar_panels:crafting:5>, null]]);
 
@@ -26,6 +28,9 @@ recipes.addShaped(<appliedenergistics2:chest>, [[<ore:glass>, <appliedenergistic
 
 #Generator
 recipes.remove(<appliedenergistics2:vibration_chamber>);
+mods.jei.JEI.hide((<appliedenergistics2:vibration_chamber>);
+recipes.remove(<appliedenergistics2:vibrationchamberfluid>);
+mods.jei.JEI.hide((<appliedenergistics2:vibrationchamberfluid>);
 
 #Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
