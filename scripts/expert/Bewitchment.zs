@@ -25,7 +25,7 @@ recipes.addShaped(<bewitchment:athame>, [[null, <ore:ingotGold>, null], [<ore:nu
 #items and blocks
 # --Distillery
 recipes.remove(<bewitchment:distillery>);
-recipes.addShaped(<bewitchment:distillery>, [[<bewitchment:essence_of_vitality>, <ore:ingotManasteel>, <bewitchment:liquid_witchcraft>], [<ore:ingotManasteel>, <thaumcraft:alembic>, <ore:ingotManasteel>], [<ore:ingotGold>, <bewitchment:oil_of_vitriol>, <ore:ingotGold>]]);
+recipes.addShaped(<bewitchment:distillery>, [[<bewitchment:essence_of_vitality>, <ore:ingotManasteel>, <bewitchment:liquid_witchcraft>], [<ore:ingotManasteel>, <thaumcraft:alembic>, <ore:ingotManasteel>], [<ore:ingotGold>, <bewitchment:cloudy_oil>, <ore:ingotGold>]]);
 
 # --Taglock Kits
 recipes.remove(<bewitchment:taglock>);
