@@ -7,9 +7,9 @@ print("Initializing 'ComputerCraft.zs'...");
 
 #Turtles
 recipes.remove(<computercraft:turtle_advanced>);
-recipes.remove(<computercraft:turtle>);
+recipes.remove(<computercraft:turtle_expanded>);
 recipes.addShaped(<computercraft:turtle_advanced>, [[<minecraft:diamond_sword>, <buildcraftsilicon:redstone_chipset:2>, <minecraft:diamond_axe>], [<forestry:chipsets:3>, <ic2:upgrade>, <forestry:chipsets:3>], [<minecraft:diamond_pickaxe>, <stevescarts:modulecomponents:23>, <minecraft:diamond_shovel>]]);
-recipes.addShaped(<computercraft:turtle>, [[<minecraft:diamond_sword>, <buildcraftsilicon:redstone_chipset:1>, <minecraft:diamond_axe>], [<forestry:chipsets:3>, <ic2:upgrade>, <forestry:chipsets:3>], [<minecraft:diamond_pickaxe>, <stevescarts:modulecomponents:23>, <minecraft:diamond_shovel>]]);
+recipes.addShaped(<computercraft:turtle_expanded>, [[<minecraft:diamond_sword>, <buildcraftsilicon:redstone_chipset:1>, <minecraft:diamond_axe>], [<forestry:chipsets:3>, <ic2:upgrade>, <forestry:chipsets:3>], [<minecraft:diamond_pickaxe>, <stevescarts:modulecomponents:23>, <minecraft:diamond_shovel>]]);
 
 #Computers
 recipes.remove(<computercraft:computer:16384>);
