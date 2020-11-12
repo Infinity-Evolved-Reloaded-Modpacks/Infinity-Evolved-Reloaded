@@ -34,7 +34,8 @@ var recipesToRemove = [
 <netherendingores:ore_other_1:*>,
 <netherendingores:ore_end_modded_2>,
 <netherendingores:ore_end_vanilla:*>,
-<twilightforest:uncrafting_table>
+<twilightforest:uncrafting_table>,
+<randomthings:blockbreaker>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
