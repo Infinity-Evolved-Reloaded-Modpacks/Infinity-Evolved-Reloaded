@@ -12,6 +12,7 @@ print("Initializing 'RemoveAndHide.zs'...");
 var recipesToRemove = [
 <appliedenergistics2:nether_quartz_wrench>,
 <appliedenergistics2:vibrationchamberfluid>,
+<computercraft:turtle>,
 <appliedenergistics2:vibration_chamber>,
 <immersiveengineering:sword_steel>,
 <immersiveengineering:shovel_steel>,
