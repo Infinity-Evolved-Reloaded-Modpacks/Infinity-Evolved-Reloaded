@@ -13,4 +13,24 @@ recipes.addShaped(<randomthings:timeinabottle>, [[<minecraft:gold_block>, <minec
 recipes.remove(<randomthings:enderbucket>);
 recipes.addShaped(<randomthings:enderbucket>, [[null, null, null], [<thermalfoundation:material:32>, null, <thermalfoundation:material:32>], [null, <minecraft:ender_pearl>, null]]);
 
+#Item Collector
+recipes.remove(<randomthings:itemcollector>);
+recipes.addShaped(
+    <randomthings:itemcollector>, 
+    [
+        [null, <ore:pearlFluix>, null], 
+        [null, <enderio:block_vacuum_chest>, null], 
+        [<enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>, <enderio:block_reinforced_obsidian>]
+    ]);
+
+#Advanced Item Collector
+recipes.remove(<randomthings:advanceditemcollector>);
+recipes.addShaped(
+    <randomthings:advanceditemcollector>, 
+    [
+        [null, null, null], 
+        [null, <ore:gearRedstone>, null], 
+        [<ore:dustGlowstone>, <randomthings:itemcollector>, <ore:dustGlowstone>]
+    ]);
+
 print("Initialized 'RandomThings.zs'");
