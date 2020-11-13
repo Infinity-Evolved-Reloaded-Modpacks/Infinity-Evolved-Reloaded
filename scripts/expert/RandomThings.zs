@@ -33,4 +33,9 @@ recipes.addShaped(
         [<ore:dustGlowstone>, <randomthings:itemcollector>, <ore:dustGlowstone>]
     ]);
 
+#Blaze and Steel
+recipes.remove(<randomthings:blazeandsteel>);
+recipes.addShaped(<randomthings:blazeandsteel>, [[<ore:ingotSteel>, null, null], [null, <ore:dustBlaze>, null], [null, null, null]]);
+
+
 print("Initialized 'RandomThings.zs'");
