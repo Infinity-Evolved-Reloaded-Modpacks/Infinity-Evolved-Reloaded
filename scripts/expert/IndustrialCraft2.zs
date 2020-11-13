@@ -20,6 +20,10 @@ recipes.addShaped(<ic2:te:47>, [[<railcraft:generic:7>, <railcraft:generic:7>, <
 recipes.remove(<ic2:re_battery:26>);
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), null], [<ic2:casing:6>, <ore:dustElectrotine>, <ic2:casing:6>], [<ic2:casing:6>, <ore:dustElectrotine>, <ic2:casing:6>]]);
 
+#Forge Hammer
+recipes.remove(<ic2:forge_hammer>);
+recipes.addShaped(<ic2:forge_hammer>, [[<ore:ingotIron>, <minecraft:iron_ingot>, null], [<ore:ingotIron>, <immersiveengineering:material>, <immersiveengineering:material>], [<minecraft:iron_ingot>, <ore:ingotIron>, null]]);
+
 #Nerf Hammer Recipes
 recipes.remove(<ic2:casing:6>);
 recipes.remove(<ic2:casing:5>);

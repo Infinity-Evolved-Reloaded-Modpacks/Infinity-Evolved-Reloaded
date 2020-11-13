@@ -6,7 +6,6 @@
 print("Initializing 'AppliedEnergistics.zs'...");
 
 #Wrench
-recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [[<stevescarts:modulecomponents:49>, null, <stevescarts:modulecomponents:49>], [null, <advanced_solar_panels:crafting:5>, null], [null, <advanced_solar_panels:crafting:5>, null]]);
 
@@ -23,9 +22,6 @@ recipes.addShaped(<appliedenergistics2:energy_cell>, [[<ore:crystalCertusQuartz>
 #ME Chest
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>, [[<ore:glass>, <appliedenergistics2:part:380>, <ore:glass>], [<appliedenergistics2:part:16>, <appliedenergistics2:certus_quartz_wrench>.reuse(), <appliedenergistics2:part:16>], [<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>]]);
-
-#Generator
-recipes.remove(<appliedenergistics2:vibration_chamber>);
 
 #Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
