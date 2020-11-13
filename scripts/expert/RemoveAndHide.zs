@@ -11,7 +11,7 @@ print("Initializing 'RemoveAndHide.zs'...");
 # Remove and Hide Items
 var recipesToRemove = [
 <appliedenergistics2:nether_quartz_wrench>,
-<appliedenergistics2:vibrationchamberfluid>,
+<extracells:vibrantchamberfluid>,
 <computercraft:turtle>,
 <appliedenergistics2:vibration_chamber>,
 <immersiveengineering:sword_steel>,
@@ -35,7 +35,12 @@ var recipesToRemove = [
 <netherendingores:ore_end_modded_2>,
 <netherendingores:ore_end_vanilla:*>,
 <twilightforest:uncrafting_table>,
-<randomthings:blockbreaker>
+<randomthings:blockbreaker>,
+<randomthings:spectrecoil_normal>,
+<randomthings:spectrecoil_redstone>,
+<randomthings:spectrecoil_ender>,
+<randomthings:spectrecoil_number>,
+<randomthings:spectrecoil_genesis>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
