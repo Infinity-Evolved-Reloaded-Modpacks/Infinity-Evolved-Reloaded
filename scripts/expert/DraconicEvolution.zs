@@ -104,4 +104,10 @@ mods.tconstruct.Casting.addTableRecipe(<draconicevolution:wyvern_energy_core>, <
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel>, 6480, true);
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana>, 720, true);
 
+#Anglesite
+FusionCrafting.add(<bigreactors:mineralanglesite>, <bloodmagic:item_demon_crystal:2>, FusionCrafting.DRACONIC, 10000000, [<bloodmagic:slate:4>, <bewitchment:bottled_hellfire>, <plustic:mirionblock>, <botania:rune:7>]);
+
+#Benitoite
+FusionCrafting.add(<bigreactors:mineralbenitoite>, <bloodmagic:item_demon_crystal>, FusionCrafting.DRACONIC, 10000000, [<bloodmagic:slate:4>, <bewitchment:bottled_frostfire>, <extrautils2:simpledecorative:2>, <botania:rune:5>]);
+
 print("Initialized 'DraconicEvolution.zs'");
