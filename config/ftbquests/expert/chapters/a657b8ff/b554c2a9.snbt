@@ -1,0 +1,17 @@
+{
+	title: "Nature's Ruin",
+	x: 12.0d,
+	y: 7.0d,
+	dependencies: [
+		"6181f090"
+	],
+	tasks: [{
+		uid: "8c88953f",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

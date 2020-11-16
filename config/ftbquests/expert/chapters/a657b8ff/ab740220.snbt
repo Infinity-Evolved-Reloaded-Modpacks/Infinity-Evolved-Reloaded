@@ -4,7 +4,7 @@
 	x: 5.0d,
 	y: 2.0d,
 	text: [
-		"§lThe Dislocator allows you to teleport from anywhere in any dimension to a specific location for absolutely no cost. ",
+		"§lThe Dislocator allows you to teleport from anywhere in any dimension to a specific location at the expense of one heart and durability from the item. ",
 		"",
 		"§rHowever, it can only have one location, and cannot be rebound. Shift right click to save the coords, dimension, and direction you are looking. Right click anywhere else to teleport there.",
 		"",
