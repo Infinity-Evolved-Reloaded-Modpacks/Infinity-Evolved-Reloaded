@@ -7,7 +7,7 @@
 		}
 	},
 	x: 9.0d,
-	y: 7.0d,
+	y: 9.0d,
 	text: [
 		"§lWyvern armor some of the most powerful armor in the modpack. ",
 		"",
@@ -21,6 +21,12 @@
 	tasks: [{
 		uid: "e4d54381",
 		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_helm",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:wyvern_helm"
 		}],
@@ -30,6 +36,12 @@
 	{
 		uid: "918d4a38",
 		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_chest",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:wyvern_chest"
 		}],
@@ -39,6 +51,12 @@
 	{
 		uid: "f01428dc",
 		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_legs",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:wyvern_legs"
 		}],
@@ -48,6 +66,12 @@
 	{
 		uid: "09a5ce70",
 		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_boots",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:wyvern_boots"
 		}],

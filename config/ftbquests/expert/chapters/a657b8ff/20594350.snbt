@@ -11,7 +11,7 @@
 	text: [
 		"§lThe Draconic Bow is the most powerful bow in the modpack. ",
 		"",
-		"§rWith this bow, you can machinegun fire arrows. You can configure how powerful the bow is in the GUI."
+		"§rWith this bow, you can machinegun fire arrows. You can configure how powerful the bow is in the GUI. If you enchant the bow, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"b90619c7",
@@ -20,6 +20,12 @@
 	tasks: [{
 		uid: "4a9edb08",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_bow",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_bow 1 32767"
 		}],

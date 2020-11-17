@@ -1,0 +1,30 @@
+{
+	x: 10.5d,
+	y: 7.0d,
+	text: [
+		"§lThe Draconic Axe is one of the best axes in the modpack. ",
+		"",
+		"§rIt works similar to the Axe of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the axe, you will be able to turn the enchantments off and on."
+	],
+	dependencies: [
+		"b90619c7"
+	],
+	tasks: [{
+		uid: "f35095eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_axe",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

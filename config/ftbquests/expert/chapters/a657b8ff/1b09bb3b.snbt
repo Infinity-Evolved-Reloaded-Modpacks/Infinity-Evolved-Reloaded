@@ -13,11 +13,11 @@
 		}
 	},
 	x: 10.5d,
-	y: 5.0d,
+	y: 6.0d,
 	text: [
-		"§lThe Draconic Shovel is the best shovel in the modpack. ",
+		"§lThe Draconic Shovel is one of the best shovels in the modpack. ",
 		"",
-		"§rIt works similar to the Shovel of the Wyvern, but has extra modifiers and has larger maximums."
+		"§rIt works similar to the Shovel of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the shovel, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"b90619c7",

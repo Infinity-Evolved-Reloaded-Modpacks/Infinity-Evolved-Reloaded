@@ -18,13 +18,15 @@
 		type: "item",
 		items: [{
 			item: "enderio:item_broken_spawner"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "e14a001c",
 		type: "item",
 		items: [{
 			item: "enderio:block_powered_spawner"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

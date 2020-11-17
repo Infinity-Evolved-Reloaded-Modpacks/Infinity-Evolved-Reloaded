@@ -1,0 +1,17 @@
+{
+	title: "Miss and the Heavens will answer",
+	x: 12.0d,
+	y: 3.0d,
+	dependencies: [
+		"20594350"
+	],
+	tasks: [{
+		uid: "19a45fa9",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

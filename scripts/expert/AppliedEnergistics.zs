@@ -6,7 +6,6 @@
 print("Initializing 'AppliedEnergistics.zs'...");
 
 #Wrench
-recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [[<stevescarts:modulecomponents:49>, null, <stevescarts:modulecomponents:49>], [null, <advanced_solar_panels:crafting:5>, null], [null, <advanced_solar_panels:crafting:5>, null]]);
 
@@ -24,9 +23,6 @@ recipes.addShaped(<appliedenergistics2:energy_cell>, [[<ore:crystalCertusQuartz>
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>, [[<ore:glass>, <appliedenergistics2:part:380>, <ore:glass>], [<appliedenergistics2:part:16>, <appliedenergistics2:certus_quartz_wrench>.reuse(), <appliedenergistics2:part:16>], [<ore:ingotIron>, <ore:crystalFluix>, <ore:ingotIron>]]);
 
-#Generator
-recipes.remove(<appliedenergistics2:vibration_chamber>);
-
 #Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>], [<appliedenergistics2:material:11>, <thermalfoundation:upgrade:3>, <ic2:upgrade>], [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]]);
@@ -34,5 +30,13 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft
 #Grindstone Recipes
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:cactus>, 4);
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:waterlily>, 4);
+
+#Infinity Booster Card
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>], 
+    [<bigreactors:mineralbenitoite>, <extrautils2:opinium:7>, <bigreactors:mineralanglesite>], 
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>]
+    ]);
 
 print("Initialized 'AppliedEnergistics.zs'");

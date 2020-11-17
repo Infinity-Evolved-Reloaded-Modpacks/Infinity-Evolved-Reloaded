@@ -20,7 +20,10 @@
 		uid: "bd114822",
 		type: "item",
 		items: [{
-			item: "draconicevolution:draconium_chest"
+			id: "draconicevolution:draconium_chest",
+			tag: {
+				ChestColour: 6553750
+			}
 		}]
 	}]
 }

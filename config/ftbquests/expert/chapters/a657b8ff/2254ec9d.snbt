@@ -7,11 +7,11 @@
 		}
 	},
 	x: 10.5d,
-	y: 6.0d,
+	y: 5.0d,
 	text: [
-		"§lThe Draconic Sword is the second best pickaxe in the modpack. ",
+		"§lThe Draconic Sword is the second best sword in the modpack. ",
 		"",
-		"§rIt works similar to the Sowrd of the Wyvern, but has extra modifiers and has larger maximums."
+		"§rIt works similar to the Sword of the Wyvern, but has a larger maximum for area of effect. If you enchant the sword, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"b90619c7",
@@ -20,6 +20,12 @@
 	tasks: [{
 		uid: "296c3698",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_sword",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_sword 1 32767"
 		}],
