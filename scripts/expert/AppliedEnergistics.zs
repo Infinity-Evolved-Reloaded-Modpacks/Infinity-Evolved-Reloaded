@@ -31,4 +31,12 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:cactus>, 4);
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:waterlily>, 4);
 
+#Infinity Booster Card
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>], 
+    [<bigreactors:mineralbenitoite>, <extrautils2:opinium:7>, <bigreactors:mineralanglesite>], 
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>]
+    ]);
+
 print("Initialized 'AppliedEnergistics.zs'");
