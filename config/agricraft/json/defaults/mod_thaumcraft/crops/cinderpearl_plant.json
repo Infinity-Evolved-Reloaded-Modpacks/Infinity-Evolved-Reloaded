@@ -1,0 +1,68 @@
+{
+  "path": "mod_thaumcraft/crops/cinderpearl_plant.json",
+  "enabled": true,
+  "id": "thaumcraft:cinderpearl_plant",
+  "plant_name": "Cinderpearl",
+  "seed_name": "Cinderpearl",
+  "seed_items": [
+    {
+      "item": "thaumcraft:cinderpearl",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Testing 1, 2, 3."
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.0,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:blaze_powder",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "sand_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "ier:items/seedCinderpearl",
+    "plant_textures": [
+      "ier:crops/cropCinderpearl1",
+      "ier:crops/cropCinderpearl2",
+      "ier:crops/cropCinderpearl3",
+      "ier:crops/cropCinderpearl4"
+    ]
+  }
+}

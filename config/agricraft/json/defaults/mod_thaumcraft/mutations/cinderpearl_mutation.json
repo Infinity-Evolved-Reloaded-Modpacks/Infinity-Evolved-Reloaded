@@ -1,0 +1,8 @@
+{
+  "path": "mod_thaumcraft/mutations/cinderpearl_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "thaumcraft:cinderpearl_plant",
+  "parent1": "vanilla:cactus_plant",
+  "parent2": "vanilla:red_tulip_plant"
+}
