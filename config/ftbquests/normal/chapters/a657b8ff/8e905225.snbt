@@ -7,7 +7,7 @@
 		}
 	},
 	x: 10.5d,
-	y: 7.0d,
+	y: 9.0d,
 	text: [
 		"§lDraconic armor is (almost) the most powerful armor in the modpack. ",
 		"",
@@ -22,6 +22,12 @@
 	tasks: [{
 		uid: "5fbba69e",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_helm",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_helm"
 		}],
@@ -31,6 +37,12 @@
 	{
 		uid: "adf82212",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_chest",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_chest"
 		}],
@@ -40,6 +52,12 @@
 	{
 		uid: "5c4943be",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_legs",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_legs"
 		}],
@@ -49,6 +67,12 @@
 	{
 		uid: "15cd8b55",
 		type: "item",
+		icon: {
+			id: "draconicevolution:draconic_boots",
+			tag: {
+				Energy: 16000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:draconic_boots"
 		}],

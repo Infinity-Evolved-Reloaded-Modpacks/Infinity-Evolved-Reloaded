@@ -11,7 +11,7 @@
 	text: [
 		"§lThe Sword of the Wyvern is one of the most powerful melee weapons in the game. ",
 		"",
-		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Sword of the Wyvern, and you can change the AoE, similar to the Tinker's Construct's Scythe. If you enchant the sword, you will be able to turn the enchantments off and on.",
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Sword of the Wyvern, and you can change the AoE, similar to the Tinker's Construct's Scythe. If you enchant the sword, you will be able to turn the enchantments off and on.",
 		"",
 		"In addition to the 20 attack damage (10 hearts), an additional 10% of the mob's health is removed. This means most mobs can be defeated in 10 hits or less, except for certain bosses that cap out damage like the Guardian of Gaia."
 	],

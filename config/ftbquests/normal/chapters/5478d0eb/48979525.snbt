@@ -9,13 +9,11 @@
 		"",
 		"Cranks will break if they are used when the Grindstone has nothing to grind."
 	],
-	min_required_dependencies: 2,
 	dependencies: [
 		"550dee9d",
 		"a5332dd3",
 		"c5f5f0a7"
 	],
-	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "5e0e4594",
 		type: "item",

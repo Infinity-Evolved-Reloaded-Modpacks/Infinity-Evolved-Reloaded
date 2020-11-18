@@ -17,7 +17,7 @@
 	text: [
 		"§lThe Pickaxe of the Wyvern is one of the best pickaxes in the game. ",
 		"",
-		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Pickaxe of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Pickaxe of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. If you enchant the pickaxe, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"073d1f52"
@@ -25,6 +25,18 @@
 	tasks: [{
 		uid: "2f6662e3",
 		type: "item",
+		icon: {
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_pick",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			ForgeCaps: {
 				Parent: {

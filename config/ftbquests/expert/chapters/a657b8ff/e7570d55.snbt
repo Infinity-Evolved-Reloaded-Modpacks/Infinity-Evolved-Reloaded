@@ -17,7 +17,7 @@
 	text: [
 		"§lThe Shovel of the Wyvern is one of the best shovels in the game. ",
 		"",
-		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Shovel of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. If you enchant the shovel, you will be able to turn the enchantments off and on."
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Shovel of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. If you enchant the shovel, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"073d1f52"
