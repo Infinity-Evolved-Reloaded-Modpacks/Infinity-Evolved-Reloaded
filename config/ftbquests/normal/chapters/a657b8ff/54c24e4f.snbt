@@ -11,7 +11,7 @@
 	text: [
 		"§lThe Bow of the Wyvern is one of the most powerful ranged weapons in the game. ",
 		"",
-		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Bow of the Wyvern, and you can modify several values. The more powerful you make the bow, the more RF it takes per shot. The \"Inv\" tab allows you to place Enchanted Books into the item, which will enchant it. You can later remove these if you want."
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Bow of the Wyvern, and you can modify several values. The more powerful you make the bow, the more RF it takes per shot. If you enchant the bow, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"073d1f52"
@@ -19,6 +19,12 @@
 	tasks: [{
 		uid: "920ed0c3",
 		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_bow",
+			tag: {
+				Energy: 4000000
+			}
+		},
 		items: [{
 			item: "draconicevolution:wyvern_bow 1 32767"
 		}],

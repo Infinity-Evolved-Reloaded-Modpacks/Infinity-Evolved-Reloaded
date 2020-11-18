@@ -12,12 +12,10 @@
 			Energy: 48000000
 		}
 	},
-	x: 12.5d,
+	x: 12.0d,
 	y: 5.0d,
 	text: [
-		"§lThe Draconic Staff of Power is the ultimate. It is a mixture of all of the other Draconic tools. It does the most damage, a whopping 60 damage (30 hearts), plus an additional 30% of the mob's health. It can be configured like the other tools.",
-		"",
-		"§r"
+		"§lThe Draconic Staff of Power is the ultimate. It is a mixture of all of the other Draconic tools. It does the most damage, a whopping 60 damage (30 hearts), plus an additional 30% of the mob's health. It can be configured like the other tools."
 	],
 	dependencies: [
 		"2254ec9d",
@@ -27,6 +25,18 @@
 	tasks: [{
 		uid: "807fb3c9",
 		type: "item",
+		icon: {
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power",
+			tag: {
+				Energy: 48000000
+			}
+		},
 		items: [{
 			ForgeCaps: {
 				Parent: {

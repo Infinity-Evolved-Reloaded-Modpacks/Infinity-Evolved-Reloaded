@@ -15,9 +15,9 @@
 	x: 10.5d,
 	y: 4.0d,
 	text: [
-		"§lThe Draconic Pickaxe is the best pickaxe in the modpack. ",
+		"§lThe Draconic Pickaxe is one of the best pickaxes in the modpack. ",
 		"",
-		"§rIt works similar to the Pickaxe of the Wyvern, but has extra modifiers and has larger maximums."
+		"§rIt works similar to the Pickaxe of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the pickaxe, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
 		"e65eab06",
