@@ -3,7 +3,7 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode normal
 
-print("Initializing 'Botania.zs'...");
+print("Initializing 'Gendustry.zs'...");
 
 recipes.addShaped(<gendustry:power_module>, 
 [
@@ -12,4 +12,4 @@ recipes.addShaped(<gendustry:power_module>,
     [<ore:gearBronze>,      <ore:ingotGold>,    <ore:gearBronze>]
 ]);
 
-print("Initialized 'Botania.zs'...");
+print("Initialized 'Gendustry.zs'...");
