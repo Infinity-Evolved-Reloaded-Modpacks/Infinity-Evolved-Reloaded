@@ -36,9 +36,8 @@
 	x: 2.6666666666666665d,
 	y: 3.875d,
 	text: [
-		"The Ball of Moss is an invaluable modifier, even at late game. Tools with the modifier slowly automatically repair themselves. This saves a ton of resources because you won't have to repair the tool ever. Also, if you want to get the Sharpness upgrade, 3 Certus Quartz is an entire level as opposed to the giant amount of Nether Quartz it would usually take.",
-		"",
-		"You can use a Chisel to turn Stone Bricks into Mossy Stone Bricks and use those!"
+		"You know the Ball of Moss? Well, it isn't what it was anymore.... But we got the Mending Moss!",
+		"Right click with a Ball of Moss on a Bookshelf while carrying 10 XP levels at you and the moss will turn into Mending Moss. Tools with this modifier will store some XP and repair themselves, consuming the XP. Stacking it will allow you to store more XP."
 	],
 	dependencies: [
 		"317d15c2"
