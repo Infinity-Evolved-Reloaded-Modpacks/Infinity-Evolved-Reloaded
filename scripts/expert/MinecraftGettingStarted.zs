@@ -208,7 +208,10 @@ recipes.addShapeless(<extrautils2:ironwood_planks> * 2, [<extrautils2:ironwood_l
 recipes.addShapeless(<extrautils2:ironwood_planks:1> * 2, [<extrautils2:ironwood_log:1>]);
 recipes.addShapeless(<thaumcraft:plank_greatwood> * 2, [<thaumcraft:log_greatwood>]);
 recipes.addShapeless(<thaumcraft:plank_silverwood> * 2, [<thaumcraft:log_silverwood>]);
-
+recipes.addShapeless(<natura:overworld_planks:5> * 2, [<extratrees:logs.8>]);
+recipes.addShapeless(<natura:overworld_planks:5> * 2, [<natura:overworld_logs2:1>]);
+recipes.addShapeless(<natura:overworld_planks:5> * 2, [<extratrees:logs.9>]);
+recipes.addShapeless(<extratrees:logs.fireproof.9> * 2, [<extratrees:logs.fireproof.9>]);
 
 
 
