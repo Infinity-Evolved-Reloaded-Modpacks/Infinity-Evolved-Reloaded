@@ -123,4 +123,16 @@ mods.avaritia.ExtremeCrafting.addShaped("AngelRingGoldenWings", <extrautils2:ang
 recipes.remove(<extrautils2:angelring:5>);
 mods.avaritia.ExtremeCrafting.addShaped("AngelRingBatWings", <extrautils2:angelring:5>, [[null, null, null, null, <extrautils2:spike_diamond>, null, null, null, null], [null, null, null, <enderio:item_material:7>, <solargeneration:solar_panel_resonant>, <enderio:item_material:7>, null, null, null], [null, null, <minecraft:dragon_breath>, <minecraft:dragon_breath>, <minecraft:dragon_breath>, <minecraft:dragon_breath>, <minecraft:dragon_breath>, null, null], [null, null, <ic2:crafting:15>, <ic2:crafting:4>, <ic2:crafting:4>, <ic2:crafting:4>, <ic2:crafting:15>, null, null], [null, null, <ic2:crafting:15>, <minecraft:nether_star>, <botania:flighttiara>, <minecraft:nether_star>, <ic2:crafting:15>, null, null], [null, null, <ic2:crafting:15>, <ic2:crafting:4>, <ic2:crafting:4>, <ic2:crafting:4>, <ic2:crafting:15>, null, null], [null, <gravisuite:advancedjetpack:*>, <gravisuite:ultimatelappack:*>, <simplyjetpacks:itemfluxpack:8>.withTag({Energy: 40000000}), <simplyjetpacks:itemfluxpack:8>.withTag({Energy: 40000000}), <simplyjetpacks:itemfluxpack:8>.withTag({Energy: 40000000}), <gravisuite:ultimatelappack:*>, <gravisuite:advancedjetpack:*>, null], [null, <simplyjetpacks:metaitemmods:30>, <simplyjetpacks:metaitemmods:11>, null, null, null, <simplyjetpacks:metaitemmods:11>, <simplyjetpacks:metaitemmods:30>, null], [null, <simplyjetpacks:metaitem:2>, <simplyjetpacks:metaitem:2>, null, null, null, <simplyjetpacks:metaitem:2>, <simplyjetpacks:metaitem:2>, null]]);
 
+#Player Trap
+recipes.remove(<darkutils:trap_tile:7>);
+recipes.addShaped(<darkutils:trap_tile:7>, [[null, null, null], [<ore:stone>, <enderio:item_dark_steel_sword>, <ore:stone>], [null, null, null]]);
+
+#Damage Trap
+recipes.remove(<darkutils:trap_tile:2>);
+recipes.addShaped(<darkutils:trap_tile:2>, [[null, null, null], [<ore:stone>, <railcraft:tool_sword_steel>, <ore:stone>], [null, null, null]]);
+
+#Flame Trap
+recipes.remove(<darkutils:trap_tile:4>);
+recipes.addShaped(<darkutils:trap_tile:4>, [[null, null, null], [<ore:stone>, <natura:flint_and_blaze>, <ore:stone>], [null, null, null]]);
+
 print("Initialized 'ExtraUtilites2.zs'");
