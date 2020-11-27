@@ -11,7 +11,7 @@
 	text: [
 		"§lItty-bitty generation speed. The Survivalist Generator is incredibly slow, but fuel efficient. ",
 		"",
-		"§rIt's also probably the only thing you can make right now, so you've gotta deal with it for a while. To use Extra Utilities generators, you have to use IE Wire Coils or TE Fluxducts to transfer the RF; you can't just put the generator down next to the machine.",
+		"§rIt's also probably the only thing you can make right now, so you've gotta deal with it for a while. For energy transfer you could use the Immersive Engineering Wire Connectors, Relays and Coils.",
 		"",
 		"A single chunk of Coal in this bad boy will make you 80,000RF total, but at only 5RF/t. 20t in a second means that's 100RF/s. Not a whole lot, but it's workable for now. It's a good idea to use this to fill a Capacitor slowly instead of directly feeding machines, as it likely won't keep up with its RF demands."
 	],
