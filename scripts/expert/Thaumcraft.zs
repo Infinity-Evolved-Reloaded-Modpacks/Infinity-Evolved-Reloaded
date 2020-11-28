@@ -50,7 +50,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("TALLOW", "HEDGEALCHEMY@1",
 
 # -Thaumometer
 recipes.remove(<thaumcraft:thaumometer>);
-recipes.addShaped(<thaumcraft:thaumometer>, [[null, <thaumcraft:crystal_essence>, null], [<ore:ingotGold>, <botania:managlass>, <ore:ingotGold>], [null, <thaumcraft:crystal_essence>, null]]);
+recipes.addShaped(<thaumcraft:thaumometer>, [[null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null], [<ore:ingotGold>, <botania:managlass>, <ore:ingotGold>], [null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null]]);
 
 # -Goggles of Revealing
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:goggles>);
