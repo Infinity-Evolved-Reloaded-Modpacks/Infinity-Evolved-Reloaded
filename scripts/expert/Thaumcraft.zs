@@ -25,7 +25,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("PAVETRAVEL", "PAVINGSTONES
 
 # -Runic Matrix
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
-mods.botania.RuneAltar.addRecipe(<thaumcraft:infusion_matrix>, [<bewitchment:waystone>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeManaB>], 1000000);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("RunicMatrix", "INFUSION@2", 64, [<aspect:aer> * 64, <aspect:terra> * 64, <aspect:ignis> * 64, <aspect:ordo> * 64, <aspect: aqua> * 64, <aspect:perditio> * 64], <thaumcraft:infusion_matrix>, [[<bloodmagic:blood_rune>, <botania:rune:3>, <bloodmagic:blood_rune>], [<botania:rune>, <bewitchment:waystone>, <botania:rune:2>], [<bloodmagic:blood_rune>, <botania:rune:1>, <bloodmagic:blood_rune>]]);
 
 # -Mirrored Glass
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:mirrored_glass>);
@@ -50,7 +50,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("TALLOW", "HEDGEALCHEMY@1",
 
 # -Thaumometer
 recipes.remove(<thaumcraft:thaumometer>);
-recipes.addShaped(<thaumcraft:thaumometer>, [[null, <thaumcraft:crystal_essence>, null], [<ore:ingotGold>, <botania:managlass>, <ore:ingotGold>], [null, <thaumcraft:crystal_essence>, null]]);
+recipes.addShaped(<thaumcraft:thaumometer>, [[null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null], [<ore:ingotGold>, <botania:managlass>, <ore:ingotGold>], [null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null]]);
 
 # -Goggles of Revealing
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:goggles>);
