@@ -46,7 +46,8 @@ var recipesToRemove = [
 <randomthings:spectrecoil_number>,
 <randomthings:diviningrod:*>,
 <randomthings:spectrecoil_genesis>,
-<tconstruct:cast_custom:3>
+<tconstruct:cast_custom:3>,
+<industrialforegoing:black_hole_controller>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
