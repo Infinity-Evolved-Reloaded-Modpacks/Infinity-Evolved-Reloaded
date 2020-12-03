@@ -44,7 +44,9 @@ var recipesToRemove = [
 <randomthings:spectrecoil_redstone>,
 <randomthings:spectrecoil_ender>,
 <randomthings:spectrecoil_number>,
-<randomthings:spectrecoil_genesis>
+<randomthings:diviningrod:*>,
+<randomthings:spectrecoil_genesis>,
+<tconstruct:cast_custom:3>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
