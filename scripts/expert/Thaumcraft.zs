@@ -38,7 +38,7 @@ recipes.addShapeless(<thaumcraft:scribing_tools>, [<thaumcraft:scribing_tools>.a
 
 # -Arcane Bellows
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:bellows>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("BELLOWS", "BELLOWS@1", 1, [<aspect:aer>*10, <aspect:ordo>*5], <thaumcraft:bellows>, [[null, <ore:shardAir>], [<thaumcraft:plank_greatwood>, <botania:bellows>, <thaumcraft:plank_greatwood>], [null, <ore:shardAir>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("BELLOWS", "BELLOWS@1", 1, [<aspect:aer> * 10, <aspect:ordo> * 5], <thaumcraft:bellows>, [[null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null], [<thaumcraft:plank_greatwood>, <botania:bellows>, <thaumcraft:plank_greatwood>], [null, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}), null]]);
 
 # -Enchanted Fabric
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:fabric>);
