@@ -250,18 +250,18 @@
 		"color": 0,
 		"rarity": [
 			{
-				"whitelist": "minecraft:sky",
+				"whitelist": "",
 				"blacklist": "",
-				"depth_min": 5,
-				"depth_max": 68,
-				"weight": 8
+				"depth_min": 0,
+				"depth_max": 0,
+				"weight": 0
 			},
 			{
 				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
+				"blacklist": "",
 				"depth_min": 0,
-				"depth_max": 255,
-				"weight": 1
+				"depth_max": 0,
+				"weight": 0
 			}
 		]
 	},

@@ -2,6 +2,7 @@
   "Iron": {
     "color": "#FFC7A3",
     "tooltip": "Sweet Irony",
+    "dimensions": [0, -6, -100],
     "smeltingResult": "minecraft:iron_nugget"
   },
   "Gold": {
@@ -9,6 +10,7 @@
     "tooltip": "Pure Luster",
     "smeltingResult": "minecraft:gold_nugget",
     "rarity": 9,
+    "dimensions": [0, -6, -100],
     "maxHeight": 32,
     "sizeChance": 6
   },
@@ -20,6 +22,7 @@
     },
     "rarity": 4,
     "density": 2,
+    "dimensions": [0, -6, -100],
     "minHeight": 20,
     "maxHeight": 60
   },
@@ -31,6 +34,7 @@
     },
     "rarity": 4,
     "density": 2,
+    "dimensions": [0, -6, -100],
     "maxHeight": 40
   },
   "Aluminum": {
@@ -48,12 +52,14 @@
     },
     "rarity": 3,
     "density": 2,
+    "dimensions": [0, -6, -100],
     "maxHeight": 60,
     "sizeChance": 14
   },
   "Essence": {
     "bushName": "Essence Berry Bush",
     "berryName": "Concentrated Essence Berry",
+    "dimensions": [0, -6, -100],
     "tooltip": "Tastes like Creeper",
     "oredictNames": [],
     "smeltingResult": null,

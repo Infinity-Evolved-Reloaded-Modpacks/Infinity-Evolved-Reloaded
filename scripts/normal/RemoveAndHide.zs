@@ -10,6 +10,10 @@ print("Initializing 'RemoveAndHide.zs'...");
 
 # Remove and Hide Items
 var recipesToRemove = [
+<railcraft:gear:1>,
+<railcraft:gear:2>,
+<railcraft:gear:4>,
+<railcraft:gear:5>,
 <netherendingores:ore_end_modded_1:*>,
 <netherendingores:ore_nether_modded_1:12>,
 <netherendingores:ore_nether_modded_1:11>,
@@ -20,7 +24,8 @@ var recipesToRemove = [
 <netherendingores:ore_other_1:*>,
 <netherendingores:ore_end_modded_2>,
 <netherendingores:ore_end_vanilla:*>,
-<advanced_solar_panels:double_stone_slab>
+<advanced_solar_panels:double_stone_slab>,
+<industrialforegoing:black_hole_controller>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
