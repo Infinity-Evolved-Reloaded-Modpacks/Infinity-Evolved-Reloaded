@@ -1,7 +1,7 @@
 #Name: Creative.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
-#packmode normal
+#packmode expert
 
 print("Initializing 'Creative.zs'...");
 
