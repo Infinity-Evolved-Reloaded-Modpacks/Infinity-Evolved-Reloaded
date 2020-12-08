@@ -19,24 +19,24 @@ var TreatedStick = <ore:stickTreatedWood>;
 #WoodChestTransport
 recipes.removeByRecipeName("chesttransporter:wooden_transporter");
 recipes.addShaped(WoodChestTransport, [
-    [null, null, TreatedStick], 
-    [null, <yabba:item_barrel>, TreatedStick], 
-    [TreatedStick, TreatedStick, <minecraft:planks>]
+    [null, null, TreatedStick],
+    [null, <yabba:item_barrel>, TreatedStick],
+    [TreatedStick, TreatedStick, <ore:plankWood>]
     ]);
 
 #IronChestTransport
 recipes.removeByRecipeName("chesttransporter:iron_transporter");
 recipes.addShaped(IronChestTransport, [
-    [null, null, TreatedStick], 
-    [null, WoodChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, WoodChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockIron>]
     ]);
 
 #GoldenChestTransport
 recipes.removeByRecipeName("chesttransporter:gold_transporter");
 recipes.addShaped(GoldenChestTransport, [
-    [null, null, TreatedStick], 
-    [null, IronChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, IronChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockGold>]
     ]);
 
@@ -45,39 +45,39 @@ recipes.removeByRecipeName("chesttransporter:diamond_transporter");
 
 #Vanilla Resources
 recipes.addShaped(DiamondChestTransport, [
-    [null, null, TreatedStick], 
-    [null, GoldenChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, GoldenChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockDiamond>]
     ]);
 
 #Modded Resources
 recipes.addShaped(DiamondChestTransport, [
-    [null, null, TreatedStick], 
-    [null, SilverChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, SilverChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockDiamond>]
     ]);
 
 #CopperChestTransport
 recipes.removeByRecipeName("chesttransporter:copper_transporter");
 recipes.addShaped(CopperChestTransport, [
-    [null, null, TreatedStick], 
-    [null, WoodChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, WoodChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockCopper>]
     ]);
 
 #SilverChestTransport
 recipes.removeByRecipeName("chesttransporter:silver_transporter");
 recipes.addShaped(SilverChestTransport, [
-    [null, null, TreatedStick], 
-    [null, CopperChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, CopperChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:blockSilver>]
     ]);
 
 #ObsidianChestTransport
 recipes.removeByRecipeName("chesttransporter:obsidian_transporter");
 recipes.addShaped(ObsidianChestTransport, [
-    [null, null, TreatedStick], 
-    [null, DiamondChestTransport, TreatedStick], 
+    [null, null, TreatedStick],
+    [null, DiamondChestTransport, TreatedStick],
     [TreatedStick, TreatedStick, <ore:obsidian>]
     ]);
 
