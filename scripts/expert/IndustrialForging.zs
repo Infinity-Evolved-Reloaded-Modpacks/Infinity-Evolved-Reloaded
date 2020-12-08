@@ -7,7 +7,7 @@ print("Initializing 'IndustrialForegoing.zs'...");
 
 #Plastic Sheets
 recipes.remove(<industrialforegoing:plastic>);
-recipes.addShaped(<industrialforegoing:plastic> * 2, [[<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>], [<industrialforegoing:dryrubber>, <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).giveBack(<minecraft:bucket>), <industrialforegoing:dryrubber>], [<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>]]);
+recipes.addShaped(<industrialforegoing:plastic> * 2, [[<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>], [<industrialforegoing:dryrubber>, <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}), <industrialforegoing:dryrubber>], [<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>]]);
 furnace.remove(<industrialforegoing:plastic>);
 
 #Latex Processing Unit
