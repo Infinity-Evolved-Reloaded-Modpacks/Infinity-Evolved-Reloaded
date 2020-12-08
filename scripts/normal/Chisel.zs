@@ -2,7 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode normal
-
+import mods.chisel.Carving.addVariation;
 print("Initializing 'Chisel.zs'...");
 
 #Futura Block

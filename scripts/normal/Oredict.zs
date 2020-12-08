@@ -2,6 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode normal
+import mods.jei.JEI.removeAndHide as rh;
 
 print("Initializing 'Oredict.zs'...");
 
