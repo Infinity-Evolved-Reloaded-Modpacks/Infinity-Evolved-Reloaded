@@ -31,7 +31,7 @@ recipes.remove(<bloodmagic:teleposer>);
 recipes.addShaped(<bloodmagic:teleposer>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<botania:manaresource:1>, <bloodmagic:teleposition_focus>, <botania:manaresource:1>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:ender_pearl>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus>, <botania:manaresource:1>, 4, 2000, 10, 10);
-mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:teleposition_focus:1>);
+mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:teleposition_focus>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus:1>, <minecraft:nether_star>, 4, 10000, 10, 10);
 
 # -Runes
