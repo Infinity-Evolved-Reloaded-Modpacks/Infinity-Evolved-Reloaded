@@ -12,4 +12,12 @@ recipes.addShaped(<natura:sticks:9> * 4, [[<natura:nether_planks>, null, null], 
 #Remove Double Cotton Recipe
 recipes.removeShapeless(<minecraft:string> * 2, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 
+#Nether Furnace
+recipes.remove(<natura:netherrack_furnace>);
+recipes.addShaped(<natura:netherrack_furnace>, [
+    [<extrautils2:compressednetherrack>, <extrautils2:compressednetherrack>, <extrautils2:compressednetherrack>],
+    [<extrautils2:compressednetherrack>, null, <extrautils2:compressednetherrack>],
+    [<extrautils2:compressednetherrack>, <extrautils2:compressednetherrack>, <extrautils2:compressednetherrack>]
+    ]);
+    
 print("Initialized 'Natura.zs'");
