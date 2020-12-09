@@ -3,6 +3,7 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode normal
 import mods.jei.JEI.removeAndHide as rh;
+import crafttweaker.item.IIngredient;
 
 print("Initializing 'Oredict.zs'...");
 
@@ -78,12 +79,14 @@ var blockToIngot = [
     <railcraft:ingot:3>*9,
     <railcraft:ingot:4>*9,
     <railcraft:ingot:5>*9,
+    <railcraft:ingot:9>*9,
     <projectred-core:resource_item:102>*9
 ] as IIngredient[];
 
 var ingotToNugget = [
     <bewitchment:silver_nugget>*9,
-    <railcraft:nugget:1>*9
+    <railcraft:nugget:1>*9,
+    <railcraft:nugget:9>*9
 ] as IIngredient[];
 
 var nuggetToIngot = [
@@ -94,6 +97,7 @@ var nuggetToIngot = [
     <railcraft:ingot:5>,
     <railcraft:ingot:6>,
     <railcraft:ingot:7>,
+    <railcraft:ingot:9>,
 ] as IIngredient[];
 
 var ingotToBlock = [
@@ -105,6 +109,7 @@ var ingotToBlock = [
     <railcraft:metal:5>,
     <railcraft:metal:6>,
     <railcraft:metal:7>,
+    <railcraft:metal:9>,
 ] as IIngredient[];
 
 for recipe in blockToIngot {

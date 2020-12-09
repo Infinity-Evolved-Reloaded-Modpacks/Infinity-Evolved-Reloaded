@@ -1,7 +1,7 @@
 #Name: Chisel.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
-#packmode normal
+#packmode expert
 import mods.chisel.Carving.addVariation;
 
 print("Initializing 'Chisel.zs'...");
@@ -9,10 +9,6 @@ print("Initializing 'Chisel.zs'...");
 #Futura Block
 recipes.remove(<chisel:futura>);
 recipes.addShaped(<chisel:futura> * 8, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <minecraft:blaze_powder>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-
-#Coke
-addVariation("blockCoalCoke", <immersiveengineering:stone_decoration:3>);
-addVariation("blockCoalCoke", <thermalfoundation:storage_resource:1>);
 
 #Basalt
 addVariation("basalt", <ic2:resource>);
