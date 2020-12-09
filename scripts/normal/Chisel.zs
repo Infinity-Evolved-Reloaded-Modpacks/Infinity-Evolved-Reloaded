@@ -11,7 +11,6 @@ recipes.addShaped(<chisel:futura> * 8, [[<ore:stone>, <ore:stone>, <ore:stone>],
 
 #Coke
 addVariation("blockCoalCoke", <immersiveengineering:stone_decoration:3>);
-addVariation("blockCoalCoke", <railcraft:generic:6>);
 addVariation("blockCoalCoke", <thermalfoundation:storage_resource:1>);
 
 #Basalt
