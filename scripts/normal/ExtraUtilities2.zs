@@ -9,4 +9,7 @@ print("Initializing 'ExtraUtilities2.zs'...");
 # -ExtraUtilities2 Unstable Ingot
 mods.jei.JEI.hide(<extrautils2:unstableingots>);
 
+#Creative Builders Wand
+recipes.addShaped(<extrautils2:itemcreativebuilderswand>, [[null, null, <unstabletools:pseudo_unstable_ingot>], [null, <extrautils2:decorativesolidwood:1>, null], [<extrautils2:decorativesolidwood:1>, null, null]]);
+
 print("Initialized 'ExtraUtilities2.zs'");
