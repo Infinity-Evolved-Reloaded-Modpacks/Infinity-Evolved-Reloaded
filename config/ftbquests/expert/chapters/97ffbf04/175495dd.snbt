@@ -52,6 +52,7 @@
 					Damage: 0s
 				}
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

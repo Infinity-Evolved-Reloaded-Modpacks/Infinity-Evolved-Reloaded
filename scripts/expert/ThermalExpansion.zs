@@ -15,11 +15,19 @@ recipes.remove(<thermalexpansion:dynamo:4>);
 recipes.remove(<thermalexpansion:dynamo:3>);
 recipes.remove(<thermalexpansion:dynamo:2>);
 recipes.remove(<thermalexpansion:dynamo>);
-recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <thermalfoundation:material:98>, null], [<thermalfoundation:material:162>, <buildcraftsilicon:redstone_chipset>, <thermalfoundation:material:162>], [<thermalfoundation:material:289>, <thermalfoundation:material:514>, <thermalfoundation:material:289>]]);
+recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <thermalfoundation:material:98>, null], [<thermalfoundation:material:162>, <buildcraftsilicon:redstone_chipset:4>, <thermalfoundation:material:162>], [<thermalfoundation:material:294>, <thermalfoundation:material:514>, <thermalfoundation:material:294>]]);
 recipes.addShaped(<thermalexpansion:dynamo:4>, [[null, <redstonearsenal:material>, null], [<ore:ingotElectrum>, <buildcraftsilicon:redstone_chipset>, <ore:ingotElectrum>], [<ore:gearElectrum>, <thermalfoundation:material:514>, <ore:gearElectrum>]]);
 recipes.addShaped(<thermalexpansion:dynamo:3>, [[null, <ic2:nuclear:2>, null], [<ore:ingotBronze>, <buildcraftsilicon:redstone_chipset>, <ore:ingotBronze>], [<ore:gearBronze>, <thermalfoundation:material:514>, <ore:gearBronze>]]);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [[null, <ic2:fluid_cell>, null], [<ore:ingotTin>, <buildcraftsilicon:redstone_chipset>, <ore:ingotTin>], [<thermalfoundation:material:257>, <thermalfoundation:material:514>, <thermalfoundation:material:257>]]);
 recipes.addShaped(<thermalexpansion:dynamo>, [[null, <ic2:crafting:18>, null], [<ore:ingotCopper>, <buildcraftsilicon:redstone_chipset>, <ore:ingotCopper>], [<ore:gearCopper>, <thermalfoundation:material:514>, <ore:gearCopper>]]);
+
+#Augment: Lapidary Calibration
+recipes.removeByRecipeName("thermalexpansion:augment_39");
+recipes.addShaped(<thermalexpansion:augment:720>, [
+    [null, <thermalfoundation:material:293>, null], 
+    [<thermalfoundation:material:294>, <thermalfoundation:material:515>, <thermalfoundation:material:294>], 
+    [null, <minecraft:emerald>, null]
+    ]);
 
 #Cryotheum & Pyrotheum
 recipes.remove(<thermalfoundation:material:1025>);
