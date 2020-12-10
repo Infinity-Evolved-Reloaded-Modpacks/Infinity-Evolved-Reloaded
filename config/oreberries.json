@@ -17,9 +17,7 @@
   "Copper": {
     "color": "#FF8833",
     "tooltip": "Tastes like metal",
-    "smeltingResult": {
-      "color": "#FF6600"
-    },
+    "smeltingResult": "thermalfoundation:material:192",
     "rarity": 4,
     "density": 2,
     "dimensions": [0, -6, -100],
@@ -29,9 +27,7 @@
   "Tin": {
     "color": "#BB4422",
     "tooltip": "Tin Man",
-    "smeltingResult": {
-      "color": "#FFBA80"
-    },
+    "smeltingResult": "thermalfoundation:material:193",
     "rarity": 4,
     "density": 2,
     "dimensions": [0, -6, -100],
@@ -40,16 +36,7 @@
   "Aluminum": {
     "color": "#EEFFFF",
     "tooltip": "White Chocolate",
-    "oredictNames": [
-      "nuggetAluminum",
-      "nuggetAluminium"
-    ],
-    "smeltingResult": {
-      "ingotNames": [
-        "ingotAluminum",
-        "ingotAluminium"
-      ]
-    },
+	"smeltingResult": "thermalfoundation:material:196",
     "rarity": 3,
     "density": 2,
     "dimensions": [0, -6, -100],

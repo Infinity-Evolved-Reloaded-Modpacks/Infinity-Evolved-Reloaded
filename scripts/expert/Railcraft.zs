@@ -3,6 +3,7 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
 import moretweaker.railcraft.BlastFurnace;
+import moretweaker.railcraft.CokeOven;
 print("Initializing 'Railcraft.zs'...");
 
 #Anchors or WorldSpikes
@@ -19,13 +20,13 @@ recipes.addShaped(<railcraft:equipment:1>, [[<minecraft:piston>, <ore:gearIron>,
 recipes.remove(<railcraft:generic:6>);
 
 #Coal Coke Fix
-recipes.remove(<ore:fuelCoke>);
+#recipes.remove(<ore:fuelCoke>);
 recipes.remove(<ic2:coke>);
-recipes.remove(<thermalfoundation:storage_resource:1>);
-recipes.addShaped(<thermalfoundation:storage_resource:1>, [[<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>], [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>], [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>]]);
-recipes.addShapeless(<thermalfoundation:material:802> *9, [<railcraft:generic:6>]);
-recipes.addShapeless(<thermalfoundation:material:802> *9, [<thermalfoundation:storage_resource:1>]);
-recipes.addShapeless(<thermalfoundation:material:160> *9, [<thermalfoundation:storage_alloy>]);
+#recipes.remove(<thermalfoundation:storage_resource:1>);
+#recipes.addShaped(<thermalfoundation:storage_resource:1>, [[<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>], [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>], [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>]]);
+#recipes.addShapeless(<thermalfoundation:material:802> *9, [<railcraft:generic:6>]);
+#recipes.addShapeless(<thermalfoundation:material:802> *9, [<thermalfoundation:storage_resource:1>]);
+#recipes.addShapeless(<thermalfoundation:material:160> *9, [<thermalfoundation:storage_alloy>]);
 
 #Steel Armor
 recipes.remove(<railcraft:armor_helmet_steel>);
@@ -43,21 +44,34 @@ recipes.addShaped(<railcraft:armor_boots_steel>, [[<ore:plateSteel>, null, <ore:
 #Minecart Steel recipe remove
 recipes.removeShaped(<minecraft:minecart> * 2, [[null, null, null],[<thermalfoundation:material:160>, null, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]]);
 
+BlastFurnace.removeAll();
+
 #Iron Door - Steel Ingot Dupe Fix
-BlastFurnace.remove(<railcraft:ingot>* 5);
-BlastFurnace.add(<railcraft:ingot>, <minecraft:iron_ingot>, 2560, 1);
+#BlastFurnace.remove(<railcraft:ingot>* 5);
+#BlastFurnace.add(<thermalfoundation:material:160>, <minecraft:iron_ingot>, 2560, 1);
 
 #Railcraft Blast Furnace Iron Armor to Steel Ingot
-BlastFurnace.add(<railcraft:ingot> * 5, <minecraft:iron_helmet>, 12800, 5);
-BlastFurnace.add(<railcraft:ingot> * 8, <minecraft:iron_chestplate>, 20480, 8);
-BlastFurnace.add(<railcraft:ingot> * 7, <minecraft:iron_leggings>, 17920, 7);
-BlastFurnace.add(<railcraft:ingot> * 4, <minecraft:iron_boots>, 10240, 4);
+BlastFurnace.add(<thermalfoundation:material:160> * 5, <minecraft:iron_helmet>, 12800, 5);
+BlastFurnace.add(<thermalfoundation:material:160> * 8, <minecraft:iron_chestplate>, 20480, 8);
+BlastFurnace.add(<thermalfoundation:material:160> * 7, <minecraft:iron_leggings>, 17920, 7);
+BlastFurnace.add(<thermalfoundation:material:160> * 4, <minecraft:iron_boots>, 10240, 4);
 
 #Railcraft Blast Furnace Steel Armor in Steel Ingot
-BlastFurnace.add(<railcraft:ingot> * 5, <railcraft:armor_helmet_steel>, 12800, 5);
-BlastFurnace.add(<railcraft:ingot> * 8, <railcraft:armor_chestplate_steel>, 20480, 8);
-BlastFurnace.add(<railcraft:ingot> * 7, <railcraft:armor_leggings_steel>, 17920, 7);
-BlastFurnace.add(<railcraft:ingot> * 4, <railcraft:armor_boots_steel>, 10240, 4);
+BlastFurnace.add(<thermalfoundation:material:160> * 5, <railcraft:armor_helmet_steel>, 12800, 5);
+BlastFurnace.add(<thermalfoundation:material:160> * 8, <railcraft:armor_chestplate_steel>, 20480, 8);
+BlastFurnace.add(<thermalfoundation:material:160> * 7, <railcraft:armor_leggings_steel>, 17920, 7);
+BlastFurnace.add(<thermalfoundation:material:160> * 4, <railcraft:armor_boots_steel>, 10240, 4);
+
+#BlastFurnace Remove Railcraft Steel
+BlastFurnace.add(<thermalfoundation:material:160>,<ore:ingotIron>,2560,1);
+BlastFurnace.add(<thermalfoundation:storage_alloy>,<ore:blockIron>,11520,9);
+
+#Remove Coke
+CokeOven.removeAll();
+CokeOven.add(<thermalfoundation:material:802>,<minecraft:coal>,<liquid:creosote>*250,1800);
+CokeOven.add(<thermalfoundation:storage_resource:1>,<minecraft:coal_block>,<liquid:creosote>*2500,16200);
+CokeOven.add(<minecraft:coal:1>,<ore:logWood>,<liquid:creosote>*250,1800);
+#CokeOven.add(IItemStack output, IIngredient input, ILiquidStack liquidOutput, optional int ticks);
 
 #Blast Brick
 recipes.remove(<railcraft:blast_furnace>);

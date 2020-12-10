@@ -113,4 +113,8 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <th
 #Draconic Block
 mods.thermalexpansion.Factorizer.removeRecipeCombine(<draconicevolution:draconium_ingot> * 9);
 
+#Remove Iridium Ore Transformation
+recipes.remove(<ic2:misc_resource:1> * 2);
+
+
 print("Initialized 'ThermalExpansion.zs'");
