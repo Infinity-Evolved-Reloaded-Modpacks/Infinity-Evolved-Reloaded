@@ -11,13 +11,13 @@ print("Initializing 'Oredict.zs'...");
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
 
-brass.addAll(alubrass); 
+brass.addAll(alubrass);
 
 #Merge dustEnder into dustEnderPearl
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
 
-dustEnderPearl.addAll(dustEnder); 
+dustEnderPearl.addAll(dustEnder);
 
 #Steel
 recipes.remove(<railcraft:metal:3>);
@@ -130,5 +130,9 @@ for recipe in ingotToBlock {
 
 recipes.addShaped(<thermalfoundation:material:128>,[[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>],[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>],[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>]]);
 recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>],[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>],[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>]]);
+
+#EnderPearlDust Portal Gun
+val EIODictEnt = <ore:dustEnderPearl>;
+EIODictEnt.remove(<portalgun:item_dust_ender_pearl>);
 
 print("Initialized 'Oredict.zs'");
