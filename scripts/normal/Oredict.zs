@@ -11,13 +11,13 @@ print("Initializing 'Oredict.zs'...");
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
 
-brass.addAll(alubrass); 
+brass.addAll(alubrass);
 
 #Merge dustEnder into dustEnderPearl
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
 
-dustEnderPearl.addAll(dustEnder); 
+dustEnderPearl.addAll(dustEnder);
 
 #Steel
 recipes.remove(<railcraft:metal:3>);
@@ -130,5 +130,14 @@ for recipe in ingotToBlock {
 
 recipes.addShaped(<thermalfoundation:material:128>,[[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>],[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>],[<thermalfoundation:material:192>,<thermalfoundation:material:192>,<thermalfoundation:material:192>]]);
 recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>],[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>],[<thermalfoundation:material:196>,<thermalfoundation:material:196>,<thermalfoundation:material:196>]]);
+
+#dustEnderPearl
+<ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
+<ore:dustEnderPearl>.remove(<portalgun:item_dust_ender_pearl>);
+<ore:dustEnderPearl>.remove(<ic2:dust:31>);
+
+#DustEnder
+<ore:dustEnder>.remove(<ic2:dust:31>);
+<ore:dustEnder>.remove(<railcraft:dust:6>);
 
 print("Initialized 'Oredict.zs'");

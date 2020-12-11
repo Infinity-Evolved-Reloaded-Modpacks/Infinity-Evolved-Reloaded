@@ -9,4 +9,7 @@ print("Initializing 'vanilla.zs'...");
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[null, null, null], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
 
+#Ender Pearl Dust
+furnace.remove(<portalgun:item_dust_ender_pearl>);
+
 print("Initialized 'vanilla.zs'");

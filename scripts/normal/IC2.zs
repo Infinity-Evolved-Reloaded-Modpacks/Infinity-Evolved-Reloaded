@@ -5,7 +5,9 @@
 
 print("Initializing 'IC2.zs'...");
 
-#Expert Iridium recipe
-mods.buildcraft.AssemblyTable.addRecipe("IridiumOre", <ic2:misc_resource:1>, 80000000, [<ic2:nuclear:4>, <ic2:nuclear:10>]);
+#Ender Pearl Dust
+Factorizer.removeRecipeSplit(<enderio:item_material:28>);
+mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:ender_pearl>);
+recipes.removeByRecipeName("enderio:ender_dust");
 
 print("Initialized 'IC2.zs'");
