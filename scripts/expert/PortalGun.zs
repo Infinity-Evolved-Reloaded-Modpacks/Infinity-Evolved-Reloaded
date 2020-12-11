@@ -13,6 +13,5 @@ recipes.addShaped(<portalgun:item_miniature_black_hole>, [[<ore:dustEnderPearl>,
 mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:ender_pearl>);
 furnace.remove(<portalgun:item_dust_ender_pearl>);
 mods.immersiveengineering.Crusher.addRecipe(<portalgun:item_dust_ender_pearl>, <minecraft:ender_pearl>, 1024);
-recipes.remove(<railcraft:dust:6>);
 
 print("Initialized 'PortalGun.zs'");
