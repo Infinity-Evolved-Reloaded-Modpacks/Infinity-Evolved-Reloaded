@@ -168,7 +168,7 @@ mods.avaritia.ExtremeCrafting.addShapeless(
     <bewitchment:demon_heart>,
     <thaumcraft:triple_meat_treat>]);
 
-#Cosmic Meatballs
+#Ultimate Stew
 mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 mods.avaritia.ExtremeCrafting.addShapeless(
 	"Infinity Stew",
