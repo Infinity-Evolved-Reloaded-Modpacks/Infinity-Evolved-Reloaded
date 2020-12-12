@@ -1,0 +1,20 @@
+{
+	title: "We got options",
+	x: -8.5d,
+	y: -3.5d,
+	text: [
+		"With these upgades, you are able to augment an apiary to fill the requirements of a bee rather than having to change a bee to fit an enviorment. ",
+		"They make the hard parts trivial by being able to emulate a biome or change the humidity with just one or two upgrades. This is why they are such an essential part of being an apiarist."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "2b173415",
+		type: "item",
+		items: [{
+			item: "gendustry:upgrade_frame"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Nice and cozy",
+	x: -7.5d,
+	y: -7.5d,
+	shape: "square",
+	text: [
+		"This is a direct upgrade of the bee house, sure it doesn't look like much but boy oh boy do things get exciting from here!",
+		"",
+		"Pros:",
+		"     - Allows automation",
+		"     - Can use frames",
+		"     - Mutations can occur ",
+		"",
+		"Cons:",
+		"     - Isn't an Industrial Apiary"
+	],
+	dependencies: [
+		"4cc41bd8",
+		"9f2729e5"
+	],
+	tasks: [{
+		uid: "884a3134",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}]
+}

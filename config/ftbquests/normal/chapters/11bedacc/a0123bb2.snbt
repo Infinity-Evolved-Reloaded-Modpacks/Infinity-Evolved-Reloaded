@@ -1,0 +1,20 @@
+{
+	title: "On the go storage",
+	x: -7.5d,
+	y: -14.0d,
+	text: [
+		"Just like the Apiarist's chest it stores bees, it automatically picks them up when breaking from a hive and shift clicking on a Apiarist's chest will empty its contents."
+	],
+	dependencies: [
+		"115d64e3"
+	],
+	tasks: [{
+		uid: "41a603ac",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
