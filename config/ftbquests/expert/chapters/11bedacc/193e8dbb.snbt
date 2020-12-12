@@ -1,0 +1,26 @@
+{
+	title: "Mutation made simple",
+	x: -5.5d,
+	y: -5.0d,
+	text: [
+		"This means you never have to manually try to get a bee to breed, it will skip that process for you and give you a queen that has the default stats for that species, the only downside is there is a small chance that it fails and you get some genetic waste.",
+		"There has to be some risk involved otherwise it would be cheating . . . even if its not too far off already."
+	],
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "6b92fe6a",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	},
+	{
+		uid: "1b1bb3c1",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	}]
+}

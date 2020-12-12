@@ -1,0 +1,18 @@
+{
+	title: "Step #1",
+	x: -7.5d,
+	y: -12.5d,
+	description: "Where to start",
+	text: [
+		"By now you have noticed all kinds of hives that have been scattered all over the overworld, with a scoop you can harvest drones and princesses to start your bee empire."
+	],
+	tasks: [{
+		uid: "ac4254af",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

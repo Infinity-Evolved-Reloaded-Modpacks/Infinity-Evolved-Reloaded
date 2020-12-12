@@ -1,0 +1,33 @@
+{
+	title: "Wait I can make them?",
+	x: -4.5d,
+	y: -5.0d,
+	text: [
+		"With these three machines you can create bees based off a template. It has to be a complete template with all 13 traits filled but it's handy if you forget to make a sample of a species or something  along those lines."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "71abb1da",
+		type: "item",
+		items: [{
+			item: "gendustry:replicator"
+		}]
+	},
+	{
+		uid: "29fdb956",
+		type: "item",
+		items: [{
+			item: "gendustry:liquifier"
+		}]
+	},
+	{
+		uid: "12a5a100",
+		type: "item",
+		items: [{
+			item: "gendustry:extractor"
+		}]
+	}]
+}

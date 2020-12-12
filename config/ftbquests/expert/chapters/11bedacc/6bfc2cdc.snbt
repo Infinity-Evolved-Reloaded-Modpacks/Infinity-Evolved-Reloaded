@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"You are going to need alot more of this."
+	],
+	dependencies: [
+		"0a6f9284"
+	],
+	tasks: [{
+		uid: "940d55d5",
+		type: "item",
+		items: [{
+			item: "forestry:pollen"
+		}],
+		count: 16L
+	}]
+}

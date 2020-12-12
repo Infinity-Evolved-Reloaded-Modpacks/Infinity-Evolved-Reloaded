@@ -1,0 +1,44 @@
+{
+	title: "Where do I put it . . .",
+	icon: "forestry:alveary.plain",
+	x: -9.0d,
+	y: -5.5d,
+	text: [
+		"Alvearys are Forestry's end game bee structures, they can be directly upgraded and have a unique calculation for production and lifespan based on the bees speed stat and what upgrades are in the alveary itself.",
+		"",
+		"It's built with a 3x3x3 cube of Alveary blocks, and then wood slabs are placed over the top. They are quite advanced and can even out produce an Industrial Apiary if set up properly. ",
+		"I would recommend looking at the FTB wiki for detailed information on that."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bfc2cdc",
+		"8c332838",
+		"d342f1b9"
+	],
+	tasks: [{
+		uid: "89dc081e",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain"
+		}],
+		count: 27L
+	},
+	{
+		uid: "638e360e",
+		type: "item",
+		title: "Wood Slabs",
+		items: [{
+			item: "minecraft:wooden_slab"
+		},
+		{
+			item: "minecraft:wooden_slab 1 2"
+		},
+		{
+			item: "minecraft:wooden_slab 1 1"
+		},
+		{
+			item: "minecraft:wooden_slab 1 3"
+		}],
+		count: 9L
+	}]
+}

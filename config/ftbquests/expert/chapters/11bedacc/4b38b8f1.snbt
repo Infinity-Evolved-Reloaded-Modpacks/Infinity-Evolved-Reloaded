@@ -1,0 +1,48 @@
+{
+	title: "Bees don't bother me!",
+	x: -10.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"The Apiarist set makes you invulnerable to bee's effects, which by now you are no doubt aware of their potency. This does remove all effects, even the beneficial ones."
+	],
+	dependencies: [
+		"9f2729e5"
+	],
+	tasks: [{
+		uid: "204ac853",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "50af11a0",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa62dc5b",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0453310b",
+		type: "item",
+		items: [{
+			item: "forestry:apiarist_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

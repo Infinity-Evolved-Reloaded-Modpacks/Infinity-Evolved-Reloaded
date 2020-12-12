@@ -1,0 +1,10 @@
+{
+	title: "Wonderful World of Bees",
+	icon: "forestry:beehives",
+	description: [
+		"Down the rabbit hole we go"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

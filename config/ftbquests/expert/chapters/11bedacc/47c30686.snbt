@@ -1,0 +1,32 @@
+{
+	title: "Where did the hives go?",
+	x: -5.5d,
+	y: -12.0d,
+	shape: "hexagon",
+	text: [
+		"Sometimes you travel for hours on end and can't seem to find the hive you want, well this should ease up on that issue some. ",
+		"Here are the original 8 hives that a good majority of be species derive from, with this you should be able to get a decent bit of breeeding done. ",
+		"Bee Happy!"
+	],
+	can_repeat: true,
+	dependencies: [
+		"115d64e3"
+	],
+	tasks: [{
+		uid: "4909807d",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs"
+		}],
+		count: 64L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "432ae43a",
+		type: "choice",
+		icon: "forestry:beehives",
+		table: 7
+	}]
+}

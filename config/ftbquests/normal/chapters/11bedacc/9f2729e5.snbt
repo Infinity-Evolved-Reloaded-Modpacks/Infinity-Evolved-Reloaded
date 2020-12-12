@@ -1,0 +1,33 @@
+{
+	title: "These might be useful",
+	x: -9.0d,
+	y: -9.0d,
+	text: [
+		"These are the basic machines for Forestry, this is how you will build the Portable Analyzer and casings for apiaries as well as extracting stuff from combs.",
+		"They do need to be powered, hopefully by now you have some power generation up and running."
+	],
+	dependencies: [
+		"4cc41bd8"
+	],
+	tasks: [{
+		uid: "e07b2bf8",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	},
+	{
+		uid: "de5d6fed",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	},
+	{
+		uid: "3e6b93f1",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	}]
+}

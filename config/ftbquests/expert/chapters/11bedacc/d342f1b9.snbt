@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"You are going to need alot more of this."
+	],
+	dependencies: [
+		"3e67024f"
+	],
+	tasks: [{
+		uid: "577c7efb",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}],
+		count: 16L
+	}]
+}
