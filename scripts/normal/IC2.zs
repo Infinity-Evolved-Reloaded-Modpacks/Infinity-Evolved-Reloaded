@@ -2,6 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode normal
+import mods.thermalexpansion.Factorizer;
 
 print("Initializing 'IC2.zs'...");
 
