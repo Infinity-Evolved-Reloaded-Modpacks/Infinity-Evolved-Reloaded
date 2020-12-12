@@ -1,0 +1,24 @@
+{
+	title: "Scooperific!",
+	x: -5.5d,
+	y: -10.0d,
+	text: [
+		"This is a powered scoop, so no more shearing sheep for breakable scoops! It runs on EU but can be charged in an Energetic Infuser (RF)."
+	],
+	dependencies: [
+		"4cc41bd8"
+	],
+	tasks: [{
+		uid: "c93a6ea3",
+		type: "item",
+		items: [{
+			id: "gendustry:industrial_scoop",
+			tag: {
+				charge: 0
+			},
+			Damage: 100s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

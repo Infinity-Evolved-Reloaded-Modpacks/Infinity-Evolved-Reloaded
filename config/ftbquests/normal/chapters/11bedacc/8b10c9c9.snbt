@@ -1,0 +1,19 @@
+{
+	title: "Well that was easy",
+	x: -5.5d,
+	y: -4.0d,
+	text: [
+		"Allows you to pick which mutation you want, if there are multiple."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "cac47155",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron_advanced"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "They all have to go somewhere",
+	x: -9.5d,
+	y: -12.0d,
+	text: [
+		"This is the Apiarist's chest, basically where all your excess bees will go so they don't clog up your ME system."
+	],
+	dependencies: [
+		"115d64e3"
+	],
+	tasks: [{
+		uid: "26d333d9",
+		type: "item",
+		items: [{
+			item: "forestry:bee_chest"
+		}]
+	}]
+}

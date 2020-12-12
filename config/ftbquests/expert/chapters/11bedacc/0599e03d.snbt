@@ -1,0 +1,34 @@
+{
+	title: "I just want _____ sample!",
+	x: -7.0d,
+	y: -3.5d,
+	text: [
+		"These three are essential to \"creating\" your own bee, the samples are extractions of a single trait from a bee (each bee has 13 traits).",
+		"These samples you can then put into a crafting grid with your Genetic Template, and make a pattern for a bee. Using this pattern in a Genetic Imprinter will give those traits to that bee.",
+		"Lastly Labware is the cost in all this, there is a chance one is used up per operation."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "2219bfa2",
+		type: "item",
+		items: [{
+			item: "gendustry:gene_sample_blank"
+		}]
+	},
+	{
+		uid: "7ec1861b",
+		type: "item",
+		items: [{
+			item: "gendustry:labware"
+		}]
+	},
+	{
+		uid: "a54f8acb",
+		type: "checkmark",
+		title: "Genetic Template",
+		icon: "gendustry:apiary.upgrade 1 19"
+	}]
+}

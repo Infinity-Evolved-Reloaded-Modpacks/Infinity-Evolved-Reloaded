@@ -1,0 +1,21 @@
+{
+	title: "Do these even work?",
+	x: -5.5d,
+	y: -8.0d,
+	text: [
+		"While it may seem like these don't do a whole lot, they actually double a bees productivity. ",
+		"If these aren't really your style there are lots of frames to choose from, just have a look through JEI and see how many ways your can enhance your bees through frames, you can even mix and match!"
+	],
+	dependencies: [
+		"8c332838"
+	],
+	tasks: [{
+		uid: "ae05239e",
+		type: "item",
+		items: [{
+			item: "forestry:frame_untreated"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

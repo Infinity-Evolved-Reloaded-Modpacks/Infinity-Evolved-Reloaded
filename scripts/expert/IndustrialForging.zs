@@ -7,7 +7,7 @@ print("Initializing 'IndustrialForegoing.zs'...");
 
 #Plastic Sheets
 recipes.remove(<industrialforegoing:plastic>);
-recipes.addShaped(<industrialforegoing:plastic> * 2, [[<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>], [<industrialforegoing:dryrubber>, <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}).giveBack(<minecraft:bucket>), <industrialforegoing:dryrubber>], [<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>]]);
+recipes.addShaped(<industrialforegoing:plastic> * 2, [[<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>], [<industrialforegoing:dryrubber>, <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}), <industrialforegoing:dryrubber>], [<thermalfoundation:material:801>, <industrialforegoing:dryrubber>, <thermalfoundation:material:801>]]);
 furnace.remove(<industrialforegoing:plastic>);
 
 #Latex Processing Unit
@@ -22,12 +22,6 @@ recipes.addShaped(<industrialforegoing:laser_base>, [[<industrialforegoing:plast
 recipes.addShaped(<industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <industrialforegoing:laser_lens>, <industrialforegoing:plastic>], [<ore:blockGlassHardened>, <enderio:block_electric_light:2>, <ore:blockGlassHardened>], [<enderio:item_basic_capacitor:1>, <ore:gemDiamond>, <enderio:item_basic_capacitor:1>]]);
 recipes.addShaped(<industrialforegoing:laser_drill>, [[<industrialforegoing:plastic>, <industrialforegoing:laser_lens>, <industrialforegoing:plastic>], [<ore:blockGlassHardened>, <openblocks:tank>.withTag({tank: {FluidName: "glowstone", Amount: 16000}}), <ore:blockGlassHardened>], [<thermalfoundation:material:515>, <ore:gemDiamond>, <thermalfoundation:material:515>]]);
 
-#Telsa Lib Upgrades
-recipes.remove(<teslacorelib:base_addon>);
-recipes.remove(<teslacorelib:energy_tier1>);
-recipes.remove(<teslacorelib:energy_tier2>);
-recipes.remove(<teslacorelib:speed_tier1>);
-recipes.remove(<teslacorelib:speed_tier2>);
 
 #Fix Engineer's Hammer
 recipes.remove(<immersiveengineering:tool>);

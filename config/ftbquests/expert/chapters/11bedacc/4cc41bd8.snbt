@@ -1,0 +1,28 @@
+{
+	title: "Gotta start somewhere",
+	x: -7.5d,
+	y: -10.5d,
+	text: [
+		"This is the Bee House, it is as basic as can be. ",
+		"",
+		"Pros:",
+		"     - Is able to produce bee products",
+		"     - Cheap",
+		"     - Elongates the lifespan of bees",
+		"",
+		"Cons:",
+		"     - Can't hold frames",
+		"     - Doesn't allow mutations",
+		"     - No way to automate (doesn't accept piping of any kind)"
+	],
+	dependencies: [
+		"115d64e3"
+	],
+	tasks: [{
+		uid: "e284ecb9",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}]
+}

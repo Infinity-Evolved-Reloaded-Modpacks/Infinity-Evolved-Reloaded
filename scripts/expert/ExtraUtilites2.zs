@@ -5,6 +5,9 @@
 
 print("Initializing 'ExtraUtilites2.zs'...");
 
+#Creative Builders Wand
+recipes.addShaped(<extrautils2:itemcreativebuilderswand>, [[null, null, <unstabletools:pseudo_unstable_ingot>], [null, <extrautils2:decorativesolidwood:1>, null], [<extrautils2:decorativesolidwood:1>, null, null]]);
+
 #Watering Can
 recipes.remove(<extrautils2:wateringcan:*>);
 recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:15>, <harvestcraft:beetseeditem>],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [<harvestcraft:kiwiseeditem>, <ore:ingotSteel>, <harvestcraft:cornseeditem>]]);

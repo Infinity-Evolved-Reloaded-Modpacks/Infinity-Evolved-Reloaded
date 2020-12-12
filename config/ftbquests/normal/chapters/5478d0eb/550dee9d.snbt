@@ -7,7 +7,7 @@
 	text: [
 		"§lGears can currently only be created using the Gear Cast and the metal the Gear is made of.",
 		"",
-		"§rThe Gear Cast is made using the Stone Gear and 2 Gold/Aluminum Brass in a Smeltery."
+		"§rThe Gear Cast is made using the Stone Gear and 2 Gold in a Smeltery."
 	],
 	dependencies: [
 		"138129ee"

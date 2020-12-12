@@ -2,6 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
+import mods.thaumcraft.Infusion;
 
 print("Initializing 'botania.zs'...");
 
@@ -30,10 +31,15 @@ recipes.remove(<botania:alfheimportal>);
 recipes.addShaped(<botania:alfheimportal>, [[<botania:livingwood>, <thaumcraft:causality_collapser>, <botania:livingwood>], [<bewitchment:sigil_mending>, <thaumcraft:ingot:1>, <bewitchment:sigil_ruin>], [<botania:livingwood>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <botania:livingwood>]]);
 
 # -Mana Lenses
+var NBTManaLens = <botania:lens>.withTag({});
+var ManaLens = <botania:lens>;
+
+var either = NBTManaLens.or(ManaLens);
+
 recipes.remove(<botania:lens>);
 recipes.addShaped(<botania:lens>, [[<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>], [<ore:ingotManasteel>, <industrialforegoing:laser_lens:8>, <ore:ingotManasteel>], [<ore:nuggetManasteel>, <ore:ingotManasteel>, <ore:nuggetManasteel>]]);
 recipes.remove(<botania:lens:10>);
-recipes.addShaped(<botania:lens:10>, [[<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>], [<ore:ingotGold>, <botania:lens>.withTag({}), <ore:ingotGold>], [<ore:dustredstone>, <ore:blockIron>, <ore:dustredstone>]]);
+recipes.addShaped(<botania:lens:10>.withTag({}), [[<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>], [<ore:ingotGold>, either, <ore:ingotGold>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
 
 # -Redstring
 recipes.remove(<botania:manaresource:12>);
@@ -55,7 +61,7 @@ recipes.addShaped(<botania:pylon>, [[<ore:nuggetGold>, <ore:ingotGold>, <ore:nug
 recipes.remove(<botania:pylon:1>);
 recipes.addShaped(<botania:pylon:1>, [[<ore:nuggetManasteel>, <bewitchment:otherworldly_tears>, <ore:nuggetManasteel>], [<botania:manaresource:4>, <botania:pylon>, <botania:manaresource:4>], [<ore:nuggetManasteel>, <ore:pearlEnderEye>, <ore:nuggetManasteel>]]);
 recipes.remove(<botania:pylon:2>);
-mods.thaumcraft.Infusion.registerRecipe("Research", "Pylons", <botania:pylon:1>, 20, [<aspect:praecantatio>, <aspect:fabrico>, <aspect:metallum>, <aspect:motus>], <botania:manaresource:9>, [<botania:manaresource:7>, <bloodmagic:slate:4>, <botania:manaresource:7>, <botania:manaresource:8>, <botania:manaresource:7>, <bloodmagic:slate:4>, <botania:manaresource:7>]);
+mods.thaumcraft.Infusion.registerRecipe("GaiaPylon", "", <botania:pylon:2>, 6, [<aspect:praecantatio> * 32, <aspect:fabrico> * 32, <aspect:metallum> * 32, <aspect:motus> * 32], <botania:manaresource:9>, [<botania:manaresource:7>, <bloodmagic:slate:4>, <botania:manaresource:7>, <botania:manaresource:8>, <botania:manaresource:7>, <bloodmagic:slate:4>, <botania:manaresource:7>]);
 
 # -Catalysts
 recipes.remove(<botania:alchemycatalyst>);

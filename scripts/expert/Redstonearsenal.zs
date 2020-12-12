@@ -22,11 +22,4 @@ recipes.addShaped(<simplyjetpacks:metaitemmods:20>, [[<redstonearsenal:material:
 recipes.remove(<simplyjetpacks:metaitemmods:30>);
 recipes.addShaped(<simplyjetpacks:metaitemmods:30>, [[<redstonearsenal:material:32>, <redstonearsenal:material:224>, <redstonearsenal:material:32>], [<simplyjetpacks:metaitemmods:19>, <simplyjetpacks:metaitemmods:29>, <simplyjetpacks:metaitemmods:19>], [null, null, null]]);
 
-#Replace Truster with differemt TE Dynamo
-recipes.remove(<simplyjetpacks:metaitemmods:28>);
-recipes.addShaped(<simplyjetpacks:metaitemmods:28>, [[<ore:ingotElectrum>, <thermalfoundation:material:515>, <ore:ingotElectrum>], [<thermaldynamics:duct_0:2>, <thermalexpansion:dynamo:3>, <thermaldynamics:duct_0:2>], [<ore:ingotElectrum>, <forge:bucketfilled>, <ore:ingotElectrum>]]);
-
-recipes.remove(<simplyjetpacks:metaitemmods:28>);
-recipes.addShaped(<simplyjetpacks:metaitemmods:28>, [[<ore:ingotElectrum>, <thermalfoundation:material:515>, <ore:ingotElectrum>], [<thermaldynamics:duct_0:2>, <thermalexpansion:dynamo:3>, <thermaldynamics:duct_0:2>], [<ore:ingotElectrum>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}), <ore:ingotElectrum>]]);
-
 print("Initialized 'RedstonAarsenal.zs'");

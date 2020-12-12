@@ -1,0 +1,60 @@
+{
+	title: "Wait, it gets more broken?",
+	x: -10.5d,
+	y: -6.0d,
+	text: [
+		"These blocks act as direct upgrades to the Alveary and as such replace blocks within the Alvearys construction. It is impotant to note that only the bottem two rings of Alveary blocks can be replaced (the center column can't be replaced as it is where the bees are stored).",
+		"",
+		"Swarmer - allows the Alveary to produce sudo hives of the current species within the alveary, princesses will always be ignoble stock and it consumes royal jelly",
+		"Fan - simulates cold, requires power",
+		"Heater - simulates heat, requires power",
+		"Hygroregulator - controls the humidity, requires water/lava to operate",
+		"Stabiliser - Prevents new mutations",
+		"Sieve - collects pollen for tree breeding"
+	],
+	dependencies: [
+		"ea51d00f"
+	],
+	tasks: [{
+		uid: "4a60cb69",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.swarmer"
+		}]
+	},
+	{
+		uid: "e8e5dccb",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.fan"
+		}]
+	},
+	{
+		uid: "f0de0304",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.heater"
+		}]
+	},
+	{
+		uid: "ceba4b84",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.hygro"
+		}]
+	},
+	{
+		uid: "96b1330c",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.stabiliser"
+		}]
+	},
+	{
+		uid: "f9801c75",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.sieve"
+		}]
+	}]
+}
