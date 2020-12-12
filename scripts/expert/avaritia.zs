@@ -153,17 +153,17 @@ mods.avaritia.ExtremeCrafting.addShapeless(
 	"Infinity Meatballs",
     <avaritia:cosmic_meatballs>*9,
     [<ore:ingotCosmicNeutronium>,
-    <minecraft:porkchop>, 
-    <minecraft:beef>, 
-    <minecraft:chicken>, 
-    <minecraft:rabbit>, 
+    <minecraft:porkchop>,
+    <minecraft:beef>,
+    <minecraft:chicken>,
+    <minecraft:rabbit>,
     <minecraft:mutton>,
     <minecraft:fish>,
     <minecraft:fish:1>,
     <minecraft:fish:2>,
-    <minecraft:fish:3>, 
-    <harvestcraft:turkeyrawitem>, 
-    <harvestcraft:venisonrawitem>, 
+    <minecraft:fish:3>,
+    <harvestcraft:turkeyrawitem>,
+    <harvestcraft:venisonrawitem>,
     <harvestcraft:duckrawitem>,
     <bewitchment:demon_heart>,
     <thaumcraft:triple_meat_treat>]);
@@ -257,4 +257,4 @@ mods.avaritia.ExtremeCrafting.addShapeless(
     <ore:cropAlmond>,
     <ore:cropCashew>]);
 
-print("Initialized 'avaritia.zs'");a
+print("Initialized 'avaritia.zs'");
