@@ -110,4 +110,252 @@ FusionCrafting.add(<bigreactors:mineralanglesite>, <bloodmagic:item_demon_crysta
 #Benitoite
 FusionCrafting.add(<bigreactors:mineralbenitoite>, <bloodmagic:item_demon_crystal>, FusionCrafting.DRACONIC, 10000000, [<bloodmagic:slate:4>, <bewitchment:bottled_frostfire>, <extrautils2:simpledecorative:2>, <botania:rune:5>]);
 
+# --All Assembly Table Recipe for Draconic Evolution Fusion
+
+#All Buildcraft Filter
+
+# -Lime Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:26>, <minecraft:stained_glass:5>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Purple Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:21>, <minecraft:stained_glass:10>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Red Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:17>, <minecraft:stained_glass:14>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Green Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:18>, <minecraft:stained_glass:13>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Orange Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:30>, <minecraft:stained_glass:1>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Pink Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:25>, <minecraft:stained_glass:6>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Light Gray Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:23>, <minecraft:stained_glass:8>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Cyan Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:22>, <minecraft:stained_glass:9>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Clear Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:33>, <minecraft:glass>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Magenta Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:29>, <minecraft:stained_glass:2>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -White Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:31>, <minecraft:stained_glass>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Light Blue Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:28>, <minecraft:stained_glass:3>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Yellow Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:27>, <minecraft:stained_glass:4>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Black Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:16>, <minecraft:stained_glass:15>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Blue Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:20>, <minecraft:stained_glass:11>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Brown Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:19>, <minecraft:stained_glass:12>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+# -Gray Filter
+FusionCrafting.add(<buildcraftsilicon:plug_lens:24>, <minecraft:stained_glass:7>, FusionCrafting.BASIC, 5000, [<minecraft:iron_bars>]);
+
+
+#All Buildcraft Lens
+
+# -Clear Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:32> * 2, <minecraft:glass>, FusionCrafting.BASIC, 10000, [<minecraft:glass>]);
+
+# -Lime Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:10> * 2, <minecraft:stained_glass:5>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:5>]);
+
+# -Green Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:2> * 2, <minecraft:stained_glass:13>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:13>]);
+
+# -White Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:15> * 2, <minecraft:stained_glass>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass>]);
+
+# -Red Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:1> * 2, <minecraft:stained_glass:14>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:14>]);
+
+# -Black Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens> * 2, <minecraft:stained_glass:15>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:15>]);
+
+# -Light Gray Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:7> * 2, <minecraft:stained_glass:8>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:8>]);
+
+# -Light Blue Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:12> * 2, <minecraft:stained_glass:3>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:3>]);
+
+# -Cyan Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:6> * 2, <minecraft:stained_glass:9>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:9>]);
+
+# -Purple Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:5> * 2, <minecraft:stained_glass:10>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:10>]);
+
+# -Magenta Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:13> * 2, <minecraft:stained_glass:2>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:2>]);
+
+# -Orange Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:14> * 2, <minecraft:stained_glass:1>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:1>]);
+
+# -Brown Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:3> * 2, <minecraft:stained_glass:12>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:12>]);
+
+#- Pink Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:9> * 2, <minecraft:stained_glass:6>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:6>]);
+
+# -Gray Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:8> * 2, <minecraft:stained_glass:7>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:7>]);
+
+# -Yellow Lens
+FusionCrafting.add(<buildcraftsilicon:plug_lens:11> * 2, <minecraft:stained_glass:4>, FusionCrafting.BASIC, 10000, [<minecraft:stained_glass:4>]);
+
+
+#Upgrade and Conversion Kits
+
+# -Reinforced Conversion Kit
+FusionCrafting.add(<thermalfoundation:upgrade:33>, <thermalfoundation:upgrade:1>, FusionCrafting.BASIC, 650000, [<thermalfoundation:upgrade>]);
+
+# -Signalum Conversion Kit
+FusionCrafting.add(<thermalfoundation:upgrade:34>, <thermalfoundation:upgrade:2>, FusionCrafting.BASIC, 1350000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>]);
+
+# -Resonant Conversion Kit
+FusionCrafting.add(<thermalfoundation:upgrade:35>, <thermalfoundation:upgrade:3>, FusionCrafting.BASIC, 2200000, [<thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade>]);
+
+# -Hardened Upgrade Kit
+FusionCrafting.add(<thermalfoundation:upgrade>, <thermalexpansion:frame>, FusionCrafting.BASIC, 250000, [<thermalfoundation:material:289>, <thermalfoundation:material:162>, <thermalfoundation:material:162>, <thermalfoundation:material:162>, <thermalfoundation:material:162>]);
+
+# -Reinforced Upgrade Kit
+FusionCrafting.add(<thermalfoundation:upgrade:1>, <thermalexpansion:frame>, FusionCrafting.BASIC, 450000, [<thermalfoundation:material:161>, <thermalfoundation:material:161>, <thermalfoundation:material:161>, <thermalfoundation:material:161>, <thermalfoundation:material:288>]);
+
+# -Signalum Upgrade Kit
+FusionCrafting.add(<thermalfoundation:upgrade:2>, <thermalexpansion:frame>, FusionCrafting.BASIC, 650000, [<thermalfoundation:glass:3>, <thermalfoundation:glass:3>, <thermalfoundation:glass:3>, <thermalfoundation:glass:3>, <thermalfoundation:material:293>]);
+
+# -Resonant Upgrade Kit
+FusionCrafting.add(<thermalfoundation:upgrade:3>, <thermalexpansion:frame>, FusionCrafting.BASIC, 650000, [<thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:295>]);
+
+
+#Pipe Wires
+
+# -Cyan Pipe Wire
+FusionCrafting.add(<buildcrafttransport:wire:9> * 8, <minecraft:dye:6>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Light Gray Wire
+FusionCrafting.add(<buildcrafttransport:wire:8> * 8, <minecraft:dye:7>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Green Pipe Wire
+FusionCrafting.add(<buildcrafttransport:wire:13> * 8, <minecraft:dye:8>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Lime Pipe Wire
+FusionCrafting.add(<buildcrafttransport:wire:5> * 8, <minecraft:dye:10>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Orange Wire
+FusionCrafting.add(<buildcrafttransport:wire:1> * 8, <minecraft:dye:14>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Red Wire
+FusionCrafting.add(<buildcrafttransport:wire:14> * 8, <minecraft:dye:1>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Magenta Wire
+FusionCrafting.add(<buildcrafttransport:wire:2> * 8, <minecraft:dye:13>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Pink Wire
+FusionCrafting.add(<buildcrafttransport:wire:6> * 8, <minecraft:dye:9>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Black Wire
+FusionCrafting.add(<buildcrafttransport:wire:15> * 8, <minecraft:dye>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Gray Wire
+FusionCrafting.add(<buildcrafttransport:wire:7> * 8, <minecraft:dye:8>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Blue Wire
+FusionCrafting.add(<buildcrafttransport:wire:11> * 8, <minecraft:dye:4>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Yellow Wire
+FusionCrafting.add(<buildcrafttransport:wire:4> * 8, <minecraft:dye:11>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -White Wire
+FusionCrafting.add(<buildcrafttransport:wire> * 8, <minecraft:dye:15>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Light Blue Wire
+FusionCrafting.add(<buildcrafttransport:wire:3> * 8, <minecraft:dye:12>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Brown Wire
+FusionCrafting.add(<buildcrafttransport:wire:12> * 8, <minecraft:dye:3>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Purple Wire
+FusionCrafting.add(<buildcrafttransport:wire:10> * 8, <minecraft:dye:5>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+
+#Chipset
+
+# -Quatz Chipset
+FusionCrafting.add(<buildcraftsilicon:redstone_chipset:3>, <minecraft:quartz>, FusionCrafting.BASIC, 600000, [<minecraft:redstone>]);
+
+# -Redstone Chipset
+FusionCrafting.add(<buildcraftsilicon:redstone_chipset> * 2, <minecraft:redstone>, FusionCrafting.BASIC, 100000, [<minecraft:redstone>]);
+
+# -Diamond Chipset
+FusionCrafting.add(<buildcraftsilicon:redstone_chipset:4>, <minecraft:diamond>, FusionCrafting.BASIC, 800000, [<minecraft:redstone>]);
+
+# -Iron Chipset
+FusionCrafting.add(<buildcraftsilicon:redstone_chipset:1>, <minecraft:iron_ingot>, FusionCrafting.BASIC, 200000, [<minecraft:redstone>]);
+
+# -Gold Chipset
+FusionCrafting.add(<buildcraftsilicon:redstone_chipset:2>, <minecraft:gold_ingot>, FusionCrafting.BASIC, 400000, [<minecraft:redstone>]);
+
+
+#All Chest Upgrades
+
+# -Wood to Copper Chest Upgrade
+FusionCrafting.add(<ironchest:wood_copper_chest_upgrade>, <minecraft:planks>, FusionCrafting.BASIC, 50000, [<thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>, <thermalfoundation:material:320>]);
+
+# -Iron to Gold Chest Upgrade
+FusionCrafting.add(<ironchest:iron_gold_chest_upgrade>, <thermalfoundation:material:32>, FusionCrafting.BASIC, 400000, [<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>]);
+
+# -Gold to Diamond Chest Upgrade
+FusionCrafting.add(<ironchest:gold_diamond_chest_upgrade>, <thermalfoundation:material:33>, FusionCrafting.BASIC, 400000, [<minecraft:diamond>, <minecraft:diamond>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>]);
+
+# -Diamond to Crystal Chest Upgrade
+FusionCrafting.add(<ironchest:diamond_crystal_chest_upgrade>, <minecraft:diamond>, FusionCrafting.BASIC, 800000, [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>, <minecraft:glass>]);
+
+# -Copper to Silver Chest Upgrade
+FusionCrafting.add(<ironchest:copper_silver_chest_upgrade>, <thermalfoundation:material:320>, FusionCrafting.BASIC, 200000, [<thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>]);
+
+# -Diamond to Obsidian Chest Upgrade
+FusionCrafting.add(<ironchest:diamond_obsidian_chest_upgrade>, <minecraft:diamond>, FusionCrafting.BASIC, 800000, [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]);
+
+# -Copper to Iron Chest Upgrade
+FusionCrafting.add(<ironchest:copper_iron_chest_upgrade>, <thermalfoundation:material:320>, FusionCrafting.BASIC, 100000, [<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>]);
+
+# -Wood to Iron Chest Upgrade
+FusionCrafting.add(<ironchest:wood_iron_chest_upgrade>, <minecraft:planks>, FusionCrafting.BASIC, 100000, [<thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>, <thermalfoundation:material:32>]);
+
+# -Silver to Gold Chest Upgrade
+FusionCrafting.add(<ironchest:silver_gold_chest_upgrade>, <thermalfoundation:material:130>, FusionCrafting.BASIC, 400000, [<thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>, <thermalfoundation:material:33>]);
+
+
+#Random Stuff
+
+# -Machine Frame - Thermal Expansion
+FusionCrafting.add(<thermalexpansion:frame>, <ic2:plate:16>, FusionCrafting.BASIC, 5000000, [<railcraft:generic:7>, <railcraft:generic:7>, <thermalfoundation:material:289>, <buildcraftsilicon:redstone_chipset:2>, <forestry:chipsets:2>]);
+
+# -Iridium
+FusionCrafting.add(<ic2:misc_resource:1>, <ic2:nuclear:10>, FusionCrafting.BASIC, 100000000, [<ic2:nuclear:4>]);
+
+# -Irradiant Uranium
+FusionCrafting.add(<advanced_solar_panels:crafting:3>, <minecraft:glowstone>, FusionCrafting.BASIC, 1000000, [<advanced_solar_panels:crafting:11>]);
+
+# -Light Sensor
+FusionCrafting.add(<buildcraftsilicon:plug_light_sensor> * 2, <minecraft:daylight_detector>, FusionCrafting.BASIC, 10000, [<minecraft:daylight_detector>]);
+
+# -Pipe Pulsar
+FusionCrafting.add(<buildcraftsilicon:plug_pulsar>, <buildcraftcore:engine>, FusionCrafting.BASIC, 10000, [<minecraft:iron_ingot>, <minecraft:iron_ingot>]);
+
+
 print("Initialized 'DraconicEvolution.zs'");
