@@ -14,4 +14,10 @@ recipes.addShaped(<harvestcraft:market>, [[<harvestcraft:blueberryitem>, <ore:ge
 #Wheat Seeds Recipe:
 recipes.addShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft:wheat>]);
 
+#Silken Tofu
+<harvestcraft:silkentofuitem>.addTooltip(format.green("Can be made in the Presser with Soybean"));
+
+#Firm Tofu
+<harvestcraft:firmtofuitem>.addTooltip(format.green("Can be made in the Presser with Silken Tofu"));
+
 print("Initialized 'PamsHarvestCraft.zs'");
