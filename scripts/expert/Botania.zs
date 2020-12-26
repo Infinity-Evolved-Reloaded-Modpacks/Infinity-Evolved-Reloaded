@@ -65,16 +65,16 @@ mods.thaumcraft.Infusion.registerRecipe("GaiaPylon", "", <botania:pylon:2>, 6, [
 
 # -Catalysts
 recipes.remove(<botania:alchemycatalyst>);
-recipes.addShaped(<botania:alchemycatalyst>, [[<ore:livingrock>, <bewitchment:focal_chalk>, <ore:livingrock>], [<bloodmagic:slate:1>, <thaumcraft:salis_mundus>, <bloodmagic:slate:1>], [<ore:livingrock>, <ore:blockblaze>, <ore:livingrock>]]);
+recipes.addShaped(<botania:alchemycatalyst>, [[<botania:livingrock>, <bewitchment:focal_chalk>, <botania:livingrock>], [<bloodmagic:slate:1>, <thaumcraft:salis_mundus>, <bloodmagic:slate:1>], [<botania:livingrock>, <botania:blazeblock>, <botania:livingrock>]]);
 recipes.remove(<botania:conjurationcatalyst>);
-recipes.addShaped(<botania:conjurationcatalyst>, [[<ore:livingrock>, <bewitchment:sigil_purity>, <ore:livingrock>], [<botania:pylon:1>, <botania:alchemycatalyst>, <botania:pylon:1>], [<ore:livingrock>, <bewitchment:sigil_mending>, <ore:livingrock>]]);
+recipes.addShaped(<botania:conjurationcatalyst>, [[<botania:livingrock>, <bewitchment:sigil_purity>, <botania:livingrock>], [<botania:pylon:1>, <botania:alchemycatalyst>, <botania:pylon:1>], [<botania:livingrock>, <bewitchment:sigil_mending>, <botania:livingrock>]]);
 
 #runes
 # -Tier 1
 mods.botania.RuneAltar.removeRecipe(<botania:rune>);
 mods.botania.RuneAltar.addRecipe(<botania:rune>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:dye:15>, <ore:sugarcane>, <minecraft:fishing_rod>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:1>);
-mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:nether_brick>, <ore:blockBlaze>, <minecraft:nether_wart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], 8500);
+mods.botania.RuneAltar.addRecipe(<botania:rune:1>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <minecraft:nether_brick>, <botania:blazeblock>, <minecraft:nether_wart>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:2>);
 mods.botania.RuneAltar.addRecipe(<botania:rune:2>*3, [<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>, <ore:stone>, <ore:blockCoal>, <ore:listAllmushroom>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})], 8500);
 mods.botania.RuneAltar.removeRecipe(<botania:rune:3>);
@@ -137,7 +137,7 @@ mods.botania.RuneAltar.addRecipe(<botania:manatablet>.withTag({mana: 500000}), [
 recipes.remove(<botania:travelbelt>);
 recipes.addShaped(<botania:travelbelt>, [[<ore:runeEarthB>, <harvestcraft:hardenedleatheritem>], [<harvestcraft:hardenedleatheritem>, <thaumcraft:traveller_boots>, <harvestcraft:hardenedleatheritem>], [<ore:ingotManasteel>, <harvestcraft:hardenedleatheritem>, <ore:runeAirB>]]);
 recipes.remove(<botania:tinyplanet>);
-recipes.addShaped(<botania:tinyplanet>, [[<ore:livingrock>, <thaumcraft:stone_arcane>, <ore:livingrock>], [<thaumcraft:stone_arcane>, <ore:manaPearl>, <thaumcraft:stone_arcane>], [<ore:livingrock>, <thaumcraft:stone_arcane>, <ore:livingrock>]]);
+recipes.addShaped(<botania:tinyplanet>, [[<botania:livingrock>, <thaumcraft:stone_arcane>, <botania:livingrock>], [<thaumcraft:stone_arcane>, <ore:manaPearl>, <thaumcraft:stone_arcane>], [<botania:livingrock>, <thaumcraft:stone_arcane>, <botania:livingrock>]]);
 recipes.remove(<botania:icependant>);
 recipes.addShaped(<botania:icependant>, [[<ore:runeWinterB>, <ore:manaString>, null], [<ore:manaString>, null, <ore:manaString>], [<ore:ingotManasteel>, <ore:manaString>, <ore:runeWaterB>]]);
 recipes.remove(<botania:knockbackbelt>);
