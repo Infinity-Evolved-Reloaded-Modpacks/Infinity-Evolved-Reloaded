@@ -65,7 +65,7 @@ mods.thaumcraft.Infusion.registerRecipe("GaiaPylon", "", <botania:pylon:2>, 6, [
 
 # -Catalysts
 recipes.remove(<botania:alchemycatalyst>);
-recipes.addShaped(<botania:alchemycatalyst>, [[<ore:livingrock>, <bewitchment:focal_chalk>, <ore:livingrock>], [<bloodmagic:slate:1>, <thaumcraft:salis_mundus>, <bloodmagic:slate:1>], [<ore:livingrock>, <ore:blockblaze>, <ore:livingrock>]]);
+recipes.addShaped(<botania:alchemycatalyst>, [[<ore:livingrock>, <bewitchment:focal_chalk>, <ore:livingrock>], [<bloodmagic:slate:1>, <thaumcraft:salis_mundus>, <bloodmagic:slate:1>], [<ore:livingrock>, <ore:blockBlaze>, <ore:livingrock>]]);
 recipes.remove(<botania:conjurationcatalyst>);
 recipes.addShaped(<botania:conjurationcatalyst>, [[<ore:livingrock>, <bewitchment:sigil_purity>, <ore:livingrock>], [<botania:pylon:1>, <botania:alchemycatalyst>, <botania:pylon:1>], [<ore:livingrock>, <bewitchment:sigil_mending>, <ore:livingrock>]]);
 
