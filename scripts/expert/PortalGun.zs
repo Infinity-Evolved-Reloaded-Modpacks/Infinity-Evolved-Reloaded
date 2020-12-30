@@ -7,7 +7,7 @@ print("Initializing 'PortalGun.zs'...");
 
 #Miniature Black Hole
 recipes.remove(<portalgun:item_miniature_black_hole>);
-recipes.addShaped(<portalgun:item_miniature_black_hole>, [[<ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>], [<ore:dustEnderPearl>, <ic2:nuclear:10>, <ore:dustEnderPearl>], [<ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>]]);
+recipes.addShaped(<portalgun:item_miniature_black_hole>, [[<railcraft:dust:7>, <railcraft:dust:7>, <railcraft:dust:7>], [<railcraft:dust:7>, <ic2:nuclear:10>, <railcraft:dust:7>], [<railcraft:dust:7>, <railcraft:dust:7>, <railcraft:dust:7>]]);
 
 #Ender Pearl Dust
 furnace.remove(<portalgun:item_dust_ender_pearl>);

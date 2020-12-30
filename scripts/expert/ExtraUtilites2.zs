@@ -12,10 +12,14 @@ recipes.addShaped(<extrautils2:itemcreativebuilderswand>, [[null, null, <unstabl
 recipes.remove(<extrautils2:wateringcan:*>);
 recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:15>, <harvestcraft:beetseeditem>],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [<harvestcraft:kiwiseeditem>, <ore:ingotSteel>, <harvestcraft:cornseeditem>]]);
 
-#Deep Dark Portal
+#Bedrock Portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>, null, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>]]);
-
+recipes.addShaped(<extrautils2:teleporter:1>, 
+[
+    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>], 
+    [<unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:4>, <unstabletools:unstable_ingot>], 
+    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>]
+]);
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}));
@@ -75,7 +79,7 @@ recipes.addShaped(<extrautils2:spike_wood>, [[null, <extrautils2:decorativesolid
 
 #Quarry
 recipes.remove(<extrautils2:quarry>);
-recipes.addShaped(<extrautils2:quarry>, [[<buildcraftsilicon:redstone_chipset:3>, <ic2:mining_laser>, <forestry:thermionic_tubes:9>], [<enderio:block_transceiver>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
+recipes.addShaped(<extrautils2:quarry>, [[<buildcraftsilicon:redstone_chipset:3>, <ic2:mining_laser:*>, <forestry:thermionic_tubes:9>], [<enderio:block_transceiver>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
 
 #Transfer Nodes
 recipes.remove(<extrautils2:grocket:3>);

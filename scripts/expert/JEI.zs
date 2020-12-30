@@ -1,7 +1,7 @@
 #Name: JEI.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
-#packmode normal
+#packmode expert
 
 print("Initializing 'JEI.zs'...");
 

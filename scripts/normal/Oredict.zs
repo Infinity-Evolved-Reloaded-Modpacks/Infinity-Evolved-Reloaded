@@ -55,6 +55,10 @@ uranDustOreDict.remove(<bigreactors:dustyellorium>);
 #Yellorium Block to Ingot
 recipes.addShapeless(<bigreactors:ingotyellorium> * 9, [<bigreactors:blockyellorium>]);
 
+#Yellorium Ore
+furnace.remove(<ic2:ingot:8>);
+furnace.addRecipe(<bigreactors:ingotyellorium>,<bigreactors:oreyellorite>);
+
 #Uran
 rh(<immersiveengineering:metal:5>);
 rh(<ic2:ingot:8>);

@@ -137,4 +137,7 @@ recipes.addShaped(<thaumcraft:crystal_ordo>, [[<thaumcraft:crystal_essence>.with
 mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:crystal_perditio>);
 recipes.addShaped(<thaumcraft:crystal_perditio>, [[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})], [<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}), <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})], [null, null, null]]);
 
+#Void Metal Ingot Removal from Arc Furnace
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thaumcraft:ingot:1>);
+
 print("Initialized 'Thaumcraft.zs'");
