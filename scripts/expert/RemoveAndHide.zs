@@ -50,7 +50,13 @@ var recipesToRemove = [
 <industrialforegoing:black_hole_controller>,
 <ic2:te:102>,
 <ic2:te:101>,
-<ic2:te:100>
+<ic2:te:100>,
+<simplyjetpacks:itemjetpack:1>,
+<simplyjetpacks:itemjetpack:2>,
+<simplyjetpacks:itemjetpack:3>,
+<simplyjetpacks:itemjetpack:4>,
+<simplyjetpacks:itemjetpack:6>,
+<simplyjetpacks:itemjetpack:5>
 	] as IItemStack[];
 
 	for items in recipesToRemove {
