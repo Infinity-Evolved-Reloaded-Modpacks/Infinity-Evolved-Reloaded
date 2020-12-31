@@ -102,7 +102,7 @@ AssemblyTable.addRecipe("ReinforcedConversionKit", <thermalfoundation:upgrade:33
 AssemblyTable.addRecipe("SignalumConversionKit", <thermalfoundation:upgrade:34>, 135000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>]);
 
 # ---Resonant
-AssemblyTable.addRecipe("ResonantConversionKit", <thermalfoundation:upgrade:35>, 220000, [<thermalfoundation:upgrade>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:3>]);
+AssemblyTable.addRecipe("ResonantConversionKit", <thermalfoundation:upgrade:35>, 220000, [<thermalfoundation:upgrade:34>, <thermalfoundation:upgrade:3>]);
 
 #Induction Smelter
 recipes.remove(<thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}));
