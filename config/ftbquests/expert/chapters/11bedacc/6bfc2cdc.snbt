@@ -1,11 +1,12 @@
 {
+	title: "Pollen Cluster",
 	x: 0.0d,
 	y: -5.5d,
 	text: [
-		"You are going to need alot more of this."
+		"Oh I hope this doesn't trigger my allergy."
 	],
 	dependencies: [
-		"0a6f9284"
+		"5e1933c0"
 	],
 	tasks: [{
 		uid: "940d55d5",
