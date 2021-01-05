@@ -38,6 +38,12 @@ val nuggetIridium = <ore:nuggetIridium>;
 nuggetIridium.remove(<ic2:misc_resource:2>);
 mods.immersiveengineering.Crusher.removeRecipe(<ic2:misc_resource:1>);
 
+val ingotIridium = <ore:ingotIridium>;
+ingotIridium.remove(<ic2:misc_resource:1>);
+recipes.remove(<ic2:misc_resource:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:misc_resource:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:misc_resource:1>*2);
+
 #Yellorium
 val uranOreDict = <ore:ingotUranium>;
 uranOreDict.remove(<bigreactors:ingotyellorium>);
