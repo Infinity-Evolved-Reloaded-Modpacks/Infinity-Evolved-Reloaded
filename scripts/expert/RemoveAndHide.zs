@@ -1,6 +1,5 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
-import scripts.expert.SimplyJetpacks as sj;
 
 #Name: Gears.zs
 #Author: Sander
@@ -8,6 +7,9 @@ import scripts.expert.SimplyJetpacks as sj;
 #packmode expert
 
 print("Initializing 'RemoveAndHide.zs'...");
+
+var fluxInfusedChestplateAssembly = <simplyjetpacks:metaitemmods:25>;
+var fluxedArmorPlating = <simplyjetpacks:metaitemmods:26>;
 
 # Remove and Hide Items
 var recipesToRemove = [
@@ -52,8 +54,8 @@ var recipesToRemove = [
 	<ic2:te:102>,
 	<ic2:te:101>,
 	<ic2:te:100>,
-	sj.fluxedArmorPlating,
-	sj.fluxInfusedChestplateAssembly
+	fluxedArmorPlating,
+	fluxInfusedChestplateAssembly
 ] as IItemStack[];
 
 for items in recipesToRemove {

@@ -1,5 +1,3 @@
-import mods.jei.JEI;
-
 #Name: SimplyJetpacks.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
@@ -7,26 +5,13 @@ import mods.jei.JEI;
 
 print("Initializing 'SimplyJetpacks.zs'...");
 
-// Items
-var ironArmorPlating = <simplyjetpacks:metaitemmods:16>;
-var bronzeArmorPlating = <simplyjetpacks:metaitemmods:17>;
-var invarArmorPlating = <simplyjetpacks:metaitemmods:18>;
-var resonantArmorPlating = <simplyjetpacks:metaitemmods:19>;
-
-var leadstoneThruster = <simplyjetpacks:metaitemmods:20>;
 var hardenedThruster = <simplyjetpacks:metaitemmods:21>;
 var reinforcedThruster = <simplyjetpacks:metaitemmods:22>;
 var resonantThruster = <simplyjetpacks:metaitemmods:23>;
-
 var fluxedThruster = <simplyjetpacks:metaitemmods:24>;
 var fluxInfusedChestplate = <simplyjetpacks:itemjetpack:24>;
-
-var fluxInfusedChestplateAssembly = <simplyjetpacks:metaitemmods:25>;
-var fluxedArmorPlating = <simplyjetpacks:metaitemmods:26>;
-
 var armoredResonantJetpack = <simplyjetpacks:itemjetpack:23>;
 var armoredResonantFluxpack = <simplyjetpacks:itemfluxpack:14>;
-
 var cryotheumCoolantUnit = <simplyjetpacks:metaitemmods:30>;
 var glowstoneElevationUnit = <simplyjetpacks:metaitemmods:28>;
 
