@@ -90,7 +90,7 @@ mods.avaritia.ExtremeCrafting.addShapeless(
     <ore:cropApricot>,
     <ore:cropDate>,
     <ore:cropAvocado>,
-    <ore:cropWalnut>,]);
+    <ore:cropWalnut>]);
 
 print("Initialized 'Avaritia.zs");
 
