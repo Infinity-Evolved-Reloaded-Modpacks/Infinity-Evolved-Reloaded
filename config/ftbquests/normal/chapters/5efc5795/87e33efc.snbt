@@ -4,28 +4,28 @@
 		id: "simplyjetpacks:itemjetpack",
 		tag: {
 			Energy: 0,
-			JetpackParticleType: 0
+			JetpackParticle: 0
 		},
-		Damage: 12s
+		Damage: 18s
 	},
 	x: 9.5d,
 	y: 6.5d,
 	text: [
-		"The next highest tier for TE jetpacks is the Vibrant Jetpack. It is very fast, stores 6 000 000 RF, and uses 200 RF/t while in use."
+		"The next highest tier for TE jetpacks is the Reinforced Jetpack. It is very fast, stores 6 000 000 RF, and uses 200 RF/t while in use."
 	],
 	dependencies: [
 		"c31e2340"
 	],
 	tasks: [{
-		uid: "4f53b735",
+		uid: "0dadd950",
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
-				JetpackParticleType: 0
+				JetpackParticle: 0
 			},
-			Damage: 12s
+			Damage: 18s
 		}],
 		ignore_nbt: 1b
 	}]
