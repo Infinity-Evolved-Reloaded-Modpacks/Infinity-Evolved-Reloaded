@@ -1,9 +1,9 @@
+import mods.jei.JEI;
+
 #Name: SimplyJetpacks.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
-
-import mods.jei.JEI;
 
 print("Initializing 'SimplyJetpacks.zs'...");
 
@@ -30,16 +30,6 @@ var armoredResonantFluxpack = <simplyjetpacks:itemfluxpack:14>;
 var cryotheumCoolantUnit = <simplyjetpacks:metaitemmods:30>;
 var glowstoneElevationUnit = <simplyjetpacks:metaitemmods:28>;
 
-// For some reason these items don't show up in JEI by default
-JEI.addItem(leadstoneThruster);
-JEI.addItem(hardenedThruster);
-JEI.addItem(reinforcedThruster);
-JEI.addItem(resonantThruster);
-JEI.addItem(ironArmorPlating);
-JEI.addItem(bronzeArmorPlating);
-JEI.addItem(invarArmorPlating);
-JEI.addItem(resonantArmorPlating);
-
 // Replace Truster with Different TE dynamos
 recipes.remove(reinforcedThruster);
 recipes.addShaped(reinforcedThruster, [
@@ -54,10 +44,6 @@ recipes.addShaped(hardenedThruster, [
     [<thermaldynamics:duct_0:1>, <thermalexpansion:dynamo:3>, <thermaldynamics:duct_0:1>],
     [<ore:ingotInvar>, <ore:dustRedstone>, <ore:ingotInvar>]
 ]);
-
-// Remove armor and plates provided by Redstone Arsenal
-JEI.removeAndHide(fluxedArmorPlating);
-JEI.removeAndHide(fluxInfusedChestplateAssembly);
 
 // Flux-Infused Jetplate
 recipes.remove(fluxInfusedChestplate);
