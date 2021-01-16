@@ -1,12 +1,13 @@
 {
-	title: "Forest",
-	x: 0.5d,
-	y: -12.0d,
+	title: "The Beginning",
+	x: -0.5d,
+	y: -12.5d,
+	description: "Start to gather your first bees in the wild. Harvest them by breaking hives with a Scoop.",
 	text: [
 		""
 	],
 	tasks: [{
-		uid: "b0d3eb52",
+		uid: "ca9360d4",
 		type: "item",
 		items: [{
 			id: "forestry:bee_drone_ge",
@@ -14,13 +15,13 @@
 				MaxH: 20,
 				Mate: {
 					Chromosomes: [{
-						UID1: "forestry.speciesForest",
-						UID0: "forestry.speciesForest",
+						UID1: "forestry.speciesCommon",
+						UID0: "forestry.speciesCommon",
 						Slot: 0b
 					},
 					{
-						UID1: "forestry.speedSlowest",
-						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlower",
+						UID0: "forestry.speedSlower",
 						Slot: 1b
 					},
 					{
@@ -29,8 +30,8 @@
 						Slot: 2b
 					},
 					{
-						UID1: "forestry.fertilityHigh",
-						UID0: "forestry.fertilityHigh",
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
 						Slot: 3b
 					},
 					{
@@ -64,8 +65,8 @@
 						Slot: 9b
 					},
 					{
-						UID1: "forestry.floweringSlower",
-						UID0: "forestry.floweringSlower",
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
 						Slot: 10b
 					},
 					{
@@ -83,13 +84,13 @@
 				IsAnalyzed: 0b,
 				Genome: {
 					Chromosomes: [{
-						UID1: "forestry.speciesForest",
-						UID0: "forestry.speciesForest",
+						UID1: "forestry.speciesCommon",
+						UID0: "forestry.speciesCommon",
 						Slot: 0b
 					},
 					{
-						UID1: "forestry.speedSlowest",
-						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlower",
+						UID0: "forestry.speedSlower",
 						Slot: 1b
 					},
 					{
@@ -98,8 +99,8 @@
 						Slot: 2b
 					},
 					{
-						UID1: "forestry.fertilityHigh",
-						UID0: "forestry.fertilityHigh",
+						UID1: "forestry.fertilityNormal",
+						UID0: "forestry.fertilityNormal",
 						Slot: 3b
 					},
 					{
@@ -133,8 +134,8 @@
 						Slot: 9b
 					},
 					{
-						UID1: "forestry.floweringSlower",
-						UID0: "forestry.floweringSlower",
+						UID1: "forestry.floweringSlowest",
+						UID0: "forestry.floweringSlowest",
 						Slot: 10b
 					},
 					{
@@ -149,6 +150,8 @@
 					}]
 				}
 			}
-		}]
+		}],
+		count: 16L,
+		ignore_nbt: 1b
 	}]
 }

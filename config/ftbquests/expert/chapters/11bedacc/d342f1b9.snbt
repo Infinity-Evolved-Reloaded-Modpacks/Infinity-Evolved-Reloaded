@@ -1,11 +1,12 @@
 {
+	title: "Royal Jelly",
 	x: -1.0d,
 	y: -5.5d,
 	text: [
 		"You are going to need alot more of this."
 	],
 	dependencies: [
-		"3e67024f"
+		"8caab965"
 	],
 	tasks: [{
 		uid: "577c7efb",
