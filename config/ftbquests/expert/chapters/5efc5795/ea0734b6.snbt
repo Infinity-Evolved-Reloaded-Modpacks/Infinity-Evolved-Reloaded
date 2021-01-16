@@ -4,9 +4,9 @@
 		id: "simplyjetpacks:itemjetpack",
 		tag: {
 			Energy: 0,
-			JetpackParticleType: 0
+			JetpackParticle: 0
 		},
-		Damage: 4s
+		Damage: 10s
 	},
 	x: 8.0d,
 	y: 3.5d,
@@ -17,15 +17,15 @@
 		"fb970931"
 	],
 	tasks: [{
-		uid: "9c069285",
+		uid: "d813e5f6",
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
-				JetpackParticleType: 0
+				JetpackParticle: 0
 			},
-			Damage: 4s
+			Damage: 10s
 		}],
 		ignore_nbt: 1b
 	}]
