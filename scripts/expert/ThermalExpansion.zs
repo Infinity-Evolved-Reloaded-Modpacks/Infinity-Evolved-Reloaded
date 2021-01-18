@@ -124,5 +124,7 @@ mods.thermalexpansion.Factorizer.removeRecipeCombine(<draconicevolution:draconiu
 #Remove Iridium Ore Transformation
 recipes.remove(<ic2:misc_resource:1> * 2);
 
+#Copper Block to Ingots
+recipes.addShapeless(<thermalfoundation:material:128> * 9, [<thermalfoundation:storage>]);
 
 print("Initialized 'ThermalExpansion.zs'");

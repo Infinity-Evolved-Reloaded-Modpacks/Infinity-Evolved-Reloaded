@@ -5,12 +5,12 @@
 		tag: {
 			Energy: 0
 		},
-		Damage: 8s
+		Damage: 9s
 	},
 	x: 8.5d,
 	y: 6.5d,
 	text: [
-		"The final tier of Flux Pack is the Resonant Flux Pack. It can store 40 000 000 RF, and can input/output at 20 000 RF/t.",
+		"The next tier of Flux Pack is the Reinforced Flux Pack. It can store 40 000 000 RF, and can input/output at 20 000 RF/t.",
 		"",
 		"Naturally, the higher tiers can have better armor applied to them."
 	],
@@ -18,14 +18,14 @@
 		"8dfb2528"
 	],
 	tasks: [{
-		uid: "c8062932",
+		uid: "79e08b24",
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemfluxpack",
 			tag: {
 				Energy: 0
 			},
-			Damage: 8s
+			Damage: 9s
 		}],
 		ignore_nbt: 1b
 	}]
