@@ -5,7 +5,7 @@
 	shape: "hexagon",
 	text: [
 		"Sometimes you travel for hours on end and can't seem to find the hive you want, well this should ease up on that issue some. ",
-		"Here are the original 8 hives that a good majority of be species derive from, with this you should be able to get a decent bit of breeeding done. ",
+		"Here are most of the common Hives that a good majority of bee species derive from, with this you should be able to get a decent bit of breeeding done. ",
 		"Bee Happy!"
 	],
 	can_repeat: true,
@@ -16,7 +16,18 @@
 		uid: "4909807d",
 		type: "item",
 		items: [{
-			item: "forestry:bee_combs"
+			ForgeCaps: {
+				Parent: {
+					data: "beeComb",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any beeComb"
+				}
+			}
 		}],
 		count: 64L,
 		consume_items: true,
@@ -27,6 +38,6 @@
 		uid: "432ae43a",
 		type: "choice",
 		icon: "forestry:beehives",
-		table: 7
+		table: 6
 	}]
 }

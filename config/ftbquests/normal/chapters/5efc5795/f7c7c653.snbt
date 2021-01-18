@@ -5,7 +5,7 @@
 		tag: {
 			Energy: 0
 		},
-		Damage: 5s
+		Damage: 6s
 	},
 	x: 9.0d,
 	y: 3.5d,
@@ -16,14 +16,14 @@
 		"f65e5838"
 	],
 	tasks: [{
-		uid: "b6cdb6ab",
+		uid: "accdce03",
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemfluxpack",
 			tag: {
 				Energy: 0
 			},
-			Damage: 5s
+			Damage: 6s
 		}],
 		ignore_nbt: 1b
 	}]
