@@ -12,7 +12,7 @@ print("Initializing 'RemoveAndHide.zs'...");
 // to at least know what they mean in the future.
 var fluxInfusedChestplateAssembly = <simplyjetpacks:metaitemmods:25>;
 var fluxedArmorPlating = <simplyjetpacks:metaitemmods:26>;
-
+var EU2LavaGen  = <extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"});
 // Remove and Hide Items
 var recipesToRemove = [
 	<appliedenergistics2:nether_quartz_wrench>,
@@ -63,7 +63,13 @@ var recipesToRemove = [
 	<simplyjetpacks:itemjetpack:6>,
 	<simplyjetpacks:itemjetpack:5>,
 	fluxedArmorPlating,
-	fluxInfusedChestplateAssembly
+	fluxInfusedChestplateAssembly,
+	EU2LavaGen,
+	<enderio:block_lava_generator>,
+	<extrautils2:passivegenerator:2>,
+	<ic2:te:4>,
+	<immersiveengineering:metal_device1:3>,
+	<thermalexpansion:dynamo:1>
 ] as IItemStack[];
 
 for items in recipesToRemove {
