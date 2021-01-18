@@ -8,10 +8,12 @@ import mods.jei.JEI.removeAndHide as rh;
 
 print("Initializing 'RemoveAndHide.zs'...");
 
+// The ids could change at any time, so I'll give them names
+// to at least know what they mean in the future.
 var fluxInfusedChestplateAssembly = <simplyjetpacks:metaitemmods:25>;
 var fluxedArmorPlating = <simplyjetpacks:metaitemmods:26>;
 
-# Remove and Hide Items
+// Remove and Hide Items
 var recipesToRemove = [
 	<appliedenergistics2:nether_quartz_wrench>,
 	<extracells:vibrantchamberfluid>,
@@ -54,6 +56,12 @@ var recipesToRemove = [
 	<ic2:te:102>,
 	<ic2:te:101>,
 	<ic2:te:100>,
+	<simplyjetpacks:itemjetpack:1>,
+	<simplyjetpacks:itemjetpack:2>,
+	<simplyjetpacks:itemjetpack:3>,
+	<simplyjetpacks:itemjetpack:4>,
+	<simplyjetpacks:itemjetpack:6>,
+	<simplyjetpacks:itemjetpack:5>,
 	fluxedArmorPlating,
 	fluxInfusedChestplateAssembly
 ] as IItemStack[];

@@ -10,7 +10,7 @@
 	x: 8.0d,
 	y: 5.5d,
 	text: [
-		"This Armored Capacitor Pack not only gives you the ability to carry power but also protects you from losing it."
+		"The second-highest tier of Flux Pack is the Reinforced Flux Pack. It can store 80 000 000 RF, and can input/output at 32 000 RF/t."
 	],
 	dependencies: [
 		"c4f590f8"

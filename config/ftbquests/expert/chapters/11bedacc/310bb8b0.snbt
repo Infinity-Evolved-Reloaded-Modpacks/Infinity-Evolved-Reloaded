@@ -1,7 +1,7 @@
 {
 	title: "Basic Bee Breeding",
 	x: -0.5d,
-	y: -13.0d,
+	y: -13.5d,
 	text: [
 		"This quest line shows the various species that are required to produce Royal Jelly and Pollen clusters, all of this is technically in JEI but sometimes having quests to follow helps keep perspective of how far along you are."
 	],
