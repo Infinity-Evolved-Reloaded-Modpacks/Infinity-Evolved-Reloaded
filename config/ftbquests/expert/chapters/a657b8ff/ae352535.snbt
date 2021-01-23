@@ -1,0 +1,23 @@
+{
+	title: "Who Said the Wither Was Hard?",
+	icon: "draconicevolution:grinder",
+	x: 10.666666666666666d,
+	y: 1.0d,
+	text: [
+		"§lThe Mob Grinder uses RF to kill mobs in front of it. ",
+		"",
+		"§rIt does not collect the items or XP, but it is capable of near instantly killing a Wither. It is also Wither-proof.",
+		"",
+		"You can also put furnace fuel into it instead of RF."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "07b852a2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:grinder"
+		}]
+	}]
+}

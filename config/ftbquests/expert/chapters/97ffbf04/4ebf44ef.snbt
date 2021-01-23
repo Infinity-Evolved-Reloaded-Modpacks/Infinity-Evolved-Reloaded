@@ -1,0 +1,23 @@
+{
+	title: "SWAG Mill",
+	icon: "enderio:block_sag_mill",
+	x: 8.75d,
+	y: 6.416666666666667d,
+	text: [
+		"§lThe SAG Mill uses RF to crush ores and other blocks and items. ",
+		"",
+		"§rIn addition to a 100% chance to double ores, it has a small chance to give you dusts for other ores, and cobblestone.",
+		"",
+		"You can put Flint into the SAG Mill to multiply the main output by 1.2, bonus output by 1.25, and reduce power use by 15%. Later, you can put in Dark Steel Balls to multiply main output by 1.5, bonus output by 2, and reduce power use by 30%."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "fac931d0",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}]
+}

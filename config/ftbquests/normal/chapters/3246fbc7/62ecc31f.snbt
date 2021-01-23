@@ -1,0 +1,20 @@
+{
+	title: "Ur-Ghast",
+	icon: "twilightforest:trophy 1 3",
+	x: 3.6666666666666665d,
+	y: 7.0d,
+	shape: "rsquare",
+	text: [
+		"As if a normal Ghast wasn't enough. Taking a good bow with you certainly wouldn't hurt."
+	],
+	dependencies: [
+		"dc05c6ca"
+	],
+	tasks: [{
+		uid: "ecc83a2a",
+		type: "kill",
+		icon: "twilightforest:trophy 1 3",
+		entity: "twilightforest:ur_ghast",
+		value: 1L
+	}]
+}

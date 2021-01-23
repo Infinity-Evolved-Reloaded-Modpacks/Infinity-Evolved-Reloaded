@@ -1,0 +1,33 @@
+{
+	title: "Amphibious Bus Tour",
+	icon: "appliedenergistics2:part 1 221",
+	x: 10.958333333333334d,
+	y: 6.75d,
+	text: [
+		"These Busses work exactly the same as the regular ones, but with Fluids."
+	],
+	dependencies: [
+		"f3171946"
+	],
+	tasks: [{
+		uid: "4b830572",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 261"
+		}]
+	},
+	{
+		uid: "700acef3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 241"
+		}]
+	},
+	{
+		uid: "769417d0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 221"
+		}]
+	}]
+}

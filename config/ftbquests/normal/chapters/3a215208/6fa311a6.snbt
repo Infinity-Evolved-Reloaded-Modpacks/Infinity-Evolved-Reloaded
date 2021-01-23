@@ -1,0 +1,46 @@
+{
+	title: "Made Out of Buttons and Wires",
+	icon: "appliedenergistics2:part 1 16",
+	x: 7.041666666666666d,
+	y: 4.333333333333333d,
+	text: [
+		"§lAE2 machines are hooked up and powered via Fluix conduits. Channels are a very special mechanic: most Busses or AE2 Machines take up a channel. Different cables have different amounts of channels available.",
+		"",
+		"§rME Glass Cables can only carry 8 channels. You can connect Busses to them.",
+		"",
+		"ME Smart Cables can also only hold 8 Channels at once, but you see a visual representation of them. You can hook up Busses with them also.",
+		"",
+		"ME Dense Cables can carry 32 channels, and you can see a visual representation of them. However, you cannot connect Busses to them."
+	],
+	dependencies: [
+		"1ad71c95"
+	],
+	size: 1.0833333333333333d,
+	tasks: [{
+		uid: "0627fdcd",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	},
+	{
+		uid: "cc75809d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}]
+	},
+	{
+		uid: "9df4bc0c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}]
+	}],
+	rewards: [{
+		uid: "b630d0a7",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 10
+	}]
+}

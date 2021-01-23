@@ -1,0 +1,80 @@
+{
+	title: "Whose Ranium?",
+	icon: {
+		id: "ic2:uranium_fuel_rod",
+		tag: {
+			advDmg: 0
+		}
+	},
+	x: 7.083333333333333d,
+	y: 1.2083333333333335d,
+	text: [
+		"§lTurning Uranium Ore into Uranium Fuel Rods is a rather complicated process requiring a bunch of machines.",
+		"",
+		"§rCrushed Uranium ore can be made in either a Macerator or Rock Crusher.",
+		"",
+		"The Ore Washing Plant turns water and Crushed Uranium Ore into a Purified Crushed Uranium Ore, 2 Tiny Piles of Lead Dust, and a Stone Dust.",
+		"",
+		"A full Hazmat suit protects the player from getting radiated by holding Uranium, which acts similar to the Wither effect, killing quickly."
+	],
+	dependencies: [
+		"74bd84ca"
+	],
+	tasks: [{
+		uid: "53b4be3f",
+		type: "item",
+		items: [{
+			item: "ic2:crushed 1 6"
+		}]
+	},
+	{
+		uid: "58ff7a35",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 56"
+		}]
+	},
+	{
+		uid: "1a617a7b",
+		type: "item",
+		items: [{
+			item: "ic2:purified 1 6"
+		}]
+	},
+	{
+		uid: "57608a1d",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ddad972",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "beaf30a1",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "764c376a",
+		type: "item",
+		items: [{
+			item: "ic2:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

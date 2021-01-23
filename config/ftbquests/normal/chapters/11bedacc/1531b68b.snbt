@@ -1,0 +1,20 @@
+{
+	title: "I can see clearly now",
+	x: -10.5d,
+	y: -10.0d,
+	text: [
+		"With some drops of honey you can now see all the traits of a bee, both active and inactive. This will allow you to see how close you are to having a bee that is pure when breeding bees the old fashion way."
+	],
+	dependencies: [
+		"9f2729e5"
+	],
+	tasks: [{
+		uid: "f5d87971",
+		type: "item",
+		items: [{
+			item: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

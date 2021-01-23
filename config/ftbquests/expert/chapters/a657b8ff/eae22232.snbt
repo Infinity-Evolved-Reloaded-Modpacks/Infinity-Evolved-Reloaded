@@ -1,0 +1,67 @@
+{
+	title: "Make it Chaotic",
+	icon: {
+		id: "draconicadditions:chaotic_chest",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 12.0d,
+	y: 9.0d,
+	text: [
+		"§lFor if even Draconic Armor wasn't powerful enough for you.",
+		"",
+		"§rChaotic Armor is one of the best armors in the entire modpack but comes at a hefty costs and even just crafting it isn't enough to unlock it's full power."
+	],
+	dependencies: [
+		"8e905225"
+	],
+	tasks: [{
+		uid: "668fc94a",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaotic_helm",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3cbb3d22",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaotic_chest",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b2a4a54",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaotic_legs",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5ed357c",
+		type: "item",
+		items: [{
+			id: "draconicadditions:chaotic_boots",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

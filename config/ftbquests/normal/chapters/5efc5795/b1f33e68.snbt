@@ -1,0 +1,51 @@
+{
+	title: "Advanced Combining",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 3s
+	},
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"The Induction Smelter works similarly to alloying, you put two things together to make a new one. The Induction Smelter is the only way to get Slag, along with several other things."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "5128786d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}]
+}

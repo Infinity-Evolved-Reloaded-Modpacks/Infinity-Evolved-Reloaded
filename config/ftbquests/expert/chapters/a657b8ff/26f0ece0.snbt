@@ -1,0 +1,24 @@
+{
+	x: 10.5d,
+	y: 8.0d,
+	text: [
+		"§lThe Draconic Hoe is one of the best hoes in the modpack. ",
+		"",
+		"§rCheck you Controls for \"Tool and Armour Config GUI\", and press that. Click the Draconic Hoe, and you can modify the area of effect "
+	],
+	dependencies: [
+		"b90619c7"
+	],
+	tasks: [{
+		uid: "2f67f9ee",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_hoe",
+			tag: {
+				Energy: 16000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

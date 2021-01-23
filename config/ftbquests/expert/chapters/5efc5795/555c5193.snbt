@@ -1,0 +1,21 @@
+{
+	title: "More Rubber!",
+	icon: "ic2:te 1 45",
+	x: 3.0d,
+	y: 5.5d,
+	text: [
+		"§lThe Extractor uses EU to extract extra rubber from Sticky Resin and Rubber Wood.",
+		"",
+		"§rIn addition to giving more Rubber, the Extractor can turn Clay/Brick/Snow blocks into 4 of their item, remove the dye from Wool, and several other things."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "3f188ccf",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 45"
+		}]
+	}]
+}

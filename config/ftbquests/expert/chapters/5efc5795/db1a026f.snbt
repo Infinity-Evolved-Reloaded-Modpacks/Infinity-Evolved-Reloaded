@@ -1,0 +1,50 @@
+{
+	title: "Nega-Stark",
+	icon: "enderio:item_dark_steel_chestplate",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Ender IO's Dark Armor has many upgrades to make the armor better and more powerful. The upgrades are applied in an Anvil, by putting the armor piece together with certain items using XP. Hold shift while hovering over them in your inventory to see what upgrades you can apply, and what they do.",
+		"",
+		"Without upgrades, Dark Armor takes full durability damage without any RF storage. The more Empowered upgrades applied, the more RF it stores and the less durability damage it takes. However, even when fully upgraded, it does take some durability damage, so you will have to eventually repair it with more Dark Steel."
+	],
+	dependencies: [
+		"b1f33e68"
+	],
+	tasks: [{
+		uid: "e211cfd3",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8e6a3fd",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2d39500",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "242aefff",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

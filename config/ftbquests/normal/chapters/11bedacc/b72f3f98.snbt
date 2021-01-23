@@ -1,0 +1,20 @@
+{
+	title: "Honey Drops",
+	x: -0.5d,
+	y: -9.5d,
+	text: [
+		"Honey... delicious!"
+	],
+	dependencies: [
+		"ee6d8ff2"
+	],
+	tasks: [{
+		uid: "b5766792",
+		type: "item",
+		items: [{
+			item: "forestry:honey_drop"
+		}],
+		count: 32L,
+		consume_items: false
+	}]
+}

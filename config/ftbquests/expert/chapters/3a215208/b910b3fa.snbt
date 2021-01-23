@@ -1,0 +1,22 @@
+{
+	title: "Mirror Mirror",
+	icon: "thaumicenergistics:infusion_provider",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		"§lThe Infusion Provider allows the Infusion Altar to use Essentia from your ME System.",
+		"",
+		"§rThe Infusion Provider has to be close to the Infusion Altar to work."
+	],
+	dependencies: [
+		"0c271f46",
+		"f2ad8e0e"
+	],
+	tasks: [{
+		uid: "d102f1cd",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:infusion_provider"
+		}]
+	}]
+}

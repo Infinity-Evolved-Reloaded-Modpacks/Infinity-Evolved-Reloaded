@@ -1,0 +1,21 @@
+{
+	title: "Bamboo Shoot",
+	icon: "harvestcraft:bambooshootitem",
+	x: 5.5d,
+	y: 5.5d,
+	text: [
+		"§lBamboo Shoots are a crossbreed between Rice and Corn."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"de1e535b",
+		"e328039d"
+	],
+	tasks: [{
+		uid: "93fee5ff",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bambooshootseeditem"
+		}]
+	}]
+}

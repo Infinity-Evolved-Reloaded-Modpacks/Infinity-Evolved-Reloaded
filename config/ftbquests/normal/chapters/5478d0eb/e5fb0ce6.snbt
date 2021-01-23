@@ -1,0 +1,52 @@
+{
+	title: "I've Got Balls of Moss",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			InfiTool: {
+				BaseDurability: 171,
+				Head: 3,
+				BaseAttack: 3,
+				Moss: 3,
+				Tooltip1: "�2Auto-Repair",
+				Effect1: 4,
+				HarvestLevel: 1,
+				ModifierTip1: "�2Moss",
+				Attack: 3,
+				RenderHead: 3,
+				ModDurability: 0.0f,
+				Handle: 0,
+				Broken: 0b,
+				Shoddy: 0.0f,
+				RenderHandle: 0,
+				Accessory: 0,
+				MiningSpeed: 525,
+				RenderAccessory: 0,
+				Unbreaking: 0,
+				Damage: 0,
+				BonusDurability: 0,
+				TotalDurability: 171,
+				Modifiers: 2
+			},
+			display: {
+				Name: "�fFlint Pickaxe"
+			}
+		}
+	},
+	x: 2.6666666666666665d,
+	y: 3.875d,
+	text: [
+		"You know the Ball of Moss? Well, it isn't what it was anymore.... But we got the Mending Moss!",
+		"Right click with a Ball of Moss on a Bookshelf while carrying 10 XP levels at you and the moss will turn into Mending Moss. Tools with this modifier will store some XP and repair themselves, consuming the XP. Stacking it will allow you to store more XP."
+	],
+	dependencies: [
+		"317d15c2"
+	],
+	tasks: [{
+		uid: "9de3b903",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 18"
+		}]
+	}]
+}

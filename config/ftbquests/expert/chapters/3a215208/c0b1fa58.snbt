@@ -1,0 +1,37 @@
+{
+	title: "Now With USB 3.1 Compatibility",
+	icon: {
+		id: "wct:wct",
+		tag: {
+			InfinityEnergy: 2147483647,
+			internalCurrentPower: 1600000.0d
+		}
+	},
+	x: 12.666666666666664d,
+	y: 1.583333333333333d,
+	text: [
+		"§lThe Wireless Universal Terminal has different modes depending on what you craft together. To switch modes, shift right click it.",
+		"",
+		"§rTo add a mode, craft a Wireless Terminal with an Access Terminal that you want to add support for. To make the max upgraded one, craft the regular Wireless Access Terminal with either a Fluid Terminal or Essentia Terminal, and then craft that with the other one.",
+		"",
+		"To get a Wireless §lCrafting§r Terminal, craft a Wireless Terminal with a Crafting Terminal and a Fluix Pearl."
+	],
+	dependencies: [
+		"86a08e6d",
+		"14f5c4ef",
+		"f08f7f45"
+	],
+	size: 1.5833333333333333d,
+	tasks: [{
+		uid: "2f12c08b",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

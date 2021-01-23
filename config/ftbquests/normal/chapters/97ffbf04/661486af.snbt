@@ -1,0 +1,28 @@
+{
+	title: "Cut'N'Chop",
+	icon: "enderio:block_slice_and_splice",
+	x: 5.875d,
+	y: 7.333333333333333d,
+	text: [
+		"§lTo run, it needs any Axe and Shears in the slots at the top. ",
+		"",
+		"§rYou can shift-click items into the Slice 'N' Splice and it will put the items where they need to go.",
+		"",
+		"A task where the player needs specific items. These do not have to be handed in, having them in one's inventory is enough."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "7eb2f48e",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "a607de86",
+		type: "choice",
+		table: 2
+	}]
+}

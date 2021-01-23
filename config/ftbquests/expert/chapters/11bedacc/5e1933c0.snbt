@@ -1,0 +1,20 @@
+{
+	title: "Propolis",
+	x: 0.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"424f73cf"
+	],
+	tasks: [{
+		uid: "8845cabb",
+		type: "item",
+		items: [{
+			item: "forestry:propolis"
+		}],
+		count: 32L,
+		consume_items: false
+	}]
+}

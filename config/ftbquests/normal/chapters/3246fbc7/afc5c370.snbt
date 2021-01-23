@@ -1,0 +1,24 @@
+{
+	title: "Blow It Up!",
+	icon: "ic2:te 1 2",
+	x: 10.166666666666666d,
+	y: 5.833333333333333d,
+	text: [
+		"Kaboom!"
+	],
+	tasks: [{
+		uid: "cf855aa0",
+		type: "item",
+		icon: "minecraft:tnt",
+		items: [{
+			item: "minecraft:tnt"
+		}],
+		count: 100L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "7de6111e",
+		type: "item",
+		item: "natura:flint_and_blaze"
+	}]
+}

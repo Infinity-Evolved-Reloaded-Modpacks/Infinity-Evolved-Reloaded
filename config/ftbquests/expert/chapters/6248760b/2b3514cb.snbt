@@ -1,0 +1,64 @@
+{
+	title: "ME-ME Matter",
+	icon: {
+		id: "ic2:fluid_cell",
+		tag: {
+			Fluid: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}
+	},
+	x: 4.0d,
+	y: 1.2916666666666665d,
+	text: [
+		"§lUU-Matter is very useful. It allows you to turn EU into almost any item.",
+		"",
+		"§rThe Matter Fabricator uses 1 000 000 EU to make 1mB of UUM. When supplied with Scrap from a Recycler, it is much faster and efficient, needing only 166 666 EU and 34 Scrap per mB of UUM.",
+		"",
+		"The Scanner breaks down an item or block and puts it's pattern into a Pattern Storage block touching it.",
+		"",
+		"The Replicator should touch the Pattern Storage. Click the arrows at the top of the GUI to choose which pattern to create using UU-Matter. Different items require different amounts of UU-Matter."
+	],
+	dependencies: [
+		"0871a9e5"
+	],
+	tasks: [{
+		uid: "a10dcfd7",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "c2fcfa48",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "d5decee6",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	},
+	{
+		uid: "64d66b72",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	},
+	{
+		uid: "cf1de418",
+		type: "item",
+		items: [{
+			id: "ic2:crystal_memory",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

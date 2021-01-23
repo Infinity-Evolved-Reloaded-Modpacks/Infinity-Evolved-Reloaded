@@ -1,0 +1,45 @@
+{
+	title: "Where'd That Mountain Go?",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 18,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_pick",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		"§lThe Draconic Pickaxe is one of the best pickaxes in the modpack. ",
+		"",
+		"§rIt works similar to the Pickaxe of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the pickaxe, you will be able to turn the enchantments off and on."
+	],
+	dependencies: [
+		"e65eab06",
+		"b90619c7"
+	],
+	tasks: [{
+		uid: "745059c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_pick",
+			tag: {
+				Energy: 16000000
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

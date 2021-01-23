@@ -1,0 +1,45 @@
+{
+	title: "Diggier Diggier Hole",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 18,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_shovel",
+		tag: {
+			Energy: 16000000
+		}
+	},
+	x: 10.5d,
+	y: 6.0d,
+	text: [
+		"§lThe Draconic Shovel is one of the best shovels in the modpack. ",
+		"",
+		"§rIt works similar to the Shovel of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the shovel, you will be able to turn the enchantments off and on."
+	],
+	dependencies: [
+		"b90619c7",
+		"e7570d55"
+	],
+	tasks: [{
+		uid: "a658f4a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 18,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_shovel",
+			tag: {
+				Energy: 16000000
+			},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

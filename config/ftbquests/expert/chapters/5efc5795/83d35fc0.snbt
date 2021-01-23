@@ -1,0 +1,55 @@
+{
+	title: "Metal Gear",
+	icon: "immersiveengineering:mold 1 1",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"The Metal Press is a multiblock that turns ingots plates, gears, or rods, depending on what mold it's using. Right click on the multiblock while holding the mold to insert it. Feed RF through the top.",
+		"",
+		"See the Engineer's Manual to see a visual guide to how to build it."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "0be539bc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 2 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "f89005e7",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "e418e3aa",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	},
+	{
+		uid: "7c8b40d1",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			Count: 2b,
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "50dcc094",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	}]
+}

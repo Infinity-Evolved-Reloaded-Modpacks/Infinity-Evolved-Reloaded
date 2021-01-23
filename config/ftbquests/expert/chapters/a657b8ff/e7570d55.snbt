@@ -1,0 +1,53 @@
+{
+	title: "I Swear There Was Dirt Here",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 9,
+				Items: []
+			}
+		},
+		id: "draconicevolution:wyvern_shovel",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	x: 9.0d,
+	y: 6.0d,
+	text: [
+		"§lThe Shovel of the Wyvern is one of the best shovels in the game. ",
+		"",
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Shovel of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. If you enchant the shovel, you will be able to turn the enchantments off and on."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "a02dc4c4",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_shovel",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_shovel",
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Tomato",
+	icon: "harvestcraft:tomatoitem",
+	x: 5.5d,
+	y: 3.5d,
+	text: [
+		"§lTomatoes are a crossbreed between Sweet Potatoes and Carrots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"47aa29a6",
+		"e1018af7"
+	],
+	tasks: [{
+		uid: "415369be",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tomatoseeditem"
+		}]
+	}]
+}

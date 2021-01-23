@@ -1,0 +1,16 @@
+{
+	x: 12.0d,
+	y: 8.0d,
+	dependencies: [
+		"26f0ece0"
+	],
+	tasks: [{
+		uid: "f174d83e",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

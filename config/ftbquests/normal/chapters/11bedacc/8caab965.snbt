@@ -1,0 +1,20 @@
+{
+	title: "Honeydew",
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4fff8043"
+	],
+	tasks: [{
+		uid: "03fbcdb9",
+		type: "item",
+		items: [{
+			item: "forestry:honeydew"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

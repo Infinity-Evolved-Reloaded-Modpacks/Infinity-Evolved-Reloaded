@@ -1,0 +1,22 @@
+{
+	title: "Grinding Gears",
+	icon: "thermalfoundation:material 1 24",
+	x: 8.041666666666668d,
+	y: 4.166666666666666d,
+	shape: "square",
+	text: [
+		"§lGears can currently only be created using the Gear Cast and the metal the Gear is made of.",
+		"",
+		"§rThe Gear Cast is made using the Stone Gear and 2 Gold in a Smeltery."
+	],
+	dependencies: [
+		"138129ee"
+	],
+	tasks: [{
+		uid: "57e57217",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	}]
+}

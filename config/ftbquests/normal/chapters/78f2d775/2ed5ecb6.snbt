@@ -1,0 +1,28 @@
+{
+	title: "Sugar Cane",
+	icon: "minecraft:reeds",
+	x: 8.5d,
+	y: 1.5d,
+	text: [
+		"§lSugar Cane is a crossbreed between Carrots and Wheat."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e1018af7",
+		"703f1749"
+	],
+	tasks: [{
+		uid: "04a05481",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "vanilla:sugarcane_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

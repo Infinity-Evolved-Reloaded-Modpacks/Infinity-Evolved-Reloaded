@@ -1,0 +1,30 @@
+{
+	title: "Very Protected Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 10s
+	},
+	x: 8.0d,
+	y: 5.5d,
+	text: [
+		"The second-highest tier of Flux Pack is the Reinforced Flux Pack. It can store 80 000 000 RF, and can input/output at 32 000 RF/t."
+	],
+	dependencies: [
+		"c4f590f8"
+	],
+	tasks: [{
+		uid: "87c26d9d",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}]
+}

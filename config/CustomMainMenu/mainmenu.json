@@ -5,7 +5,7 @@
 		{
             "image" : "mainmenu:modpack.png",
             "posX" : -125,
-            "posY" : -155,
+            "posY" : -125,
             "width" : 250,
             "height" : 150,
             "alignment" : "center"

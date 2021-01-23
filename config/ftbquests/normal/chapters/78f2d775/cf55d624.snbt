@@ -1,0 +1,30 @@
+{
+	title: "Mystical Brown Flower",
+	icon: "botania:flower 1 12",
+	x: 1.5d,
+	y: 9.5d,
+	text: [
+		"§lMystical Brown Flowers are a crossbreed between Mystical Purple Flowers and Mystical Green Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5b1e0cf6",
+		"37741ef5"
+	],
+	tasks: [{
+		uid: "5d76ec20",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:brown_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

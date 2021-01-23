@@ -1,0 +1,19 @@
+{
+	title: "What's the Opposite of a Vacuum",
+	icon: "draconicevolution:energy_infuser",
+	x: 4.5119047619047805d,
+	y: 1.258928571428573d,
+	text: [
+		"The Energy Infuser quickly fills items with RF."
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	tasks: [{
+		uid: "d038db0c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_infuser"
+		}]
+	}]
+}

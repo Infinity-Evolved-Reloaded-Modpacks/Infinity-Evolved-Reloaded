@@ -1,0 +1,28 @@
+{
+	title: "Water Cooled",
+	icon: "immersiveengineering:wooden_device1",
+	x: 8.375d,
+	y: 3.4166666666666665d,
+	text: [
+		"Water Wheels generate RF based on the amount of flowing water blocks are touching it. All the water blocks have to be flowing with the wheel. You can have up to 3 Water Wheels per Kinetic Dynamo.",
+		"",
+		"Place down the Kinetic Dynamo and then place the Water Wheel on the side that looks like a copper coil. RF can be piped out from any side."
+	],
+	dependencies: [
+		"29e7fd7a"
+	],
+	tasks: [{
+		uid: "2ac7f83d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	},
+	{
+		uid: "47fd9d84",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "I'm a creeper",
+	icon: "minecraft:skull 1 4",
+	x: 3.25d,
+	y: 1.2083333333333335d,
+	shape: "square",
+	text: [
+		"BOOM BOOM BOOM I can't stop sing in this bloody TUNE TUNE TUNE"
+	],
+	tasks: [{
+		uid: "052fb03e",
+		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "creeper"
+			}
+		},
+		entity: "minecraft:creeper",
+		value: 100L
+	}]
+}

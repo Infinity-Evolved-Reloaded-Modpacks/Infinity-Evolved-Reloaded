@@ -1,0 +1,20 @@
+{
+	title: "Life Through Flowers",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:fertilizer",
+		count: 16
+	},
+	{
+		item: {
+			id: "botania:blacklotus",
+			tag: {
+				RepairCost: 2,
+				display: {
+					Name: "1/10 of a Mana Pool"
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

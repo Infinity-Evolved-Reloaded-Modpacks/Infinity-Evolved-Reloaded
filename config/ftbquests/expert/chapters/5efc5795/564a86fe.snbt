@@ -1,0 +1,21 @@
+{
+	title: "Immersive Energy Storage",
+	icon: "immersiveengineering:metal_device0 1 1",
+	x: 4.5d,
+	y: 10.0d,
+	text: [
+		"Storing energy is just as important as creating it. The Immersive Engineering Capacitors are a great way to store energy early to mid game.",
+		"",
+		"You can easily convert RF to EU using Energy Converters. So you can use it for both!"
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "9067b00d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 1"
+		}]
+	}]
+}

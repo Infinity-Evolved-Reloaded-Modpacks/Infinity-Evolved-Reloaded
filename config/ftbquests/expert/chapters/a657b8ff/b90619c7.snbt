@@ -1,0 +1,19 @@
+{
+	title: "The Endest of End Games",
+	icon: "draconicevolution:awakened_core",
+	x: 7.0d,
+	y: 5.0d,
+	text: [
+		"You deserve it. This is one of the most complicated recipes in the modpack. This isn't it, however."
+	],
+	dependencies: [
+		"b418817c"
+	],
+	tasks: [{
+		uid: "a4b42ec4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}]
+}

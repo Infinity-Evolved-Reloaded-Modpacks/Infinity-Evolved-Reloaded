@@ -1,0 +1,32 @@
+{
+	title: "Energetic Jetpack",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticle: 0
+		},
+		Damage: 9s
+	},
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		"The next tier of Ender IO jetpack is the Energetic Jetpack. It can store 4 000 000 RF and uses 200 RF/t to fly."
+	],
+	dependencies: [
+		"d1fd30af"
+	],
+	tasks: [{
+		uid: "db32f783",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}]
+}

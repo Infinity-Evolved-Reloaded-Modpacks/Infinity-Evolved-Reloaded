@@ -1,0 +1,21 @@
+{
+	title: "Cactus Fruit",
+	icon: "harvestcraft:cactusfruititem",
+	x: 8.5d,
+	y: 10.5d,
+	text: [
+		"§lCactus Fruit are a crossbreed between Kiwi and Bamboo Shoots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"426fa29b",
+		"3b32437b"
+	],
+	tasks: [{
+		uid: "d6236827",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cactusfruitseeditem"
+		}]
+	}]
+}

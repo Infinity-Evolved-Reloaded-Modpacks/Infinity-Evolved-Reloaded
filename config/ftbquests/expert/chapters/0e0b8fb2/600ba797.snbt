@@ -1,0 +1,36 @@
+{
+	title: "Flower Child",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"The Lexica Botania, while innacurate in recipes, explains how Botania's mechanics work."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "bac19dd6",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {},
+			Damage: 32767s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e53e3f1",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 8
+	}]
+}

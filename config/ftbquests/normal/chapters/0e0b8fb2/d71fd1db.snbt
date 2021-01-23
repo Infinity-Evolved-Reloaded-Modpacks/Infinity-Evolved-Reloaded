@@ -1,0 +1,46 @@
+{
+	title: "Crafting Like a Magician",
+	icon: "thaumcraft:arcane_workbench",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"§lThe Arcane Worktable is one of the ways Thaumcraft adds for crafting things. ",
+		"",
+		"§rSome recipes need Primal Vis Crystals. See your Basic Information tab of the Thaumonomicon for details.",
+		"",
+		"Right click a crafting table with Salis Mundus to get the Arcane Workbench.",
+		"",
+		"The Research Table is how you learn how to make most Thaumcraft blocks and items. You have to unlock Research Notes in the Thaumonomicon using aspect points you get by scanning blocks and items using the Thaumometer. You have to scan things in a certain order. To make the Research table, place to Tables next to eachother and right-click with Scribing Tools. These will be used up as you do the research minigame (see the Thaumonomicon for details), and refill it with Ink Sacs to continue using them."
+	],
+	dependencies: [
+		"b93ca355"
+	],
+	tasks: [{
+		uid: "c29f38c9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "78b85174",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12ed6d1d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "6b9d9452",
+		type: "item",
+		item: "minecraft:dye"
+	}]
+}

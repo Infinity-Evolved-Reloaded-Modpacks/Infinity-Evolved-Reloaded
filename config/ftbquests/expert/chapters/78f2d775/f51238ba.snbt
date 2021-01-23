@@ -1,0 +1,27 @@
+{
+	title: "Market",
+	icon: "harvestcraft:market",
+	x: 13.5d,
+	y: 6.0d,
+	shape: "square",
+	text: [
+		"§lThe Market allows you to trade Emeralds for almost every seed and sapling, and farm animals.",
+		"",
+		"§rSome things cost more Emeralds than other things, but the most expensive thing is just 9 Emeralds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4bf8efcd",
+		"d1d0a0f5",
+		"adbed633",
+		"df06e398",
+		"cbf9e3f6"
+	],
+	tasks: [{
+		uid: "50dd5d07",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}]
+	}]
+}

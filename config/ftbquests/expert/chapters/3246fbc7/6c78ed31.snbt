@@ -1,0 +1,20 @@
+{
+	title: "Snow Queen",
+	icon: "twilightforest:trophy 1 5",
+	x: 2.333333333333333d,
+	y: 7.0d,
+	shape: "rsquare",
+	text: [
+		"Ice cold, rock hard, difficult to kill and hidden in a rainbow castle. Better not mess with this girl."
+	],
+	dependencies: [
+		"62ecc31f"
+	],
+	tasks: [{
+		uid: "8c70f8b7",
+		type: "kill",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}]
+}

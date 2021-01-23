@@ -1,0 +1,22 @@
+{
+	title: "Spooky",
+	icon: "minecraft:skull",
+	x: 2.083333333333333d,
+	y: 1.2083333333333335d,
+	shape: "square",
+	text: [
+		"Spooky Scary Skeletons."
+	],
+	tasks: [{
+		uid: "b4c1db31",
+		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "skeleton"
+			}
+		},
+		entity: "minecraft:skeleton",
+		value: 100L
+	}]
+}

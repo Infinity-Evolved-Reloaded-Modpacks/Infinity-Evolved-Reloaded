@@ -1,0 +1,12 @@
+{
+	title: "Wait, HOW Long?!?!",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:material 1 10",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 12",
+		count: 16
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Bound to Your Will",
+	icon: "enderio:block_soul_binder",
+	x: 6.208333333333333d,
+	y: 5.333333333333333d,
+	text: [
+		"§lThe Soul Binder is used to Bind the Soul of mobs to items to create new items, usually used in crafting.",
+		"",
+		"§rThe Soul Binder uses filled Soul Vials plus an item. To fill the Soul Vial, right click a mob with an empty Vial. Different recipes need different Souls."
+	],
+	dependencies: [
+		"5797011c"
+	],
+	tasks: [{
+		uid: "8d9ddb34",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "94403183",
+		type: "item",
+		item: "enderio:item_soul_vial"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Tools of the Trade",
+	icon: "agricraft:seed_analyzer",
+	x: 13.5d,
+	y: 4.0d,
+	shape: "square",
+	text: [
+		"§0§r§lAgricraft allows you to breed crops to make them better, or even create new crops!",
+		"",
+		"§rPut seeds into the Seed Analyzer to get it's statistics. Seeds have 3 statistics: Growth, which is how fast the crop matures, Gain, which is how much you get from a single crop, and Strength, which is the resilience to weeds and ability to move with Clippers. Luckily, Infinity has weeds disabled, so you don't have to worry very much about Strength.",
+		"",
+		"",
+		"Crop Sticks are where you plant seeds to grow them the AgriCraft way. If you right-click a valid soil with them, it will the sticks down and allow you to plant crops there. Plants growing on these can be harvested by right-clicking instead of breaking. If you right-click Crop Sticks with Crop Sticks, you will put even more on, which allows you to crossbreed crops that are touching it. For instance, if you put 2 Crop Sticks onto soil between Carrots and Potatoes (assuming that they're on single Crop Sticks), there will be a chance that they will crossbreed into Pumpkins! They can also just spread the Carrots or Potatoes, so it's mildly chance-based."
+	],
+	tasks: [{
+		uid: "0f8bf426",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	},
+	{
+		uid: "c78e3315",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}]
+	}],
+	rewards: [{
+		uid: "88172239",
+		type: "choice",
+		table: 5
+	}]
+}

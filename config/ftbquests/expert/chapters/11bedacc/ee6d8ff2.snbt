@@ -1,0 +1,21 @@
+{
+	title: "Beeswax",
+	x: -0.5d,
+	y: -11.0d,
+	text: [
+		"Wait. Isn't this the stuff Candles are made out of?"
+	],
+	dependencies: [
+		"7ca00f0c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ba23c105",
+		type: "item",
+		items: [{
+			item: "forestry:beeswax"
+		}],
+		count: 32L,
+		consume_items: false
+	}]
+}

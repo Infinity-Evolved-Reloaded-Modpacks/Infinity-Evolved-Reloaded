@@ -1,0 +1,25 @@
+{
+	title: "This will burn my fingers!",
+	icon: "minecraft:furnace",
+	x: 1.75d,
+	y: 2.625d,
+	text: [
+		"The first steps towards a civilized way of life."
+	],
+	dependencies: [
+		"e967ac45"
+	],
+	tasks: [{
+		uid: "d0775b12",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "042a77a7",
+		type: "item",
+		item: "minecraft:coal",
+		count: 8
+	}]
+}

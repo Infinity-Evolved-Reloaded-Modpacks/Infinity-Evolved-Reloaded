@@ -1,4 +1,215 @@
 [
+  {
+    "filter": {
+      "name": [
+        "dense_nether_iridium_ore",
+        "dense_iridium_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 6,
+      "create": 85000,
+      "maintain": 25000,
+      "ticks": 1000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_lapis_ore",
+        "dense_lapis_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 4500,
+      "ticks": 650,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_mithril_ore",
+        "dense_mithril_ore",
+        "dense_nether_platinum_ore",
+        "dense_platinum_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 16000,
+      "maintain": 3000,
+      "ticks": 800,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": "dense_quartz_ore",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 8000,
+      "maintain": 1250,
+      "ticks": 180,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_iron_ore",
+        "dense_nether_iron_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 16000,
+      "maintain": 2000,
+      "ticks": 450,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_emerald_ore",
+        "dense_nether_emerald_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 80000,
+      "maintain": 18000,
+      "ticks": 1000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_diamond_ore",
+        "dense_diamond_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 80000,
+      "maintain": 18000,
+      "ticks": 1000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_gold_ore",
+        "dense_gold_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 4450,
+      "ticks": 650,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_redstone_ore",
+        "dense_redstone_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 16000,
+      "maintain": 2000,
+      "ticks": 600,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_coal_ore",
+        "dense_coal_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 16000,
+      "maintain": 2000,
+      "ticks": 600,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "name": [
+        "dense_nether_copper_ore",
+        "dense_silver_ore",
+        "dense_lead_ore",
+        "dense_nether_silver_ore",
+        "dense_copper_ore",
+        "dense_aluminum_ore",
+        "dense_nether_nickel_ore",
+        "dense_nether_lead_ore",
+        "dense_tin_ore",
+        "dense_nickel_ore",
+        "dense_nether_aluminum_ore",
+        "dense_nether_tin_ore"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 16000,
+      "maintain": 2000,
+      "ticks": 600,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "thermalfoundation",
+      "name": "ore*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 3,
+      "create": 8000,
+      "maintain": 650,
+      "ticks": 300,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
   "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {

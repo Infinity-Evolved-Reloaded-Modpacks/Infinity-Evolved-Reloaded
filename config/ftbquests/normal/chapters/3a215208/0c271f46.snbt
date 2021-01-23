@@ -1,0 +1,57 @@
+{
+	title: "Autocrafting",
+	icon: "appliedenergistics2:crafting_accelerator",
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"§lAE2's probably best feature is Autocrafting. This allows you to automatically craft whatever you define, which saves a surprising amount of time.",
+		"",
+		"§r§rThe Crafting CPU is a multiblock. It must be a cuboid, meaning it has 6 sides maximum. It is made up of Crafting Co-Processing Units and Crafting Storages. The more Crafting CPUs, the faster it can craft things (so long as they don't require outside machines, which can only be sped up with their own mechanics). The more Crafting Storage you have, the more complicated of a recipe you can make. Having multiple Multiblocks allows you to autocraft multiple things at once.",
+		"The ME Pattern Terminal allows you to set recipes that can be autocrafted, either through regular crafting or through machines. You need Blank Patterns to begin with. For crafting table recipes, input the recipe to the crafting table gui to the left and hit the Encode Pattern Button and pull out the Encoded Pattern. For processing patterns, for instance Alloy Smelter or other things like that, click the Crafting Table to the right to switch modes. Then, put the inputs to the left and outputs to the right. Keep clicking to put more of the same item in if you need multiple or recieve multiple of one of the items.",
+		"",
+		"The ME Interface is where you connect your ME System to processing or crafting. For processing, put the ME Interface (preferably the panel version, as you can put multiple in one block, and you specify which side of the cable) next to a machine, like an Alloy Smelter. Then, put a processing recipe into the bottom slots of the ME Interface. Connect an Import Bus to the machine to pull the finished item back into the ME System. Bingo presto! Automatic processing! For regular crafting, see the next task. ME Interfaces take up a channel each."
+	],
+	dependencies: [
+		"6fa311a6"
+	],
+	tasks: [{
+		uid: "8da72332",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "e4ec295d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		}]
+	},
+	{
+		uid: "a6c700c6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "687b5eb6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	},
+	{
+		uid: "00ad3b05",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "1e9651ce",
+		type: "item",
+		item: "appliedenergistics2:molecular_assembler"
+	}]
+}

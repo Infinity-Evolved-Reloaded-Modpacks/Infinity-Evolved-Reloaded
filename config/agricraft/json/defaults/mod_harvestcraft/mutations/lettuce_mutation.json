@@ -3,6 +3,6 @@
   "enabled": true,
   "chance": 0.5,
   "child": "harvestcraft:lettuce_plant",
-  "parent1": "harvestcraft:daisy_plant",
+  "parent1": "vanilla:daisy_plant",
   "parent2": "harvestcraft:celery_plant"
 }

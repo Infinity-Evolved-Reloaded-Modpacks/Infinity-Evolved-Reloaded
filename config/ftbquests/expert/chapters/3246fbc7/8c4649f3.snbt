@@ -1,0 +1,20 @@
+{
+	title: "Lich",
+	icon: "twilightforest:miniature_structure 1 6",
+	x: 2.333333333333333d,
+	y: 5.666666666666667d,
+	shape: "rsquare",
+	text: [
+		"This one has some wizardy armor equipped. Try reflecting it's projectiles. Fight magic with magic!"
+	],
+	dependencies: [
+		"c267143c"
+	],
+	tasks: [{
+		uid: "2673f26e",
+		type: "kill",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "It's Been Five Thousand Years",
+	icon: "appliedenergistics2:certus_quartz_wrench",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"The Certus Quartz Wrench is a useful tool for Applied Energistics. When used in recipes, you get the Certus Quartz Wrench back, so don't be afraid to use it."
+	],
+	dependencies: [
+		"2dbd7881"
+	],
+	tasks: [{
+		uid: "b8bf5d33",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:certus_quartz_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

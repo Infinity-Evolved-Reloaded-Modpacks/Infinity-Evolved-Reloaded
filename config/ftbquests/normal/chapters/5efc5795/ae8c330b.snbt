@@ -1,0 +1,70 @@
+{
+	title: "Red-Soaked",
+	icon: {
+		id: "redstonearsenal:armor.plate_flux",
+		tag: {
+			Energy: 0
+		}
+	},
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"§lRedstone Arsenal adds RF-powered tools and armor based around Thermal Expansion. ",
+		"",
+		"§rFlux-Infused Armor uses RF instead of durability. When filled with RF, the armor negates almost 100% of the damage taken. It also has a very high enchantability."
+	],
+	dependencies: [
+		"dc0124f8",
+		"b1f33e68"
+	],
+	tasks: [{
+		uid: "a6bfb65b",
+		type: "item",
+		items: [{
+			id: "redstonearsenal:armor.helmet_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	},
+	{
+		uid: "54f679dd",
+		type: "item",
+		items: [{
+			id: "redstonearsenal:armor.plate_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "038b1551",
+		type: "item",
+		items: [{
+			id: "redstonearsenal:armor.legs_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f148dca1",
+		type: "item",
+		items: [{
+			id: "redstonearsenal:armor.boots_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "World Hopping",
+	icon: "rftoolsdim:dimension_builder",
+	x: 3.5d,
+	y: 6.666666666666667d,
+	text: [
+		"§lRFTools dimensions are extremely RF intensive. Don't forget to bring a Porter!",
+		"",
+		"§rWithout Dimlets, Dimensions are entirely random as far as traits go. Twilight Forest biome with multicolored Hardened Clay? Anything can happen. The Dimension Enscriber doesn't require RF, just an Empty Dimension Tab. Put that in, and if you have any Dimlets you want, stick those in too. Click \"Store\" to make the dimension.",
+		"",
+		"Put the Realized Dimension Tab into the Dimension Builder. Dimensions require a ton of RF to build for the first time, and then continued RF to keep it on. The more complicated or intense the Dimension, the more RF it takes."
+	],
+	dependencies: [
+		"dd433647"
+	],
+	tasks: [{
+		uid: "9dc3f34d",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_enscriber"
+		}]
+	},
+	{
+		uid: "cc6bdb2e",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "4e478ef7",
+		type: "item",
+		item: "rftoolsdim:empty_dimension_tab"
+	}]
+}

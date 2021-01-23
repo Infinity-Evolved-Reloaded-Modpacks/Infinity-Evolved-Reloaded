@@ -1,0 +1,21 @@
+{
+	title: "Peanut",
+	icon: "harvestcraft:peanutitem",
+	x: 11.5d,
+	y: 5.5d,
+	text: [
+		"§lPeanuts are a crossbreed between Beans and Bamboo Shoots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3b32437b",
+		"c2caf7e5"
+	],
+	tasks: [{
+		uid: "c57dd337",
+		type: "item",
+		items: [{
+			item: "harvestcraft:peanutseeditem"
+		}]
+	}]
+}

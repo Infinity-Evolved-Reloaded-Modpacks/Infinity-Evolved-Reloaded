@@ -1,0 +1,31 @@
+{
+	title: "The Barbarian Way",
+	x: 9.0d,
+	y: 7.0d,
+	text: [
+		"§lThe Axe of the Wyvern is one of the best axes in the game. ",
+		"",
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Axe of the Wyvern, and you can modify the dig speed multiplier, area of effect, and whether or not it stops you from digging Tile Entities. If you enchant the axe, you will be able to turn the enchantments off and on."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "a85b9054",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			},
+			id: "draconicevolution:wyvern_axe",
+			tag: {
+				Energy: 4000000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "So Many Altars",
+	icon: "thaumcraft:infusion_matrix",
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		"§lThe final altar on the list, the Infusion Altar from Thaumcraft. ",
+		"",
+		"§rSee Infusion in the Artifice tab in your Thaumonomicon for more information on the Infusion Altar."
+	],
+	dependencies: [
+		"c5f198d8"
+	],
+	tasks: [{
+		uid: "96ecc56c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "4f71c963",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e10f0a4a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane_brick 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "186f5799",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "fec5d851",
+		type: "item",
+		item: "thaumcraft:candle_gray",
+		count: 5
+	}]
+}

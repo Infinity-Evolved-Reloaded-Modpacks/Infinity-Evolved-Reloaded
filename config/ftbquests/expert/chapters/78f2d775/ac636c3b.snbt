@@ -1,0 +1,21 @@
+{
+	title: "Soybean",
+	icon: "harvestcraft:soybeanitem",
+	x: 6.5d,
+	y: 5.5d,
+	text: [
+		"§lSoybean is a crossbreed between Beans and Rice."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e328039d",
+		"c2caf7e5"
+	],
+	tasks: [{
+		uid: "14b09207",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soybeanseeditem"
+		}]
+	}]
+}

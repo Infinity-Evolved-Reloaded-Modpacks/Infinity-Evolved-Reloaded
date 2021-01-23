@@ -1,0 +1,21 @@
+{
+	title: "Blackberry",
+	icon: "harvestcraft:blackberryitem",
+	x: 11.5d,
+	y: 8.5d,
+	text: [
+		"§lBlackberries are a crossbreed between Blueberries and Strawberries."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4bf8efcd",
+		"f9e9c7af"
+	],
+	tasks: [{
+		uid: "f04528a1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blackberryseeditem"
+		}]
+	}]
+}

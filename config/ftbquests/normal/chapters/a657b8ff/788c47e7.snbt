@@ -1,0 +1,81 @@
+{
+	title: "Wyverns Don't Have Arms",
+	icon: {
+		id: "draconicevolution:wyvern_chest",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	x: 9.0d,
+	y: 9.0d,
+	text: [
+		"§lWyvern armor some of the most powerful armor in the modpack. ",
+		"",
+		"§rThe Leggings and Boots of the Wyvern can be configured to let you run and jump faster and higher, and you can set it to only do so while sprinting.",
+		"",
+		"While the Wyvern armor has RF, it produces shield. This shield works as essentially extra health, a buffer before your actual health is damaged."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "e4d54381",
+		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_helm",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			item: "draconicevolution:wyvern_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "918d4a38",
+		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_chest",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f01428dc",
+		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_legs",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09a5ce70",
+		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_boots",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

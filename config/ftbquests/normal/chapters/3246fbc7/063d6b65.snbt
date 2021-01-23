@@ -1,0 +1,38 @@
+{
+	title: "ENERGIYA",
+	icon: {
+		id: "thermalexpansion:cell",
+		tag: {
+			Recv: 25000,
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 50000000,
+			Creative: 1b,
+			SideCache: [B;
+				2b,
+				2b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 4b,
+			Send: 25000
+		}
+	},
+	x: 7.833333333333333d,
+	y: 5.833333333333333d,
+	text: [
+		"This drink is gonna give you the boost of the century for sure."
+	],
+	tasks: [{
+		uid: "873c9bb7",
+		type: "forge_energy",
+		value: 10000000000L
+	}],
+	rewards: [{
+		uid: "6bb6a7bd",
+		type: "item",
+		item: "harvestcraft:energydrinkitem"
+	}]
+}

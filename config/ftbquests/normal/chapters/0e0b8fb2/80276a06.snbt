@@ -1,0 +1,24 @@
+{
+	title: "Nature's Magic",
+	icon: "bewitchment:stone_witches_altar",
+	x: 3.0d,
+	y: 5.5d,
+	text: [
+		"§lThe Witches' Altar gains Altar Power by having more nature stuff around it. ",
+		"",
+		"§rYou can also place stuff on top like a Wither Skull or a Candelabra. Check the wiki to see what is best.",
+		"",
+		"§rThe Altar is a 3x2x1 multiblock, totalling 6 blocks."
+	],
+	dependencies: [
+		"998c71f9"
+	],
+	tasks: [{
+		uid: "e6790bd1",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar 6"
+		}],
+		count: 6L
+	}]
+}

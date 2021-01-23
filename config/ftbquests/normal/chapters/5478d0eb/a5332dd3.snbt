@@ -1,0 +1,32 @@
+{
+	title: "Breaking Bread",
+	icon: "railcraft:coke_oven",
+	x: 13.0d,
+	y: 2.083333333333333d,
+	shape: "square",
+	text: [
+		"Alternative to the Immersive Engineering Coke Oven"
+	],
+	tasks: [{
+		uid: "e9412c0a",
+		type: "item",
+		items: [{
+			item: "railcraft:coke_oven 26"
+		}],
+		count: 26L
+	},
+	{
+		uid: "fbdde9bb",
+		type: "item",
+		title: "Any fuelCoke",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "fuelCoke",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

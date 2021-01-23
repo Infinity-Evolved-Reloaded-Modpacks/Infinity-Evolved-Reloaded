@@ -1,0 +1,19 @@
+{
+	title: "Amp it Up!",
+	icon: "ic2:te 1 43",
+	x: 1.5d,
+	y: 7.0d,
+	text: [
+		"The Compressor is a special machine that creates items needed in crafting recipes."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "b7a855f5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}]
+}

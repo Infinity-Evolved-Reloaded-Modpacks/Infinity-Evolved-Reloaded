@@ -1,0 +1,21 @@
+{
+	title: "Cranberries",
+	icon: "harvestcraft:cranberryitem",
+	x: 9.5d,
+	y: 10.5d,
+	text: [
+		"§lCranberries are a crossbreed between Blueberries and Grapes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0527c16",
+		"4bf8efcd"
+	],
+	tasks: [{
+		uid: "1abf3f28",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cranberryseeditem"
+		}]
+	}]
+}

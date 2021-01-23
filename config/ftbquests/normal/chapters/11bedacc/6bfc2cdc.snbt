@@ -1,0 +1,19 @@
+{
+	title: "Pollen Cluster",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"Oh I hope this doesn't trigger my allergy."
+	],
+	dependencies: [
+		"5e1933c0"
+	],
+	tasks: [{
+		uid: "940d55d5",
+		type: "item",
+		items: [{
+			item: "forestry:pollen"
+		}],
+		count: 16L
+	}]
+}

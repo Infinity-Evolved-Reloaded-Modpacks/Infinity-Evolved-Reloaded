@@ -1,0 +1,21 @@
+{
+	title: "Onion",
+	icon: "harvestcraft:onionitem",
+	x: 6.5d,
+	y: 7.5d,
+	text: [
+		"§lOnions are a crossbreed between Brussel Sprout and Celery."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"610ac844",
+		"e9d0a793"
+	],
+	tasks: [{
+		uid: "a119c479",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionseeditem"
+		}]
+	}]
+}

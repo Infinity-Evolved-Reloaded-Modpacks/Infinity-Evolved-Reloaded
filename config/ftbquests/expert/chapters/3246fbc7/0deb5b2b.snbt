@@ -1,0 +1,20 @@
+{
+	title: "Hydra",
+	icon: "twilightforest:trophy 1 2",
+	x: 5.0d,
+	y: 5.666666666666667d,
+	shape: "rsquare",
+	text: [
+		"A dragon. And a big one. Appearently just 1 head wasn't scary enough."
+	],
+	dependencies: [
+		"ff63b659"
+	],
+	tasks: [{
+		uid: "b03d1c20",
+		type: "kill",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}]
+}

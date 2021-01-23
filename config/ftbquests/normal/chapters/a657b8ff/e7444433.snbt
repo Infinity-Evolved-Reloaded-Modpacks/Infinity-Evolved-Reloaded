@@ -1,0 +1,36 @@
+{
+	title: "The Sword in the Lake",
+	icon: {
+		id: "draconicevolution:wyvern_sword",
+		tag: {
+			Energy: 4000000
+		}
+	},
+	x: 9.0d,
+	y: 5.0d,
+	text: [
+		"§lThe Sword of the Wyvern is one of the most powerful melee weapons in the game. ",
+		"",
+		"§rCheck your Controls for \"Tool and Armour Config GUI\", and press that. Click the Sword of the Wyvern, and you can change the AoE, similar to the Tinker's Construct's Scythe. If you enchant the sword, you will be able to turn the enchantments off and on.",
+		"",
+		"In addition to the 20 attack damage (10 hearts), an additional 10% of the mob's health is removed. This means most mobs can be defeated in 10 hits or less, except for certain bosses that cap out damage like the Guardian of Gaia."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "f6628c90",
+		type: "item",
+		icon: {
+			id: "draconicevolution:wyvern_sword",
+			tag: {
+				Energy: 4000000
+			}
+		},
+		items: [{
+			item: "draconicevolution:wyvern_sword 1 32767"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

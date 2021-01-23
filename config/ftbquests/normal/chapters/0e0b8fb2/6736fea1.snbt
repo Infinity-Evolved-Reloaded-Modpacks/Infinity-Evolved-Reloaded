@@ -1,0 +1,21 @@
+{
+	title: "Tea's On!",
+	icon: "bewitchment:witches_cauldron",
+	x: 4.5d,
+	y: 4.0d,
+	text: [
+		"§lThe Witches' Cauldron is used to craft similar to Thaumcraft's Crucible. Set a fire underneath it (preferably using Netherrack), give it some water, and throw in the ingredients. Be extremely careful that you put in the correct ingredients, as they cannot be gotten back if you make a mistake, and some recipes are incredibly complicated. If the Cauldron starts emitting white swirls and making noises, the brew is ready to take out. Right click with an empty bottle to bottle it.",
+		"",
+		"§rThe Witches' Cauldron can have water pumped into it automatically. You can get a chance of extras by wearing Witches' clothes."
+	],
+	dependencies: [
+		"998c71f9"
+	],
+	tasks: [{
+		uid: "6cc529a6",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}]
+}

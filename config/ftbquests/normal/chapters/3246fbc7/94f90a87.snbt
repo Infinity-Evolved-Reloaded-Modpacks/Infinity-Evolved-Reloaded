@@ -1,0 +1,41 @@
+{
+	title: "Shulker",
+	icon: "minecraft:shulker_shell",
+	x: 3.1666666666666665d,
+	y: 3.8333333333333335d,
+	shape: "square",
+	text: [
+		"Bloody useful mobs after harvesting but beware! Their projectiles give you wings, but sadly not for long."
+	],
+	dependencies: [
+		"715c232a",
+		"15e860f6"
+	],
+	tasks: [{
+		uid: "fef3965e",
+		type: "kill",
+		icon: {
+			id: "draconicevolution:mob_soul",
+			tag: {
+				EntityName: "shulker"
+			}
+		},
+		entity: "minecraft:shulker",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "0237556e",
+		type: "item",
+		item: "ironchest:vanilla_iron_shulker_upgrade"
+	},
+	{
+		uid: "8068cae7",
+		type: "item",
+		item: "ironchest:iron_gold_shulker_upgrade"
+	},
+	{
+		uid: "88471d3a",
+		type: "item",
+		item: "ironchest:gold_diamond_shulker_upgrade"
+	}]
+}

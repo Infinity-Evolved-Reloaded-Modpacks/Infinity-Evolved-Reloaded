@@ -1,0 +1,34 @@
+{
+	title: "Bee-fection",
+	x: -4.5d,
+	y: -4.0d,
+	text: [
+		"When a bee is processed through the Genetic Sampler, one of 13 differant traits is taken from the bee and  coppied to a sample which now can be used for a genetic template or even coppied to give you more of the same trait.",
+		"The Genetic Imprinter is how you will perfect your bees, by using a filled/partially filled template you can change individual or all of the traits of a bee at once, even its species. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e143c663"
+	],
+	tasks: [{
+		uid: "d497f47e",
+		type: "item",
+		items: [{
+			item: "gendustry:transposer"
+		}]
+	},
+	{
+		uid: "8a62a780",
+		type: "item",
+		items: [{
+			item: "gendustry:sampler"
+		}]
+	},
+	{
+		uid: "0f19c2a2",
+		type: "item",
+		items: [{
+			item: "gendustry:imprinter"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Rutbaga",
+	icon: "harvestcraft:rutabagaitem",
+	x: 10.5d,
+	y: 9.5d,
+	text: [
+		"§lRutbagas are a crossbreed between Beet and Turnip."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"afccf938",
+		"6172939b"
+	],
+	tasks: [{
+		uid: "95cf7322",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rutabagaseeditem"
+		}]
+	}]
+}

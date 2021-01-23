@@ -1,0 +1,41 @@
+{
+	title: "Ocean in a Block",
+	icon: {
+		id: "thermalexpansion:tank",
+		tag: {
+			RSControl: 0b,
+			Creative: 1b,
+			Level: 4b
+		}
+	},
+	x: 7.0d,
+	y: 10.0d,
+	shape: "diamond",
+	text: [
+		"§lThe Creative Portable Tank allows you to have an infinite amount of any single fluid. One of the three craftable creative items in this modpack.",
+		"",
+		"§rNeeds to be crafted in the Dire Crafting Table."
+	],
+	dependencies: [
+		"effbd78e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58b1cf51",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 1b,
+				Level: 4b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec616d91",
+		type: "command",
+		command: "say @s obtained the Creative Portable Tank. Unlimited Liquid Possibilities!"
+	}]
+}

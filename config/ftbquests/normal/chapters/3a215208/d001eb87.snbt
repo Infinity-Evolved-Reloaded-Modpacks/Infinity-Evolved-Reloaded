@@ -1,0 +1,20 @@
+{
+	title: "MagiTech Crafting",
+	icon: "thaumicenergistics:arcane_terminal",
+	x: 11.0d,
+	y: 2.0d,
+	text: [
+		"The Arcane Crafting Terminal works as a regular Crafting Terminal AND an Arcane Worktable. You put your Wand in there, and craft like normal, but you have access to your entire ME System while doing it."
+	],
+	dependencies: [
+		"ea725382",
+		"d71fd1db"
+	],
+	tasks: [{
+		uid: "8425261b",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}]
+}

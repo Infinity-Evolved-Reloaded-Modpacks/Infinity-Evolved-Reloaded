@@ -1,0 +1,30 @@
+{
+	title: "Mystical Cyan Flower",
+	icon: "botania:flower 1 9",
+	x: 3.5d,
+	y: 8.5d,
+	text: [
+		"§lMystical Cyan Flowers are a crossbreed between Mystical Green Flowers and Mystical Blue Flowers.",
+		"",
+		"§rMystical Flowers grow on Podzol."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"37741ef5",
+		"74eff66d"
+	],
+	tasks: [{
+		uid: "acf6f2b2",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "botania:cyan_flower_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

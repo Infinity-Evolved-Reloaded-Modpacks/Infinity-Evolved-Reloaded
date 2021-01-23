@@ -1,0 +1,34 @@
+{
+	title: "Jump Around!",
+	icon: {
+		id: "draconicevolution:mob_soul",
+		tag: {
+			EntityName: "rabbit"
+		}
+	},
+	x: 9.0d,
+	y: 5.833333333333333d,
+	text: [
+		"Jump up, jump up and get down!"
+	],
+	tasks: [{
+		uid: "10867b4c",
+		type: "stat",
+		icon: "minecraft:golden_boots",
+		stat: "stat.jump",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "ce404137",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 2s
+				}]
+			}
+		}
+	}]
+}

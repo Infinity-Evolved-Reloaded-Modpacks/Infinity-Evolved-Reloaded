@@ -1,0 +1,23 @@
+{
+	title: "Explosive Fun!",
+	icon: "ic2:te 1 22",
+	x: 7.083333333333333d,
+	y: 3.0d,
+	text: [
+		"§lAn IC2 Nuclear Reactor is one of the best ways to get EU large-scale. ",
+		"",
+		"§rThis is a very complicated machine and very hard to explain through text, so visit the wiki page for this at tinyurl.com/IC2Reactor. You can look online for the best reactor designs. Beware: Nuclear Reactors can explode if they get too hot!",
+		"",
+		"The Nuclear Reactor will not run unless it has a redstone signal. You can place up to 6 Reactor Chamber blocks touching the sides of the Nuclear Reactor to maximize the size of the Nuclear Reactor."
+	],
+	dependencies: [
+		"86a85f09"
+	],
+	tasks: [{
+		uid: "8b1e2a63",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 22"
+		}]
+	}]
+}

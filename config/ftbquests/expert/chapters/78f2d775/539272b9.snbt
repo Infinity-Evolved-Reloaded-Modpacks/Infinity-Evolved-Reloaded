@@ -1,0 +1,23 @@
+{
+	title: "White Mushroom",
+	icon: "harvestcraft:whitemushroomitem",
+	x: 10.5d,
+	y: 2.5d,
+	text: [
+		"§lWhite Mushroom are a crossbreed between Red Mushrooms and Brown Mushrooms.",
+		"",
+		"§fFYI you will have to use Mycelium as the soil!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"53ae39c4",
+		"0eb7bc25"
+	],
+	tasks: [{
+		uid: "d7842513",
+		type: "item",
+		items: [{
+			item: "harvestcraft:whitemushroomseeditem"
+		}]
+	}]
+}

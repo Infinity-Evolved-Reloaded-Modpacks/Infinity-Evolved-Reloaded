@@ -1,0 +1,23 @@
+{
+	title: "I, Ridium",
+	icon: "ic2:misc_resource 1 1",
+	x: 5.708333333333333d,
+	y: 7.0d,
+	text: [
+		"§lIridium is probably the hardest item to get at this part of the game. ",
+		"",
+		"§rIt needs 80M RF, plus 1 Pellet of RTG Fuel and a MOX Nuclear Fuel. You definitely want to use tons of Lasers for this, rather than just having 6. Once you have one, I recommend using the Replicator to get more instead of making it out of the MOX and RTG.",
+		"",
+		"Making Iridium with the Replicator takes about 20 000 000 EU per. Making it regularly requires 59 Tiny Piles of Plutonium, which takes roughly three forevers."
+	],
+	dependencies: [
+		"93c409bb"
+	],
+	tasks: [{
+		uid: "7dbd98aa",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Candleberry",
+	icon: "harvestcraft:candleberryitem",
+	x: 7.5d,
+	y: 10.5d,
+	text: [
+		"§lCandleberries are a crossbreed between Cactus Fruit and Grapes."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c0527c16",
+		"c5e943f3"
+	],
+	tasks: [{
+		uid: "feaa42c9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candleberryseeditem"
+		}]
+	}]
+}

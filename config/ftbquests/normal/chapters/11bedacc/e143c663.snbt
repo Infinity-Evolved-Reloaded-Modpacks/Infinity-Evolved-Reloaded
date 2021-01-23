@@ -1,0 +1,19 @@
+{
+	title: "Now we're talking",
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"Powered with RF this apiary can do just about everything; make bees produce at a faster rate, end their current generation quicker or even emulate a biome as long as you have the proper upgrade.",
+		"Heck it will even automate it for you, the only thing you need to worry about is what you are going to do with all these combs."
+	],
+	dependencies: [
+		"8c332838"
+	],
+	tasks: [{
+		uid: "f651d62d",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Toil and Trouble",
+	icon: "bewitchment:witches_oven",
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"§lThe Witches' Oven is how you get special Bewitchment Ingredients. ",
+		"",
+		"§rPut Empty Jars in, some furnace fuel, and then saplings. Different saplings give different ingredients, as shown by JEI."
+	],
+	dependencies: [
+		"d71fd1db",
+		"773c3bea"
+	],
+	tasks: [{
+		uid: "f460b2e9",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_oven"
+		}]
+	}],
+	rewards: [{
+		uid: "1b472b9a",
+		type: "item",
+		item: "bewitchment:empty_jar",
+		count: 16
+	}]
+}

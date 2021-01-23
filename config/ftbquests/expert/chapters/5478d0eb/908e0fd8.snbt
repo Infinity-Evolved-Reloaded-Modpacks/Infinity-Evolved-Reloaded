@@ -1,0 +1,22 @@
+{
+	title: "Slower but Steadier",
+	icon: "railcraft:blast_furnace",
+	x: 14.916666666666666d,
+	y: 1.25d,
+	text: [
+		"The Blast Furnace is a Multiblock structure used to convert Iron into Steel, smelt aluminum dust, and salvage metal from some items, among other things.",
+		"",
+		"The Blast Furnace can be built by placing Blast Furnace Bricks in a 3x3x4 pattern with a hollow center."
+	],
+	dependencies: [
+		"a5332dd3"
+	],
+	tasks: [{
+		uid: "c8f05d27",
+		type: "item",
+		items: [{
+			item: "railcraft:blast_furnace"
+		}],
+		count: 34L
+	}]
+}

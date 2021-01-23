@@ -1,0 +1,22 @@
+{
+	title: "Need This and This and This...",
+	icon: "thermalfoundation:material 1 1028",
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"§lMana Dust is required to make certain things in Draconic Evolution. It's so confusing to make, I spelled it out for you here.",
+		"",
+		"§r360mB of Primal Mana is required to make 1 Mana Dust. the smallest amount you can make at a time is 576mB. This takes 1 ingot of Mirion, 1 ingot of Pigiron, 2 ingots of Manasteel and 1000mB of OpenBlocks Liquid XP.",
+		"Especially that first ingredient can be tricky to make."
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	tasks: [{
+		uid: "010444d3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}]
+}

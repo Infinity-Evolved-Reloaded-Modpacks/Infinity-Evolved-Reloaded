@@ -1,0 +1,47 @@
+{
+	title: "So Heats",
+	icon: "buildcraftsilicon:laser",
+	x: 9.333333333333334d,
+	y: 6.458333333333333d,
+	text: [
+		"§4§lDisclaimer: §rUse the Energy Converters from the \"Energy Converters\" Mod to aquire MJ from RF!",
+		"",
+		"§lThese machines create items that are used in many machine crafting recipes.",
+		"",
+		"§rSupply the Thermionic Fabricator with MJ, set the recipe by placing the required items in the required slots, and place the items into the bottom slot. Put Sand or Glass into the top right, and if it has a valid recipe, it will be turned into Molten Glass and be used in the recipe.",
+		"",
+		"Lasers provide power to the Assembly Table and similar machines. Place the Laser down by the machine and connect the Laser to a source of MJ. It will shoot a laser beam charged with MJ to the machine. More lasers = more MJ/t = faster assembly.",
+		"",
+		"The Assembly Table makes Chipsets, among other items used in recipes. Place the items that the recipe requires in the left side, click on the result you want, and make sure there is a Laser with energy nearby. It takes a while for items to craft in it, so be patient. Items crafted will not be stored in the inventory, but be shot out into the world, or placed into an inventory that is touching it, like a chest."
+	],
+	dependencies: [
+		"550dee9d"
+	],
+	tasks: [{
+		uid: "3df545e6",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	},
+	{
+		uid: "d5cb1848",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}]
+	},
+	{
+		uid: "68e4727f",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	}],
+	rewards: [{
+		uid: "34362170",
+		type: "item",
+		item: "buildcraftsilicon:laser",
+		count: 5
+	}]
+}

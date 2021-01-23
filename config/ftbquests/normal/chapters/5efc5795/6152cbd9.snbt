@@ -1,0 +1,41 @@
+{
+	title: "Convert them ALL",
+	icon: "energyconverters:energy_bridge",
+	x: 6.0d,
+	y: 10.0d,
+	text: [
+		"In 1.7.10 you could convert RF to EU per Immersive Engineering Wires, in newer Minecraft versions IE dropped this support. Thats why we added the Mod Energy Converters.",
+		"",
+		"Like in 1.7.10. 1 EU is 4 RF. On a side note, you can also convert to MJ (Buildcraft)!"
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "5264cb1b",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_consumer_fe"
+		}]
+	},
+	{
+		uid: "b0039d87",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_bridge"
+		}]
+	},
+	{
+		uid: "745c8075",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_producer_eu"
+		}]
+	}],
+	rewards: [{
+		uid: "3c2658fd",
+		type: "item",
+		item: "immersiveengineering:wirecoil",
+		count: 3
+	}]
+}

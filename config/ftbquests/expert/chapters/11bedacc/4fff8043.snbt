@@ -1,0 +1,20 @@
+{
+	title: "Dripping Combs",
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"Hopefully these don't drip on my new Boots."
+	],
+	dependencies: [
+		"b72f3f98"
+	],
+	tasks: [{
+		uid: "cf088151",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 5"
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

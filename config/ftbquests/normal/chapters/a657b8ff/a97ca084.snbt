@@ -1,0 +1,48 @@
+{
+	title: "Transcend beyond God",
+	icon: "avaritia:infinity_chestplate",
+	x: 13.5d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"eae22232"
+	],
+	tasks: [{
+		uid: "0f46ae56",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "afae6346",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31840340",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "96f14dea",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Questionably Moral Flight",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticle: 0
+		},
+		Damage: 15s
+	},
+	x: 8.5d,
+	y: 4.5d,
+	text: [
+		"The Dark Soularium JetPlate is the final tier of the Ender IO path of Simply Jetpacks. While it doesn't use one, it has the same armor rating as a Dark Plate, and works as a very fast jetpack.",
+		"",
+		"The Dark Soularium JetPlate can store 60M RF."
+	],
+	dependencies: [
+		"f7c7c653",
+		"ea0734b6"
+	],
+	tasks: [{
+		uid: "b54a0725",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}]
+}

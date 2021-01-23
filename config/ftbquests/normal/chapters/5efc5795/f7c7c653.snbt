@@ -1,0 +1,30 @@
+{
+	title: "2^2 Portable Protected Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 6s
+	},
+	x: 9.0d,
+	y: 3.5d,
+	text: [
+		"This Armored Capacitor Pack not only gives you the ability to carry power but also protects you from losing it."
+	],
+	dependencies: [
+		"f65e5838"
+	],
+	tasks: [{
+		uid: "accdce03",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

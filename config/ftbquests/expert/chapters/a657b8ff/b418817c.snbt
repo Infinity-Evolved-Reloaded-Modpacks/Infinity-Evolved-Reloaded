@@ -1,0 +1,21 @@
+{
+	title: "Wakey Wakey",
+	icon: "draconicevolution:draconic_block",
+	x: 7.0d,
+	y: 3.5d,
+	text: [
+		"Awakened Draconium is the next and final tier of crafting §lmaterials.",
+		"",
+		"Look into JEI, for the recipe"
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	tasks: [{
+		uid: "e61585f5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}]
+}

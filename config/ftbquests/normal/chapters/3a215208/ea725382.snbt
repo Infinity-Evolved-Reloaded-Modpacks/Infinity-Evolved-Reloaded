@@ -1,0 +1,21 @@
+{
+	title: "Accessing Your Stuff",
+	icon: "appliedenergistics2:part 1 360",
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"The ME Crafting Terminal allows you to access items stored in your ME Storage Cells, and has an in-built crafting table.",
+		"",
+		"The ME Crafting Terminal connects to an ME Cable and it takes up 1 channel."
+	],
+	dependencies: [
+		"6fa311a6"
+	],
+	tasks: [{
+		uid: "920fcdf5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}]
+}

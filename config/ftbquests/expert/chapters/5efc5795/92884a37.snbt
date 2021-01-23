@@ -1,0 +1,28 @@
+{
+	title: "Microwaves and Macrowaves",
+	icon: "ic2:te 1 44",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"§lThe Electric Furnace uses EU to smelt items, similar to the Furnace. It's probably the first energy-powered furnace that will be available to you.",
+		"",
+		"§rThe Induction Furnace is an upgraded version of the Electric Furnace. It has an interesting mechanic where the longer it's running, the faster it smelts. At max speed, it's much faster than the Electric Furnace. To keep it running, and therefore hot, while no items are inside of it, you can give it a redstone signal. However, it uses EU so long as it runs, even if empty. If you want to keep it running without having a lever on it, you can put a Redstone Signal Inverter Upgrade in it, which will make it think it has a signal when it doesnt, and vice-versa."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "05efeb8d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	},
+	{
+		uid: "ee32818f",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Cauliflower",
+	icon: "harvestcraft:caulifloweritem",
+	x: 8.5d,
+	y: 6.5d,
+	text: [
+		"§lCauliflowers are a crossbreed between Cabbage and Lettuce"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c75c91d",
+		"9104308d"
+	],
+	tasks: [{
+		uid: "9a99f739",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cauliflowerseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "This Is Some Serious Gourmet Shit",
+	icon: "harvestcraft:netherstartoastitem",
+	x: 7.833333333333333d,
+	y: 4.666666666666667d,
+	shape: "circle",
+	text: [
+		"Make sure to use enough butter or it will be a bit dry."
+	],
+	dependencies: [
+		"cf0c2b28"
+	],
+	tasks: [{
+		uid: "9e9cecbf",
+		type: "item",
+		items: [{
+			item: "harvestcraft:netherstartoastitem"
+		}],
+		count: 50L
+	}],
+	rewards: [{
+		uid: "51efbb33",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 60
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Red Mushroom",
+	icon: "minecraft:red_mushroom",
+	x: 10.5d,
+	y: 1.5d,
+	text: [
+		"§lRed Mushrooms are a crossbreed between Potatoes and Carrots.",
+		"",
+		"§fFYI you will have to use Mycelium as the soil!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99a6e982",
+		"e1018af7"
+	],
+	tasks: [{
+		uid: "10275033",
+		type: "item",
+		items: [{
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0b,
+				agri_strength: 1b,
+				agri_gain: 1b,
+				agri_seed: "vanilla:red_mushroom_plant",
+				agri_growth: 1b
+			}
+		}]
+	}]
+}

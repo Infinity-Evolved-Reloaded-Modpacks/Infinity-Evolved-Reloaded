@@ -1,0 +1,29 @@
+{
+	title: "Chesty Crafting Furnace",
+	icon: {
+		id: "draconicevolution:draconium_chest",
+		tag: {
+			ChestColour: 6553750
+		}
+	},
+	x: 5.0d,
+	y: 0.5d,
+	text: [
+		"This chest has 234 slots, can automatically smelt anything inside of it 5 items at a time, and you has a crafting table inside of it.",
+		"",
+		"You can also break the Draconium Chest and it will keep it's contents."
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	tasks: [{
+		uid: "bd114822",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_chest",
+			tag: {
+				ChestColour: 6553750
+			}
+		}]
+	}]
+}

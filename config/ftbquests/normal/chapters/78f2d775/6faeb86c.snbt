@@ -1,0 +1,21 @@
+{
+	title: "Water Chestnut",
+	icon: "harvestcraft:waterchestnutitem",
+	x: 10.5d,
+	y: 5.5d,
+	text: [
+		"§lWater Chestnuts are a crossbreed between Sesame and Seaweed"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"66c9a7e3",
+		"14ea0e71"
+	],
+	tasks: [{
+		uid: "9496d0e3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterchestnutseeditem"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Vibrant Jetpack",
+	icon: {
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticle: 0
+		},
+		Damage: 10s
+	},
+	x: 8.0d,
+	y: 3.5d,
+	text: [
+		"The second highest tier of Ender IO jetpack is the Vibrant Jetpack. It can store 20 000 000 RF and uses 450 RF/t to fly."
+	],
+	dependencies: [
+		"fb970931"
+	],
+	tasks: [{
+		uid: "d813e5f6",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	}]
+}

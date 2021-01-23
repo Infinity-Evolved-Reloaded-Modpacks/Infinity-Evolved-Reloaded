@@ -1,0 +1,32 @@
+{
+	title: "More Portable, More Energy",
+	icon: {
+		id: "simplyjetpacks:itemfluxpack",
+		tag: {
+			Energy: 0
+		},
+		Damage: 8s
+	},
+	x: 9.0d,
+	y: 7.5d,
+	text: [
+		"The second tier of Flux Pack stores 12 000 000 RF, and can send/recieve 6000 RF/t.",
+		"",
+		"From this tier onwards, you can apply armor to your Flux Packs. You can also take them off just as easy, and you get to keep the armor plating!"
+	],
+	dependencies: [
+		"51879ecd"
+	],
+	tasks: [{
+		uid: "7b580d31",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemfluxpack",
+			tag: {
+				Energy: 0
+			},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}]
+}

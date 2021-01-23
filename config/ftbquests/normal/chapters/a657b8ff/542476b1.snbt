@@ -1,0 +1,40 @@
+{
+	title: "Give No Flux Capacitor",
+	icon: {
+		id: "thermalexpansion:capacitor",
+		tag: {
+			Energy: 25000000
+		},
+		Damage: 32000s
+	},
+	x: 4.625000000000001d,
+	y: 3.854166666666667d,
+	shape: "diamond",
+	text: [
+		"§lThe Creative Flux Capacitor gives infinite RF. You deserve it, man.",
+		"",
+		"§rNeeds to be crafted in the Dire Crafting Table."
+	],
+	dependencies: [
+		"0f81a4c0"
+	],
+	size: 1.5416666666666667d,
+	tasks: [{
+		uid: "2ebf53ad",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1265965d",
+		type: "command",
+		icon: "simplyjetpacks:metaitem 1 3",
+		command: "say @s obtained the Creative Flux Capacitor. Doc. Brown would be proud!"
+	}]
+}
