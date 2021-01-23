@@ -5,6 +5,14 @@
 import mods.buildcraft.AssemblyTable;
 print("Initializing 'ThermalExpansion.zs'...");
 
+#Add Cooked Meat and Cooked Fish Recipes to Redstone Furnace
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:porkchop>, <minecraft:cooked_porkchop>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:fish>, <minecraft:cooked_fish>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:chicken>, <minecraft:cooked_chicken>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:rabbit>, <minecraft:cooked_rabbit>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:mutton>, <minecraft:cooked_mutton>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:beef>, <minecraft:cooked_beef>, 3600);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<minecraft:fish:1>, <minecraft:cooked_fish:1>, 3600);
 #Machine Frame
 recipes.remove(<thermalexpansion:frame>);
 mods.buildcraft.AssemblyTable.addRecipe(<thermalexpansion:frame>, 500000, [<ic2:plate:16>, <railcraft:generic:7> * 2, <thermalfoundation:material:289>, <buildcraftsilicon:redstone_chipset:2>, <forestry:chipsets:2>]);
