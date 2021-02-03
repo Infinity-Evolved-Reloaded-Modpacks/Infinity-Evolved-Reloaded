@@ -111,6 +111,8 @@ mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:gold_block>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <thaumcraft:metal_thaumium>, 2, 25000, 25, 25);
 mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:blood_shard>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}), <enderio:item_soul_vial:1>.withTag({entityId: "thaumcraft:eldritchguardian"}), 3, 40000, 30, 50);
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:nether_star>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <bloodmagic:blood_shard:1>, 4, 75000, 10, 10);
 
 #Crystal Cluster
 mods.thaumcraft.Infusion.registerRecipe("CrystalClusterBlock", "", <bloodmagic:decorative_brick:2>, 5, [<aspect:permutatio> * 64, <aspect:praecantatio> * 64, <aspect:fabrico> * 64, <aspect:spiritus> * 64], <bloodmagic:decorative_brick>, [<bloodmagic:slate>, <bloodmagic:slate>, <bloodmagic:slate:1>, <bloodmagic:slate:1>, <bloodmagic:item_demon_crystal:1>, <bloodmagic:item_demon_crystal:1>, <botania:manaresource:14>, <botania:manaresource:14>]);
