@@ -28,5 +28,10 @@
 			item: "enderio:block_powered_spawner"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0eb69e1",
+		type: "random",
+		table: 8
 	}]
 }

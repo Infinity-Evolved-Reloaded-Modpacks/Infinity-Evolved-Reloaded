@@ -19,5 +19,10 @@
 		items: [{
 			item: "enderio:block_vat"
 		}]
+	}],
+	rewards: [{
+		uid: "ad3928fd",
+		type: "random",
+		table: 8
 	}]
 }

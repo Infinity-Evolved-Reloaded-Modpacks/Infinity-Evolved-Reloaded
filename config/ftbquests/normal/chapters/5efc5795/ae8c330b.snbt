@@ -66,5 +66,10 @@
 		consume_items: false,
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b362d8ac",
+		type: "random",
+		table: 8
 	}]
 }

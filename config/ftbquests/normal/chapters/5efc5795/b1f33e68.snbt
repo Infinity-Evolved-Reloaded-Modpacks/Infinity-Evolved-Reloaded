@@ -47,5 +47,10 @@
 			},
 			Damage: 3s
 		}]
+	}],
+	rewards: [{
+		uid: "6e692e5c",
+		type: "random",
+		table: 8
 	}]
 }

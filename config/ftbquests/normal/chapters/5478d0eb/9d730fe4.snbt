@@ -31,5 +31,10 @@
 				Level: 0b
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "3b7f3167",
+		type: "random",
+		table: 7
 	}]
 }

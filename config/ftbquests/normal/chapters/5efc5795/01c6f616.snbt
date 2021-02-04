@@ -20,5 +20,10 @@
 		items: [{
 			item: "buildcraftbuilders:quarry"
 		}]
+	}],
+	rewards: [{
+		uid: "09b1c2fc",
+		type: "random",
+		table: 9
 	}]
 }

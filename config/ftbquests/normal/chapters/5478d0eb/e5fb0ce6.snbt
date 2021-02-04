@@ -48,5 +48,10 @@
 		items: [{
 			item: "tconstruct:materials 1 18"
 		}]
+	}],
+	rewards: [{
+		uid: "1df290ff",
+		type: "random",
+		table: 7
 	}]
 }

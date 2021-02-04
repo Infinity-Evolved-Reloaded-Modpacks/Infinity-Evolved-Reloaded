@@ -1,0 +1,65 @@
+{
+	title: "AE2",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:part 1 260"
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: "appliedenergistics2:interface"
+	},
+	{
+		item: "appliedenergistics2:crafting_unit"
+	},
+	{
+		item: "appliedenergistics2:crafting_monitor"
+	},
+	{
+		item: "appliedenergistics2:molecular_assembler"
+	},
+	{
+		item: "appliedenergistics2:material 1 28"
+	},
+	{
+		item: "appliedenergistics2:material 1 25"
+	},
+	{
+		item: "appliedenergistics2:material 1 52",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 36"
+	},
+	{
+		item: "appliedenergistics2:material 1 30"
+	},
+	{
+		item: "appliedenergistics2:material 1 44"
+	},
+	{
+		item: "appliedenergistics2:material 1 43"
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:material 1 42",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:part 1 14",
+		count: 6
+	},
+	{
+		item: "appliedenergistics2:part 1 240"
+	},
+	{
+		item: "appliedenergistics2:part 1 220"
+	},
+	{
+		item: "appliedenergistics2:part 1 400"
+	}]
+}

@@ -16,5 +16,10 @@
 		uid: "39850a65",
 		type: "checkmark",
 		title: "Introduction"
+	}],
+	rewards: [{
+		uid: "9c739471",
+		type: "random",
+		table: 7
 	}]
 }
