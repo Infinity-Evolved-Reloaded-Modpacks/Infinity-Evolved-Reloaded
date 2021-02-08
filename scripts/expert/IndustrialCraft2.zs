@@ -78,4 +78,13 @@ mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:ender_pearl>);
 recipes.remove(<ic2:dust:29>);
 recipes.addShapeless("ic2_hydrated_tin_dust_liquid_fix", <ic2:dust:29>, [<ore:dustTin>, <liquid:water> * 1000]);
 
+#10k Coolant Cell
+recipes.remove(<ic2:heat_storage>);
+recipes.addShaped("ic2_10k_coolant_cell", <ic2:heat_storage>,
+ [
+    [null, <thermalfoundation:material:321>, null],
+    [<thermalfoundation:material:321>, <liquid:ic2coolant> * 1000, <thermalfoundation:material:321>], 
+    [null, <thermalfoundation:material:321>, null]
+]);
+
 print("Initialized 'IndustrialCraft2.zs'");
