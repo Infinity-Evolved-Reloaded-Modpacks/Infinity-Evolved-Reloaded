@@ -23,6 +23,8 @@ mods.tconstruct.Casting.removeTableRecipe (<tconstruct:cast_custom:4>);
 mods.tconstruct.Casting.removeTableRecipe (<tconstruct:cast_custom:3>);
 mods.tconstruct.Melting.addRecipe(<liquid:steel> * 288, <netherendingores:ore_nether_modded_1:15>, 500);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:brass>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <ore:gearStone>, <liquid:alubrass>, 288, true);
 
 #Remove Alloys
 mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>);
