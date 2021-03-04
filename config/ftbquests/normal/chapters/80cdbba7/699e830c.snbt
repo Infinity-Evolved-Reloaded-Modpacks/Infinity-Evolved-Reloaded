@@ -4,7 +4,7 @@
 	text: [
 		"Sometimes, even the normal Creative Energy Cell's 150k RF/t isn't enough for the power-hungry.",
 		"",
-		"This Creative Powercell gives you more power than you could ever need. But cheap is something that does not fit this item's description."
+		"This Creative RF Source gives you more power than you could ever need. But cheap is something that does not fit this item's description."
 	],
 	dependencies: [
 		"38c50f37"
@@ -13,7 +13,7 @@
 		uid: "ba20a1d4",
 		type: "item",
 		items: [{
-			item: "rftools:powercell_creative"
+			item: "draconicevolution:creative_rf_source"
 		}]
 	}],
 	rewards: [{
