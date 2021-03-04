@@ -1,0 +1,33 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"Sometimes, even the normal Creative Energy Cell's 150k RF/t isn't enough for the power-hungry.",
+		"",
+		"This Creative Powercell gives you more power than you could ever need. But cheap is something that does not fit this item's description."
+	],
+	dependencies: [
+		"38c50f37"
+	],
+	tasks: [{
+		uid: "ba20a1d4",
+		type: "item",
+		items: [{
+			item: "rftools:powercell_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "59c5747c",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say @p did it! He made the modpack makers proud! Unlimited Energy, at @p's disposal."
+	}]
+}

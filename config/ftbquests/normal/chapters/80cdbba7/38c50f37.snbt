@@ -1,0 +1,50 @@
+{
+	title: "Creative Energy Cell",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"The Creative Energy Cell produces up to 25.000 RF/t per side! So 150.000 RF/t if you squeeze it really hard."
+	],
+	dependencies: [
+		"d7528da0"
+	],
+	tasks: [{
+		uid: "b80b0dd3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 25000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 50000000,
+				Creative: 1b,
+				SideCache: [B;
+					2b,
+					2b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 4b,
+				Send: 25000
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "e00fa5fc",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say @p obtained the Creative Energy Cell. His Power Level is OVER 9000."
+	}]
+}
