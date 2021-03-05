@@ -23,5 +23,11 @@
 		type: "item",
 		item: "rftools:dimensional_shard",
 		count: 16
+	},
+	{
+		uid: "b9decf32",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 5
 	}]
 }

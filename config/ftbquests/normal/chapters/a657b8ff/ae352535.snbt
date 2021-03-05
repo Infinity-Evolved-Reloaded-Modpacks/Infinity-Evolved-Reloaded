@@ -19,5 +19,10 @@
 		items: [{
 			item: "draconicevolution:grinder"
 		}]
+	}],
+	rewards: [{
+		uid: "f3e27102",
+		type: "random",
+		table: 11
 	}]
 }

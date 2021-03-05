@@ -40,5 +40,10 @@
 			item: "minecraft:wooden_slab 1 3"
 		}],
 		count: 9L
+	}],
+	rewards: [{
+		uid: "31e60397",
+		type: "random",
+		table: 8
 	}]
 }

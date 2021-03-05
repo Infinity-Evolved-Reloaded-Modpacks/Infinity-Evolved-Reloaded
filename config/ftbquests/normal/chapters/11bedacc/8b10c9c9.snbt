@@ -15,5 +15,10 @@
 		items: [{
 			item: "gendustry:mutatron_advanced"
 		}]
+	}],
+	rewards: [{
+		uid: "057c03fd",
+		type: "random",
+		table: 8
 	}]
 }

@@ -18,5 +18,18 @@
 		},
 		entity: "minecraft:creeper",
 		value: 100L
+	}],
+	rewards: [{
+		uid: "dfcb69d4",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 3s
+				}]
+			}
+		}
 	}]
 }

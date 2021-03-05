@@ -13,5 +13,10 @@
 		uid: "1c5367b9",
 		type: "dimension",
 		dim: 7
+	}],
+	rewards: [{
+		uid: "0574daf9",
+		type: "item",
+		item: "twilightforest:magic_map_focus"
 	}]
 }

@@ -1,5 +1,6 @@
 {
 	title: "IC2",
+	icon: "ic2:crafting 1 38",
 	loot_size: 1,
 	rewards: [{
 		item: "advanced_solar_panels:machines 1 2"

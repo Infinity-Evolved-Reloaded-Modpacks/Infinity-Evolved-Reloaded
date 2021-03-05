@@ -30,5 +30,10 @@
 		type: "checkmark",
 		title: "Genetic Template",
 		icon: "gendustry:apiary.upgrade 1 19"
+	}],
+	rewards: [{
+		uid: "3657434f",
+		type: "random",
+		table: 7
 	}]
 }

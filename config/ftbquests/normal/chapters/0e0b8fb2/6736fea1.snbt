@@ -17,5 +17,10 @@
 		items: [{
 			item: "bewitchment:witches_cauldron"
 		}]
+	}],
+	rewards: [{
+		uid: "a85e26da",
+		type: "item",
+		item: "bewitchment:goddess_statue"
 	}]
 }

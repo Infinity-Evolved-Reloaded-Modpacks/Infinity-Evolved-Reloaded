@@ -17,5 +17,10 @@
 		items: [{
 			item: "draconicevolution:draconic_block"
 		}]
+	}],
+	rewards: [{
+		uid: "9a791702",
+		type: "random",
+		table: 11
 	}]
 }
