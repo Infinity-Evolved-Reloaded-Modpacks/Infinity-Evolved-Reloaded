@@ -147,4 +147,15 @@ mods.avaritia.ExtremeCrafting.addShaped("DE_Creative_RF_Source", <draconicevolut
     [<draconicevolution:reactor_core>, <avaritia:singularity:10>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:ultimate_stew>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:singularity:14>, <draconicevolution:reactor_core>]
     ]);
 
+#Iridium Singularity
+var TE_Iridium = <ore:ingotIridium>;
+var IC2_Iridium = <ic2:misc_resource:1>;
+
+var either = TE_Iridium.or(IC2_Iridium);
+
+mods.avaritia.Compressor.add("Iridium_Singularity", <avaritia:singularity:14>, 12750, either, true);
+
+#Platinum Singularity
+mods.avaritia.Compressor.add("Platinum_Singularity", <avaritia:singularity:13>, 12750, <thermalfoundation:storage:6>, true);
+
 print("Initialized 'Creative.zs'");
