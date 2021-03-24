@@ -100,9 +100,13 @@ FusionCrafting.add(<draconicevolution:draconic_chest>, <draconicevolution:wyvern
 FusionCrafting.add(<draconicevolution:draconic_legs>, <draconicevolution:wyvern_legs>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <denseores:minecraft_diamond_ore>]);
 
 #Add Smeltery Recipes
-mods.tconstruct.Casting.addTableRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone>, 6480, true);
-mods.tconstruct.Casting.addTableRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel>, 6480, true);
+mods.tconstruct.Casting.addTableRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone>, 7200, true);
+mods.tconstruct.Casting.addTableRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel>, 7200, true);
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana>, 720, true);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone> * 7200, 20);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel> * 7200, 20);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana> * 720, 20);
 
 #Anglesite
 FusionCrafting.add(<bigreactors:mineralanglesite>, <bloodmagic:item_demon_crystal:2>, FusionCrafting.DRACONIC, 10000000, [<bloodmagic:slate:4>, <bewitchment:bottled_hellfire>, <plustic:mirionblock>, <botania:rune:7>]);
