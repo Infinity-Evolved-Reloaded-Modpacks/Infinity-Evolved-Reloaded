@@ -131,4 +131,31 @@ mods.avaritia.ExtremeCrafting.addShaped("TC_Creative_Tool_Modifier", <tconstruct
     [<minecraft:nether_star>, <plustic:mirionblock>, <ore:cast>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>, <ore:cast>, <plustic:mirionblock>, <minecraft:nether_star>]
     ]);
 
+#Creative RF Source (Draconic Evolution)
+val TE_Flux_Capacitor = <thermalexpansion:capacitor:32000>.withTag({Energy: 25000000});
+val TE_Creative_Cell = <thermalexpansion:cell>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte});
+
+mods.avaritia.ExtremeCrafting.addShaped("DE_Creative_RF_Source", <draconicevolution:creative_rf_source>, [
+    [<draconicevolution:reactor_core>, <avaritia:singularity:11>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:ultimate_stew>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:singularity:13>, <draconicevolution:reactor_core>],
+    [<avaritia:singularity:11>, <tesseract:tesseract>, <thermaldynamics:duct_0:5>, <draconicevolution:draconic_block>, TE_Flux_Capacitor, <draconicevolution:draconic_block>, <thermaldynamics:duct_0:5>, <tesseract:tesseract>, <avaritia:singularity:13>],
+    [<draconicevolution:infused_obsidian>, <thermaldynamics:duct_0:5>, TE_Creative_Cell, <avaritia:resource:4>, <draconicevolution:chaotic_core>, <avaritia:resource:4>, TE_Creative_Cell, <thermaldynamics:duct_0:5>, <draconicevolution:infused_obsidian>],
+    [<draconicevolution:infused_obsidian>, <draconicevolution:draconic_block>, <avaritia:resource:4>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:resource:4>, <draconicevolution:draconic_block>, <draconicevolution:infused_obsidian>],
+    [<avaritia:ultimate_stew>, TE_Flux_Capacitor, <draconicevolution:chaotic_core>, <avaritia:block_resource:1>, <draconicevolution:draconium_capacitor:2>, <avaritia:block_resource:1>, <draconicevolution:chaotic_core>, TE_Flux_Capacitor, <avaritia:ultimate_stew>],
+    [<draconicevolution:infused_obsidian>, <draconicevolution:draconic_block>, <avaritia:resource:4>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:resource:4>, <draconicevolution:draconic_block>, <draconicevolution:infused_obsidian>],
+    [<draconicevolution:infused_obsidian>, <thermaldynamics:duct_0:5>, TE_Creative_Cell, <avaritia:resource:4>, <draconicevolution:chaotic_core>, <avaritia:resource:4>, TE_Creative_Cell, <thermaldynamics:duct_0:5>, <draconicevolution:infused_obsidian>],
+    [<avaritia:singularity:10>, <tesseract:tesseract>, <thermaldynamics:duct_0:5>, <draconicevolution:draconic_block>, TE_Flux_Capacitor, <draconicevolution:draconic_block>, <thermaldynamics:duct_0:5>, <tesseract:tesseract>, <avaritia:singularity:14>],
+    [<draconicevolution:reactor_core>, <avaritia:singularity:10>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:ultimate_stew>, <draconicevolution:infused_obsidian>, <draconicevolution:infused_obsidian>, <avaritia:singularity:14>, <draconicevolution:reactor_core>]
+    ]);
+
+#Iridium Singularity
+var TE_Iridium = <ore:ingotIridium>;
+var IC2_Iridium = <ic2:misc_resource:1>;
+
+var either = TE_Iridium.or(IC2_Iridium);
+
+mods.avaritia.Compressor.add("Iridium_Singularity", <avaritia:singularity:14>, 12750, either, true);
+
+#Platinum Singularity
+mods.avaritia.Compressor.add("Platinum_Singularity", <avaritia:singularity:13>, 12750, <thermalfoundation:storage:6>, true);
+
 print("Initialized 'Creative.zs'");
