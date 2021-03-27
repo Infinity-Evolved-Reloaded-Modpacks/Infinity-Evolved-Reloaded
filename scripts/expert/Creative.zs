@@ -87,20 +87,6 @@ mods.avaritia.ExtremeCrafting.addShaped("EU2_Creative_Mill", <extrautils2:passiv
     [null, null, null, null, null, null, null, null, null]
     ]);
 
-
-#Creative Flux Sponge (Thaumcraft 6)
-mods.avaritia.ExtremeCrafting.addShaped("TC6_Flux_Sponge", <thaumcraft:creative_flux_sponge>, [
-    [null, null, null, null, <thaumcraft:primordial_pearl>, null, null, null, null],
-    [null, null, null, <thaumcraft:metal_void>, <avaritia:singularity:7>, <thaumcraft:metal_void>, null, null, null],
-    [null, null, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <avaritia:block_resource:2>, <bloodmagic:slate:4>, <thaumcraft:causality_collapser>, null, null],
-    [null, <thaumcraft:metal_void>, <bloodmagic:slate:4>, <thaumcraft:causality_collapser>, <avaritia:block_resource:2>, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <thaumcraft:metal_void>, null],
-    [<thaumcraft:primordial_pearl>, <avaritia:singularity:7>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:resource:5>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:singularity:7>, <thaumcraft:primordial_pearl>],
-    [null, <thaumcraft:metal_void>, <bloodmagic:slate:4>, <thaumcraft:causality_collapser>, <avaritia:block_resource:2>, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <thaumcraft:metal_void>, null],
-    [null, null, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <avaritia:block_resource:2>, <bloodmagic:slate:4>, <thaumcraft:causality_collapser>, null, null],
-    [null, null, null, <thaumcraft:metal_void>, <avaritia:singularity:7>, <thaumcraft:metal_void>, null, null, null],
-    [null, null, null, null, <thaumcraft:primordial_pearl>, null, null, null, null]
-    ]);
-
 #Creative Jetpack (Simple Jetpacks 2)
 val full_jetplate = <simplyjetpacks:itemjetpack:24>.withTag({Energy: 50000000, JetpackParticle: 0});
 val full_darkjetplate = <simplyjetpacks:itemjetpack:15>.withTag({Energy: 60000000, JetpackParticle: 0});
@@ -157,5 +143,8 @@ mods.avaritia.Compressor.add("Iridium_Singularity", <avaritia:singularity:14>, 1
 
 #Platinum Singularity
 mods.avaritia.Compressor.add("Platinum_Singularity", <avaritia:singularity:13>, 12750, <thermalfoundation:storage:6>, true);
+
+#Creative Flux Sponge (Thaumcraft 6)
+mods.thaumcraft.Infusion.registerRecipe("Thaumcraft6_Flux_Sponge", "", <thaumcraft:creative_flux_sponge>, 10, [<aspect:vitium> * 512, <aspect:victus> * 512, <aspect:praecantatio> * 512, <aspect:vacuos> * 512, <aspect:perditio> * 512], <minecraft:sponge>, [<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <avaritia:singularity:7>, <avaritia:singularity:7>, <avaritia:singularity:7>, <avaritia:singularity:7>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:resource:5>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, ]);
 
 print("Initialized 'Creative.zs'");
