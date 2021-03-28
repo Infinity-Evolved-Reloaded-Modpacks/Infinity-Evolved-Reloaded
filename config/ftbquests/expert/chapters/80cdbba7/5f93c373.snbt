@@ -1,0 +1,20 @@
+{
+	title: "Creative Tool Modifier",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"More damage. More speed. More fortune. More silk touch?",
+		"",
+		"Tinkers tool modifiers usually run out faster than you'd like, so this one may come in handy. It gives you the possibility to add more modifiers to your tools from Tinkers Construct. You can apply as many as you would like. Maybe even an infinite amount of modifiers? That opens up some interesting possibilities..."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "99a1abec",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: -2.5d,
+	text: [
+		"Stop falling out of the sky because you forgot to charge your Jetpack."
+	],
+	dependencies: [
+		"f069ad6d",
+		"258bd9b1"
+	],
+	tasks: [{
+		uid: "87d2aba9",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticle: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}
