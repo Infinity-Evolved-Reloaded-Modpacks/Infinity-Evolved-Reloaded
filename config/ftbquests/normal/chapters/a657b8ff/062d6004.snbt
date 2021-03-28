@@ -31,5 +31,11 @@
 		uid: "4e478ef7",
 		type: "item",
 		item: "rftoolsdim:empty_dimension_tab"
+	},
+	{
+		uid: "b22894da",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 5
 	}]
 }

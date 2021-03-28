@@ -1,0 +1,20 @@
+{
+	title: "Creative ME Energy Cell",
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"A ME system here, another one over there... Wouldn't the flexibility of this Creative Energy Cell be amazing?",
+		"",
+		"With this, you'll never have to worry about your ME turning off again because your Turbine wasn't spinning fast enough."
+	],
+	dependencies: [
+		"0c271f46"
+	],
+	tasks: [{
+		uid: "13de3f75",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}]
+}

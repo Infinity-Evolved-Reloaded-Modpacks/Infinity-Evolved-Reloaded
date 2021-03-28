@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"This pool has more uses than the one in my backyard. It comes at quite a cost tho..."
+	],
+	dependencies: [
+		"033924eb"
+	],
+	tasks: [{
+		uid: "1af45b9a",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ee4680f8",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say @p must really like their flowers. The Everlasting Guilty Pool is now in their possesion."
+	}]
+}

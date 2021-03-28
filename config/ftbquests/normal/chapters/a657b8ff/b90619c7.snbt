@@ -15,5 +15,10 @@
 		items: [{
 			item: "draconicevolution:awakened_core"
 		}]
+	}],
+	rewards: [{
+		uid: "6458dd3e",
+		type: "random",
+		table: 11
 	}]
 }

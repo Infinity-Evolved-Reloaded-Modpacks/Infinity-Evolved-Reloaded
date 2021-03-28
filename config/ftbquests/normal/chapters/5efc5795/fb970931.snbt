@@ -28,5 +28,10 @@
 			Damage: 9s
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07f16ad6",
+		type: "random",
+		table: 8
 	}]
 }

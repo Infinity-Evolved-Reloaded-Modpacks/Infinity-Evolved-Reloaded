@@ -17,5 +17,10 @@
 		items: [{
 			item: "industrialforegoing:mob_relocator"
 		}]
+	}],
+	rewards: [{
+		uid: "b086fcda",
+		type: "random",
+		table: 8
 	}]
 }

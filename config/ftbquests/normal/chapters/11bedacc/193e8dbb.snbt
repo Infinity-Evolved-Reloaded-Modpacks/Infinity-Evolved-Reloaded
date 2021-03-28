@@ -22,5 +22,10 @@
 		items: [{
 			item: "gendustry:mutagen_producer"
 		}]
+	}],
+	rewards: [{
+		uid: "c40bee25",
+		type: "random",
+		table: 8
 	}]
 }

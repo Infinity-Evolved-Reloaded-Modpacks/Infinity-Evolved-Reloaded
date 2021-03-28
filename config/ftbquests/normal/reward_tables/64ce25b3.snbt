@@ -1,0 +1,70 @@
+{
+	title: "Draconic Evolution",
+	icon: "draconicevolution:draconium_chest",
+	loot_size: 1,
+	rewards: [{
+		item: "draconicevolution:draconic_spawner"
+	},
+	{
+		item: "draconicevolution:draconium_chest"
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 4
+	},
+	{
+		item: "draconicevolution:draconic_ingot"
+	},
+	{
+		item: "draconicevolution:draconic_core"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 11s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 11s
+				}]
+			}
+		}
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 4
+	},
+	{
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 3
+	},
+	{
+		item: "draconicevolution:draconium_block"
+	},
+	{
+		item: "draconicevolution:particle_generator"
+	},
+	{
+		item: "draconicevolution:crafting_injector"
+	},
+	{
+		item: "draconicevolution:crafting_injector 1 1"
+	},
+	{
+		item: "draconicevolution:crafting_injector 1 2"
+	}]
+}

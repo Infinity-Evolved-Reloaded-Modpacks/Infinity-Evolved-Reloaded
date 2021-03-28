@@ -16,5 +16,10 @@
 		items: [{
 			item: "thaumicenergistics:arcane_terminal"
 		}]
+	}],
+	rewards: [{
+		uid: "a0788aea",
+		type: "random",
+		table: 10
 	}]
 }

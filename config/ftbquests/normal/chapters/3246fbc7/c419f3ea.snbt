@@ -18,5 +18,18 @@
 		},
 		entity: "minecraft:skeleton",
 		value: 100L
+	}],
+	rewards: [{
+		uid: "a7ac6255",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 4s
+				}]
+			}
+		}
 	}]
 }

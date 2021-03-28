@@ -19,5 +19,10 @@
 		items: [{
 			item: "industrialforegoing:mob_slaughter_factory"
 		}]
+	}],
+	rewards: [{
+		uid: "3a3d7617",
+		type: "random",
+		table: 8
 	}]
 }

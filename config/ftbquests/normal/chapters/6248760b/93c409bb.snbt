@@ -17,5 +17,10 @@
 		items: [{
 			item: "ic2:nuclear 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "87bc6452",
+		type: "random",
+		table: 9
 	}]
 }

@@ -17,5 +17,10 @@
 		items: [{
 			item: "ic2:te 1 55"
 		}]
+	}],
+	rewards: [{
+		uid: "57dcb127",
+		type: "random",
+		table: 9
 	}]
 }
