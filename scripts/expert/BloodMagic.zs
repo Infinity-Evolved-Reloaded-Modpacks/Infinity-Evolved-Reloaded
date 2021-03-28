@@ -76,7 +76,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>, <botania:r
 
 # -Sigils
 recipes.remove(<bloodmagic:sigil_divination>);
-recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse()]]);
+recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse(), <botania:managlass>]]);
 recipes.remove(<bloodmagic:sigil_water>);
 recipes.addShaped(<bloodmagic:sigil_water>, [[<bloodmagic:component>, <bloodmagic:ritual_diviner:1>, <bloodmagic:component>], [<minecraft:water_bucket>, <bloodmagic:slate:2>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <minecraft:water_bucket>]]);
 recipes.remove(<bloodmagic:sigil_lava>);
