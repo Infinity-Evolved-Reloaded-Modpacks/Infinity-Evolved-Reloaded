@@ -28,6 +28,6 @@
 			},
 			Damage: 15s
 		},
-		command: "/say @p did it! He made the modpack makers proud! Unlimited Energy, at @p's disposal."
+		command: "/say @p did it! They made the modpack makers proud! Unlimited Energy, at @p's disposal."
 	}]
 }

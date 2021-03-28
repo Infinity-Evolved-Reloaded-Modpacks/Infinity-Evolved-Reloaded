@@ -45,6 +45,6 @@
 			},
 			Damage: 15s
 		},
-		command: "/say @p obtained the Creative Energy Cell. His Power Level is OVER 9000."
+		command: "/say @p obtained the Creative Energy Cell. Their Power Level is OVER 9000."
 	}]
 }

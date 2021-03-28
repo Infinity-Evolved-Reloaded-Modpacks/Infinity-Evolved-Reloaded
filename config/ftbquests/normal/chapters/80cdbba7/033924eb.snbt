@@ -37,6 +37,6 @@
 			},
 			Damage: 15s
 		},
-		command: "/say Crafting the Creative Portable Tank. Thought to be impossible for decennia but @p did it."
+		command: "/say Crafting the Creative Portable Tank. Thought to be impossible for millenia but @p did it."
 	}]
 }
