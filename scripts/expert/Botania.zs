@@ -161,7 +161,4 @@ recipes.remove(<botania:rfgenerator>);
 recipes.remove(<botania:spreader:3>);
 recipes.addShaped(<botania:spreader:3>, [[null, null, null], [<botania:manaresource:5>, <botania:spreader:2>, <botania:manaresource:9>], [null, null, null]]);
 
-#Mana Tesseract
-recipes.remove(<botanicadds:mana_tesseract>);
-
 print("Initialized 'botania.zs'");
