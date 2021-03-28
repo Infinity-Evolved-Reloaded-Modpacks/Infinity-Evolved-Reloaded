@@ -73,5 +73,10 @@
 			},
 			Damage: 8s
 		}]
+	}],
+	rewards: [{
+		uid: "a9612f94",
+		type: "random",
+		table: 8
 	}]
 }

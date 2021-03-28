@@ -20,5 +20,18 @@
 			item: "bewitchment:stone_witches_altar 6"
 		}],
 		count: 6L
+	}],
+	rewards: [{
+		uid: "dad8e183",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 44s
+				}]
+			}
+		}
 	}]
 }

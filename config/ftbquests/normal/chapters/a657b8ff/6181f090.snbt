@@ -7,7 +7,8 @@
 		"§rIt works similar to the Axe of the Wyvern, but has extra modifiers and has larger maximums. If you enchant the axe, you will be able to turn the enchantments off and on."
 	],
 	dependencies: [
-		"b90619c7"
+		"b90619c7",
+		"7b65e553"
 	],
 	tasks: [{
 		uid: "f35095eb",
@@ -26,5 +27,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d05975b6",
+		type: "random",
+		table: 11
 	}]
 }

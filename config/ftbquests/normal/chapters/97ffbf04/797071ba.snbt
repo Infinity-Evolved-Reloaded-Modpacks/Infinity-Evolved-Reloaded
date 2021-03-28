@@ -57,5 +57,10 @@
 		items: [{
 			item: "appliedenergistics2:material 1 15"
 		}]
+	}],
+	rewards: [{
+		uid: "34118c95",
+		type: "random",
+		table: 8
 	}]
 }

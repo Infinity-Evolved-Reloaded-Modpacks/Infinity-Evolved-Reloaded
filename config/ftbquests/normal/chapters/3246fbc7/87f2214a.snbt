@@ -23,5 +23,18 @@
 		},
 		entity: "minecraft:spider",
 		value: 100L
+	}],
+	rewards: [{
+		uid: "847e2c9d",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 18s
+				}]
+			}
+		}
 	}]
 }

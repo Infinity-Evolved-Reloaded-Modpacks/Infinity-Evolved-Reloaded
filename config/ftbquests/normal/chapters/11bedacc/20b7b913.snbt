@@ -16,5 +16,10 @@
 		items: [{
 			item: "gendustry:upgrade_frame"
 		}]
+	}],
+	rewards: [{
+		uid: "7701f406",
+		type: "random",
+		table: 7
 	}]
 }

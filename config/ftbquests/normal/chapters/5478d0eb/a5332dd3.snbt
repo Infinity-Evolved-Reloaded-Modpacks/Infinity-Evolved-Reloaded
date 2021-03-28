@@ -28,5 +28,10 @@
 			},
 			id: "itemfilters:filter"
 		}]
+	}],
+	rewards: [{
+		uid: "0e2a3447",
+		type: "random",
+		table: 7
 	}]
 }

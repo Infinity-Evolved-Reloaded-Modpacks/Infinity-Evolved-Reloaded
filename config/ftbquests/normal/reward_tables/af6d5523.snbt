@@ -1,4 +1,5 @@
 {
+	title: "Hives",
 	loot_size: 1,
 	rewards: [{
 		item: "forestry:beehives"

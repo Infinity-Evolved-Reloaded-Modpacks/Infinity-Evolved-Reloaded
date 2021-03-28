@@ -17,5 +17,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "101ccef4",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 2
 	}]
 }

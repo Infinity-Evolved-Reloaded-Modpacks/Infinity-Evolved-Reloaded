@@ -17,5 +17,10 @@
 		items: [{
 			item: "storagedrawers:controller"
 		}]
+	}],
+	rewards: [{
+		uid: "6891e93b",
+		type: "random",
+		table: 8
 	}]
 }

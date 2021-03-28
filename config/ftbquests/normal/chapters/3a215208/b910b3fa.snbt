@@ -18,5 +18,10 @@
 		items: [{
 			item: "thaumicenergistics:infusion_provider"
 		}]
+	}],
+	rewards: [{
+		uid: "e43f3e97",
+		type: "random",
+		table: 10
 	}]
 }

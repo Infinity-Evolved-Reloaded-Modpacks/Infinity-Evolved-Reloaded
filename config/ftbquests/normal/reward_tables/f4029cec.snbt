@@ -1,0 +1,81 @@
+{
+	title: "IC2",
+	icon: "ic2:crafting 1 38",
+	loot_size: 1,
+	rewards: [{
+		item: "advanced_solar_panels:machines 1 2"
+	},
+	{
+		item: "advanced_solar_panels:crafting 1 11",
+		count: 3
+	},
+	{
+		item: {
+			id: "ic2:te",
+			tag: {},
+			Damage: 68s
+		}
+	},
+	{
+		item: "ic2:resource 1 12"
+	},
+	{
+		item: "ic2:resource 1 13"
+	},
+	{
+		item: "ic2:misc_resource 1 1"
+	},
+	{
+		item: "ic2:misc_resource 1 2",
+		count: 3
+	},
+	{
+		item: "ic2:crafting 1 1"
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		},
+		count: 6
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 2b,
+				insulation: 2b
+			},
+			Damage: 2s
+		},
+		count: 6
+	},
+	{
+		item: "ic2:crafting 1 2"
+	},
+	{
+		item: "ic2:upgrade",
+		count: 4
+	},
+	{
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		item: {
+			id: "ic2:crystal_memory",
+			tag: {}
+		}
+	},
+	{
+		item: "advanced_solar_panels:crafting 1 1",
+		count: 2
+	}]
+}

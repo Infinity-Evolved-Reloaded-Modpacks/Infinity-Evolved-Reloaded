@@ -24,5 +24,10 @@
 		items: [{
 			item: "immersiveengineering:wooden_device1"
 		}]
+	}],
+	rewards: [{
+		uid: "ffb1c58a",
+		type: "random",
+		table: 8
 	}]
 }

@@ -16,5 +16,10 @@
 		items: [{
 			item: "thaumicenergistics:essentia_terminal"
 		}]
+	}],
+	rewards: [{
+		uid: "d67d11f8",
+		type: "random",
+		table: 10
 	}]
 }

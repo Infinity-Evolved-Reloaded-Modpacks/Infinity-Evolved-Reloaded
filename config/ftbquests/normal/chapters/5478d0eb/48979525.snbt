@@ -28,5 +28,10 @@
 		items: [{
 			item: "appliedenergistics2:crank"
 		}]
+	}],
+	rewards: [{
+		uid: "80bf9846",
+		type: "random",
+		table: 7
 	}]
 }

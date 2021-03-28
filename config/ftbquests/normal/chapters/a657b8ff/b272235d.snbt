@@ -25,5 +25,10 @@
 				ChestColour: 6553750
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "7c9580af",
+		type: "random",
+		table: 11
 	}]
 }

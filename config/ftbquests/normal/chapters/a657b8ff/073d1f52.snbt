@@ -18,5 +18,10 @@
 		items: [{
 			item: "thermalfoundation:material 1 1028"
 		}]
+	}],
+	rewards: [{
+		uid: "c17ea948",
+		type: "random",
+		table: 11
 	}]
 }
