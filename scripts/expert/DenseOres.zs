@@ -6,7 +6,7 @@
 print("initalizing 'DenseOres.zs'");
 
 #Dense Diamond Ore
-recipes.addShaped(<densemetals:dense_diamond_ore>, [[<minecraft:diamond_ore>, <minecraft:diamond_ore>, <minecraft:diamond_ore>], [<minecraft:diamond_ore> <minecraft:diamond_ore>, <minecraft:diamond_ore>], [<minecraft:diamond_ore>, <minecraft:diamond_ore>, <minecraft:diamond_ore>]]);
+recipes.addShaped(<densemetals:dense_diamond_ore>, [[<minecraft:diamond_ore>, <minecraft:diamond_ore>, <minecraft:diamond_ore>], [<minecraft:diamond_ore>, <minecraft:diamond_ore>, <minecraft:diamond_ore>], [<minecraft:diamond_ore>, <minecraft:diamond_ore>, <minecraft:diamond_ore>]]);
 
 #Dense Emerald Ore
 recipes.addShaped(<densemetals:dense_emerald_ore>, [[<minecraft:emerald_ore>, <minecraft:emerald_ore>, <minecraft:emerald_ore>], [<minecraft:emerald_ore>, <minecraft:emerald_ore>, <minecraft:emerald_ore>], [<minecraft:emerald_ore>, <minecraft:emerald_ore>, <minecraft:emerald_ore>]]);
