@@ -104,9 +104,9 @@ mods.tconstruct.Casting.addTableRecipe(<draconicevolution:wyvern_energy_core>, <
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel>, 7200, true);
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana>, 720, true);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone> * 7200, 20);
-mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel> * 7200, 20);
-mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana> * 720, 20);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone> * 7200, 15000);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <liquid:end_steel> * 7200, 15000);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:energy_crystal>, <draconicevolution:wyvern_core>, <liquid:mana> * 720, 15000);
 
 #Anglesite
 FusionCrafting.add(<bigreactors:mineralanglesite>, <bloodmagic:item_demon_crystal:2>, FusionCrafting.DRACONIC, 10000000, [<bloodmagic:slate:4>, <bewitchment:bottled_hellfire>, <plustic:mirionblock>, <botania:rune:7>]);
