@@ -10,7 +10,7 @@
 		"",
 		"Hit F3+G to see chunk borders. If the chunk you are in doesn't have an Ore Deposit, go one chunk over and repeat. An entire Ore Deposit has roughly a Diamond Chest or more's worth of ores.",
 		"",
-		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multiblock."
+		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multiblock. "
 	],
 	dependencies: [
 		"40f8677b"
