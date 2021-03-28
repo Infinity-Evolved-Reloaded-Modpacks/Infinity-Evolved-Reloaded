@@ -1,0 +1,34 @@
+{
+	title: "Creative Draconic Flux Capacitor",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"That pesky Chaos Guardian sure knows how to drain the energy out of your armor.",
+		"",
+		"But fear no more! This Creative Flux Capacitor can handle anything. It will charge your entire inventory bloody fast."
+	],
+	dependencies: [
+		"38c50f37"
+	],
+	tasks: [{
+		uid: "1ca5b3ce",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "174480a0",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say It would be wise not to mess with @p. Their new Flux Capacitor won't run dry any time soon."
+	}]
+}

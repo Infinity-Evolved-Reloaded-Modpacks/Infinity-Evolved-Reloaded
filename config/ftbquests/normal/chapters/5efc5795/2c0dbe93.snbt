@@ -27,5 +27,10 @@
 			item: "aroma1997sdimension:portalframe 6"
 		}],
 		count: 6L
+	}],
+	rewards: [{
+		uid: "cea2f397",
+		type: "random",
+		table: 8
 	}]
 }

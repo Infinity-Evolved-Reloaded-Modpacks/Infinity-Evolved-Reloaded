@@ -77,5 +77,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "acbf0e64",
+		type: "random",
+		table: 11
 	}]
 }

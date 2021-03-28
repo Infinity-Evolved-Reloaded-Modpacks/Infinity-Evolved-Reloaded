@@ -1,0 +1,79 @@
+{
+	title: "Start",
+	icon: "minecraft:crafting_table",
+	loot_size: 1,
+	rewards: [{
+		item: "enderstorage:ender_storage"
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 8
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 3
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {},
+				Accessible: 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: "minecraft:brewing_stand"
+	},
+	{
+		item: "thermaldynamics:duct_0",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: "tconstruct:ingots",
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 34s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 35s
+				}]
+			}
+		}
+	},
+	{
+		item: "enderio:item_material"
+	},
+	{
+		item: "solargeneration:solar_panel_leadstone",
+		count: 4
+	}]
+}

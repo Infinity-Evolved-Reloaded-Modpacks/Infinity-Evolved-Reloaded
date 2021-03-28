@@ -28,5 +28,10 @@
 		items: [{
 			item: "minecraft:chest_minecart"
 		}]
+	}],
+	rewards: [{
+		uid: "765c8858",
+		type: "random",
+		table: 8
 	}]
 }

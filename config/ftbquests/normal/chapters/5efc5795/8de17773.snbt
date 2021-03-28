@@ -18,5 +18,10 @@
 			item: "railcraft:flux_transformer"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "8a9f3faa",
+		type: "random",
+		table: 8
 	}]
 }

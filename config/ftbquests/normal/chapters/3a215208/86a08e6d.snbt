@@ -50,5 +50,10 @@
 		type: "item",
 		item: "appliedenergistics2:material 1 42",
 		count: 4
+	},
+	{
+		uid: "2ebfa884",
+		type: "random",
+		table: 10
 	}]
 }

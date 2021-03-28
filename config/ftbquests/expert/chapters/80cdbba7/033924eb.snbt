@@ -1,0 +1,42 @@
+{
+	title: "Creative Portable Tank",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"You must be thinking \"This is the endgoal of Infinity\". Well think again.",
+		"",
+		"The recipe may look intimidating, maybe even the most expensive thing you have attempted to craft yet. But it's far from Infinity Reloaded's biggest challenge!",
+		"",
+		"Yes, you are right. The Creative Portable tank. Infinite liquids, although I doubt it will give me infinite beer. Click the tank with any filled bucket to apply and reapply the fluid. Use molten metal buckets, in combination with Casting Basins and Tables from Tinkers for ingots at your disposal."
+	],
+	dependencies: [
+		"38c50f37"
+	],
+	tasks: [{
+		uid: "c5d6b244",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 1b,
+				Level: 4b
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "d0592e77",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say Crafting the Creative Portable Tank. Thought to be impossible for millenia but @p did it."
+	}]
+}

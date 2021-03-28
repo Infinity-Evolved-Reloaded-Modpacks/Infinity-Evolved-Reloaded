@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		"Remove all the Flux and Rifts that have been bothering you for so long. It'll eat 'em all."
+	],
+	dependencies: [
+		"5f93c373"
+	],
+	tasks: [{
+		uid: "28f34686",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

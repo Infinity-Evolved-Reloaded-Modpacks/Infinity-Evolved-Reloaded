@@ -1,0 +1,38 @@
+{
+	title: "Creative Flux Capacitor",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"The Creative Flux Capacitor charges anything in your inventory at a rate of 250.000 RF/t. That's fast enough for now but who knows what the future may bring."
+	],
+	dependencies: [
+		"b90619c7"
+	],
+	tasks: [{
+		uid: "29aa0347",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 32000s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1ff11cfc",
+		type: "command",
+		icon: {
+			id: "railcraft:track_kit",
+			tag: {
+				railcraft: {
+					kit: "railcraft_messenger"
+				}
+			},
+			Damage: 15s
+		},
+		command: "/say @p obtained the Creative Flux Capacitor. Doc. Brown would be proud!"
+	}]
+}

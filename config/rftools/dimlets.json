@@ -18,6 +18,20 @@
   },
   {
     "filter": {
+      "name": "soul_sand",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 1,
+      "create": 300,
+      "maintain": 10,
+      "ticks": 100,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
       "name": [
         "dense_nether_lapis_ore",
         "dense_lapis_ore"

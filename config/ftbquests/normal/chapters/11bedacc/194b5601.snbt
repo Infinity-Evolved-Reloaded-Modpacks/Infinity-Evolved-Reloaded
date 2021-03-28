@@ -56,5 +56,10 @@
 		items: [{
 			item: "forestry:alveary.sieve"
 		}]
+	}],
+	rewards: [{
+		uid: "8bda94a2",
+		type: "random",
+		table: 8
 	}]
 }

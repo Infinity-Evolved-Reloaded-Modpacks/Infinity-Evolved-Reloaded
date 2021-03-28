@@ -15,5 +15,10 @@
 		items: [{
 			item: "draconicevolution:energy_infuser"
 		}]
+	}],
+	rewards: [{
+		uid: "352fb57a",
+		type: "random",
+		table: 11
 	}]
 }

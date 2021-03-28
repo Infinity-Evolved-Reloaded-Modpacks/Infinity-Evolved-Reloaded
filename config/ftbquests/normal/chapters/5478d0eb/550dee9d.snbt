@@ -18,5 +18,10 @@
 		items: [{
 			item: "tconstruct:cast_custom 1 4"
 		}]
+	}],
+	rewards: [{
+		uid: "60e8a6e9",
+		type: "random",
+		table: 7
 	}]
 }

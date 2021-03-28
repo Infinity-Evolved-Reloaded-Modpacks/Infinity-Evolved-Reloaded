@@ -15,7 +15,7 @@
 	x: 13.5d,
 	y: 5.0d,
 	text: [
-		"No Description"
+		""
 	],
 	dependencies: [
 		"1fc1d27c"
@@ -37,5 +37,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25b628b5",
+		type: "random",
+		table: 11
 	}]
 }

@@ -30,5 +30,10 @@
 		items: [{
 			item: "thaumicenergistics:essentia_storage"
 		}]
+	}],
+	rewards: [{
+		uid: "5c497797",
+		type: "random",
+		table: 10
 	}]
 }

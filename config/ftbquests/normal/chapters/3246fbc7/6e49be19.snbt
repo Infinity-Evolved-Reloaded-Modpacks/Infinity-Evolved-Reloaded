@@ -8,5 +8,18 @@
 		type: "xp",
 		value: 1000L,
 		points: false
+	}],
+	rewards: [{
+		uid: "c4937134",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 21s
+				}]
+			}
+		}
 	}]
 }

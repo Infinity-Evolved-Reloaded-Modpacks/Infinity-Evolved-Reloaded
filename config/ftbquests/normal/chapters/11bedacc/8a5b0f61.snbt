@@ -49,5 +49,10 @@
 		items: [{
 			item: "extrabees:alveary 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "44054c5c",
+		type: "random",
+		table: 8
 	}]
 }

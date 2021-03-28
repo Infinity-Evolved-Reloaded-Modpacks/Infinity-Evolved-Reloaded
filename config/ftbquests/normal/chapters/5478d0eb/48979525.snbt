@@ -14,6 +14,7 @@
 		"a5332dd3",
 		"c5f5f0a7"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "5e0e4594",
 		type: "item",
@@ -27,5 +28,10 @@
 		items: [{
 			item: "appliedenergistics2:crank"
 		}]
+	}],
+	rewards: [{
+		uid: "80bf9846",
+		type: "random",
+		table: 7
 	}]
 }

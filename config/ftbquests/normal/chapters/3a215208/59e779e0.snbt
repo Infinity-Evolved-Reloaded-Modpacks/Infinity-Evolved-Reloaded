@@ -20,5 +20,10 @@
 		items: [{
 			item: "appliedenergistics2:controller"
 		}]
+	}],
+	rewards: [{
+		uid: "8b07f75c",
+		type: "random",
+		table: 10
 	}]
 }

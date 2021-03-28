@@ -17,5 +17,10 @@
 		items: [{
 			item: "appliedenergistics2:part 1 360"
 		}]
+	}],
+	rewards: [{
+		uid: "5ae6f6bb",
+		type: "random",
+		table: 10
 	}]
 }
