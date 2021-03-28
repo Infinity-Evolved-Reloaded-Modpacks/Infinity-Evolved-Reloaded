@@ -10,7 +10,7 @@
 		"",
 		"Hit F3+G to see chunk borders. If the chunk you are in doesn't have an Ore Deposit, go one chunk over and repeat. An entire Ore Deposit has roughly a Diamond Chest or more's worth of ores.",
 		"",
-		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multiblock."
+		"See the Heavy Machinery tab of your Engineer's Manual to find out how to make the multblock."
 	],
 	dependencies: [
 		"40f8677b"
@@ -38,8 +38,7 @@
 					Name: "Any blockSteel"
 				}
 			}
-		}],
-		count: 9L
+		}]
 	},
 	{
 		uid: "dd600bdc",
@@ -53,31 +52,15 @@
 		uid: "8f21d629",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:metal_decoration0 1 5"
+			item: "immersiveengineering:metal_decoration0 13 5"
 		}],
-		count: 5L
+		count: 13L
 	},
 	{
 		uid: "cdb400f0",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:metal_decoration1 1 1"
-		}],
-		count: 26L
-	},
-	{
-		uid: "409f717e",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:sheetmetal 1 8"
-		}],
-		count: 15L
-	},
-	{
-		uid: "53bb17f9",
-		type: "item",
-		items: [{
-			item: "immersiveengineering:metal_decoration0 1 7"
+			item: "immersiveengineering:metal_decoration1 23 1"
 		}],
 		count: 3L
 	},

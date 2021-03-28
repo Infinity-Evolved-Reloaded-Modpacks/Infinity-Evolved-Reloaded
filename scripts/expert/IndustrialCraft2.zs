@@ -74,8 +74,4 @@ recipes.remove(<ic2:nuclear:2>*9);
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<enderio:item_material:28>);
 mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:ender_pearl>);
 
-#Hydrated Tin Dust
-recipes.remove(<ic2:dust:29>);
-recipes.addShapeless("ic2_hydrated_tin_dust_liquid_fix", <ic2:dust:29>, [<ore:dustTin>, <liquid:water> * 1000]);
-
 print("Initialized 'IndustrialCraft2.zs'");
