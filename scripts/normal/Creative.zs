@@ -118,7 +118,7 @@ mods.avaritia.ExtremeCrafting.addShaped("TC_Creative_Tool_Modifier", <tconstruct
     ]);
 
 #Creative RF Source (Draconic Evolution)
-val TE_Flux_Capacitor = <thermalexpansion:capacitor:32000>.withTag({Energy: 25000000});
+val TE_Flux_Capacitor = <thermalexpansion:capacitor:32000>;
 val TE_Creative_Cell = <thermalexpansion:cell>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte});
 
 mods.avaritia.ExtremeCrafting.addShaped("DE_Creative_RF_Source", <draconicevolution:creative_rf_source>, [
