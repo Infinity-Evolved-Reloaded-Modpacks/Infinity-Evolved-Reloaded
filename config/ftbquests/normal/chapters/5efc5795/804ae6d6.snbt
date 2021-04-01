@@ -17,5 +17,10 @@
 		items: [{
 			item: "superfactorymanager:manager"
 		}]
+	}],
+	rewards: [{
+		uid: "b87d1388",
+		type: "random",
+		table: 8
 	}]
 }

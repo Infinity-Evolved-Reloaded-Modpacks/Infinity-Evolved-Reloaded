@@ -53,5 +53,10 @@
 		uid: "1e9651ce",
 		type: "item",
 		item: "appliedenergistics2:molecular_assembler"
+	},
+	{
+		uid: "8ec24d7d",
+		type: "random",
+		table: 10
 	}]
 }

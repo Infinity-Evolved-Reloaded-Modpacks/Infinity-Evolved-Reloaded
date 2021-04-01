@@ -41,5 +41,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf41a189",
+		type: "random",
+		table: 11
 	}]
 }

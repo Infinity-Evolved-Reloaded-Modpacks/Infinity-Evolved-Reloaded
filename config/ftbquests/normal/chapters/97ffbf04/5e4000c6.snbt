@@ -20,5 +20,10 @@
 			item: "railcraft:rock_crusher 12"
 		}],
 		count: 12L
+	}],
+	rewards: [{
+		uid: "a3ecfaae",
+		type: "random",
+		table: 8
 	}]
 }

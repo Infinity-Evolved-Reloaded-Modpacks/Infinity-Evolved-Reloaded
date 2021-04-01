@@ -74,5 +74,4 @@ recipes.remove(<ic2:nuclear:2>*9);
 mods.thermalexpansion.Factorizer.removeRecipeSplit(<enderio:item_material:28>);
 mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:ender_pearl>);
 
-
 print("Initialized 'IndustrialCraft2.zs'");

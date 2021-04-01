@@ -19,5 +19,10 @@
 		items: [{
 			item: "appliedenergistics2:drive"
 		}]
+	}],
+	rewards: [{
+		uid: "c1c38fa0",
+		type: "random",
+		table: 10
 	}]
 }

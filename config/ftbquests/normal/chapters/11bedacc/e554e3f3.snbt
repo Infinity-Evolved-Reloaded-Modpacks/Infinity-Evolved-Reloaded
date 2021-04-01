@@ -30,5 +30,10 @@
 		items: [{
 			item: "gendustry:imprinter"
 		}]
+	}],
+	rewards: [{
+		uid: "b9c3e21f",
+		type: "random",
+		table: 8
 	}]
 }

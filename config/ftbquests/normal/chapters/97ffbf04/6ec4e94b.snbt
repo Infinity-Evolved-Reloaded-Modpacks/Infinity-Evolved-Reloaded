@@ -35,5 +35,10 @@
 			item: "immersiveengineering:metal_device1 2"
 		}],
 		count: 2L
+	}],
+	rewards: [{
+		uid: "df2d4071",
+		type: "random",
+		table: 8
 	}]
 }

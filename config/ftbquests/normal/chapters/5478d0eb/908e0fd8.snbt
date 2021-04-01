@@ -18,5 +18,10 @@
 			item: "railcraft:blast_furnace"
 		}],
 		count: 34L
+	}],
+	rewards: [{
+		uid: "10fec2ac",
+		type: "random",
+		table: 7
 	}]
 }

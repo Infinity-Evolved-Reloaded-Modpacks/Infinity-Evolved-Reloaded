@@ -22,5 +22,18 @@
 		},
 		entity: "minecraft:blaze",
 		value: 40L
+	}],
+	rewards: [{
+		uid: "86634589",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 1s
+				}]
+			}
+		}
 	}]
 }

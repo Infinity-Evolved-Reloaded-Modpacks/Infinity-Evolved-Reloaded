@@ -26,5 +26,10 @@
 		items: [{
 			item: "enderio:item_me_conduit 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "736159d9",
+		type: "random",
+		table: 10
 	}]
 }

@@ -29,5 +29,10 @@
 		items: [{
 			item: "gendustry:extractor"
 		}]
+	}],
+	rewards: [{
+		uid: "9bccc022",
+		type: "random",
+		table: 8
 	}]
 }

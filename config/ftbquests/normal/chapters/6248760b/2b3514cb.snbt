@@ -60,5 +60,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcfab9f6",
+		type: "random",
+		table: 9
 	}]
 }

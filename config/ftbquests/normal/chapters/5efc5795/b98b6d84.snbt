@@ -28,5 +28,10 @@
 		items: [{
 			item: "industrialforegoing:mob_duplicator"
 		}]
+	}],
+	rewards: [{
+		uid: "0f9cdfc1",
+		type: "random",
+		table: 8
 	}]
 }

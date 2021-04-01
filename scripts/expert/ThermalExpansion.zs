@@ -32,8 +32,8 @@ recipes.addShaped(<thermalexpansion:dynamo>, [[null, <ic2:crafting:18>, null], [
 #Augment: Lapidary Calibration
 recipes.removeByRecipeName("thermalexpansion:augment_39");
 recipes.addShaped(<thermalexpansion:augment:720>, [
-    [null, <thermalfoundation:material:293>, null], 
-    [<thermalfoundation:material:294>, <thermalfoundation:material:515>, <thermalfoundation:material:294>], 
+    [null, <thermalfoundation:material:293>, null],
+    [<thermalfoundation:material:294>, <thermalfoundation:material:515>, <thermalfoundation:material:294>],
     [null, <minecraft:emerald>, null]
     ]);
 
@@ -70,7 +70,6 @@ recipes.removeShapeless(<thermalexpansion:dynamo:*>, [<thermalfoundation:upgrade
 recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>]);
 recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>]);
 recipes.removeShapeless(<thermalfoundation:upgrade:*>, [<thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>, <thermalfoundation:upgrade:*>]);
-recipes.removeShapeless(<botanicadds:mana_tesseract>, [<botanicadds:mana_tesseract>, <thermalfoundation:upgrade:*>]);
 
 #Add Organic Green Dye to Induction Smelter
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:48>, <tconstruct:edible:3>, <enderio:item_material:46> * 6, 2000);
@@ -134,5 +133,13 @@ recipes.remove(<ic2:misc_resource:1> * 2);
 
 #Copper Block to Ingots
 recipes.addShapeless(<thermalfoundation:material:128> * 9, [<thermalfoundation:storage>]);
+
+#Hydrated Tin Dust
+recipes.remove(<ic2:dust:29>);
+mods.thermalexpansion.Transposer.addFillRecipe(<ic2:dust:29>, <thermalfoundation:material:65>, <liquid:water> * 1000, 1000);
+
+#10k Coolant Cell
+recipes.remove(<ic2:heat_storage>);
+mods.thermalexpansion.Transposer.addFillRecipe(<ic2:heat_storage>.withTag({advDmg: 0}), <thermalfoundation:material:321> * 4, <liquid:ic2coolant> * 1000, 2000);
 
 print("Initialized 'ThermalExpansion.zs'");

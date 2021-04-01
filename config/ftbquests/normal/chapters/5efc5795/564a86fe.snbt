@@ -17,5 +17,10 @@
 		items: [{
 			item: "immersiveengineering:metal_device0 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "d7d7eb46",
+		type: "random",
+		table: 8
 	}]
 }
