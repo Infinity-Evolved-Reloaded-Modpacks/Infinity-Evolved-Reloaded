@@ -10,6 +10,7 @@ assignees: ''
 **General Info (please complete the following information):**
  - Modpack version: [e.g. 3.2.0]
  - Client or server:
+ - Packmode: [normal,expert,both]
  - Own modifications to the modpack:
 
 **Describe the bug**
