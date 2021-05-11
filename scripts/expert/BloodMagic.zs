@@ -3,7 +3,7 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
 import mods.thaumcraft.Infusion;
-print("Initializing 'bloodmagic.zs'...");
+print("Initializing 'Bloodmagic.zs'...");
 
 #General
 # -Blood Altar
@@ -121,4 +121,4 @@ mods.thaumcraft.Infusion.registerRecipe("CrystalClusterBlock", "", <bloodmagic:d
 var soulcontainer = <bloodmagic:soul_gem:2>.withTag({souls: 1024.0});
 mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:blood_shard:1>, [<bloodmagic:blood_shard>, <bloodmagic:item_demon_crystal>, soulcontainer], 20000, 100, 3);
 
-print("Initialized 'bloodmagic.zs'");
+print("Initialized 'Bloodmagic.zs'");
