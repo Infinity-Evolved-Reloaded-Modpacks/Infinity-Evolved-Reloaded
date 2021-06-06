@@ -96,4 +96,35 @@ recipes.addShaped(<enderio:item_conduit_probe>, [[<enderio:item_alloy_ingot>, <e
 recipes.remove(<enderio:block_slice_and_splice>);
 recipes.addShaped(<enderio:block_slice_and_splice>, [[<enderio:item_alloy_ingot:7>, <ore:itemSkull>, <enderio:item_alloy_ingot:7>], [<minecraft:iron_axe>, <enderio:item_material:1>, <minecraft:shears>], [<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>]]);
 
+#End Steel Chassis
+recipes.removeByRecipeName("enderio:end_steel_chassis");
+recipes.addShaped(<enderio:item_material:66>, [
+    [<enderio:block_alloy:8>, <forestry:chipsets:3>.withTag({T: 3 as short}), <enderio:block_alloy:8>], 
+    [<buildcraftsilicon:redstone_chipset:4>, <enderio:item_material:55>, <enderio:item_basic_capacitor:2>], 
+    [<enderio:block_alloy:8>, <forge:bucketfilled>.withTag({FluidName: "vapor_of_levity", Amount: 1000}), <enderio:block_alloy:8>]
+]);
+
+#Soulless Machine Chassis
+recipes.removeByRecipeName("enderio:unsouled_chassis");
+recipes.addShaped(<enderio:item_material:55>, [
+    [<enderio:block_reinforced_obsidian>, <enderio:item_material:56>, <enderio:block_reinforced_obsidian>], 
+    [<enderio:block_industrial_insulation>, <enderio:item_material:53>, <enderio:block_industrial_insulation>], 
+    [<ic2:resource:11>, <enderio:item_material:56>, <ic2:resource:11>]
+]);
+
+#Enhanced Alloy Smelter
+recipes.removeByRecipeName("enderio:enhanced_alloy_smelter");
+
+#Enhanced Combustion Generator
+recipes.removeByRecipeName("enderio:enhanced_combustion_generator");
+
+#Enhanced Wired Charger
+recipes.removeByRecipeName("enderio:enhanced_wired_charger");
+
+#Enhanced Sag Mill
+recipes.removeByRecipeName("enderio:enhanced_s_a_g_mill");
+
+#Enhanced Vat
+recipes.removeByRecipeName("enderio:enhanced_theenhanced_vat");
+
 print("Initialized 'EnderIO.zs'");
