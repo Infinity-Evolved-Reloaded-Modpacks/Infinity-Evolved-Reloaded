@@ -16,7 +16,7 @@
 		type: "stat",
 		icon: "minecraft:golden_boots",
 		stat: "stat.jump",
-		value: 50000
+		value: 125000
 	}],
 	rewards: [{
 		uid: "ce404137",
