@@ -1,0 +1,22 @@
+{
+	title: "Epilepsy Warning",
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		"The Infinity ingot is the basis for all of Avaritia's OP tools and weapons, but it doesn't come cheap.",
+		"",
+		"Crafting them takes a lot of time, resources and energy. It cannot be autocrafted nor replicated. You can, however, (ab)use a Creative Portable Tank to sooth the pain that these ingots are going to give you. The only drawback to this will be a §lvery §rlong casting time.",
+		"",
+		"About 7 minutes per ingot and 1 hour per block."
+	],
+	dependencies: [
+		"073d1f52"
+	],
+	tasks: [{
+		uid: "690e9a14",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

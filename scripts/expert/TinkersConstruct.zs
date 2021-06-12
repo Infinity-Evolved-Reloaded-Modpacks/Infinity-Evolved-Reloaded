@@ -54,7 +54,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 1296, <draconicevo
 
 #Primal Mana
 mods.tconstruct.Alloy.removeRecipe(<liquid:mana>);
-mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 288, [<liquid:liquid_fairy> * 144, <liquid:liquid_pokefennium> * 144, <liquid:liquid_draconium> * 288, <liquid:experience> * 1000]);
+mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 288, [<liquid:liquid_fairy> * 144, <liquid:liquid_pokefennium> * 144, <liquid:liquid_draconium> * 288, <liquid:xpjuice> * 1000]);
 
 print("Initialized 'TinkersConstruct.zs'");
 
