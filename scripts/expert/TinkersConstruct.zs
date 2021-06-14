@@ -41,5 +41,20 @@ recipes.addShapeless(<tconstruct:pattern>, [<minecraft:stick>, <ore:plankWood>, 
 recipes.remove(<tconstruct:toolforge>);
 recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "enderio:block_alloy", Count: 1 as byte, Damage: 0 as short}}), [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ic2:plate:16>, <tconstruct:tooltables:3>, <ic2:plate:16>], [<ic2:plate:16>, null, <ic2:plate:16>]]);
 
+#Pokefennium
+mods.tconstruct.Alloy.addRecipe(<liquid:liquid_pokefennium> * 16, [<liquid:cobalt> * 8, <liquid:iron> * 8, <liquid:blood> * 16]);
+
+#Fairy
+mods.tconstruct.Alloy.addRecipe(<liquid:liquid_fairy> * 16, [<liquid:ardite> * 8, <liquid:blood> * 8, <liquid:obsidian> * 16]);
+
+#Draconium
+mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 144, <draconicevolution:draconium_ingot>);
+mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 1296, <draconicevolution:draconium_block>
+);
+
+#Primal Mana
+mods.tconstruct.Alloy.removeRecipe(<liquid:mana>);
+mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 288, [<liquid:liquid_fairy> * 144, <liquid:liquid_pokefennium> * 144, <liquid:liquid_draconium> * 288, <liquid:xpjuice> * 1000]);
+
 print("Initialized 'TinkersConstruct.zs'");
 

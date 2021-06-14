@@ -47,4 +47,76 @@ recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<minecraft:bri
 # -slimeball
 recipes.addShaped(<immersiveengineering:stone_decoration:1> *4, [[<minecraft:brick_block>, <minecraft:sandstone>, <minecraft:brick_block>], [<minecraft:sand>, <ore:slimeball>, <minecraft:sand>], [<minecraft:brick_block>, <minecraft:sandstone>, <minecraft:brick_block>]]);
 
+#Kinetic Dynamo
+recipes.remove(<immersiveengineering:metal_device1:2>);
+recipes.addShaped(<immersiveengineering:metal_device1:2>, [
+    [<minecraft:iron_ingot>, <immersiveengineering:metal_device0:1>, <minecraft:iron_ingot>],
+    [<minecraft:redstone>, <immersiveengineering:metal_decoration0:1>, <minecraft:redstone>],
+    [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]
+]);
+
+#Aluminium Scaffolding
+recipes.remove(<immersiveengineering:metal_decoration1:5>);
+recipes.addShaped(<immersiveengineering:metal_decoration1:5> * 6, [
+    [<thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>],
+    [null, <immersiveengineering:metal_decoration1:4>, null],
+    [<immersiveengineering:metal_decoration1:4>, null, <immersiveengineering:metal_decoration1:4>]
+]);
+
+#Fluid Pipe
+recipes.remove(<immersiveengineering:metal_device1:6>);
+recipes.addShaped(<immersiveengineering:metal_device1:6> * 8, [
+    [<minecraft:iron_ingot>, <thermalfoundation:material:32>, <minecraft:iron_ingot>],
+    [<thermalfoundation:material:32>, null, <thermalfoundation:material:32>],
+    [<minecraft:iron_ingot>, <thermalfoundation:material:32>, <minecraft:iron_ingot>]
+]);
+
+#Fluid Pump
+recipes.remove(<immersiveengineering:metal_device0:5>);
+recipes.addShaped(<immersiveengineering:metal_device0:5>, [
+    [null, <minecraft:iron_ingot>, null],
+    [<minecraft:iron_ingot>, <buildcraftfactory:pump>, <minecraft:iron_ingot>],
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
+]);
+
+#Blast Furnace Preheater
+recipes.remove(<immersiveengineering:metal_device1>);
+recipes.addShaped(<immersiveengineering:metal_device1>, [
+    [<immersiveengineering:sheetmetal:9>, null, null],
+    [<immersiveengineering:sheetmetal:9>, null, null], 
+    [<immersiveengineering:metal_device1:1>, <immersiveengineering:metal_device1:6>, null]
+]);
+
+#Steel Fence
+recipes.remove(<immersiveengineering:metal_decoration1>);
+recipes.addShaped(<immersiveengineering:metal_decoration1> * 2, [
+    [<immersiveengineering:material:2>, <immersiveengineering:material:2>, <immersiveengineering:material:2>],
+    [<immersiveengineering:material:2>, <immersiveengineering:material:2>, <immersiveengineering:material:2>],
+    [null, null, null]
+]);
+
+#Steel Scaffolding
+recipes.remove(<immersiveengineering:metal_decoration1:1>);
+recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [
+    [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
+    [null, <immersiveengineering:metal_decoration1>, null],
+    [<immersiveengineering:metal_decoration1>, null, <immersiveengineering:metal_decoration1>]
+]);
+
+#Light Engineering Block
+recipes.remove(<immersiveengineering:metal_decoration0:4>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4>, [
+    [<minecraft:iron_ingot>, <immersiveengineering:material:8>, <minecraft:iron_ingot>],
+    [<thermalfoundation:material:128>, <railcraft:generic:7>, <thermalfoundation:material:128>],
+    [<minecraft:iron_ingot>, <immersiveengineering:material:8>, <minecraft:iron_ingot>]
+]);
+
+#Kiln
+recipes.remove(<immersiveengineering:stone_decoration:10>);
+recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [
+    [<minecraft:clay_ball>, <minecraft:brick_block>, <minecraft:clay_ball>],
+    [<minecraft:brick_block>, <ore:sandstone>, <minecraft:brick_block>],
+    [<minecraft:clay_ball>, <minecraft:brick_block>, <minecraft:clay_ball>]
+]);
+
 print("Initialized 'ImmersiveEngineering.zs'");

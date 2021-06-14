@@ -32,6 +32,8 @@ rh(<railcraft:coke_oven_red>);
 rh(<railcraft:fuel_coke>);
 rh(<ic2:coke>);
 rh(<immersiveengineering:material:6>);
+rh(<immersiveengineering:stone_decoration:3>);
+rh(<railcraft:generic:6>);
 
 #Coke
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);

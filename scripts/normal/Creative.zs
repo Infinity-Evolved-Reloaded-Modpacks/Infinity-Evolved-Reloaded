@@ -118,7 +118,7 @@ mods.avaritia.ExtremeCrafting.addShaped("TC_Creative_Tool_Modifier", <tconstruct
     ]);
 
 #Creative RF Source (Draconic Evolution)
-val TE_Flux_Capacitor = <thermalexpansion:capacitor:32000>.withTag({Energy: 25000000});
+val TE_Flux_Capacitor = <thermalexpansion:capacitor:32000>;
 val TE_Creative_Cell = <thermalexpansion:cell>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte});
 
 mods.avaritia.ExtremeCrafting.addShaped("DE_Creative_RF_Source", <draconicevolution:creative_rf_source>, [
@@ -147,7 +147,7 @@ mods.avaritia.Compressor.add("Platinum_Singularity", <avaritia:singularity:13>, 
 #Creative Flux Sponge (Thaumcraft 6)
 mods.thaumcraft.Infusion.registerRecipe("Thaumcraft6_Flux_Sponge", "", <thaumcraft:creative_flux_sponge>, 10, [<aspect:vitium> * 512, <aspect:victus> * 512, <aspect:praecantatio> * 512, <aspect:vacuos> * 512, <aspect:perditio> * 512], <minecraft:sponge>, [<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <thaumcraft:metal_void>, <avaritia:singularity:7>, <avaritia:singularity:7>, <avaritia:singularity:7>, <avaritia:singularity:7>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:block_resource:2>, <avaritia:resource:5>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:sanity_soap>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, <thaumcraft:stabilizer>, ]);
 
-# -Creative Tank
+# -Creative ME Essentia Cell
 mods.avaritia.ExtremeCrafting.addShaped("Creative ME Essentia Storage Cell", <thaumicenergistics:essentia_cell_creative>, [
     [<thaumcraft:salis_mundus>, <thaumicenergistics:diffusion_core>, <thaumcraft:plate:3>, <thaumcraft:metal_alchemical_advanced>, <appliedenergistics2:creative_energy_cell>, <thaumcraft:metal_alchemical_advanced>, <thaumcraft:plate:3>, <thaumicenergistics:coalescence_core>, <thaumcraft:salis_mundus>],
     [<thaumicenergistics:diffusion_core>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "terra"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "tenebrae"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "perditio"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "mortuus"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "diabolus"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "bestia"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ignis"}]}), <thaumicenergistics:coalescence_core>],

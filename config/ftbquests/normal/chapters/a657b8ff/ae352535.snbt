@@ -1,8 +1,8 @@
 {
 	title: "Who Said the Wither Was Hard?",
 	icon: "draconicevolution:grinder",
-	x: 10.666666666666666d,
-	y: 1.0d,
+	x: 9.0d,
+	y: -0.5d,
 	text: [
 		"§lThe Mob Grinder uses RF to kill mobs in front of it. ",
 		"",

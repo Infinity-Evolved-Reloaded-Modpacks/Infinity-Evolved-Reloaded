@@ -69,7 +69,8 @@ var recipesToRemove = [
 	<extrautils2:passivegenerator:2>,
 	<ic2:te:4>,
 	<immersiveengineering:metal_device1:3>,
-	<thermalexpansion:dynamo:1>
+	<thermalexpansion:dynamo:1>,
+	<tconstruct:wooden_hopper>
 ] as IItemStack[];
 
 for items in recipesToRemove {
