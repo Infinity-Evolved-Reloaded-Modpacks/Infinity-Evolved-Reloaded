@@ -463,7 +463,7 @@ recipes.addShaped(<minecraft:leather_helmet>, [
 
 
 
-#durabilty nerf
+#durability nerf
 <minecraft:golden_axe>.maxDamage = 1;
 <minecraft:golden_shovel>.maxDamage = 1;
 <minecraft:golden_pickaxe>.maxDamage = 1;
