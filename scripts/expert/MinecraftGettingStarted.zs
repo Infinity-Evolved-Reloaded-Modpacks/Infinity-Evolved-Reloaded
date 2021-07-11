@@ -299,18 +299,10 @@ var RecipeIDsRemove as string[] = [
 recipes.remove(<minecraft:stick>);
 
 # --Stick 2x Adding
-recipes.addShapedMirrored(<minecraft:stick> * 2, [
-    [null, <ore:plankWood>, null],
-    [null, <ore:plankWood>, null],
-    [null, null, null]
-]);
+recipes.addShapeless(<minecraft:stick> * 2, [<ore:plankWood>, <ore:plankWood>]);
 
 # --Stick 8x Adding
-recipes.addShaped(<minecraft:stick> * 8, [
-    [null, <ore:logWood>, null],
-    [null, <ore:logWood>, null],
-    [null, null, null]
-]);
+recipes.addShapeless(<minecraft:stick> * 8, [<ore:logWood>, <ore:logWood>]);
 
 #Chest
 recipes.removeShaped(<minecraft:chest> *4, [
