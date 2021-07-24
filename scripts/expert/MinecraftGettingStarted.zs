@@ -328,15 +328,13 @@ recipes.addShaped(<minecraft:furnace>, [
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShaped(<minecraft:flint_and_steel>, [
-    [<ore:ingotSteel>, null, null],
-    [null, <ore:itemFlint>, null],
-    [null, null, null]
+    [<ore:ingotSteel>, null],
+    [null, <ore:itemFlint>],
 ]);
 
 #Bucket
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [
-    [null, null, null],
     [<ore:plateIron>, null, <ore:plateIron>],
     [null, <ore:plateIron>, null]
 ]);
@@ -353,7 +351,6 @@ recipes.addShaped(<minecraft:cauldron>, [
 
 # - Diamond
 recipes.addShaped(<minecraft:diamond_boots>, [
-    [null, null, null],
     [<minecraft:diamond>, <minecraft:golden_boots>, <minecraft:diamond>],
     [<minecraft:diamond>, null, <minecraft:diamond>]
 ]);
@@ -371,14 +368,12 @@ recipes.addShaped(<minecraft:diamond_chestplate>, [
 ]);
 
 recipes.addShaped(<minecraft:diamond_helmet>, [
-    [null, null, null],
     [<minecraft:diamond>, <minecraft:golden_helmet>, <minecraft:diamond>],
     [<minecraft:diamond>, null, <minecraft:diamond>]
 ]);
 
 # - Gold
 recipes.addShaped(<minecraft:golden_boots>, [
-    [null, null, null],
     [<minecraft:gold_ingot>, <minecraft:iron_boots>, <minecraft:gold_ingot>],
     [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]
 ]);
@@ -396,14 +391,12 @@ recipes.addShaped(<minecraft:golden_chestplate>, [
 ]);
 
 recipes.addShaped(<minecraft:golden_helmet>, [
-    [null, null, null],
     [<minecraft:gold_ingot>, <minecraft:iron_helmet>, <minecraft:gold_ingot>],
     [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]
 ]);
 
 # - Iron
 recipes.addShaped(<minecraft:iron_boots>, [
-    [null, null, null],
     [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherbootsitem>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]
 ]);
@@ -421,14 +414,12 @@ recipes.addShaped(<minecraft:iron_chestplate>, [
 ]);
 
 recipes.addShaped(<minecraft:iron_helmet>, [
-    [null, null, null],
     [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherhelmitem>, <minecraft:iron_ingot>],
     [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]
 ]);
 
 # - Leather
 recipes.addShaped(<minecraft:leather_boots>, [
-    [null, null, null],
     [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>],
     [<ore:itemRubber>, null, <ore:itemRubber>]
 ]);
@@ -446,7 +437,6 @@ recipes.addShaped(<minecraft:leather_chestplate>, [
 ]);
 
 recipes.addShaped(<minecraft:leather_helmet>, [
-    [null, null, null],
     [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
     [<harvestcraft:hardenedleatheritem>, <ore:itemRubber>, <harvestcraft:hardenedleatheritem>]
 ]);
