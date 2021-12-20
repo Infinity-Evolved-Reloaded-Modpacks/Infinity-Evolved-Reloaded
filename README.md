@@ -12,4 +12,4 @@ Infinity Evolved is an all purpose modpack created by the FTB Team, 4 and a half
 
 ## Get your server here and support us!
 
-<a href="https://billing.apexminecrafthosting.com/aff.php?aff=3759"><img src="https://cdn.apexminecrafthosting.com/img/theme/apex-hosting-mobile.png" width="594" height="100" border="0"></a>
+<a href="https://www.bisecthosting.com/sander"><img src="https://www.bisecthosting.com/partners/custom-banners/49886404-0057-4e9f-9801-d4aa9dab8bbb.png" width="780" height="123" border="0"></a>
