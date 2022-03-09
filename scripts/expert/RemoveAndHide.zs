@@ -16,7 +16,7 @@ var EU2LavaGen  = <extrautils2:machine>.withTag({Type: "extrautils2:generator_la
 // Remove and Hide Items
 var recipesToRemove = [
 	<appliedenergistics2:nether_quartz_wrench>,
-	<extracells:vibrantchamberfluid>,
+	<aeadditions:vibrantchamberfluid>,
 	<computercraft:turtle>,
 	<appliedenergistics2:vibration_chamber>,
 	<immersiveengineering:sword_steel>,
