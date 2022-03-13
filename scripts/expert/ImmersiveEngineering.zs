@@ -119,4 +119,12 @@ recipes.addShaped(<immersiveengineering:stone_decoration:10> * 2, [
     [<minecraft:clay_ball>, <minecraft:brick_block>, <minecraft:clay_ball>]
 ]);
 
+#Thermoelectric Generator
+recipes.remove(<immersiveengineering:metal_device1:3>);
+recipes.addShaped(<immersiveengineering:metal_device1:3>, [
+    [<ore:ingotConstantan>, <immersiveengineering:metal_device0:1>, <ore:ingotConstantan>],
+    [<ore:ingotEnderium>, <immersiveengineering:metal_decoration0:2>, <ore:ingotEnderium>],
+    [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]
+]);
+
 print("Initialized 'ImmersiveEngineering.zs'");
