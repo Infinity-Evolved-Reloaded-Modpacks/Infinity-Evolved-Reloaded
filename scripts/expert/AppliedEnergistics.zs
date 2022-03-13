@@ -42,4 +42,12 @@ recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
 #Ender Pearl Dust AE2
 mods.thermalexpansion.Pulverizer.addRecipe(<appliedenergistics2:material:46>, <minecraft:ender_pearl>, 1500);
 
+#Pattern Expansion Card
+recipes.remove (<appliedenergistics2:material:58>);
+recipes.addShaped(<appliedenergistics2:material:58>, [
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:58>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:material:28>, <appliedenergistics2:material:58>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:58>],
+]);
+
 print("Initialized 'AppliedEnergistics.zs'");
