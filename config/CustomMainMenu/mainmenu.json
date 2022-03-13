@@ -9,15 +9,6 @@
             "width" : 250,
             "height" : 150,
             "alignment" : "center"
-		},
-        "Promocode":
-        {
-            "image" : "mainmenu:promocode.png",
-            "posX" : 105,
-            "posY" : -20,
-            "width" : 47,
-            "height" : 20,
-            "alignment" : "center"
 		}
     },
     
@@ -127,24 +118,6 @@
                 "type" : "quit"
             }
         },		
-        "BisectHosting":
-        {
-            "text" : "",
-            "posX" : 105,
-            "posY" : 0,
-            "width" : 20,
-            "height" : 20,
-			"tooltip": "Host your IE:R server @ BisectHosting",
-			"alignment" : "center",
-			"imageWidth": "40",
-			"imageHeight": "40",
-			"texture" : "mainmenu:BH.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://www.BisectHosting.com/Sander"     
-            }
-        },        
         "refresh":
         {
             "text" : "",
