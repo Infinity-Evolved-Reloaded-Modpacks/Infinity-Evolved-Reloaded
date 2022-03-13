@@ -1,6 +1,6 @@
 # Infinity Evolved Reloaded
 
-[![Curseforge](http://cf.way2muchnoise.eu/full_infinityevolved-reloaded_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/infinityevolved-reloaded)
+[![Curseforge](http://cf.way2muchnoise.eu/339496.svg)](https://www.curseforge.com/minecraft/modpacks/infinityevolved-reloaded)
 
 ## Good old FTB Infinity Evolved but updated to 1.12.2!
 
