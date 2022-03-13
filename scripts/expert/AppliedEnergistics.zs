@@ -45,9 +45,9 @@ mods.thermalexpansion.Pulverizer.addRecipe(<appliedenergistics2:material:46>, <m
 #Pattern Expansion Card
 recipes.remove (<appliedenergistics2:material:58>);
 recipes.addShaped(<appliedenergistics2:material:58>, [
-    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:58>],
-    [<appliedenergistics2:material:52>, <appliedenergistics2:material:28>, <appliedenergistics2:material:58>],
-    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:58>]
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:material:28>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>]
 ]);
 
 print("Initialized 'AppliedEnergistics.zs'");
