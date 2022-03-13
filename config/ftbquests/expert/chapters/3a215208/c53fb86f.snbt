@@ -1,0 +1,25 @@
+{
+	title: "Efficiency is key",
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"§lWhy limit your ME Interface efficiency to 9 patterns when you can have so much more?",
+		"",
+		"§rWith this upgrade card, you can add 9 more patterns to a single ME Interface (at the cost of consuming a little more (AE/t) juice). But no, it doesn't stop there... You can add a total of three of these cards for 36 patterns in a single ME Interface! Talk about efficient space utilization..."
+	],
+	dependencies: [
+		"0c271f46"
+	],
+	tasks: [{
+		uid: "ec28a454",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 58"
+		}]
+	}],
+	rewards: [{
+		uid: "ebdee8bf",
+		type: "random",
+		table: 10
+	}]
+}
