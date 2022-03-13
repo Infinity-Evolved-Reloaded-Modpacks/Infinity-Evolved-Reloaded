@@ -88,8 +88,8 @@ mods.avaritia.ExtremeCrafting.addShaped("EU2_Creative_Mill", <extrautils2:passiv
     ]);
 
 #Creative Jetpack (Simple Jetpacks 2)
-val full_jetplate = <simplyjetpacks:itemjetpack:24>.withTag({Energy: 50000000, JetpackParticle: 0});
-val full_darkjetplate = <simplyjetpacks:itemjetpack:15>.withTag({Energy: 60000000, JetpackParticle: 0});
+val full_jetplate = <simplyjetpacks:itemjetpack:24>.withTag({Energy: 50000000});
+val full_darkjetplate = <simplyjetpacks:itemjetpack:15>.withTag({Energy: 60000000});
 val CJetpack = <simplyjetpacks:itemjetpack>.withTag({Energy: 200000, JetpackParticle: 0});
 
 mods.avaritia.ExtremeCrafting.addShaped("SimpleJetpack2_Creative_Jetpack", CJetpack, [
