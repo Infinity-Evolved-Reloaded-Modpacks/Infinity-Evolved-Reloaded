@@ -12,4 +12,4 @@ Infinity Evolved is an all purpose modpack created by the FTB Team, 6 and a half
 
 ## Get your server here and support us!
 
-<a href="https://www.bisecthosting.com/sander"><img src="https://www.bisecthosting.com/images/CF/Infinity_Evolved_Reloaded/BH_IR_PromoCard.png" border="0"></a>
+<a href="https://bisecthosting.com/Sander"><img src="https://www.bisecthosting.com/images/CF/Infinity_Evolved_Reloaded/BH_IR_PromoCard.png" border="0"></a>
