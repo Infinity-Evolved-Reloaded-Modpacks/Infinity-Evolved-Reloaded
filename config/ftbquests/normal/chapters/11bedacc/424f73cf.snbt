@@ -12,5 +12,10 @@
 			item: "forestry:bee_combs 1 3"
 		}],
 		count: 8L
+	}],
+	rewards: [{
+		uid: "4a3b1e56",
+		type: "random",
+		table: 7
 	}]
 }

@@ -14,5 +14,10 @@
 		items: [{
 			item: "forestry:bee_chest"
 		}]
+	}],
+	rewards: [{
+		uid: "61119f06",
+		type: "random",
+		table: 7
 	}]
 }

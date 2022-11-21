@@ -32,8 +32,8 @@
 		icon: "gendustry:apiary.upgrade 1 19"
 	}],
 	rewards: [{
-		uid: "3657434f",
+		uid: "4afb4ac9",
 		type: "random",
-		table: 7
+		table: 8
 	}]
 }
