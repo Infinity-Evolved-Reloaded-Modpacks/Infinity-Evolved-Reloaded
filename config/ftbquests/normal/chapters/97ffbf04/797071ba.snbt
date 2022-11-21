@@ -1,8 +1,8 @@
 {
 	title: "Meteor Hunter",
 	icon: "appliedenergistics2:inscriber",
-	x: 8.208333333333332d,
-	y: 5.458333333333333d,
+	x: 8.0d,
+	y: 6.5d,
 	text: [
 		"§lThe Inscriber is used to make AE2 Processors, which are used in recipes. It requires RF to run.",
 		"",
@@ -59,7 +59,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "34118c95",
+		uid: "ef1d94a3",
 		type: "random",
 		table: 8
 	}]

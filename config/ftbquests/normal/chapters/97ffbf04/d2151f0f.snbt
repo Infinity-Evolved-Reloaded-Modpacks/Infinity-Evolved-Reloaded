@@ -1,8 +1,8 @@
 {
 	title: "Bound to Your Will",
 	icon: "enderio:block_soul_binder",
-	x: 6.208333333333333d,
-	y: 5.333333333333333d,
+	x: 6.0d,
+	y: 6.5d,
 	text: [
 		"§lThe Soul Binder is used to Bind the Soul of mobs to items to create new items, usually used in crafting.",
 		"",

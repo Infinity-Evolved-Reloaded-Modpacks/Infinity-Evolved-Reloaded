@@ -1,8 +1,8 @@
 {
 	title: "Miner's Friend",
 	icon: "enderstorage:ender_storage",
-	x: 4.625d,
-	y: 4.208333333333334d,
+	x: 5.0d,
+	y: 5.5d,
 	text: [
 		"§lAn Ender Chest / Ender Pouch combo is great for moving items from your inventory back to your base. For instance, while Mining, you can put Ores into the Pouch, and then have the Ores sucked out of the Ender Chest into your storage or processing.",
 		"",
@@ -29,7 +29,7 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "c3e55776",
+		uid: "5149de78",
 		type: "random",
 		table: 8
 	}]
