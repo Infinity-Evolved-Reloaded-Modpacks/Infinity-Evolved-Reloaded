@@ -1,8 +1,8 @@
 {
 	title: "Lava Comes In, Lava Comes Out",
 	icon: "enderstorage:ender_storage 1 1",
-	x: 9.666666666666666d,
-	y: 4.208333333333334d,
+	x: 9.0d,
+	y: 5.5d,
 	text: [
 		"§lEnder Tanks work similar to Ender Chests, but for fluids. ",
 		"",

@@ -1,8 +1,8 @@
 {
 	title: "Portation",
 	icon: "rftools:matter_transmitter",
-	x: 8.25d,
-	y: 7.458333333333333d,
+	x: 8.0d,
+	y: 8.5d,
 	text: [
 		"§lThe RFTools Matter Transmitter and Matter Receiver are one of the easiest ways to go about teleporting.",
 		"",
