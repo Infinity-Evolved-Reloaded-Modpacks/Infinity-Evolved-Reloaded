@@ -16,7 +16,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 });
 
 #Log2Planks
-recipes.addShapeless(<canyonbiome:pine_log>, [<canyonbiome:pine_planks> * 2]);
+recipes.addShapeless(<canyonbiome:pine_planks> * 2, [<canyonbiome:pine_log>]);
 
 print("Initialized 'PineWood.zs'");
 
