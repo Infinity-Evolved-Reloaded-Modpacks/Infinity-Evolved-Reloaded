@@ -1,0 +1,36 @@
+{
+	title: "What's this doing here?",
+	icon: "enderquarrymod:enderquarry",
+	x: 7.5d,
+	y: 10.0d,
+	text: [
+		"§lIt was removed and got replaced by an inferior alternative. But fear not, it's back! Ported straight from 1.7.10.",
+		"",
+		"§rThe Ender Quarry was a staple, especially on larger multiplayer servers, because of it's great lag optimization compared to all other Quarry's.",
+		"",
+		"The Ender Quarry replaces mined blocks with Dirt, in a predefined area using Ender Markers. It runs on RF, the more juice you give it, the faster it mines. But it also offers Speed and Fortune upgrades, including an upgrade that turns it in a giant-hole-maker."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "118205d7",
+		type: "item",
+		items: [{
+			item: "enderquarrymod:enderquarry"
+		}]
+	},
+	{
+		uid: "461d1af5",
+		type: "item",
+		items: [{
+			item: "enderquarrymod:endermarker"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "06a603c3",
+		type: "random",
+		table: 8
+	}]
+}
