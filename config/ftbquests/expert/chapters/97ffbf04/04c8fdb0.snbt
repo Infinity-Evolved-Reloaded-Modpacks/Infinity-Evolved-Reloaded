@@ -18,6 +18,6 @@
 		items: [{
 			item: "railcraft:flux_transformer"
 		}],
-		count: 4L
+		count: 8L
 	}]
 }
