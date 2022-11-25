@@ -1,0 +1,27 @@
+{
+	title: "Thirst for Blood",
+	icon: "guideapi:vampirism-guide",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"§lThe Vampirism mod allows you to become a vampire, which comes with it's perks and hassles.",
+		"",
+		"§rBeing a vampire, means you have to live like one. And they have a notorious appetite for blood, especially that of innocent Villagers. ",
+		"But perhaps being a vampire is not your thing, but you'd still be missing out on some of the fun. There is alternative, that of becoming a vampire hunter, which may grant you the supernatural abilities of the ones you take it from.",
+		"",
+		"For those interested, this quest will provide you with the dairy of a vampire, complete with instructions."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "5835f595",
+		type: "checkmark",
+		title: "Vampirism"
+	}],
+	rewards: [{
+		uid: "40636418",
+		type: "item",
+		item: "guideapi:vampirism-guide"
+	}]
+}
