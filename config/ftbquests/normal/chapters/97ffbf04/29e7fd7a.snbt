@@ -1,15 +1,15 @@
 {
 	title: "The Brotherhood of Steel",
 	icon: "immersiveengineering:metal 1 8",
-	x: 7.125d,
-	y: 2.625d,
+	x: 7.0d,
+	y: 2.0d,
 	text: [
 		"So, now that we have Steel, we can finally progress into the Steel Age."
 	],
 	dependencies: [
 		"4dce88d3"
 	],
-	size: 1.3333333333333333d,
+	size: 1.5d,
 	tasks: [{
 		uid: "d239fc58",
 		type: "item",

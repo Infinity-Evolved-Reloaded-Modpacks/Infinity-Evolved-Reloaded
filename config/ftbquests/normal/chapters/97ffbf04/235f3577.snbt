@@ -1,0 +1,28 @@
+{
+	title: "Loss of appetite for RF",
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"§lRailcraft no longer accepts Redstone Flux and now runs on it's own energy, Railcraft Charge.",
+		"",
+		"§rOf course, you could build a Steam Turbine from Railcraft in order to obtain it's Charge, but generating RF is considerably easier.",
+		"",
+		"The Flux Transformer is a 2x2x2 multiblock that converts RF into Railcraft Charge. You can then transport this charge with Shunting Wires."
+	],
+	dependencies: [
+		"29e7fd7a"
+	],
+	tasks: [{
+		uid: "4fe472f7",
+		type: "item",
+		items: [{
+			item: "railcraft:flux_transformer"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3c6cb068",
+		type: "random",
+		table: 8
+	}]
+}

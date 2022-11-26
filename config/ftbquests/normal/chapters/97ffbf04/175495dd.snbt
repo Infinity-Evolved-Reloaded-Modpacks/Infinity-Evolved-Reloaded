@@ -10,8 +10,8 @@
 			}
 		}
 	},
-	x: 5.375d,
-	y: 1.375d,
+	x: 5.5d,
+	y: 1.0d,
 	text: [
 		"§lThe Tool Forge is required to make higher tier tools like the Hammer.",
 		"",
@@ -56,8 +56,8 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "8559c9fc",
+		uid: "14cf36f9",
 		type: "random",
-		table: 8
+		table: 7
 	}]
 }

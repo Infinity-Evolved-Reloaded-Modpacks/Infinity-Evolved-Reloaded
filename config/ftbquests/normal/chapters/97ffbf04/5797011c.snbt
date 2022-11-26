@@ -1,8 +1,8 @@
 {
 	title: "Alloys",
 	icon: "enderio:block_alloy_smelter",
-	x: 7.083333333333333d,
-	y: 6.333333333333333d,
+	x: 7.0d,
+	y: 7.5d,
 	text: [
 		"§lThe Alloy Smelter is one of the easiest ways to make alloys, like Signalum. ",
 		"",
@@ -13,6 +13,7 @@
 	dependencies: [
 		"5e4000c6"
 	],
+	size: 1.25d,
 	tasks: [{
 		uid: "8046e991",
 		type: "item",

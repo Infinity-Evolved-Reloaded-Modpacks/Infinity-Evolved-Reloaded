@@ -1,17 +1,17 @@
 {
 	title: "Dwayne \"The Rock\" Crusher",
 	icon: "railcraft:rock_crusher",
-	x: 7.083333333333333d,
-	y: 4.208333333333334d,
+	x: 7.0d,
+	y: 5.5d,
 	text: [
-		"§lThe Rock Crusher is a multiblock that uses RF to crush blocks. ",
+		"§lThe Rock Crusher is a multiblock that uses Railcraft Charge to crush blocks. ",
 		"",
-		"§rThe crushed blocks are used in some recipes. You can also crush ores in this.",
+		"§rThe crushed blocks are used in some recipes. You can also crush ores with it.",
 		"",
 		"The Rock Crusher is a 3x2x2 multiblock. Two rows of 3, with another layer exactly the same on top."
 	],
 	dependencies: [
-		"29e7fd7a"
+		"235f3577"
 	],
 	tasks: [{
 		uid: "8aa10929",
@@ -22,7 +22,7 @@
 		count: 12L
 	}],
 	rewards: [{
-		uid: "a3ecfaae",
+		uid: "6188a17e",
 		type: "random",
 		table: 8
 	}]

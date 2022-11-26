@@ -6,6 +6,9 @@
 	text: [
 		""
 	],
+	dependencies: [
+		"310bb8b0"
+	],
 	tasks: [{
 		uid: "ca9360d4",
 		type: "item",
@@ -153,5 +156,10 @@
 		}],
 		count: 16L,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abc21145",
+		type: "random",
+		table: 7
 	}]
 }

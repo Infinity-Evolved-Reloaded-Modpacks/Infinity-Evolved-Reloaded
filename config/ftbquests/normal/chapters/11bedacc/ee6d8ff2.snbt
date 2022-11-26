@@ -17,5 +17,10 @@
 		}],
 		count: 32L,
 		consume_items: false
+	}],
+	rewards: [{
+		uid: "054dd0f9",
+		type: "random",
+		table: 7
 	}]
 }

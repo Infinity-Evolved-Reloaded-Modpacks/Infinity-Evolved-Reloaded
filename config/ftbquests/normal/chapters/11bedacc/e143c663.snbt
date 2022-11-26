@@ -15,5 +15,10 @@
 		items: [{
 			item: "gendustry:industrial_apiary"
 		}]
+	}],
+	rewards: [{
+		uid: "47d7386f",
+		type: "random",
+		table: 7
 	}]
 }

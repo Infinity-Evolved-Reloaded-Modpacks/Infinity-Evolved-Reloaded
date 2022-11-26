@@ -29,5 +29,10 @@
 		items: [{
 			item: "forestry:carpenter"
 		}]
+	}],
+	rewards: [{
+		uid: "09f359ef",
+		type: "random",
+		table: 7
 	}]
 }

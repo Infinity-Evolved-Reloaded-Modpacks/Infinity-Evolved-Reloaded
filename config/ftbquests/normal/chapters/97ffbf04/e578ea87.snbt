@@ -1,8 +1,8 @@
 {
 	title: "The \"The Vat\"",
 	icon: "enderio:block_vat",
-	x: 5.208333333333333d,
-	y: 6.333333333333333d,
+	x: 5.5d,
+	y: 7.5d,
 	text: [
 		"§lThe Vat is where you make certain fluids, like Nutrient Distillation or Rocket Fuel. ",
 		"",
@@ -21,7 +21,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ad3928fd",
+		uid: "e71ba86d",
 		type: "random",
 		table: 8
 	}]
