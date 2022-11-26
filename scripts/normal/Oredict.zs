@@ -152,4 +152,11 @@ recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material
 <ore:dustEnder>.remove(<ic2:dust:31>);
 <ore:dustEnder>.remove(<railcraft:dust:6>);
 
+#PineWood
+#Adds CanyonBiome woods to oredict
+<ore:logWood>.add(<canyonbiome:pine_log>);
+<ore:plankWood>.add(<canyonbiome:pine_planks>);
+<ore:stairWood>.add(<canyonbiome:pine_stairs>);
+<ore:slabWood>.add(<canyonbiome:pine_slab>);
+
 print("Initialized 'Oredict.zs'");
