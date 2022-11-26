@@ -10,13 +10,15 @@ print("Initializing 'Oredict.zs'...");
 #Merge Alubrass into Brass
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
-
 brass.addAll(alubrass);
+
+val alubrassnugget = <ore:nuggetAlubrass>;
+val brassnugget = <ore:nuggetBrass>;
+brassnugget.addAll(alubrassnugget);
 
 #Merge dustEnder into dustEnderPearl
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
-
 dustEnderPearl.addAll(dustEnder);
 
 #Steel
