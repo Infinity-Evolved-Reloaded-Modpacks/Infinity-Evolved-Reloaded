@@ -16,6 +16,10 @@ val alubrassnugget = <ore:nuggetAlubrass>;
 val brassnugget = <ore:nuggetBrass>;
 brassnugget.addAll(alubrassnugget);
 
+val alubrassblock = <ore:blockAlubrass>;
+val brassblock = <ore:blockBrass>;
+brassblock.addAll(alubrassblock);
+
 #Merge dustEnder into dustEnderPearl
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
