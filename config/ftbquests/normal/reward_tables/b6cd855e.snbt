@@ -75,5 +75,25 @@
 	{
 		item: "solargeneration:solar_panel_leadstone",
 		count: 4
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 10
+	},
+	{
+		xp_levels: 5,
+		type: "xp_levels"
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		xp_levels: 20,
+		type: "xp_levels"
+	},
+	{
+		item: "minecraft:cookie",
+		count: 5
 	}]
 }

@@ -1,8 +1,8 @@
 {
 	title: "Boring",
 	icon: "railcraft:bore",
-	x: 4.916666666666667d,
-	y: 2.5833333333333335d,
+	x: 5.0d,
+	y: 2.0d,
 	text: [
 		"§lThe Tunnel Bore is a special machine. It acts like a Minecart, in that it needs to be on tracks. ",
 		"",
@@ -30,7 +30,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "765c8858",
+		uid: "78a087e6",
 		type: "random",
 		table: 8
 	}]

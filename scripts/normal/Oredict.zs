@@ -10,13 +10,19 @@ print("Initializing 'Oredict.zs'...");
 #Merge Alubrass into Brass
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
-
 brass.addAll(alubrass);
+
+val alubrassnugget = <ore:nuggetAlubrass>;
+val brassnugget = <ore:nuggetBrass>;
+brassnugget.addAll(alubrassnugget);
+
+val alubrassblock = <ore:blockAlubrass>;
+val brassblock = <ore:blockBrass>;
+brassblock.addAll(alubrassblock);
 
 #Merge dustEnder into dustEnderPearl
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
-
 dustEnderPearl.addAll(dustEnder);
 
 #Steel
@@ -145,5 +151,12 @@ recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material
 #DustEnder
 <ore:dustEnder>.remove(<ic2:dust:31>);
 <ore:dustEnder>.remove(<railcraft:dust:6>);
+
+#PineWood
+#Adds CanyonBiome woods to oredict
+<ore:logWood>.add(<canyonbiome:pine_log>);
+<ore:plankWood>.add(<canyonbiome:pine_planks>);
+<ore:stairWood>.add(<canyonbiome:pine_stairs>);
+<ore:slabWood>.add(<canyonbiome:pine_slab>);
 
 print("Initialized 'Oredict.zs'");

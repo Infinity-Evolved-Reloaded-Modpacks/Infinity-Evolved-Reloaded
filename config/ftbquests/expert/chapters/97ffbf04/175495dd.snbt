@@ -10,8 +10,8 @@
 			}
 		}
 	},
-	x: 5.375d,
-	y: 1.375d,
+	x: 5.5d,
+	y: 1.0d,
 	text: [
 		"§lThe Tool Forge is required to make higher tier tools like the Hammer.",
 		"",

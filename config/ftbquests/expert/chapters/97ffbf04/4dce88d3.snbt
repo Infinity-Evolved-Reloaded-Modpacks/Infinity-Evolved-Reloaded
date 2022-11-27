@@ -1,8 +1,8 @@
 {
 	title: "Better-Than-Iron Man",
 	icon: "ic2:te 1 50",
-	x: 8.916666666666666d,
-	y: 1.3333333333333335d,
+	x: 8.5d,
+	y: 1.0d,
 	text: [
 		"§lThe IC2 path of getting Refined Iron, which also works as Steel, is a bit more involved. You need a ton of machines and infrastructure set up, but is faster once it's ready.",
 		"",

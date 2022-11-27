@@ -1,8 +1,8 @@
 {
 	title: "Fast and Steady",
 	icon: "immersiveengineering:stone_decoration 1 2",
-	x: 5.833333333333333d,
-	y: 3.4583333333333335d,
+	x: 5.5d,
+	y: 3.0d,
 	text: [
 		"§lThe Improved Blast Furnace is basically the same as the regular Blast Furnace, except you can automate it and speed it up.",
 		"",
@@ -37,7 +37,7 @@
 		count: 2L
 	}],
 	rewards: [{
-		uid: "df2d4071",
+		uid: "894d9e91",
 		type: "random",
 		table: 8
 	}]

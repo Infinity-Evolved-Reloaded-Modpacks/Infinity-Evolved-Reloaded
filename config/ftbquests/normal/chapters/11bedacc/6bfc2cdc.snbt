@@ -15,5 +15,10 @@
 			item: "forestry:pollen"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "ec5675e7",
+		type: "random",
+		table: 7
 	}]
 }

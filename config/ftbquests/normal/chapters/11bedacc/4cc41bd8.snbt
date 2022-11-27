@@ -24,5 +24,10 @@
 		items: [{
 			item: "forestry:bee_house"
 		}]
+	}],
+	rewards: [{
+		uid: "3ccb12ae",
+		type: "random",
+		table: 7
 	}]
 }

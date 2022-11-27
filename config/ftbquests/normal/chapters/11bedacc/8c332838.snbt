@@ -24,5 +24,10 @@
 		items: [{
 			item: "forestry:apiary"
 		}]
+	}],
+	rewards: [{
+		uid: "85632162",
+		type: "random",
+		table: 7
 	}]
 }

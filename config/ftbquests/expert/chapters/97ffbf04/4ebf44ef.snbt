@@ -1,8 +1,8 @@
 {
 	title: "SWAG Mill",
 	icon: "enderio:block_sag_mill",
-	x: 8.75d,
-	y: 6.416666666666667d,
+	x: 8.5d,
+	y: 7.5d,
 	text: [
 		"§lThe SAG Mill uses RF to crush ores and other blocks and items. ",
 		"",

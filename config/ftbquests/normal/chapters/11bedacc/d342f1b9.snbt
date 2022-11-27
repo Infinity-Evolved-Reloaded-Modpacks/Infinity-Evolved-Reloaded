@@ -15,5 +15,10 @@
 			item: "forestry:royal_jelly"
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "f3b195c9",
+		type: "random",
+		table: 7
 	}]
 }

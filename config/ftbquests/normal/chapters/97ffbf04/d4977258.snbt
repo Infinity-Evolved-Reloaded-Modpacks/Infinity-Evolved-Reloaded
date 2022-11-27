@@ -1,8 +1,8 @@
 {
 	title: "Eating Skeletons",
 	icon: "industrialforegoing:mob_slaughter_factory",
-	x: 3.875d,
-	y: 6.333333333333333d,
+	x: 4.0d,
+	y: 7.5d,
 	text: [
 		"§lThe Slaughterhouse uses RF to kill mobs in a 5x5x3 area in front of it. ",
 		"",
@@ -21,7 +21,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "3a3d7617",
+		uid: "ed5d019a",
 		type: "random",
 		table: 8
 	}]

@@ -1,8 +1,8 @@
 {
 	title: "Water Cooled",
 	icon: "immersiveengineering:wooden_device1",
-	x: 8.375d,
-	y: 3.4166666666666665d,
+	x: 8.5d,
+	y: 3.0d,
 	text: [
 		"Water Wheels generate RF based on the amount of flowing water blocks are touching it. All the water blocks have to be flowing with the wheel. You can have up to 3 Water Wheels per Kinetic Dynamo.",
 		"",
@@ -26,7 +26,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ffb1c58a",
+		uid: "6509a1c2",
 		type: "random",
 		table: 8
 	}]

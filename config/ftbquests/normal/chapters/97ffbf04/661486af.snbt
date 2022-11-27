@@ -1,8 +1,8 @@
 {
 	title: "Cut'N'Chop",
 	icon: "enderio:block_slice_and_splice",
-	x: 5.875d,
-	y: 7.333333333333333d,
+	x: 6.0d,
+	y: 8.5d,
 	text: [
 		"§lTo run, it needs any Axe and Shears in the slots at the top. ",
 		"",
