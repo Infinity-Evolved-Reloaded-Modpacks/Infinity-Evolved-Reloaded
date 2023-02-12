@@ -6,7 +6,7 @@
 print("Initializing 'EnderQuarry.zs'...");
 
 #Quarry
-recipes.addShaped(<enderquarrymod:enderquarry>, [[<enderio:block_reinforced_obsidian>, <ore:treeSapling>, <enderio:block_reinforced_obsidian>], [<ore:blockEnchantedMetal>, <extrautils2:opinium:2>, <ore:blockEnchantedMetal>], [<enderquarrymod:upgradepump>, <minecraft:diamond_pickaxe>, <enderquarrymod:upgradepump>]]);
+recipes.addShaped(<enderquarrymod:enderquarry>, [[<buildcraftsilicon:redstone_chipset:4>, <ic2:mining_laser:26>, <forestry:thermionic_tubes:9>], [<thermalexpansion:frame:148>, <industrialforegoing:laser_drill>, <ic2:te:75>], [<enderio:item_basic_capacitor:2>, <buildcraftfactory:mining_well>, <enderio:item_basic_capacitor:2>]]);
 
 #Quarry Upgrades
 #-Pump
