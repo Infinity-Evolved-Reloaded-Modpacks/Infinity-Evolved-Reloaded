@@ -33,7 +33,7 @@ recipes.addShaped("UnstableIngot", <unstabletools:unstable_ingot>.withTag({timer
 recipes.removeByRecipeName("unstabletools:advanced_division_sign");
 recipes.addShaped(PseudoDivisionSigil, [
     [<minecraft:totem_of_undying>, <minecraft:elytra>.anyDamage(), <minecraft:clay>], 
-    [<unstabletools:unstable_block>, DisabledDivisionSigil, <unstabletools:unstable_block>], 
+    [<unstabletools:unstable_block>, ActivatedDivisionSigil, <unstabletools:unstable_block>], 
     [<minecraft:dragon_breath>, <minecraft:chorus_flower>, <minecraft:nether_star>]
     ]);
 

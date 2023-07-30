@@ -29,6 +29,8 @@ JEI.addItem(ironArmorPlating);
 JEI.addItem(bronzeArmorPlating);
 JEI.addItem(invarArmorPlating);
 JEI.addItem(resonantArmorPlating);
+JEI.addItem(<unstabletools:division_sign>.withTag({stable: 1 as byte, display:{Name: "Pseudo-Inversion Sigil",Lore:["Create Unstable Ingots that won't explode!"]}}));
+JEI.addItem(<unstabletools:division_sign>.withTag({d: 1000 as long, activated: 1 as byte, display:{Name: "Activated Division Sigil"}}));
 
 print("Initialized 'JEI.zs'");
 
